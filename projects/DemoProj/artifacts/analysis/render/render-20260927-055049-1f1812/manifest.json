@@ -1,0 +1,303 @@
+{
+  "files": [
+    {
+      "artifact_id": "dbfd1c8c-48ef-5a96-acbf-7b175a952345",
+      "created_at": "2026-09-27T05:50:58+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "origin": {
+          "artifact_id": "f11b6c1b-c865-5d2e-b4b8-086a9e0548ab",
+          "frame": {
+            "actual_shear_strain": 0.00550000000000001,
+            "bottom_shear_stress_mpa": -1.146595454437805,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.011999999999999988,
+            "relative_target_shear_strain": -0.012,
+            "sigma_xx_mpa": -28.7355613615139,
+            "sigma_xy_mpa": 1.146595454437805,
+            "sigma_xz_mpa": 0.7093463498508594,
+            "sigma_yy_mpa": 79.36165686390191,
+            "sigma_yz_mpa": -1.5361621389975652e-05,
+            "sigma_zz_mpa": 21.681850316134376,
+            "step": 48,
+            "step_in_loading_half_cycle": 48,
+            "strain": 0.00550000000000001,
+            "target_shear_strain": 0.005499999999999998,
+            "top_shear_stress_mpa": 1.146595454437805
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Step 48 relaxed reverse-unloading state versus original nominal-zero-strain P012 GB; assess displacement pattern without assigning a mechanism",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "structure-minimize-20260927-054622-f7218a",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+          "frame": {
+            "converged": true
+          },
+          "path": "artifacts/lammps/structure_minimize/structure-minimize-20260927-054622-f7218a/011_gb_shear_step_0048_minimized.cfg",
+          "run_id": "structure-minimize-20260927-054622-f7218a",
+          "sha256": "2aa5fb38f482aa0945257ed09728a82b6059c8c02683c2bae06931acf7925dad",
+          "workflow": "structure_minimize"
+        }
+      },
+      "path": "gb_plan_view.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_data",
+      "size_bytes": 92340
+    },
+    {
+      "artifact_id": "64799a39-f64d-5837-ba21-4045771d8aa3",
+      "created_at": "2026-09-27T05:50:58+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 8.802927642508193,
+          "image_size": [
+            3200,
+            1311
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.7007389800000041,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 42.97386492147401
+        },
+        "origin": {
+          "artifact_id": "f11b6c1b-c865-5d2e-b4b8-086a9e0548ab",
+          "frame": {
+            "actual_shear_strain": 0.00550000000000001,
+            "bottom_shear_stress_mpa": -1.146595454437805,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.011999999999999988,
+            "relative_target_shear_strain": -0.012,
+            "sigma_xx_mpa": -28.7355613615139,
+            "sigma_xy_mpa": 1.146595454437805,
+            "sigma_xz_mpa": 0.7093463498508594,
+            "sigma_yy_mpa": 79.36165686390191,
+            "sigma_yz_mpa": -1.5361621389975652e-05,
+            "sigma_zz_mpa": 21.681850316134376,
+            "step": 48,
+            "step_in_loading_half_cycle": 48,
+            "strain": 0.00550000000000001,
+            "target_shear_strain": 0.005499999999999998,
+            "top_shear_stress_mpa": 1.146595454437805
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Step 48 relaxed reverse-unloading state versus original nominal-zero-strain P012 GB; assess displacement pattern without assigning a mechanism",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "structure-minimize-20260927-054622-f7218a",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+          "frame": {
+            "converged": true
+          },
+          "path": "artifacts/lammps/structure_minimize/structure-minimize-20260927-054622-f7218a/011_gb_shear_step_0048_minimized.cfg",
+          "run_id": "structure-minimize-20260927-054622-f7218a",
+          "sha256": "2aa5fb38f482aa0945257ed09728a82b6059c8c02683c2bae06931acf7925dad",
+          "workflow": "structure_minimize"
+        }
+      },
+      "path": "plan_view.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view",
+      "size_bytes": 1961638
+    },
+    {
+      "artifact_id": "e4e24cbf-d492-553c-817c-6fb76ac408f1",
+      "created_at": "2026-09-27T05:50:58+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "origin": {
+          "artifact_id": "f11b6c1b-c865-5d2e-b4b8-086a9e0548ab",
+          "frame": {
+            "actual_shear_strain": 0.00550000000000001,
+            "bottom_shear_stress_mpa": -1.146595454437805,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.011999999999999988,
+            "relative_target_shear_strain": -0.012,
+            "sigma_xx_mpa": -28.7355613615139,
+            "sigma_xy_mpa": 1.146595454437805,
+            "sigma_xz_mpa": 0.7093463498508594,
+            "sigma_yy_mpa": 79.36165686390191,
+            "sigma_yz_mpa": -1.5361621389975652e-05,
+            "sigma_zz_mpa": 21.681850316134376,
+            "step": 48,
+            "step_in_loading_half_cycle": 48,
+            "strain": 0.00550000000000001,
+            "target_shear_strain": 0.005499999999999998,
+            "top_shear_stress_mpa": 1.146595454437805
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Step 48 relaxed reverse-unloading state versus original nominal-zero-strain P012 GB; assess displacement pattern without assigning a mechanism",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "structure-minimize-20260927-054622-f7218a",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "c190e7de-a3ec-58a8-842f-b1d70cc531ae",
+          "frame": {
+            "converged": true
+          },
+          "path": "artifacts/lammps/structure_minimize/structure-minimize-20260927-054622-f7218a/011_gb_shear_step_0048_minimized.cfg",
+          "run_id": "structure-minimize-20260927-054622-f7218a",
+          "sha256": "2aa5fb38f482aa0945257ed09728a82b6059c8c02683c2bae06931acf7925dad",
+          "workflow": "structure_minimize"
+        }
+      },
+      "path": "y_profile.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_profile",
+      "size_bytes": 159935
+    },
+    {
+      "artifact_id": "e0178152-7f18-551e-b014-94d9ed7bc748",
+      "created_at": "2026-09-27T05:50:58+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_gb_plan_view",
+        "sha256": "dc1d540b2b24a6db1254bae9f17abde1867b8a29dd3491a49b0f228516609418"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 10077
+    }
+  ],
+  "run_id": "render-20260927-055049-1f1812",
+  "workflow": "render"
+}

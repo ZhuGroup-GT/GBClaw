@@ -1,0 +1,58 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T04:03:32+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "4277f371-3df5-50c8-ac1c-5ce61b127fbf",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20260927-040330-4d45df:main_conclusion",
+    "source_run_id": "render-20260927-040330-4d45df",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T04:03:32+00:00",
+    "value": {
+      "analysis_mode": "CNA",
+      "camera": {
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "image_size": [
+          3840,
+          2160
+        ],
+        "projection": "xy"
+      },
+      "conclusion_type": "atomic_structure_render",
+      "data": "artifacts/analysis/render/render-20260927-040330-4d45df/render.json",
+      "displacement": null,
+      "origin": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "purpose": "Visually inspect the relaxed continuous-periodic-x P012 FCC Ni grain-boundary structure and periodic seam/interface; retain all atoms with default CNA coloring.",
+      "render": "artifacts/analysis/render/render-20260927-040330-4d45df/render.png",
+      "render_kind": "atomic_structure",
+      "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+      "source_artifact_role": "minimized_cfg",
+      "source_run_id": "minimize-20260927-040247-4d2144",
+      "source_step": null,
+      "structure_source": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "summary": "CNA atomic structure rendered in XY top view.",
+      "warnings": []
+    },
+    "version": 1
+  },
+  "memory_tool": "render_atomic_structure"
+}

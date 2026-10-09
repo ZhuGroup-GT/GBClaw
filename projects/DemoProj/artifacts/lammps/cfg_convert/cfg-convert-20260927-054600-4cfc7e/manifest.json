@@ -1,0 +1,2515 @@
+{
+  "files": [
+    {
+      "artifact_id": "b74a8829-8901-5b38-b8b4-c58903d9de4d",
+      "created_at": "2026-09-27T05:46:00+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 39515
+    },
+    {
+      "artifact_id": "cd32ca3d-27ff-518f-9b38-baa2a0f2ed12",
+      "created_at": "2026-09-27T05:46:00+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "008a651a-140f-543f-84c4-fc22a8dca0de",
+          "frame": {
+            "actual_shear_strain": 0.016000000000000004,
+            "bottom_shear_stress_mpa": -0.32560822554428887,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.0014999999999999935,
+            "relative_target_shear_strain": -0.0015,
+            "sigma_xx_mpa": -29.021260427600016,
+            "sigma_xy_mpa": 0.32560822554428887,
+            "sigma_xz_mpa": -0.7034259600656138,
+            "sigma_yy_mpa": 79.24092017951921,
+            "sigma_yz_mpa": 1.721140001351059e-05,
+            "sigma_zz_mpa": 21.880744094681738,
+            "step": 6,
+            "step_in_loading_half_cycle": 6,
+            "strain": 0.016000000000000004,
+            "target_shear_strain": 0.015999999999999997,
+            "top_shear_stress_mpa": 0.32560822554428887
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0006.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6e8fb92d74061201d711180469e1e82d93c1b0aefb254de56780305af3f3fdde",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 0,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0006.cfg",
+        "source_sha256": "6e8fb92d74061201d711180469e1e82d93c1b0aefb254de56780305af3f3fdde"
+      },
+      "path": "sources/000_gb_shear_step_0006.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585558
+    },
+    {
+      "artifact_id": "c83d26b8-6d8b-59dd-969a-cc4c9afb920b",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "008a651a-140f-543f-84c4-fc22a8dca0de",
+          "frame": {
+            "actual_shear_strain": 0.016000000000000004,
+            "bottom_shear_stress_mpa": -0.32560822554428887,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.0014999999999999935,
+            "relative_target_shear_strain": -0.0015,
+            "sigma_xx_mpa": -29.021260427600016,
+            "sigma_xy_mpa": 0.32560822554428887,
+            "sigma_xz_mpa": -0.7034259600656138,
+            "sigma_yy_mpa": 79.24092017951921,
+            "sigma_yz_mpa": 1.721140001351059e-05,
+            "sigma_zz_mpa": 21.880744094681738,
+            "step": 6,
+            "step_in_loading_half_cycle": 6,
+            "strain": 0.016000000000000004,
+            "target_shear_strain": 0.015999999999999997,
+            "top_shear_stress_mpa": 0.32560822554428887
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0006.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6e8fb92d74061201d711180469e1e82d93c1b0aefb254de56780305af3f3fdde",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 0,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "cd32ca3d-27ff-518f-9b38-baa2a0f2ed12",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0006.cfg",
+        "source_sha256": "6e8fb92d74061201d711180469e1e82d93c1b0aefb254de56780305af3f3fdde",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/000_gb_shear_step_0006.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 757794
+    },
+    {
+      "artifact_id": "cd3c552f-b253-589a-a5e2-6321331c038f",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "55732240-eb6e-568d-8977-eeecb2305add",
+          "frame": {
+            "actual_shear_strain": 0.015000000000000006,
+            "bottom_shear_stress_mpa": 1.7380857652176933,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.002499999999999991,
+            "relative_target_shear_strain": -0.0025,
+            "sigma_xx_mpa": -29.74308406548894,
+            "sigma_xy_mpa": -1.7380857652176933,
+            "sigma_xz_mpa": 0.6874829250328387,
+            "sigma_yy_mpa": 78.93648878429862,
+            "sigma_yz_mpa": 3.97201278285525e-05,
+            "sigma_zz_mpa": 22.380515841404776,
+            "step": 10,
+            "step_in_loading_half_cycle": 10,
+            "strain": 0.015000000000000006,
+            "target_shear_strain": 0.014999999999999998,
+            "top_shear_stress_mpa": -1.7380857652176933
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0010.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "ee463cbab20d1c5bf760d67ae86e499d15615d83f7b284ca822e82170c80f7c6",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 1,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0010.cfg",
+        "source_sha256": "ee463cbab20d1c5bf760d67ae86e499d15615d83f7b284ca822e82170c80f7c6"
+      },
+      "path": "sources/001_gb_shear_step_0010.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585258
+    },
+    {
+      "artifact_id": "4ca5676a-5654-5dd0-9a4b-fd2f48aa25f0",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "55732240-eb6e-568d-8977-eeecb2305add",
+          "frame": {
+            "actual_shear_strain": 0.015000000000000006,
+            "bottom_shear_stress_mpa": 1.7380857652176933,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.002499999999999991,
+            "relative_target_shear_strain": -0.0025,
+            "sigma_xx_mpa": -29.74308406548894,
+            "sigma_xy_mpa": -1.7380857652176933,
+            "sigma_xz_mpa": 0.6874829250328387,
+            "sigma_yy_mpa": 78.93648878429862,
+            "sigma_yz_mpa": 3.97201278285525e-05,
+            "sigma_zz_mpa": 22.380515841404776,
+            "step": 10,
+            "step_in_loading_half_cycle": 10,
+            "strain": 0.015000000000000006,
+            "target_shear_strain": 0.014999999999999998,
+            "top_shear_stress_mpa": -1.7380857652176933
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0010.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "ee463cbab20d1c5bf760d67ae86e499d15615d83f7b284ca822e82170c80f7c6",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 1,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "cd3c552f-b253-589a-a5e2-6321331c038f",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0010.cfg",
+        "source_sha256": "ee463cbab20d1c5bf760d67ae86e499d15615d83f7b284ca822e82170c80f7c6",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/001_gb_shear_step_0010.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758144
+    },
+    {
+      "artifact_id": "b7e0ccce-f121-52fc-b054-bc51d27b82e8",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "acdb0652-cd3c-5f7b-b8a4-20d113a7e49d",
+          "frame": {
+            "actual_shear_strain": 0.014000000000000002,
+            "bottom_shear_stress_mpa": 3.7922731599811486,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.0034999999999999966,
+            "relative_target_shear_strain": -0.0035,
+            "sigma_xx_mpa": -30.467567769205143,
+            "sigma_xy_mpa": -3.7922731599811486,
+            "sigma_xz_mpa": -0.6698610500925529,
+            "sigma_yy_mpa": 78.6323573757761,
+            "sigma_yz_mpa": 3.218032278854791e-05,
+            "sigma_zz_mpa": 22.878221910931202,
+            "step": 14,
+            "step_in_loading_half_cycle": 14,
+            "strain": 0.014000000000000002,
+            "target_shear_strain": 0.013999999999999999,
+            "top_shear_stress_mpa": -3.7922731599811486
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0014.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "dc28c9f70f9004f27a135fa2d05745ef973829c60479fb612559fff1a4424a17",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 2,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0014.cfg",
+        "source_sha256": "dc28c9f70f9004f27a135fa2d05745ef973829c60479fb612559fff1a4424a17"
+      },
+      "path": "sources/002_gb_shear_step_0014.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 583676
+    },
+    {
+      "artifact_id": "a432c165-a7bc-5a23-b242-ba185a7d28ad",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "acdb0652-cd3c-5f7b-b8a4-20d113a7e49d",
+          "frame": {
+            "actual_shear_strain": 0.014000000000000002,
+            "bottom_shear_stress_mpa": 3.7922731599811486,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.0034999999999999966,
+            "relative_target_shear_strain": -0.0035,
+            "sigma_xx_mpa": -30.467567769205143,
+            "sigma_xy_mpa": -3.7922731599811486,
+            "sigma_xz_mpa": -0.6698610500925529,
+            "sigma_yy_mpa": 78.6323573757761,
+            "sigma_yz_mpa": 3.218032278854791e-05,
+            "sigma_zz_mpa": 22.878221910931202,
+            "step": 14,
+            "step_in_loading_half_cycle": 14,
+            "strain": 0.014000000000000002,
+            "target_shear_strain": 0.013999999999999999,
+            "top_shear_stress_mpa": -3.7922731599811486
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0014.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "dc28c9f70f9004f27a135fa2d05745ef973829c60479fb612559fff1a4424a17",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 2,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "b7e0ccce-f121-52fc-b054-bc51d27b82e8",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0014.cfg",
+        "source_sha256": "dc28c9f70f9004f27a135fa2d05745ef973829c60479fb612559fff1a4424a17",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/002_gb_shear_step_0014.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758058
+    },
+    {
+      "artifact_id": "cc96d50d-5894-5c8f-9622-b5c201fc0224",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "47a71f90-068d-5773-93f3-fc219faa8f95",
+          "frame": {
+            "actual_shear_strain": 0.013000000000000001,
+            "bottom_shear_stress_mpa": 5.831205098865817,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.004499999999999998,
+            "relative_target_shear_strain": -0.0045000000000000005,
+            "sigma_xx_mpa": -31.192343470845366,
+            "sigma_xy_mpa": -5.831205098865817,
+            "sigma_xz_mpa": 0.6504420359031278,
+            "sigma_yy_mpa": 78.32968013994802,
+            "sigma_yz_mpa": -0.00014008154955499498,
+            "sigma_zz_mpa": 23.372470602925286,
+            "step": 18,
+            "step_in_loading_half_cycle": 18,
+            "strain": 0.013000000000000001,
+            "target_shear_strain": 0.012999999999999998,
+            "top_shear_stress_mpa": -5.831205098865817
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0018.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "0befbc40d3efb92f41bf212d26c0a0a371a7f67e2aa6a54cef5e143d4a232489",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 3,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0018.cfg",
+        "source_sha256": "0befbc40d3efb92f41bf212d26c0a0a371a7f67e2aa6a54cef5e143d4a232489"
+      },
+      "path": "sources/003_gb_shear_step_0018.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 584367
+    },
+    {
+      "artifact_id": "22c1545c-f275-56b6-8dbf-bc3496294e89",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "47a71f90-068d-5773-93f3-fc219faa8f95",
+          "frame": {
+            "actual_shear_strain": 0.013000000000000001,
+            "bottom_shear_stress_mpa": 5.831205098865817,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.004499999999999998,
+            "relative_target_shear_strain": -0.0045000000000000005,
+            "sigma_xx_mpa": -31.192343470845366,
+            "sigma_xy_mpa": -5.831205098865817,
+            "sigma_xz_mpa": 0.6504420359031278,
+            "sigma_yy_mpa": 78.32968013994802,
+            "sigma_yz_mpa": -0.00014008154955499498,
+            "sigma_zz_mpa": 23.372470602925286,
+            "step": 18,
+            "step_in_loading_half_cycle": 18,
+            "strain": 0.013000000000000001,
+            "target_shear_strain": 0.012999999999999998,
+            "top_shear_stress_mpa": -5.831205098865817
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0018.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "0befbc40d3efb92f41bf212d26c0a0a371a7f67e2aa6a54cef5e143d4a232489",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 3,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "cc96d50d-5894-5c8f-9622-b5c201fc0224",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0018.cfg",
+        "source_sha256": "0befbc40d3efb92f41bf212d26c0a0a371a7f67e2aa6a54cef5e143d4a232489",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/003_gb_shear_step_0018.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758070
+    },
+    {
+      "artifact_id": "765e0953-64f2-5981-8d81-9573d90b8d71",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "1a6d03fd-5619-564d-97f2-af8dae191d4b",
+          "frame": {
+            "actual_shear_strain": 0.012250000000000004,
+            "bottom_shear_stress_mpa": -3.8334836254683315,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.005249999999999995,
+            "relative_target_shear_strain": -0.00525,
+            "sigma_xx_mpa": -27.807440661146458,
+            "sigma_xy_mpa": 3.8334836254683315,
+            "sigma_xz_mpa": -0.726976307572069,
+            "sigma_yy_mpa": 79.75539875455809,
+            "sigma_yz_mpa": 6.611068658417543e-05,
+            "sigma_zz_mpa": 21.031469269068236,
+            "step": 21,
+            "step_in_loading_half_cycle": 21,
+            "strain": 0.012250000000000004,
+            "target_shear_strain": 0.012249999999999997,
+            "top_shear_stress_mpa": 3.8334836254683315
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0021.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "0aff6bf0bd5c847ee3467ffe8b7dab625112d6d46403e4f60eab6105e4076415",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 4,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0021.cfg",
+        "source_sha256": "0aff6bf0bd5c847ee3467ffe8b7dab625112d6d46403e4f60eab6105e4076415"
+      },
+      "path": "sources/004_gb_shear_step_0021.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 581491
+    },
+    {
+      "artifact_id": "c8f35c95-fe56-5161-9eb0-88ee81a39037",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "1a6d03fd-5619-564d-97f2-af8dae191d4b",
+          "frame": {
+            "actual_shear_strain": 0.012250000000000004,
+            "bottom_shear_stress_mpa": -3.8334836254683315,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.005249999999999995,
+            "relative_target_shear_strain": -0.00525,
+            "sigma_xx_mpa": -27.807440661146458,
+            "sigma_xy_mpa": 3.8334836254683315,
+            "sigma_xz_mpa": -0.726976307572069,
+            "sigma_yy_mpa": 79.75539875455809,
+            "sigma_yz_mpa": 6.611068658417543e-05,
+            "sigma_zz_mpa": 21.031469269068236,
+            "step": 21,
+            "step_in_loading_half_cycle": 21,
+            "strain": 0.012250000000000004,
+            "target_shear_strain": 0.012249999999999997,
+            "top_shear_stress_mpa": 3.8334836254683315
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0021.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "0aff6bf0bd5c847ee3467ffe8b7dab625112d6d46403e4f60eab6105e4076415",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 4,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "765e0953-64f2-5981-8d81-9573d90b8d71",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0021.cfg",
+        "source_sha256": "0aff6bf0bd5c847ee3467ffe8b7dab625112d6d46403e4f60eab6105e4076415",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/004_gb_shear_step_0021.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758151
+    },
+    {
+      "artifact_id": "972c74cd-82b5-5e00-826f-c9450acd501c",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "69a9c82a-f885-5f89-a0d8-69c5712dea53",
+          "frame": {
+            "actual_shear_strain": 0.011250000000000001,
+            "bottom_shear_stress_mpa": -1.7692892287089657,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.006249999999999997,
+            "relative_target_shear_strain": -0.00625,
+            "sigma_xx_mpa": -28.519495698711896,
+            "sigma_xy_mpa": 1.7692892287089657,
+            "sigma_xz_mpa": 0.7136694692088266,
+            "sigma_yy_mpa": 79.4530912810493,
+            "sigma_yz_mpa": -1.886612297352337e-05,
+            "sigma_zz_mpa": 21.531021129490753,
+            "step": 25,
+            "step_in_loading_half_cycle": 25,
+            "strain": 0.011250000000000001,
+            "target_shear_strain": 0.011249999999999998,
+            "top_shear_stress_mpa": 1.7692892287089657
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0025.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "986305eec6ad2a616cf8d4508562ae937e0d6746d4a2c25a49c08f72e883b9f2",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 5,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0025.cfg",
+        "source_sha256": "986305eec6ad2a616cf8d4508562ae937e0d6746d4a2c25a49c08f72e883b9f2"
+      },
+      "path": "sources/005_gb_shear_step_0025.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 584308
+    },
+    {
+      "artifact_id": "7ff08a80-8bbd-577f-bd5b-507994e26251",
+      "created_at": "2026-09-27T05:46:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "69a9c82a-f885-5f89-a0d8-69c5712dea53",
+          "frame": {
+            "actual_shear_strain": 0.011250000000000001,
+            "bottom_shear_stress_mpa": -1.7692892287089657,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.006249999999999997,
+            "relative_target_shear_strain": -0.00625,
+            "sigma_xx_mpa": -28.519495698711896,
+            "sigma_xy_mpa": 1.7692892287089657,
+            "sigma_xz_mpa": 0.7136694692088266,
+            "sigma_yy_mpa": 79.4530912810493,
+            "sigma_yz_mpa": -1.886612297352337e-05,
+            "sigma_zz_mpa": 21.531021129490753,
+            "step": 25,
+            "step_in_loading_half_cycle": 25,
+            "strain": 0.011250000000000001,
+            "target_shear_strain": 0.011249999999999998,
+            "top_shear_stress_mpa": 1.7692892287089657
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0025.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "986305eec6ad2a616cf8d4508562ae937e0d6746d4a2c25a49c08f72e883b9f2",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 5,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "972c74cd-82b5-5e00-826f-c9450acd501c",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0025.cfg",
+        "source_sha256": "986305eec6ad2a616cf8d4508562ae937e0d6746d4a2c25a49c08f72e883b9f2",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/005_gb_shear_step_0025.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758195
+    },
+    {
+      "artifact_id": "47bb4cd4-1537-5e68-904b-a5022a34ff2c",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "e0ab20ca-33ee-5351-afb9-1d3134f26f77",
+          "frame": {
+            "actual_shear_strain": 0.010250000000000016,
+            "bottom_shear_stress_mpa": 0.2973215095726597,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.007249999999999983,
+            "relative_target_shear_strain": -0.00725,
+            "sigma_xx_mpa": -29.23846435165268,
+            "sigma_xy_mpa": -0.2973215095726597,
+            "sigma_xz_mpa": -0.6987972592288374,
+            "sigma_yy_mpa": 79.1492540896521,
+            "sigma_yz_mpa": -3.548626222407462e-05,
+            "sigma_zz_mpa": 22.031653598478112,
+            "step": 29,
+            "step_in_loading_half_cycle": 29,
+            "strain": 0.010250000000000016,
+            "target_shear_strain": 0.010249999999999999,
+            "top_shear_stress_mpa": -0.2973215095726597
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0029.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "c3efc01f2451de01cc0abf0d88fe9667382234ec647ac7fbe3aa221020c8145f",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 6,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0029.cfg",
+        "source_sha256": "c3efc01f2451de01cc0abf0d88fe9667382234ec647ac7fbe3aa221020c8145f"
+      },
+      "path": "sources/006_gb_shear_step_0029.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585596
+    },
+    {
+      "artifact_id": "4db9a546-42ee-58db-bc2f-bc164d4734df",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "e0ab20ca-33ee-5351-afb9-1d3134f26f77",
+          "frame": {
+            "actual_shear_strain": 0.010250000000000016,
+            "bottom_shear_stress_mpa": 0.2973215095726597,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.007249999999999983,
+            "relative_target_shear_strain": -0.00725,
+            "sigma_xx_mpa": -29.23846435165268,
+            "sigma_xy_mpa": -0.2973215095726597,
+            "sigma_xz_mpa": -0.6987972592288374,
+            "sigma_yy_mpa": 79.1492540896521,
+            "sigma_yz_mpa": -3.548626222407462e-05,
+            "sigma_zz_mpa": 22.031653598478112,
+            "step": 29,
+            "step_in_loading_half_cycle": 29,
+            "strain": 0.010250000000000016,
+            "target_shear_strain": 0.010249999999999999,
+            "top_shear_stress_mpa": -0.2973215095726597
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0029.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "c3efc01f2451de01cc0abf0d88fe9667382234ec647ac7fbe3aa221020c8145f",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 6,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "47bb4cd4-1537-5e68-904b-a5022a34ff2c",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0029.cfg",
+        "source_sha256": "c3efc01f2451de01cc0abf0d88fe9667382234ec647ac7fbe3aa221020c8145f",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/006_gb_shear_step_0029.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758267
+    },
+    {
+      "artifact_id": "bc7ef8ea-b3b1-51fe-aacc-7ed6c42d513e",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "b5bb06ec-94ad-5272-a958-643d748fc68a",
+          "frame": {
+            "actual_shear_strain": 0.009250000000000006,
+            "bottom_shear_stress_mpa": 2.3585851191183194,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.008249999999999992,
+            "relative_target_shear_strain": -0.00825,
+            "sigma_xx_mpa": -29.961269824595785,
+            "sigma_xy_mpa": -2.3585851191183194,
+            "sigma_xz_mpa": 0.6823558703615799,
+            "sigma_yy_mpa": 78.84478314029609,
+            "sigma_yz_mpa": 5.215857636848927e-05,
+            "sigma_zz_mpa": 22.530832038725215,
+            "step": 33,
+            "step_in_loading_half_cycle": 33,
+            "strain": 0.009250000000000006,
+            "target_shear_strain": 0.009249999999999998,
+            "top_shear_stress_mpa": -2.3585851191183194
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0033.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "fbcd4b64a7991ef9c8afe51f6bb6d5f17d574b2c0bee7c69278546cfaa54fec7",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 7,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0033.cfg",
+        "source_sha256": "fbcd4b64a7991ef9c8afe51f6bb6d5f17d574b2c0bee7c69278546cfaa54fec7"
+      },
+      "path": "sources/007_gb_shear_step_0033.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585939
+    },
+    {
+      "artifact_id": "f25e43e1-67a8-5d11-86b1-a76e1610ba12",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "b5bb06ec-94ad-5272-a958-643d748fc68a",
+          "frame": {
+            "actual_shear_strain": 0.009250000000000006,
+            "bottom_shear_stress_mpa": 2.3585851191183194,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.008249999999999992,
+            "relative_target_shear_strain": -0.00825,
+            "sigma_xx_mpa": -29.961269824595785,
+            "sigma_xy_mpa": -2.3585851191183194,
+            "sigma_xz_mpa": 0.6823558703615799,
+            "sigma_yy_mpa": 78.84478314029609,
+            "sigma_yz_mpa": 5.215857636848927e-05,
+            "sigma_zz_mpa": 22.530832038725215,
+            "step": 33,
+            "step_in_loading_half_cycle": 33,
+            "strain": 0.009250000000000006,
+            "target_shear_strain": 0.009249999999999998,
+            "top_shear_stress_mpa": -2.3585851191183194
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0033.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "fbcd4b64a7991ef9c8afe51f6bb6d5f17d574b2c0bee7c69278546cfaa54fec7",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 7,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "bc7ef8ea-b3b1-51fe-aacc-7ed6c42d513e",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0033.cfg",
+        "source_sha256": "fbcd4b64a7991ef9c8afe51f6bb6d5f17d574b2c0bee7c69278546cfaa54fec7",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/007_gb_shear_step_0033.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758068
+    },
+    {
+      "artifact_id": "68b456b0-be51-5277-865f-0bfc4e3642ca",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "8d7cfbdc-7e75-5e27-9d7e-1f5ca79bdc75",
+          "frame": {
+            "actual_shear_strain": 0.008249999999999995,
+            "bottom_shear_stress_mpa": 4.408550194173057,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.009250000000000003,
+            "relative_target_shear_strain": -0.00925,
+            "sigma_xx_mpa": -30.68603372513429,
+            "sigma_xy_mpa": -4.408550194173057,
+            "sigma_xz_mpa": -0.664091351606334,
+            "sigma_yy_mpa": 78.54087428807844,
+            "sigma_yz_mpa": -5.444146763564063e-05,
+            "sigma_zz_mpa": 23.027562082195548,
+            "step": 37,
+            "step_in_loading_half_cycle": 37,
+            "strain": 0.008249999999999995,
+            "target_shear_strain": 0.008249999999999999,
+            "top_shear_stress_mpa": -4.408550194173057
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0037.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "68cd524f3cfa8de89d796eafbb5cbc083239a6dede960488ebdb60045176b29f",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 8,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0037.cfg",
+        "source_sha256": "68cd524f3cfa8de89d796eafbb5cbc083239a6dede960488ebdb60045176b29f"
+      },
+      "path": "sources/008_gb_shear_step_0037.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585590
+    },
+    {
+      "artifact_id": "fb1dcd40-418a-52ee-adeb-32ff38dc5d82",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "8d7cfbdc-7e75-5e27-9d7e-1f5ca79bdc75",
+          "frame": {
+            "actual_shear_strain": 0.008249999999999995,
+            "bottom_shear_stress_mpa": 4.408550194173057,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.009250000000000003,
+            "relative_target_shear_strain": -0.00925,
+            "sigma_xx_mpa": -30.68603372513429,
+            "sigma_xy_mpa": -4.408550194173057,
+            "sigma_xz_mpa": -0.664091351606334,
+            "sigma_yy_mpa": 78.54087428807844,
+            "sigma_yz_mpa": -5.444146763564063e-05,
+            "sigma_zz_mpa": 23.027562082195548,
+            "step": 37,
+            "step_in_loading_half_cycle": 37,
+            "strain": 0.008249999999999995,
+            "target_shear_strain": 0.008249999999999999,
+            "top_shear_stress_mpa": -4.408550194173057
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0037.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "68cd524f3cfa8de89d796eafbb5cbc083239a6dede960488ebdb60045176b29f",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 8,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "68b456b0-be51-5277-865f-0bfc4e3642ca",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0037.cfg",
+        "source_sha256": "68cd524f3cfa8de89d796eafbb5cbc083239a6dede960488ebdb60045176b29f",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/008_gb_shear_step_0037.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758133
+    },
+    {
+      "artifact_id": "da7d181c-25b2-5409-9671-5a4a7db76a70",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "b157e759-93d5-5c54-aeed-d1e3f09ad520",
+          "frame": {
+            "actual_shear_strain": 0.007500000000000003,
+            "bottom_shear_stress_mpa": -5.271683461787296,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.009999999999999995,
+            "relative_target_shear_strain": -0.01,
+            "sigma_xx_mpa": -27.315001996582644,
+            "sigma_xy_mpa": 5.271683461787296,
+            "sigma_xz_mpa": 0.7353237596743507,
+            "sigma_yy_mpa": 79.96499465364785,
+            "sigma_yz_mpa": -3.3131353161220806e-05,
+            "sigma_zz_mpa": 20.683418536282627,
+            "step": 40,
+            "step_in_loading_half_cycle": 40,
+            "strain": 0.007500000000000003,
+            "target_shear_strain": 0.007499999999999998,
+            "top_shear_stress_mpa": 5.271683461787296
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0040.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "a388125f5475adc31767fdcbd11031372c8972dbaeb979c767f88d9eecbb325c",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 9,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0040.cfg",
+        "source_sha256": "a388125f5475adc31767fdcbd11031372c8972dbaeb979c767f88d9eecbb325c"
+      },
+      "path": "sources/009_gb_shear_step_0040.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 584331
+    },
+    {
+      "artifact_id": "5ebfd9d0-12fb-539a-b5b1-4a44854ac181",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "b157e759-93d5-5c54-aeed-d1e3f09ad520",
+          "frame": {
+            "actual_shear_strain": 0.007500000000000003,
+            "bottom_shear_stress_mpa": -5.271683461787296,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.009999999999999995,
+            "relative_target_shear_strain": -0.01,
+            "sigma_xx_mpa": -27.315001996582644,
+            "sigma_xy_mpa": 5.271683461787296,
+            "sigma_xz_mpa": 0.7353237596743507,
+            "sigma_yy_mpa": 79.96499465364785,
+            "sigma_yz_mpa": -3.3131353161220806e-05,
+            "sigma_zz_mpa": 20.683418536282627,
+            "step": 40,
+            "step_in_loading_half_cycle": 40,
+            "strain": 0.007500000000000003,
+            "target_shear_strain": 0.007499999999999998,
+            "top_shear_stress_mpa": 5.271683461787296
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0040.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "a388125f5475adc31767fdcbd11031372c8972dbaeb979c767f88d9eecbb325c",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 9,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "da7d181c-25b2-5409-9671-5a4a7db76a70",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0040.cfg",
+        "source_sha256": "a388125f5475adc31767fdcbd11031372c8972dbaeb979c767f88d9eecbb325c",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/009_gb_shear_step_0040.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758126
+    },
+    {
+      "artifact_id": "8622d178-16c8-512b-bccb-741385d159d1",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "e7265f04-5c62-5f00-9163-d2f1a16bc7d7",
+          "frame": {
+            "actual_shear_strain": 0.006499999999999988,
+            "bottom_shear_stress_mpa": -3.212388638166445,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01100000000000001,
+            "relative_target_shear_strain": -0.011,
+            "sigma_xx_mpa": -28.021107860267037,
+            "sigma_xy_mpa": 3.212388638166445,
+            "sigma_xz_mpa": -0.7231283821186246,
+            "sigma_yy_mpa": 79.66447468590516,
+            "sigma_yz_mpa": 2.1205053668559506e-05,
+            "sigma_zz_mpa": 21.181762172956184,
+            "step": 44,
+            "step_in_loading_half_cycle": 44,
+            "strain": 0.006499999999999988,
+            "target_shear_strain": 0.006499999999999999,
+            "top_shear_stress_mpa": 3.212388638166445
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0044.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "821179d73d2948711c84137ca059b21919583683ae6b943649f70ffa0975a101",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 10,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0044.cfg",
+        "source_sha256": "821179d73d2948711c84137ca059b21919583683ae6b943649f70ffa0975a101"
+      },
+      "path": "sources/010_gb_shear_step_0044.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585575
+    },
+    {
+      "artifact_id": "2ec7b90d-bf71-5532-a2c1-30a4b3aeeb9f",
+      "created_at": "2026-09-27T05:46:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "e7265f04-5c62-5f00-9163-d2f1a16bc7d7",
+          "frame": {
+            "actual_shear_strain": 0.006499999999999988,
+            "bottom_shear_stress_mpa": -3.212388638166445,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01100000000000001,
+            "relative_target_shear_strain": -0.011,
+            "sigma_xx_mpa": -28.021107860267037,
+            "sigma_xy_mpa": 3.212388638166445,
+            "sigma_xz_mpa": -0.7231283821186246,
+            "sigma_yy_mpa": 79.66447468590516,
+            "sigma_yz_mpa": 2.1205053668559506e-05,
+            "sigma_zz_mpa": 21.181762172956184,
+            "step": 44,
+            "step_in_loading_half_cycle": 44,
+            "strain": 0.006499999999999988,
+            "target_shear_strain": 0.006499999999999999,
+            "top_shear_stress_mpa": 3.212388638166445
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0044.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "821179d73d2948711c84137ca059b21919583683ae6b943649f70ffa0975a101",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 10,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "8622d178-16c8-512b-bccb-741385d159d1",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0044.cfg",
+        "source_sha256": "821179d73d2948711c84137ca059b21919583683ae6b943649f70ffa0975a101",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/010_gb_shear_step_0044.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758128
+    },
+    {
+      "artifact_id": "31349c8c-1cec-5892-b54c-ba136594aced",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "f11b6c1b-c865-5d2e-b4b8-086a9e0548ab",
+          "frame": {
+            "actual_shear_strain": 0.00550000000000001,
+            "bottom_shear_stress_mpa": -1.146595454437805,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.011999999999999988,
+            "relative_target_shear_strain": -0.012,
+            "sigma_xx_mpa": -28.7355613615139,
+            "sigma_xy_mpa": 1.146595454437805,
+            "sigma_xz_mpa": 0.7093463498508594,
+            "sigma_yy_mpa": 79.36165686390191,
+            "sigma_yz_mpa": -1.5361621389975652e-05,
+            "sigma_zz_mpa": 21.681850316134376,
+            "step": 48,
+            "step_in_loading_half_cycle": 48,
+            "strain": 0.00550000000000001,
+            "target_shear_strain": 0.005499999999999998,
+            "top_shear_stress_mpa": 1.146595454437805
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 11,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+        "source_sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3"
+      },
+      "path": "sources/011_gb_shear_step_0048.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585569
+    },
+    {
+      "artifact_id": "bb544e36-b156-5b2e-8bd9-f9911e956d1f",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "f11b6c1b-c865-5d2e-b4b8-086a9e0548ab",
+          "frame": {
+            "actual_shear_strain": 0.00550000000000001,
+            "bottom_shear_stress_mpa": -1.146595454437805,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.011999999999999988,
+            "relative_target_shear_strain": -0.012,
+            "sigma_xx_mpa": -28.7355613615139,
+            "sigma_xy_mpa": 1.146595454437805,
+            "sigma_xz_mpa": 0.7093463498508594,
+            "sigma_yy_mpa": 79.36165686390191,
+            "sigma_yz_mpa": -1.5361621389975652e-05,
+            "sigma_zz_mpa": 21.681850316134376,
+            "step": 48,
+            "step_in_loading_half_cycle": 48,
+            "strain": 0.00550000000000001,
+            "target_shear_strain": 0.005499999999999998,
+            "top_shear_stress_mpa": 1.146595454437805
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 11,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "31349c8c-1cec-5892-b54c-ba136594aced",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0048.cfg",
+        "source_sha256": "8e080fbc1d0300c70a2caaa92115f4e7a2303d741cc393a4ea74102f09324df3",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/011_gb_shear_step_0048.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758243
+    },
+    {
+      "artifact_id": "883c732d-9936-5c57-9358-c312d5e2a907",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "fb7f6fc4-fd3f-559f-9db4-ac53d9b97af6",
+          "frame": {
+            "actual_shear_strain": 0.004500000000000004,
+            "bottom_shear_stress_mpa": 0.9192688260265965,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.012999999999999994,
+            "relative_target_shear_strain": -0.013000000000000001,
+            "sigma_xx_mpa": -29.455934832288158,
+            "sigma_xy_mpa": -0.9192688260265965,
+            "sigma_xz_mpa": -0.6940183755253959,
+            "sigma_yy_mpa": 79.05748565714526,
+            "sigma_yz_mpa": -3.6737831093711094e-05,
+            "sigma_zz_mpa": 22.182234026470134,
+            "step": 52,
+            "step_in_loading_half_cycle": 52,
+            "strain": 0.004500000000000004,
+            "target_shear_strain": 0.004499999999999997,
+            "top_shear_stress_mpa": -0.9192688260265965
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0052.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "f6fea8a58bdf0e5210683f7f4b03e45d7475288c5479ddadd71e8c849eccf3dd",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 12,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0052.cfg",
+        "source_sha256": "f6fea8a58bdf0e5210683f7f4b03e45d7475288c5479ddadd71e8c849eccf3dd"
+      },
+      "path": "sources/012_gb_shear_step_0052.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585277
+    },
+    {
+      "artifact_id": "964cf95e-1cac-5aa3-b162-41ee5885ab69",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "fb7f6fc4-fd3f-559f-9db4-ac53d9b97af6",
+          "frame": {
+            "actual_shear_strain": 0.004500000000000004,
+            "bottom_shear_stress_mpa": 0.9192688260265965,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.012999999999999994,
+            "relative_target_shear_strain": -0.013000000000000001,
+            "sigma_xx_mpa": -29.455934832288158,
+            "sigma_xy_mpa": -0.9192688260265965,
+            "sigma_xz_mpa": -0.6940183755253959,
+            "sigma_yy_mpa": 79.05748565714526,
+            "sigma_yz_mpa": -3.6737831093711094e-05,
+            "sigma_zz_mpa": 22.182234026470134,
+            "step": 52,
+            "step_in_loading_half_cycle": 52,
+            "strain": 0.004500000000000004,
+            "target_shear_strain": 0.004499999999999997,
+            "top_shear_stress_mpa": -0.9192688260265965
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0052.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "f6fea8a58bdf0e5210683f7f4b03e45d7475288c5479ddadd71e8c849eccf3dd",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 12,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "883c732d-9936-5c57-9358-c312d5e2a907",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0052.cfg",
+        "source_sha256": "f6fea8a58bdf0e5210683f7f4b03e45d7475288c5479ddadd71e8c849eccf3dd",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/012_gb_shear_step_0052.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758357
+    },
+    {
+      "artifact_id": "c001bd7d-710b-5de1-8cd7-7fd7d1cb884e",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "3fd39c34-bbbd-50d7-a7cc-dd8a7c055bc0",
+          "frame": {
+            "actual_shear_strain": 0.003499999999999998,
+            "bottom_shear_stress_mpa": 2.977771481820524,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.014,
+            "relative_target_shear_strain": -0.014,
+            "sigma_xx_mpa": -30.179577968223157,
+            "sigma_xy_mpa": -2.977771481820524,
+            "sigma_xz_mpa": 0.6770898756049427,
+            "sigma_yy_mpa": 78.75310018979607,
+            "sigma_yz_mpa": 1.3985400187388479e-05,
+            "sigma_zz_mpa": 22.680855214676534,
+            "step": 56,
+            "step_in_loading_half_cycle": 56,
+            "strain": 0.003499999999999998,
+            "target_shear_strain": 0.003499999999999998,
+            "top_shear_stress_mpa": -2.977771481820524
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0056.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "b03c8f470a5b0bf884de009ab3e9dcf2373ef23c09ad4208c4c535ee84e5a8a9",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 13,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0056.cfg",
+        "source_sha256": "b03c8f470a5b0bf884de009ab3e9dcf2373ef23c09ad4208c4c535ee84e5a8a9"
+      },
+      "path": "sources/013_gb_shear_step_0056.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585467
+    },
+    {
+      "artifact_id": "8d363c26-a91b-54e5-ae58-b34aeeddb239",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "3fd39c34-bbbd-50d7-a7cc-dd8a7c055bc0",
+          "frame": {
+            "actual_shear_strain": 0.003499999999999998,
+            "bottom_shear_stress_mpa": 2.977771481820524,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.014,
+            "relative_target_shear_strain": -0.014,
+            "sigma_xx_mpa": -30.179577968223157,
+            "sigma_xy_mpa": -2.977771481820524,
+            "sigma_xz_mpa": 0.6770898756049427,
+            "sigma_yy_mpa": 78.75310018979607,
+            "sigma_yz_mpa": 1.3985400187388479e-05,
+            "sigma_zz_mpa": 22.680855214676534,
+            "step": 56,
+            "step_in_loading_half_cycle": 56,
+            "strain": 0.003499999999999998,
+            "target_shear_strain": 0.003499999999999998,
+            "top_shear_stress_mpa": -2.977771481820524
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0056.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "b03c8f470a5b0bf884de009ab3e9dcf2373ef23c09ad4208c4c535ee84e5a8a9",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 13,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "c001bd7d-710b-5de1-8cd7-7fd7d1cb884e",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0056.cfg",
+        "source_sha256": "b03c8f470a5b0bf884de009ab3e9dcf2373ef23c09ad4208c4c535ee84e5a8a9",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/013_gb_shear_step_0056.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758139
+    },
+    {
+      "artifact_id": "69c284d9-3417-5256-ab7a-7ed5d6665c0b",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "c7aebc60-fc3c-53b9-85ab-1dece99c5a80",
+          "frame": {
+            "actual_shear_strain": 0.002499999999999997,
+            "bottom_shear_stress_mpa": 5.023401842257499,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.015000000000000001,
+            "relative_target_shear_strain": -0.015,
+            "sigma_xx_mpa": -30.90459950773292,
+            "sigma_xy_mpa": -5.023401842257499,
+            "sigma_xz_mpa": -0.6584099411586066,
+            "sigma_yy_mpa": 78.44968756345592,
+            "sigma_yz_mpa": 0.00012301719861056916,
+            "sigma_zz_mpa": 23.17670016996849,
+            "step": 60,
+            "step_in_loading_half_cycle": 60,
+            "strain": 0.002499999999999997,
+            "target_shear_strain": 0.0024999999999999988,
+            "top_shear_stress_mpa": -5.023401842257499
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0060.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "f8eea45737f6ba5705fc2577eb4bd85a1f9adf5a77dc0143307781553e69031a",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 14,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0060.cfg",
+        "source_sha256": "f8eea45737f6ba5705fc2577eb4bd85a1f9adf5a77dc0143307781553e69031a"
+      },
+      "path": "sources/014_gb_shear_step_0060.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585466
+    },
+    {
+      "artifact_id": "4d07ef21-0d7e-5d30-bcda-d2761783a666",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "c7aebc60-fc3c-53b9-85ab-1dece99c5a80",
+          "frame": {
+            "actual_shear_strain": 0.002499999999999997,
+            "bottom_shear_stress_mpa": 5.023401842257499,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.015000000000000001,
+            "relative_target_shear_strain": -0.015,
+            "sigma_xx_mpa": -30.90459950773292,
+            "sigma_xy_mpa": -5.023401842257499,
+            "sigma_xz_mpa": -0.6584099411586066,
+            "sigma_yy_mpa": 78.44968756345592,
+            "sigma_yz_mpa": 0.00012301719861056916,
+            "sigma_zz_mpa": 23.17670016996849,
+            "step": 60,
+            "step_in_loading_half_cycle": 60,
+            "strain": 0.002499999999999997,
+            "target_shear_strain": 0.0024999999999999988,
+            "top_shear_stress_mpa": -5.023401842257499
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0060.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "f8eea45737f6ba5705fc2577eb4bd85a1f9adf5a77dc0143307781553e69031a",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 14,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "69c284d9-3417-5256-ab7a-7ed5d6665c0b",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0060.cfg",
+        "source_sha256": "f8eea45737f6ba5705fc2577eb4bd85a1f9adf5a77dc0143307781553e69031a",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/014_gb_shear_step_0060.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758211
+    },
+    {
+      "artifact_id": "b42ef2e3-4b7a-57d2-839c-56c37ecf1f7e",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "150f80cd-4b8f-5a99-95cc-60ea67723d95",
+          "frame": {
+            "actual_shear_strain": 0.0017499999999999946,
+            "bottom_shear_stress_mpa": -4.652441064454117,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.015750000000000004,
+            "relative_target_shear_strain": -0.01575,
+            "sigma_xx_mpa": -27.526612664932724,
+            "sigma_xy_mpa": 4.652441064454117,
+            "sigma_xz_mpa": 0.7318383673704801,
+            "sigma_yy_mpa": 79.87468485546458,
+            "sigma_yz_mpa": -5.1186284493722384e-05,
+            "sigma_zz_mpa": 20.833181993078238,
+            "step": 63,
+            "step_in_loading_half_cycle": 63,
+            "strain": 0.0017499999999999946,
+            "target_shear_strain": 0.001749999999999998,
+            "top_shear_stress_mpa": 4.652441064454117
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0063.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "7392e1c370113b0fb5075121315116564dd760ae5d27ea8275c5bbab99b2f0e7",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 15,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0063.cfg",
+        "source_sha256": "7392e1c370113b0fb5075121315116564dd760ae5d27ea8275c5bbab99b2f0e7"
+      },
+      "path": "sources/015_gb_shear_step_0063.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585946
+    },
+    {
+      "artifact_id": "8f8d1b2a-f41b-55a6-8852-712d886f15da",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "150f80cd-4b8f-5a99-95cc-60ea67723d95",
+          "frame": {
+            "actual_shear_strain": 0.0017499999999999946,
+            "bottom_shear_stress_mpa": -4.652441064454117,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.015750000000000004,
+            "relative_target_shear_strain": -0.01575,
+            "sigma_xx_mpa": -27.526612664932724,
+            "sigma_xy_mpa": 4.652441064454117,
+            "sigma_xz_mpa": 0.7318383673704801,
+            "sigma_yy_mpa": 79.87468485546458,
+            "sigma_yz_mpa": -5.1186284493722384e-05,
+            "sigma_zz_mpa": 20.833181993078238,
+            "step": 63,
+            "step_in_loading_half_cycle": 63,
+            "strain": 0.0017499999999999946,
+            "target_shear_strain": 0.001749999999999998,
+            "top_shear_stress_mpa": 4.652441064454117
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0063.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "7392e1c370113b0fb5075121315116564dd760ae5d27ea8275c5bbab99b2f0e7",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 15,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "b42ef2e3-4b7a-57d2-839c-56c37ecf1f7e",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0063.cfg",
+        "source_sha256": "7392e1c370113b0fb5075121315116564dd760ae5d27ea8275c5bbab99b2f0e7",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/015_gb_shear_step_0063.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 757922
+    },
+    {
+      "artifact_id": "59836b6a-1e69-5844-8698-36c682b21234",
+      "created_at": "2026-09-27T05:46:03+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "71ed1ef5-b7df-516c-9fa7-fbe052374c05",
+          "frame": {
+            "actual_shear_strain": 0.0007499999999999937,
+            "bottom_shear_stress_mpa": -2.5898089066925842,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.016750000000000004,
+            "relative_target_shear_strain": -0.01675,
+            "sigma_xx_mpa": -28.235661203463795,
+            "sigma_xy_mpa": 2.5898089066925842,
+            "sigma_xz_mpa": -0.7191442955417262,
+            "sigma_yy_mpa": 79.57343188694013,
+            "sigma_yz_mpa": 2.6033788621230584e-05,
+            "sigma_zz_mpa": 21.332375503207214,
+            "step": 67,
+            "step_in_loading_half_cycle": 67,
+            "strain": 0.0007499999999999937,
+            "target_shear_strain": 0.0007499999999999972,
+            "top_shear_stress_mpa": 2.5898089066925842
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0067.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "035ceee420cc9e59c411ffa9329fdd99d392c71bf1a9bae9d535762ac247a156",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 16,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0067.cfg",
+        "source_sha256": "035ceee420cc9e59c411ffa9329fdd99d392c71bf1a9bae9d535762ac247a156"
+      },
+      "path": "sources/016_gb_shear_step_0067.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 585531
+    },
+    {
+      "artifact_id": "cf4d8699-99c6-5817-852b-a43acc931091",
+      "created_at": "2026-09-27T05:46:04+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "71ed1ef5-b7df-516c-9fa7-fbe052374c05",
+          "frame": {
+            "actual_shear_strain": 0.0007499999999999937,
+            "bottom_shear_stress_mpa": -2.5898089066925842,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.016750000000000004,
+            "relative_target_shear_strain": -0.01675,
+            "sigma_xx_mpa": -28.235661203463795,
+            "sigma_xy_mpa": 2.5898089066925842,
+            "sigma_xz_mpa": -0.7191442955417262,
+            "sigma_yy_mpa": 79.57343188694013,
+            "sigma_yz_mpa": 2.6033788621230584e-05,
+            "sigma_zz_mpa": 21.332375503207214,
+            "step": 67,
+            "step_in_loading_half_cycle": 67,
+            "strain": 0.0007499999999999937,
+            "target_shear_strain": 0.0007499999999999972,
+            "top_shear_stress_mpa": 2.5898089066925842
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0067.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "035ceee420cc9e59c411ffa9329fdd99d392c71bf1a9bae9d535762ac247a156",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 16,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "59836b6a-1e69-5844-8698-36c682b21234",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0067.cfg",
+        "source_sha256": "035ceee420cc9e59c411ffa9329fdd99d392c71bf1a9bae9d535762ac247a156",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/016_gb_shear_step_0067.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 757993
+    },
+    {
+      "artifact_id": "b666cb41-60db-58d2-9328-25a7a83494e7",
+      "created_at": "2026-09-27T05:46:04+00:00",
+      "media_type": null,
+      "metadata": {
+        "origin": {
+          "artifact_id": "3daedc1b-6f67-5059-8a67-6d98683f4caf",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0070.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "sequence": 17,
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0070.cfg",
+        "source_sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5"
+      },
+      "path": "sources/017_gb_shear_step_0070.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_cfg",
+      "size_bytes": 583958
+    },
+    {
+      "artifact_id": "12593ce9-2b62-54f0-a5f7-2a26de6a82db",
+      "created_at": "2026-09-27T05:46:04+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 1,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.lmp",
+        "box_origin_reference_sha256": "ad9d473e9c5a66e358fab1ffce300f3d95302b4573c318b7807f69fbeda6d0a9",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "3daedc1b-6f67-5059-8a67-6d98683f4caf",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0070.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Prepare selected reverse-shear frames for residual-force removal before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            -4.400914729529859e-06,
+            0.446231910848951,
+            1.4056767634329503e-05
+          ],
+          "lx": 38.7435,
+          "ly": 248.489,
+          "lz": 14.9298,
+          "origin": [
+            -19.371754400914728,
+            -123.79826808915105,
+            -7.464885943232366
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 17,
+        "source_cell_angstrom": [
+          [
+            38.7435,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.489,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.9298
+          ]
+        ],
+        "source_cfg_artifact_id": "b666cb41-60db-58d2-9328-25a7a83494e7",
+        "source_project_path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0070.cfg",
+        "source_sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          }
+        ]
+      },
+      "path": "converted/017_gb_shear_step_0070.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 758207
+    },
+    {
+      "artifact_id": "9e8cfac2-bcc7-5436-9dd4-62ab6c96dbec",
+      "created_at": "2026-09-27T05:46:04+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "convert_cfg_to_lammps",
+        "sha256": "143c1ec52bb29ceea3794b2a4d18a31ef97ae9987c74774b9176b76d23826c95"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 227555
+    }
+  ],
+  "run_id": "cfg-convert-20260927-054600-4cfc7e",
+  "workflow": "cfg_convert"
+}

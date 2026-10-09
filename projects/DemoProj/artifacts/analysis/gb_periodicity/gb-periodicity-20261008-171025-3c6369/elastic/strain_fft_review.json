@@ -1,0 +1,272 @@
+{
+  "peak_table": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/strain_fft_peaks.csv",
+  "method": "Retain every resolution-separated actual maximum, without a maximum-relative power cutoff or a fixed peak count. Review local prominence and absolute strain amplitude, then require consistent peak frequency/amplitude under a Blackman-window comparison to flag Hann leakage, and actual atom rebinning with a half-x-bin origin shift and neighboring Gaussian smoothing widths. Same-grain far-field signed strain uses the same x window, binning, baseline, z channel and physical power units. Shared far-field peaks are descriptive evidence and never a veto: elastic fields may extend into the far field. These are fixed review heuristics, not significance tests.",
+  "policy": {
+    "minimum_detrended_strain_std": 1e-07,
+    "minimum_peak_amplitude_strain": 1e-07,
+    "minimum_local_prominence_ratio": 0.5,
+    "minimum_prominence_over_local_floor": 2.0,
+    "matching_frequency_tolerance_native_bins": 0.75,
+    "variant_amplitude_ratio_interval": [
+      0.25,
+      4.0
+    ],
+    "required_numerical_variant_fraction": 1.0,
+    "minimum_variant_local_prominence_ratio": 0.2,
+    "window_sensitivity_check": "Hann versus Blackman; matched actual peak coherent amplitude ratio must be in [0.5, 2] and exceed the absolute floor",
+    "minimum_smoothed_coverage_fraction": 0.95,
+    "maximum_interpolated_gap_bins": 3,
+    "far_field_enhancement_power_ratio": 3.0,
+    "far_field_peak_overlap_is_veto": false
+  },
+  "background_references": {
+    "lower": "lower_far_field_all",
+    "upper": "upper_far_field_all"
+  },
+  "counts": {
+    "lower_far_field_all": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_far_field_z0": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_far_field_z1": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_near_all": {
+      "spectrum": {
+        "audited_local_maxima": 7,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_near_z0": {
+      "spectrum": {
+        "audited_local_maxima": 7,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_near_z1": {
+      "spectrum": {
+        "audited_local_maxima": 7,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_middle_all": {
+      "spectrum": {
+        "audited_local_maxima": 11,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_middle_z0": {
+      "spectrum": {
+        "audited_local_maxima": 11,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_middle_z1": {
+      "spectrum": {
+        "audited_local_maxima": 11,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_outer_all": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_outer_z0": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "lower_outer_z1": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 5
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_far_field_all": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_far_field_z0": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_far_field_z1": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_near_all": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_near_z0": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_near_z1": {
+      "spectrum": {
+        "audited_local_maxima": 9,
+        "review_peaks": 6
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_middle_all": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_middle_z0": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_middle_z1": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 4
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_outer_all": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 1
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_outer_z0": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 1
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    },
+    "upper_outer_z1": {
+      "spectrum": {
+        "audited_local_maxima": 10,
+        "review_peaks": 1
+      },
+      "long_spectrum": {
+        "audited_local_maxima": 0,
+        "review_peaks": 0
+      }
+    }
+  },
+  "meaning": "Absolute signed-strain power is comparable across depth and far-field channels; shared far-field peaks are descriptive, never rejected solely for overlap. Local extrema intervals, FFT wavelengths and spatial recurrence remain distinct.",
+  "review_index": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/strain_fft_review.json",
+  "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+  "elastic_atoms_sha256": "661bd0d58c6d1ba029945e1329c7c66e801353bd85276d089e42d51550aa0be3"
+}

@@ -1,0 +1,60 @@
+{
+  "constraints": {
+    "mode": "shear_boundaries"
+  },
+  "description": "NEB between the original minimized P012 FCC Ni GB and the mechanically retained nominal-zero-strain post-drop state after reverse unloading. Preserve endpoint order, exact atom IDs, continuous periodic x, NiCr.adp physics, and source lineage; do not infer mechanism before MEP analysis.",
+  "inputs": {
+    "bottom_boundary_ids": {
+      "path": "artifacts/lammps/shear/shear-20260927-044521-841236/inputs/bottom_boundary.ids",
+      "sha256": "c2138affa0d25faf99741b57680fa1339e0ecbd917934b9375ccb5b5a6b0710a",
+      "size_bytes": 909
+    },
+    "final_structure": {
+      "format": "cfg",
+      "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+      "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+      "size_bytes": 583958
+    },
+    "initial_structure": {
+      "format": "cfg",
+      "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+      "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+      "size_bytes": 586669
+    },
+    "shear_config": null,
+    "top_boundary_ids": {
+      "path": "artifacts/lammps/shear/shear-20260927-044521-841236/inputs/top_boundary.ids",
+      "sha256": "382bf48a30680462b1d005771b656abc533b5569c048bbb784e24f3a7cdb83a1",
+      "size_bytes": 1098
+    }
+  },
+  "material": {
+    "element": "Ni",
+    "mass": 58.6934
+  },
+  "neb": {
+    "etol": 0.0,
+    "ftol": 0.0001,
+    "min_style": "fire",
+    "n1": 10000,
+    "n2": 10000,
+    "nevery": 100,
+    "ranks_per_replica": 2,
+    "replicas": 18,
+    "spring": 1.0,
+    "timestep": 0.01
+  },
+  "output": {
+    "dump_every": 1000,
+    "verbosity": "default"
+  },
+  "potential": {
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+    "pair_style": "adp",
+    "sha256": "4bc730061b4df3475b4330954a7b6322f6d133ea2e9cb9c7c59719eac72efb9f"
+  },
+  "simulation": {
+    "boundary": "p p p"
+  },
+  "version": 1
+}

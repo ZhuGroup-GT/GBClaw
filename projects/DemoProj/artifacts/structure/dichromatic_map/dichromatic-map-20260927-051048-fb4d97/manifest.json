@@ -1,0 +1,73 @@
+{
+  "files": [
+    {
+      "artifact_id": "c72fa137-4429-5c86-9fd3-c25c9fe28d70",
+      "created_at": "2026-09-27T05:10:48+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 382
+    },
+    {
+      "artifact_id": "5d8efaf7-1e37-5341-bad6-ee8f855bab6a",
+      "created_at": "2026-09-27T05:10:49+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "purpose": "Initial read-only FCC Ni dichromatic-pattern setup for the actual general/near-CSL pure-tilt grain boundary used in the project. Preserve the original ordered geometry GB1=(110) as top and GB2=(111) as bottom, physical tilt axis [1 -1 0], and actual misorientation 35.26438968 degrees. Inspect coincident and near-coincident sites, layer-dependent mismatch vectors, and geometric displacement/Burgers-vector candidates relevant to the transition between original and post-collapse states. The bounded Sigma-9 branch (m,n)=(4,1), 38.94244127 degrees is presentation-only context and must not replace the supplied angle, planes, orientations, periods, or repeat counts. This is initial read-only visualization only: do not select sites, apply strain, or create a cell. Production structure context: P012 continuous-periodic-x cell from minimize-20260927-040247-4d2144. Source crystallography: csl-20260927-035230-cf0c22.",
+        "tool": "render_dichromatic_map"
+      },
+      "path": "dichromatic_map.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "dichromatic_map_png",
+      "size_bytes": 283315
+    },
+    {
+      "artifact_id": "491fa58f-b414-5f0c-90f0-32eaf7116e3c",
+      "created_at": "2026-09-27T05:10:50+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "purpose": "Initial read-only FCC Ni dichromatic-pattern setup for the actual general/near-CSL pure-tilt grain boundary used in the project. Preserve the original ordered geometry GB1=(110) as top and GB2=(111) as bottom, physical tilt axis [1 -1 0], and actual misorientation 35.26438968 degrees. Inspect coincident and near-coincident sites, layer-dependent mismatch vectors, and geometric displacement/Burgers-vector candidates relevant to the transition between original and post-collapse states. The bounded Sigma-9 branch (m,n)=(4,1), 38.94244127 degrees is presentation-only context and must not replace the supplied angle, planes, orientations, periods, or repeat counts. This is initial read-only visualization only: do not select sites, apply strain, or create a cell. Production structure context: P012 continuous-periodic-x cell from minimize-20260927-040247-4d2144. Source crystallography: csl-20260927-035230-cf0c22.",
+        "tool": "render_dichromatic_map"
+      },
+      "path": "dichromatic_map.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "dichromatic_map_data",
+      "size_bytes": 112716
+    },
+    {
+      "artifact_id": "154610f8-0aaa-5c1d-bcd1-e94279344e42",
+      "created_at": "2026-09-27T05:10:50+00:00",
+      "media_type": null,
+      "metadata": {
+        "purpose": "Initial read-only FCC Ni dichromatic-pattern setup for the actual general/near-CSL pure-tilt grain boundary used in the project. Preserve the original ordered geometry GB1=(110) as top and GB2=(111) as bottom, physical tilt axis [1 -1 0], and actual misorientation 35.26438968 degrees. Inspect coincident and near-coincident sites, layer-dependent mismatch vectors, and geometric displacement/Burgers-vector candidates relevant to the transition between original and post-collapse states. The bounded Sigma-9 branch (m,n)=(4,1), 38.94244127 degrees is presentation-only context and must not replace the supplied angle, planes, orientations, periods, or repeat counts. This is initial read-only visualization only: do not select sites, apply strain, or create a cell. Production structure context: P012 continuous-periodic-x cell from minimize-20260927-040247-4d2144. Source crystallography: csl-20260927-035230-cf0c22.",
+        "tool": "render_dichromatic_map"
+      },
+      "path": "render.log",
+      "permanent": false,
+      "provenance_class": "debug",
+      "role": "render_log",
+      "size_bytes": 1007
+    },
+    {
+      "artifact_id": "96012bce-2b0e-5013-b202-116c2a24041d",
+      "created_at": "2026-09-27T05:10:50+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_dichromatic_map",
+        "sha256": "adbfdacacfe5195cf1780e8c72f1ae7381a02804430ecf08a1dbe8c8e23bdbf9"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 5748
+    }
+  ],
+  "run_id": "dichromatic-map-20260927-051048-fb4d97",
+  "workflow": "dichromatic_map"
+}

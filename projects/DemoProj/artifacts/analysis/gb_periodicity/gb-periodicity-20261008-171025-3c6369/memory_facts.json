@@ -1,0 +1,2614 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "2ac123be-40bc-5032-9fb2-913edc235f63",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "alternative_candidates": [
+            {
+              "candidate_id": "P006",
+              "defect_rms_over_nn": 0.12017212572054188,
+              "display_lattice_label": "5[0 0 -1] : 2[1 1 -2]",
+              "evidence_scores": {
+                "coordinate_geometry": 0.6414646066168255,
+                "coordinate_rows": 0.9645105626576235,
+                "local_strain": 0.3243826296647492
+              },
+              "highlight_score": 0.6755583959475218,
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P006",
+              "near_rms_over_nn": 0.10435491929450248,
+              "nominal_counts": {
+                "lower": 2.0,
+                "upper": 5.0
+              },
+              "observable_cycles": 10.22770674701352,
+              "pure_x_repeat_eligible": true,
+              "translation_nm": 1.7432808106280788
+            },
+            {
+              "candidate_id": "P007",
+              "defect_rms_over_nn": 0.12370717787836527,
+              "display_lattice_label": "6[0 0 -1] : 2.5[1 1 -2]",
+              "evidence_scores": {
+                "coordinate_geometry": 0.6184358330878186,
+                "coordinate_rows": 0.947488023010216,
+                "local_strain": 0.0
+              },
+              "highlight_score": 0.564525959130432,
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P007",
+              "near_rms_over_nn": 0.11208818625263686,
+              "nominal_counts": {
+                "lower": 2.5,
+                "upper": 6.0
+              },
+              "observable_cycles": 8.366880205863747,
+              "pure_x_repeat_eligible": true,
+              "translation_nm": 2.1309932101459266
+            },
+            {
+              "candidate_id": "P005",
+              "defect_rms_over_nn": 0.27033883650055945,
+              "display_lattice_label": "4[0 0 -1] : 1.5[1 1 -2]",
+              "evidence_scores": {
+                "coordinate_geometry": 0.24622023624073192,
+                "coordinate_rows": 0.3710986363322247,
+                "local_strain": 0.35106085396919284
+              },
+              "highlight_score": 0.3276237815958673,
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P005",
+              "near_rms_over_nn": 0.2550175128787768,
+              "nominal_counts": {
+                "lower": 1.5,
+                "upper": 4.0
+              },
+              "observable_cycles": 13.147515978535376,
+              "pure_x_repeat_eligible": true,
+              "translation_nm": 1.3561318303707606
+            },
+            {
+              "candidate_id": "P024",
+              "defect_rms_over_nn": 0.04422674412637327,
+              "display_lattice_label": "22[0 0 -1] : 9[1 1 -2]",
+              "evidence_scores": {
+                "coordinate_geometry": 0.923232449567605,
+                "coordinate_rows": 0.0,
+                "local_strain": 0.0
+              },
+              "highlight_score": 0.2769697348702815,
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P024",
+              "near_rms_over_nn": 0.042265507124918354,
+              "nominal_counts": {
+                "lower": 9.0,
+                "upper": 22.0
+              },
+              "observable_cycles": 2.300730865753196,
+              "pure_x_repeat_eligible": true,
+              "translation_nm": 7.749609123865527
+            }
+          ],
+          "analysis_status": "candidates_reported",
+          "candidate_lookup_keys": [
+            "run:gb-periodicity-20261008-171025-3c6369:candidate:P005",
+            "run:gb-periodicity-20261008-171025-3c6369:candidate:P006",
+            "run:gb-periodicity-20261008-171025-3c6369:candidate:P007",
+            "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+            "run:gb-periodicity-20261008-171025-3c6369:candidate:P024"
+          ],
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "conclusion_type": "gb_periodicity_candidates",
+          "config_path": null,
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "image_paths": [
+            "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png"
+          ],
+          "lattice_filter": {
+            "compatible_count": 14,
+            "distinct_pair_count": 12,
+            "incompatible_count": 16,
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "oblique_count": 0,
+            "rule": "For reduced [uvw]: FCC half-integer steps iff u+v+w is even; BCC half-integer steps iff all three are odd; otherwise integer steps. Divide by gcd for unreduced indices.",
+            "scope": "Filter reported pure-x lattice-repeat candidates, not measured FFT wavelengths, spatial intervals or row motifs. Compatible means necessary closure only; geometry, mismatch and user choice still apply.",
+            "total_count": 30,
+            "unresolved_count": 0
+          },
+          "limitations": [
+            "Finite-window geometric and structural hypotheses, not proof of exact translational symmetry.",
+            "Nearest-atom matches are bidirectional but not a constrained bijection.",
+            "No statistical confidence probabilities or automatic Burgers-vector conclusions are assigned.",
+            "Small structures cannot exclude a longer modulation outside their observable range."
+          ],
+          "long_band_observability": {
+            "maximum_nm": 5.9432549696,
+            "meaning": "The exploratory long-wave band requires its lower bound to be below the observable upper bound. An unresolved band does not establish absence of long periodicity.",
+            "minimum_nm": 5.2298424318842365,
+            "status": "available"
+          },
+          "longer_candidate_count": 0,
+          "longer_candidates": [],
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_analysis_reason": null,
+          "multiscale_analysis_status": "completed",
+          "parameters": {
+            "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+            "policy": {
+              "max_pair_mismatch": 0.05,
+              "max_primitive_count": 512,
+              "max_seeds_per_method": 12,
+              "maximum_bulk_transverse_in_nn": 0.02,
+              "minimum_lag_in_nn": 2.5,
+              "minimum_long_scale_ratio": 3.0,
+              "minimum_repeat_cycles": 3.0,
+              "ptm_cutoff": 0.1,
+              "refinement_step_in_nn": 0.002,
+              "scan_step_in_nn": 0.06,
+              "shortlist_pair_mismatch": 0.02,
+              "shortlist_rms_in_nn": 0.15,
+              "x_window": null
+            },
+            "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150"
+          },
+          "pbc_size_comparison": {
+            "construction_only_recommended_bottom_size": [
+              23,
+              17,
+              3
+            ],
+            "construction_only_recommended_top_size": [
+              57,
+              21,
+              3
+            ],
+            "notes": [
+              "Measured motifs and construction-only rational matches are separate evidence; constructor candidates are not measured structural repeats.",
+              "Candidate options retain source ny/nz; review listed size-policy violations and periodic seams before choosing a new model.",
+              "Only validated FCC/BCC pure-x lattice-repeat coefficients enter measured options; measured feature lengths are not arbitrary construction counts.",
+              "No model was rebuilt, strained, or selected. Allowed fractional repeats are preserved for explicit user review."
+            ],
+            "options": [
+              {
+                "agent_size_policy_violations": [
+                  "x repeat-length mismatch 8.144% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+                ],
+                "bottom_size": [
+                  1.5,
+                  17,
+                  3
+                ],
+                "candidate_ids": [
+                  "P005"
+                ],
+                "construction_mismatch_percent": 8.144134645630825,
+                "measured_pair_mismatch_percent": 8.444924213362723,
+                "nominal_pbc_box_lx_angstrom": 14.11,
+                "status": "candidate_not_selected",
+                "top_size": [
+                  4,
+                  21,
+                  3
+                ]
+              },
+              {
+                "agent_size_policy_violations": [
+                  "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+                ],
+                "bottom_size": [
+                  2,
+                  17,
+                  3
+                ],
+                "candidate_ids": [
+                  "P006"
+                ],
+                "construction_mismatch_percent": 2.020410288672886,
+                "measured_pair_mismatch_percent": 1.9960300718602144,
+                "nominal_pbc_box_lx_angstrom": 17.630000000000003,
+                "status": "candidate_not_selected",
+                "top_size": [
+                  5,
+                  21,
+                  3
+                ]
+              },
+              {
+                "agent_size_policy_violations": [
+                  "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+                ],
+                "bottom_size": [
+                  2.5,
+                  17,
+                  3
+                ],
+                "candidate_ids": [
+                  "P007"
+                ],
+                "construction_mismatch_percent": 2.020410288672869,
+                "measured_pair_mismatch_percent": 2.0860274560513163,
+                "nominal_pbc_box_lx_angstrom": 21.585509736491968,
+                "status": "candidate_not_selected",
+                "top_size": [
+                  6,
+                  21,
+                  3
+                ]
+              },
+              {
+                "agent_size_policy_violations": [],
+                "bottom_size": [
+                  4.5,
+                  17,
+                  3
+                ],
+                "candidate_ids": [
+                  "P012"
+                ],
+                "construction_mismatch_percent": 0.20597344216680977,
+                "measured_pair_mismatch_percent": 0.2511891068482683,
+                "nominal_pbc_box_lx_angstrom": 38.82991752568554,
+                "status": "candidate_not_selected",
+                "top_size": [
+                  11,
+                  21,
+                  3
+                ]
+              },
+              {
+                "agent_size_policy_violations": [],
+                "bottom_size": [
+                  9,
+                  17,
+                  3
+                ],
+                "candidate_ids": [
+                  "P024"
+                ],
+                "construction_mismatch_percent": 0.20597344216680977,
+                "measured_pair_mismatch_percent": 0.2511891068482683,
+                "nominal_pbc_box_lx_angstrom": 77.62983505137107,
+                "status": "candidate_not_selected",
+                "top_size": [
+                  22,
+                  21,
+                  3
+                ]
+              }
+            ],
+            "requires_user_decision": true,
+            "selected_option": null,
+            "status": "candidates_compared",
+            "total_option_count": 12
+          },
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "presentation_guidance": "Show only summary_image_path by default, with the review-priority candidate and a few alternatives. Report short motifs and longer candidates separately, retaining nearby row and coordinate lengths. Priority is a transparent review heuristic, not a probability or a chosen PBC cell. This summary suffices for a normal answer. Read a specific registered artifact only for a concrete question it does not answer.",
+          "presentation_policy": "summary_only",
+          "priority_reason": "P012: local-repeat display score 0.961 = 0.4×row 0.999 + 0.3×strain 0.930 + 0.3×geometry 0.940. This is visual emphasis, not a unique or confirmed period.",
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "requires_user_decision": true,
+          "review_priority_candidate": {
+            "candidate_id": "P012",
+            "defect_rms_over_nn": 0.038986692303376105,
+            "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.9399874145693337,
+              "coordinate_rows": 0.9991361682319286,
+              "local_strain": 0.929510397025008
+            },
+            "highlight_score": 0.9605038107710739,
+            "lattice_repeat_status": "compatible",
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+            "near_rms_over_nn": 0.03679126718257097,
+            "nominal_counts": {
+              "lower": 4.5,
+              "upper": 11.0
+            },
+            "observable_cycles": 4.601902057617884,
+            "pure_x_repeat_eligible": true,
+            "translation_nm": 3.8744338070570223
+          },
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "selected_candidate_id": null,
+          "short_motif_candidate_count": 1,
+          "short_motif_candidates": [
+            {
+              "association_difference_angstrom": 0.05980258566786745,
+              "association_kind": "within_tolerance",
+              "association_relative_difference": 0.00154113928710991,
+              "candidate_id": "P012",
+              "coordinate_period_nm": 3.8744338070570223,
+              "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+              "period_nm": 3.8744338070570223,
+              "pure_x_repeat_eligible": true,
+              "reason": "Repeated atomic-row motif agrees with the coordinate translation; a matching FFT peak is not required.",
+              "row_period_nm": 3.880414065623809
+            }
+          ],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "status": "candidates_reported",
+          "summary": "GB periodicity: candidates_reported; joint structure/strain analysis=completed. Review priority P012: 11[0 0 -1] : 4.5[1 1 -2]; 4 alternatives displayed; 30 coordinate candidates retained. 14 pass the two-grain pure-x lattice check. Show only summary_image_path by default, with the review priority and alternatives. These conclusions suffice for a normal answer. Read indexed artifacts only for a concrete unanswered question. PBC x size remains for user selection.",
+          "summary_data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/agent_summary.json",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "total_candidate_count": 30,
+          "workflow": "gb_periodicity"
+        },
+        "version": 1
+      }
+    },
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "1b066e22-b9ac-5583-bd1e-8bdc1e21591b",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P005",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "analysis_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_type": "gb_periodicity_candidate",
+          "config_path": null,
+          "conflicting_evidence": [
+            "pure_x_neighborhood_match_is_weak",
+            "nonbulk_pattern_does_not_match_as_well_as_display_gate"
+          ],
+          "crystal_counts": {
+            "lower": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                1,
+                1,
+                2
+              ],
+              "measured_full_a_hkl_count": 1.5733192545097103,
+              "measured_primitive_count": 3.1466385090194207,
+              "signed_indices_from_source": [
+                1,
+                1,
+                -2
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                2,
+                1,
+                -1
+              ],
+              "source_full_a_hkl_count": 1.5733192545097103,
+              "source_orientation_validated": true
+            },
+            "upper": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                0,
+                0,
+                1
+              ],
+              "measured_full_a_hkl_count": 3.8555641198304658,
+              "measured_primitive_count": 3.8555641198304658,
+              "signed_indices_from_source": [
+                0,
+                0,
+                -1
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                1,
+                0,
+                0
+              ],
+              "source_full_a_hkl_count": 3.8555641198304658,
+              "source_orientation_validated": true
+            }
+          },
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "decision_status": "candidate_not_selected",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "geometry": {
+            "defects": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.14594594594594595,
+              "median": 0.6076099416763868,
+              "p95": 1.0880170973408667,
+              "reference_atom_count": 1110,
+              "rms": 0.6726882590161584,
+              "rms_over_nn": 0.27033883650055945,
+              "x_angstrom": 13.561318303707607,
+              "z_angstrom": 0.0
+            },
+            "near": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.0889487870619946,
+              "median": 0.6052994308754993,
+              "p95": 0.9536351195900972,
+              "reference_atom_count": 2226,
+              "rms": 0.6345639752603583,
+              "rms_over_nn": 0.2550175128787768,
+              "x_angstrom": 13.561318303707607,
+              "z_angstrom": 0.0
+            }
+          },
+          "id": "P005",
+          "joint_xz_check": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.0889487870619946,
+            "median": 0.6052994308754993,
+            "method": "Local xyz validation around preserved layered-2D proposals and zero z, with alternating x/z refinement; not an exhaustive continuous 2D optimization.",
+            "p95": 0.9536351195900972,
+            "reference_atom_count": 2226,
+            "rms": 0.6345639752603583,
+            "rms_over_nn": 0.2550175128787768,
+            "x_angstrom": 13.561318303707607,
+            "z_angstrom": 0.0,
+            "z_translation_angstrom": 0.0
+          },
+          "joint_xz_defects": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.14594594594594595,
+            "median": 0.6076099416763868,
+            "p95": 1.0880170973408667,
+            "reference_atom_count": 1110,
+            "rms": 0.6726882590161584,
+            "rms_over_nn": 0.27033883650055945,
+            "x_angstrom": 13.561318303707607,
+            "z_angstrom": 0.0
+          },
+          "lattice_pairs": [],
+          "lattice_repeat_check": {
+            "eligible": true,
+            "grains": {
+              "lower": {
+                "coefficient_step": 0.5,
+                "direction": [
+                  1,
+                  1,
+                  -2
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 8.619559103999961,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 1.5,
+                "nearest_length_error_angstrom": 0.6319796477076647,
+                "nominal_count": 1.5
+              },
+              "upper": {
+                "coefficient_step": 1.0,
+                "direction": [
+                  0,
+                  0,
+                  -1
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 3.517336991999997,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 4.0,
+                "nearest_length_error_angstrom": 0.5080296642923816,
+                "nominal_count": 4.0
+              }
+            },
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size.",
+            "nominal_counts": {
+              "lower": 1.5,
+              "upper": 4.0
+            },
+            "reasons": [],
+            "status": "compatible"
+          },
+          "limitations": [],
+          "long_period_associations": [],
+          "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P005",
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_review": {
+            "candidate_id": "P005",
+            "decision_status": "candidate_not_selected",
+            "defect_rms_over_nn": 0.27033883650055945,
+            "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+            "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+            "display_lattice_label": "4[0 0 -1] : 1.5[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.24622023624073192,
+              "coordinate_rows": 0.3710986363322247,
+              "local_strain": 0.35106085396919284
+            },
+            "highlight_eligible": false,
+            "highlight_score": 0.3276237815958673,
+            "lattice_repeat_status": "compatible",
+            "long_scale": null,
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P005",
+            "near_rms_over_nn": 0.2550175128787768,
+            "nominal_counts": {
+              "lower": 1.5,
+              "upper": 4.0
+            },
+            "observable_cycles": 13.147515978535376,
+            "pure_x_repeat_eligible": true,
+            "ratio_label": "≈ 3.86 : 1.57",
+            "roles": [],
+            "short_motif": null,
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_run_id": "minimize-20260927-035314-d47068",
+            "translation_angstrom": 13.561318303707607,
+            "translation_nm": 1.3561318303707606
+          },
+          "observable_cycles": 13.147515978535376,
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "pbc_size_options": [
+            {
+              "agent_size_policy_violations": [
+                "x repeat-length mismatch 8.144% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+              ],
+              "approx_atoms": 3852,
+              "bottom_orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "bottom_size": [
+                1.5,
+                17,
+                3
+              ],
+              "candidate_ids": [
+                "P005"
+              ],
+              "construction_mismatch_percent": 8.144134645630825,
+              "fractional_x_repeats": true,
+              "lattice_repeat_status": "compatible",
+              "measured_evidence": [
+                {
+                  "candidate_id": "P005",
+                  "pair_mismatch_percent": 8.444924213362723,
+                  "roles": [],
+                  "x_translation_angstrom": 13.561318303707607
+                }
+              ],
+              "measured_pair_mismatch_percent": 8.444924213362723,
+              "measured_x_translation_angstrom": 13.561318303707607,
+              "nominal_bottom_lx_angstrom": 12.93330584189518,
+              "nominal_pbc_box_lx_angstrom": 14.11,
+              "nominal_top_lx_angstrom": 14.08,
+              "roles": [],
+              "status": "candidate_not_selected",
+              "top_orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "top_size": [
+                4,
+                21,
+                3
+              ]
+            }
+          ],
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "roles": [],
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "short_motif_associations": [],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "summary": "Observed GB scale 13.561318303707607 Angstrom; candidate P005; pure-x lattice closure compatible; user has not selected it",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "supporting_evidence": [],
+          "workflow": "gb_periodicity",
+          "x_translation_angstrom": 13.561318303707607
+        },
+        "version": 1
+      }
+    },
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "d95f9348-ae82-5dd6-8a99-bd267ff8c762",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P006",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "analysis_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_type": "gb_periodicity_candidate",
+          "config_path": null,
+          "conflicting_evidence": [],
+          "crystal_counts": {
+            "lower": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                1,
+                1,
+                2
+              ],
+              "measured_full_a_hkl_count": 2.022470975132705,
+              "measured_primitive_count": 4.04494195026541,
+              "signed_indices_from_source": [
+                1,
+                1,
+                -2
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                2,
+                1,
+                -1
+              ],
+              "source_full_a_hkl_count": 2.022470975132705,
+              "source_orientation_validated": true
+            },
+            "upper": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                0,
+                0,
+                1
+              ],
+              "measured_full_a_hkl_count": 4.95625188770107,
+              "measured_primitive_count": 4.95625188770107,
+              "signed_indices_from_source": [
+                0,
+                0,
+                -1
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                1,
+                0,
+                0
+              ],
+              "source_full_a_hkl_count": 4.95625188770107,
+              "source_orientation_validated": true
+            }
+          },
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "decision_status": "candidate_not_selected",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "geometry": {
+            "defects": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.8324324324324325,
+              "median": 0.15003803442413216,
+              "p95": 0.5472315182640227,
+              "reference_atom_count": 1110,
+              "rms": 0.2990261372714568,
+              "rms_over_nn": 0.12017212572054188,
+              "x_angstrom": 17.43280810628079,
+              "z_angstrom": 0.0
+            },
+            "near": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.8975741239892183,
+              "median": 0.17336116397081644,
+              "p95": 0.4253222629108805,
+              "reference_atom_count": 2226,
+              "rms": 0.2596679407542146,
+              "rms_over_nn": 0.10435491929450248,
+              "x_angstrom": 17.43280810628079,
+              "z_angstrom": 0.0
+            }
+          },
+          "id": "P006",
+          "joint_xz_check": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.8975741239892183,
+            "median": 0.17336116397081644,
+            "method": "Local xyz validation around preserved layered-2D proposals and zero z, with alternating x/z refinement; not an exhaustive continuous 2D optimization.",
+            "p95": 0.4253222629108805,
+            "reference_atom_count": 2226,
+            "rms": 0.2596679407542146,
+            "rms_over_nn": 0.10435491929450248,
+            "x_angstrom": 17.43280810628079,
+            "z_angstrom": 0.0,
+            "z_translation_angstrom": 0.0
+          },
+          "joint_xz_defects": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.8324324324324325,
+            "median": 0.15003803442413216,
+            "p95": 0.5472315182640227,
+            "reference_atom_count": 1110,
+            "rms": 0.2990261372714568,
+            "rms_over_nn": 0.12017212572054188,
+            "x_angstrom": 17.43280810628079,
+            "z_angstrom": 0.0
+          },
+          "lattice_pairs": [
+            {
+              "full_direction_counts": {
+                "lower": 2.0,
+                "upper": 5.0
+              },
+              "grain_lengths_angstrom": [
+                17.586684959999985,
+                17.239118207999923
+              ],
+              "integer_complexity": 9,
+              "length_mismatch_pareto": true,
+              "lower_primitive_count": 4,
+              "mean_length_angstrom": 17.412901583999954,
+              "mismatch_source": "actual_relaxed_bulk_coordinate_translations",
+              "nominal_builder_comparison": {
+                "a0_angstrom": 3.52,
+                "grain_lengths_angstrom": [
+                  17.6,
+                  17.244407789193573
+                ],
+                "mismatch_definition": "absolute length difference / mean of the two lengths",
+                "note": "Nominal unstrained cubic lengths; distinct from relaxed measured mismatch.",
+                "relative_mismatch": 0.020410288672876177,
+                "source": "source_metadata.a0 and PTM-indexed crystallographic directions"
+              },
+              "relative_mismatch": 0.019960300718602143,
+              "source_direction_counts": {
+                "lower": 2.0,
+                "upper": 5.0
+              },
+              "source_signed_directions": {
+                "lower": [
+                  1,
+                  1,
+                  -2
+                ],
+                "upper": [
+                  0,
+                  0,
+                  -1
+                ]
+              },
+              "upper_primitive_count": 5
+            }
+          ],
+          "lattice_repeat_check": {
+            "eligible": true,
+            "grains": {
+              "lower": {
+                "coefficient_step": 0.5,
+                "direction": [
+                  1,
+                  1,
+                  -2
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 8.619559103999961,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 2.0,
+                "nearest_length_error_angstrom": 0.1936898982808657,
+                "nominal_count": 2.0
+              },
+              "upper": {
+                "coefficient_step": 1.0,
+                "direction": [
+                  0,
+                  0,
+                  -1
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 3.517336991999997,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 5.0,
+                "nearest_length_error_angstrom": 0.15387685371919702,
+                "nominal_count": 5.0
+              }
+            },
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size.",
+            "nominal_counts": {
+              "lower": 2.0,
+              "upper": 5.0
+            },
+            "reasons": [],
+            "status": "compatible"
+          },
+          "limitations": [],
+          "long_period_associations": [],
+          "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P006",
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_review": {
+            "candidate_id": "P006",
+            "decision_status": "candidate_not_selected",
+            "defect_rms_over_nn": 0.12017212572054188,
+            "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+            "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+            "display_lattice_label": "5[0 0 -1] : 2[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.6414646066168255,
+              "coordinate_rows": 0.9645105626576235,
+              "local_strain": 0.3243826296647492
+            },
+            "highlight_eligible": true,
+            "highlight_score": 0.6755583959475218,
+            "lattice_repeat_status": "compatible",
+            "long_scale": null,
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P006",
+            "near_rms_over_nn": 0.10435491929450248,
+            "nominal_counts": {
+              "lower": 2.0,
+              "upper": 5.0
+            },
+            "observable_cycles": 10.22770674701352,
+            "pure_x_repeat_eligible": true,
+            "ratio_label": "≈ 4.96 : 2.02",
+            "roles": [
+              "near_coincidence_candidate",
+              "geometric_repeat_candidate",
+              "relative_short_candidate"
+            ],
+            "short_motif": null,
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_run_id": "minimize-20260927-035314-d47068",
+            "translation_angstrom": 17.43280810628079,
+            "translation_nm": 1.7432808106280788
+          },
+          "observable_cycles": 10.22770674701352,
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "pbc_size_options": [
+            {
+              "agent_size_policy_violations": [
+                "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+              ],
+              "approx_atoms": 4968,
+              "bottom_orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "bottom_size": [
+                2,
+                17,
+                3
+              ],
+              "candidate_ids": [
+                "P006"
+              ],
+              "construction_mismatch_percent": 2.020410288672886,
+              "fractional_x_repeats": false,
+              "lattice_repeat_status": "compatible",
+              "measured_evidence": [
+                {
+                  "candidate_id": "P006",
+                  "pair_mismatch_percent": 1.9960300718602144,
+                  "roles": [
+                    "near_coincidence_candidate",
+                    "geometric_repeat_candidate",
+                    "relative_short_candidate"
+                  ],
+                  "x_translation_angstrom": 17.43280810628079
+                }
+              ],
+              "measured_pair_mismatch_percent": 1.9960300718602144,
+              "measured_x_translation_angstrom": 17.43280810628079,
+              "nominal_bottom_lx_angstrom": 17.244407789193573,
+              "nominal_pbc_box_lx_angstrom": 17.630000000000003,
+              "nominal_top_lx_angstrom": 17.6,
+              "roles": [
+                "near_coincidence_candidate",
+                "geometric_repeat_candidate",
+                "relative_short_candidate"
+              ],
+              "status": "candidate_not_selected",
+              "top_orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "top_size": [
+                5,
+                21,
+                3
+              ]
+            }
+          ],
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "roles": [
+            "near_coincidence_candidate",
+            "geometric_repeat_candidate",
+            "relative_short_candidate"
+          ],
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "short_motif_associations": [],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "summary": "Observed GB scale 17.43280810628079 Angstrom; candidate P006; pure-x lattice closure compatible; user has not selected it",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "supporting_evidence": [
+            "near_interface_xyz_residual_below_display_gate",
+            "length_mismatch_pareto_lattice_approximant"
+          ],
+          "workflow": "gb_periodicity",
+          "x_translation_angstrom": 17.43280810628079
+        },
+        "version": 1
+      }
+    },
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "f5535697-15d2-5035-8ada-e8f4fd76bc49",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P007",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "analysis_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_type": "gb_periodicity_candidate",
+          "config_path": null,
+          "conflicting_evidence": [],
+          "crystal_counts": {
+            "lower": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                1,
+                1,
+                2
+              ],
+              "measured_full_a_hkl_count": 2.472276347820419,
+              "measured_primitive_count": 4.944552695640838,
+              "signed_indices_from_source": [
+                1,
+                1,
+                -2
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                2,
+                1,
+                -1
+              ],
+              "source_full_a_hkl_count": 2.472276347820419,
+              "source_orientation_validated": true
+            },
+            "upper": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                0,
+                0,
+                1
+              ],
+              "measured_full_a_hkl_count": 6.05854149031714,
+              "measured_primitive_count": 6.05854149031714,
+              "signed_indices_from_source": [
+                0,
+                0,
+                -1
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                1,
+                0,
+                0
+              ],
+              "source_full_a_hkl_count": 6.05854149031714,
+              "source_orientation_validated": true
+            }
+          },
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "decision_status": "candidate_not_selected",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "geometry": {
+            "defects": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.8,
+              "median": 0.16498945483097094,
+              "p95": 0.5471140794721908,
+              "reference_atom_count": 1110,
+              "rms": 0.30782246158933785,
+              "rms_over_nn": 0.12370717787836527,
+              "x_angstrom": 21.309932101459268,
+              "z_angstrom": 0.0
+            },
+            "near": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.8571428571428571,
+              "median": 0.19253203468098298,
+              "p95": 0.49194079534657414,
+              "reference_atom_count": 2226,
+              "rms": 0.2789107471297752,
+              "rms_over_nn": 0.11208818625263686,
+              "x_angstrom": 21.309932101459268,
+              "z_angstrom": 0.0
+            }
+          },
+          "id": "P007",
+          "joint_xz_check": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.8571428571428571,
+            "median": 0.19253203468098298,
+            "method": "Local xyz validation around preserved layered-2D proposals and zero z, with alternating x/z refinement; not an exhaustive continuous 2D optimization.",
+            "p95": 0.49194079534657414,
+            "reference_atom_count": 2226,
+            "rms": 0.2789107471297752,
+            "rms_over_nn": 0.11208818625263686,
+            "x_angstrom": 21.309932101459268,
+            "z_angstrom": 0.0,
+            "z_translation_angstrom": 0.0
+          },
+          "joint_xz_defects": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.8,
+            "median": 0.16498945483097094,
+            "p95": 0.5471140794721908,
+            "reference_atom_count": 1110,
+            "rms": 0.30782246158933785,
+            "rms_over_nn": 0.12370717787836527,
+            "x_angstrom": 21.309932101459268,
+            "z_angstrom": 0.0
+          },
+          "lattice_pairs": [],
+          "lattice_repeat_check": {
+            "eligible": true,
+            "grains": {
+              "lower": {
+                "coefficient_step": 0.5,
+                "direction": [
+                  1,
+                  1,
+                  -2
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 8.619559103999961,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 2.5,
+                "nearest_length_error_angstrom": 0.23896565854063567,
+                "nominal_count": 2.5
+              },
+              "upper": {
+                "coefficient_step": 1.0,
+                "direction": [
+                  0,
+                  0,
+                  -1
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 3.517336991999997,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 6.0,
+                "nearest_length_error_angstrom": 0.2059101494592852,
+                "nominal_count": 6.0
+              }
+            },
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size.",
+            "nominal_counts": {
+              "lower": 2.5,
+              "upper": 6.0
+            },
+            "reasons": [],
+            "status": "compatible"
+          },
+          "limitations": [],
+          "long_period_associations": [],
+          "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P007",
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_review": {
+            "candidate_id": "P007",
+            "decision_status": "candidate_not_selected",
+            "defect_rms_over_nn": 0.12370717787836527,
+            "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+            "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+            "display_lattice_label": "6[0 0 -1] : 2.5[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.6184358330878186,
+              "coordinate_rows": 0.947488023010216,
+              "local_strain": 0.0
+            },
+            "highlight_eligible": true,
+            "highlight_score": 0.564525959130432,
+            "lattice_repeat_status": "compatible",
+            "long_scale": null,
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P007",
+            "near_rms_over_nn": 0.11208818625263686,
+            "nominal_counts": {
+              "lower": 2.5,
+              "upper": 6.0
+            },
+            "observable_cycles": 8.366880205863747,
+            "pure_x_repeat_eligible": true,
+            "ratio_label": "≈ 6.06 : 2.47",
+            "roles": [
+              "geometric_repeat_candidate"
+            ],
+            "short_motif": null,
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_run_id": "minimize-20260927-035314-d47068",
+            "translation_angstrom": 21.309932101459268,
+            "translation_nm": 2.1309932101459266
+          },
+          "observable_cycles": 8.366880205863747,
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "pbc_size_options": [
+            {
+              "agent_size_policy_violations": [
+                "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+              ],
+              "approx_atoms": 6084,
+              "bottom_orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "bottom_size": [
+                2.5,
+                17,
+                3
+              ],
+              "candidate_ids": [
+                "P007"
+              ],
+              "construction_mismatch_percent": 2.020410288672869,
+              "fractional_x_repeats": true,
+              "lattice_repeat_status": "compatible",
+              "measured_evidence": [
+                {
+                  "candidate_id": "P007",
+                  "pair_mismatch_percent": 2.0860274560513163,
+                  "roles": [
+                    "geometric_repeat_candidate"
+                  ],
+                  "x_translation_angstrom": 21.309932101459268
+                }
+              ],
+              "measured_pair_mismatch_percent": 2.0860274560513163,
+              "measured_x_translation_angstrom": 21.309932101459268,
+              "nominal_bottom_lx_angstrom": 21.555509736491967,
+              "nominal_pbc_box_lx_angstrom": 21.585509736491968,
+              "nominal_top_lx_angstrom": 21.12,
+              "roles": [
+                "geometric_repeat_candidate"
+              ],
+              "status": "candidate_not_selected",
+              "top_orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "top_size": [
+                6,
+                21,
+                3
+              ]
+            }
+          ],
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "short_motif_associations": [],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "summary": "Observed GB scale 21.309932101459268 Angstrom; candidate P007; pure-x lattice closure compatible; user has not selected it",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "supporting_evidence": [
+            "near_interface_xyz_residual_below_display_gate"
+          ],
+          "workflow": "gb_periodicity",
+          "x_translation_angstrom": 21.309932101459268
+        },
+        "version": 1
+      }
+    },
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "97e2806d-a769-55e4-a6e0-e0ac78105524",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "analysis_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_type": "gb_periodicity_candidate",
+          "config_path": null,
+          "conflicting_evidence": [],
+          "crystal_counts": {
+            "lower": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                1,
+                1,
+                2
+              ],
+              "measured_full_a_hkl_count": 4.494932699352415,
+              "measured_primitive_count": 8.98986539870483,
+              "signed_indices_from_source": [
+                1,
+                1,
+                -2
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                2,
+                1,
+                -1
+              ],
+              "source_full_a_hkl_count": 4.494932699352415,
+              "source_orientation_validated": true
+            },
+            "upper": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                0,
+                0,
+                1
+              ],
+              "measured_full_a_hkl_count": 11.015247660003075,
+              "measured_primitive_count": 11.015247660003075,
+              "signed_indices_from_source": [
+                0,
+                0,
+                -1
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                1,
+                0,
+                0
+              ],
+              "source_full_a_hkl_count": 11.015247660003075,
+              "source_orientation_validated": true
+            }
+          },
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "decision_status": "candidate_not_selected",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "geometry": {
+            "defects": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.972972972972973,
+              "median": 0.0210524284637934,
+              "p95": 0.20179848517895652,
+              "reference_atom_count": 1110,
+              "rms": 0.09701118237335633,
+              "rms_over_nn": 0.038986692303376105,
+              "x_angstrom": 38.74433807057022,
+              "z_angstrom": 0.0
+            },
+            "near": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.9784366576819407,
+              "median": 0.02245147581259383,
+              "p95": 0.21970755387358656,
+              "reference_atom_count": 2226,
+              "rms": 0.09154827248799959,
+              "rms_over_nn": 0.03679126718257097,
+              "x_angstrom": 38.74433807057022,
+              "z_angstrom": 0.0
+            }
+          },
+          "id": "P012",
+          "joint_xz_check": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.9784366576819407,
+            "median": 0.02245147581259383,
+            "method": "Local xyz validation around preserved layered-2D proposals and zero z, with alternating x/z refinement; not an exhaustive continuous 2D optimization.",
+            "p95": 0.21970755387358656,
+            "reference_atom_count": 2226,
+            "rms": 0.09154827248799959,
+            "rms_over_nn": 0.03679126718257097,
+            "x_angstrom": 38.74433807057022,
+            "z_angstrom": 0.0,
+            "z_translation_angstrom": 0.0
+          },
+          "joint_xz_defects": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.972972972972973,
+            "median": 0.0210524284637934,
+            "p95": 0.20179848517895652,
+            "reference_atom_count": 1110,
+            "rms": 0.09701118237335633,
+            "rms_over_nn": 0.038986692303376105,
+            "x_angstrom": 38.74433807057022,
+            "z_angstrom": 0.0
+          },
+          "lattice_pairs": [
+            {
+              "full_direction_counts": {
+                "lower": 4.5,
+                "upper": 11.0
+              },
+              "grain_lengths_angstrom": [
+                38.69070691199997,
+                38.788015967999826
+              ],
+              "integer_complexity": 20,
+              "length_mismatch_pareto": true,
+              "lower_primitive_count": 9,
+              "mean_length_angstrom": 38.7393614399999,
+              "mismatch_source": "actual_relaxed_bulk_coordinate_translations",
+              "nominal_builder_comparison": {
+                "a0_angstrom": 3.52,
+                "grain_lengths_angstrom": [
+                  38.72,
+                  38.79991752568554
+                ],
+                "mismatch_definition": "absolute length difference / mean of the two lengths",
+                "note": "Nominal unstrained cubic lengths; distinct from relaxed measured mismatch.",
+                "relative_mismatch": 0.002061857861473029,
+                "source": "source_metadata.a0 and PTM-indexed crystallographic directions"
+              },
+              "relative_mismatch": 0.0025118910684826827,
+              "source_direction_counts": {
+                "lower": 4.5,
+                "upper": 11.0
+              },
+              "source_signed_directions": {
+                "lower": [
+                  1,
+                  1,
+                  -2
+                ],
+                "upper": [
+                  0,
+                  0,
+                  -1
+                ]
+              },
+              "upper_primitive_count": 11
+            }
+          ],
+          "lattice_repeat_check": {
+            "eligible": true,
+            "grains": {
+              "lower": {
+                "coefficient_step": 0.5,
+                "direction": [
+                  1,
+                  1,
+                  -2
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 8.619559103999961,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 4.5,
+                "nearest_length_error_angstrom": 0.04367789742960326,
+                "nominal_count": 4.5
+              },
+              "upper": {
+                "coefficient_step": 1.0,
+                "direction": [
+                  0,
+                  0,
+                  -1
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 3.517336991999997,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 11.0,
+                "nearest_length_error_angstrom": 0.05363115857025491,
+                "nominal_count": 11.0
+              }
+            },
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size.",
+            "nominal_counts": {
+              "lower": 4.5,
+              "upper": 11.0
+            },
+            "reasons": [],
+            "status": "compatible"
+          },
+          "limitations": [],
+          "long_period_associations": [],
+          "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_review": {
+            "candidate_id": "P012",
+            "decision_status": "candidate_not_selected",
+            "defect_rms_over_nn": 0.038986692303376105,
+            "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+            "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+            "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.9399874145693337,
+              "coordinate_rows": 0.9991361682319286,
+              "local_strain": 0.929510397025008
+            },
+            "highlight_eligible": true,
+            "highlight_score": 0.9605038107710739,
+            "lattice_repeat_status": "compatible",
+            "long_scale": null,
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+            "near_rms_over_nn": 0.03679126718257097,
+            "nominal_counts": {
+              "lower": 4.5,
+              "upper": 11.0
+            },
+            "observable_cycles": 4.601902057617884,
+            "pure_x_repeat_eligible": true,
+            "ratio_label": "≈ 11.02 : 4.49",
+            "roles": [
+              "near_coincidence_candidate",
+              "geometric_repeat_candidate",
+              "relative_short_candidate"
+            ],
+            "short_motif": {
+              "association_difference_angstrom": 0.05980258566786745,
+              "association_kind": "within_tolerance",
+              "association_relative_difference": 0.00154113928710991,
+              "candidate_id": "P012",
+              "coordinate_period_nm": 3.8744338070570223,
+              "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+              "lattice_repeat_status": "compatible",
+              "period_nm": 3.8744338070570223,
+              "pure_x_repeat_eligible": true,
+              "reason": "Repeated atomic-row motif agrees with the coordinate translation; a matching FFT peak is not required.",
+              "row_period_nm": 3.880414065623809
+            },
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_run_id": "minimize-20260927-035314-d47068",
+            "translation_angstrom": 38.74433807057022,
+            "translation_nm": 3.8744338070570223
+          },
+          "observable_cycles": 4.601902057617884,
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "pbc_size_options": [
+            {
+              "agent_size_policy_violations": [],
+              "approx_atoms": 11052,
+              "bottom_orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "bottom_size": [
+                4.5,
+                17,
+                3
+              ],
+              "candidate_ids": [
+                "P012"
+              ],
+              "construction_mismatch_percent": 0.20597344216680977,
+              "fractional_x_repeats": true,
+              "lattice_repeat_status": "compatible",
+              "measured_evidence": [
+                {
+                  "candidate_id": "P012",
+                  "pair_mismatch_percent": 0.2511891068482683,
+                  "roles": [
+                    "near_coincidence_candidate",
+                    "geometric_repeat_candidate",
+                    "relative_short_candidate"
+                  ],
+                  "x_translation_angstrom": 38.74433807057022
+                }
+              ],
+              "measured_pair_mismatch_percent": 0.2511891068482683,
+              "measured_x_translation_angstrom": 38.74433807057022,
+              "nominal_bottom_lx_angstrom": 38.79991752568554,
+              "nominal_pbc_box_lx_angstrom": 38.82991752568554,
+              "nominal_top_lx_angstrom": 38.72,
+              "roles": [
+                "near_coincidence_candidate",
+                "geometric_repeat_candidate",
+                "relative_short_candidate"
+              ],
+              "status": "candidate_not_selected",
+              "top_orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "top_size": [
+                11,
+                21,
+                3
+              ]
+            }
+          ],
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "roles": [
+            "near_coincidence_candidate",
+            "geometric_repeat_candidate",
+            "relative_short_candidate"
+          ],
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "short_motif_associations": [
+            {
+              "association_difference_angstrom": 0.05980258566786745,
+              "association_kind": "within_tolerance",
+              "association_relative_difference": 0.00154113928710991,
+              "candidate_id": "P012",
+              "coordinate_period_nm": 3.8744338070570223,
+              "decision_status": "candidate_not_selected",
+              "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+              "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+              "lattice_repeat_status": "compatible",
+              "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P012",
+              "period_nm": 3.8744338070570223,
+              "pure_x_repeat_eligible": true,
+              "reason": "Repeated atomic-row motif agrees with the coordinate translation; a matching FFT peak is not required.",
+              "row_period_nm": 3.880414065623809,
+              "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "summary": "Observed GB scale 38.74433807057022 Angstrom; candidate P012; pure-x lattice closure compatible; user has not selected it",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "supporting_evidence": [
+            "near_interface_xyz_residual_below_display_gate",
+            "length_mismatch_pareto_lattice_approximant"
+          ],
+          "workflow": "gb_periodicity",
+          "x_translation_angstrom": 38.74433807057022
+        },
+        "version": 1
+      }
+    },
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-08T17:10:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "e6576646-4eb2-5a42-a77f-614776fb5536",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P024",
+        "source_run_id": "gb-periodicity-20261008-171025-3c6369",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-10-08T17:10:25+00:00",
+        "value": {
+          "analysis_lookup_key": "run:gb-periodicity-20261008-171025-3c6369:main_conclusion",
+          "candidate_table_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+          "conclusion_type": "gb_periodicity_candidate",
+          "config_path": null,
+          "conflicting_evidence": [],
+          "crystal_counts": {
+            "lower": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                1,
+                1,
+                2
+              ],
+              "measured_full_a_hkl_count": 8.990725662834972,
+              "measured_primitive_count": 17.981451325669944,
+              "signed_indices_from_source": [
+                1,
+                1,
+                -2
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                2,
+                1,
+                -1
+              ],
+              "source_full_a_hkl_count": 8.990725662834972,
+              "source_orientation_validated": true
+            },
+            "upper": {
+              "basis_note": "Pure x counts. Nonzero z alternatives require a full vector lattice check.",
+              "direction_family": [
+                0,
+                0,
+                1
+              ],
+              "measured_full_a_hkl_count": 22.032603476697332,
+              "measured_primitive_count": 22.032603476697332,
+              "signed_indices_from_source": [
+                0,
+                0,
+                -1
+              ],
+              "signed_indices_in_ptm_symmetry_branch": [
+                1,
+                0,
+                0
+              ],
+              "source_full_a_hkl_count": 22.032603476697332,
+              "source_orientation_validated": true
+            }
+          },
+          "data": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/period_candidates.json",
+          "decision_status": "candidate_not_selected",
+          "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+          "geometry": {
+            "defects": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.972972972972973,
+              "median": 0.03786683376127784,
+              "p95": 0.2829107006343981,
+              "reference_atom_count": 1110,
+              "rms": 0.11005008341915229,
+              "rms_over_nn": 0.04422674412637327,
+              "x_angstrom": 77.49609123865527,
+              "z_angstrom": 0.0
+            },
+            "near": {
+              "coverage_cutoff_angstrom": 0.37324729276259544,
+              "coverage_fraction": 0.9784366576819407,
+              "median": 0.043230194706052,
+              "p95": 0.24701638736646775,
+              "reference_atom_count": 2226,
+              "rms": 0.10516990741075977,
+              "rms_over_nn": 0.042265507124918354,
+              "x_angstrom": 77.49609123865527,
+              "z_angstrom": 0.0
+            }
+          },
+          "id": "P024",
+          "joint_xz_check": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.9784366576819407,
+            "median": 0.043230194706052,
+            "method": "Local xyz validation around preserved layered-2D proposals and zero z, with alternating x/z refinement; not an exhaustive continuous 2D optimization.",
+            "p95": 0.24701638736646775,
+            "reference_atom_count": 2226,
+            "rms": 0.10516990741075977,
+            "rms_over_nn": 0.042265507124918354,
+            "x_angstrom": 77.49609123865527,
+            "z_angstrom": 0.0,
+            "z_translation_angstrom": 0.0
+          },
+          "joint_xz_defects": {
+            "coverage_cutoff_angstrom": 0.37324729276259544,
+            "coverage_fraction": 0.972972972972973,
+            "median": 0.03786683376127784,
+            "p95": 0.2829107006343981,
+            "reference_atom_count": 1110,
+            "rms": 0.11005008341915229,
+            "rms_over_nn": 0.04422674412637327,
+            "x_angstrom": 77.49609123865527,
+            "z_angstrom": 0.0
+          },
+          "lattice_pairs": [],
+          "lattice_repeat_check": {
+            "eligible": true,
+            "grains": {
+              "lower": {
+                "coefficient_step": 0.5,
+                "direction": [
+                  1,
+                  1,
+                  -2
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 8.619559103999961,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 9.0,
+                "nearest_length_error_angstrom": 0.0799406973443837,
+                "nominal_count": 9.0
+              },
+              "upper": {
+                "coefficient_step": 1.0,
+                "direction": [
+                  0,
+                  0,
+                  -1
+                ],
+                "direction_basis": "validated_source_direction",
+                "full_vector_length_angstrom": 3.517336991999997,
+                "indexing_validated": true,
+                "lattice": "FCC",
+                "length_basis": "measured_far_field_translation",
+                "nearest_allowed_count": 22.0,
+                "nearest_length_error_angstrom": 0.11467741465533265,
+                "nominal_count": 22.0
+              }
+            },
+            "length_tolerance_angstrom": 0.7464945855251909,
+            "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size.",
+            "nominal_counts": {
+              "lower": 9.0,
+              "upper": 22.0
+            },
+            "reasons": [],
+            "status": "compatible"
+          },
+          "limitations": [
+            "fewer_than_minimum_observed_cycles"
+          ],
+          "long_period_associations": [],
+          "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P024",
+          "manifest": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/manifest.json",
+          "multiscale_review": {
+            "candidate_id": "P024",
+            "decision_status": "candidate_not_selected",
+            "defect_rms_over_nn": 0.04422674412637327,
+            "detailed_report_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+            "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+            "display_lattice_label": "22[0 0 -1] : 9[1 1 -2]",
+            "evidence_scores": {
+              "coordinate_geometry": 0.923232449567605,
+              "coordinate_rows": 0.0,
+              "local_strain": 0.0
+            },
+            "highlight_eligible": false,
+            "highlight_score": 0.2769697348702815,
+            "lattice_repeat_status": "compatible",
+            "long_scale": null,
+            "lookup_key": "run:gb-periodicity-20261008-171025-3c6369:candidate:P024",
+            "near_rms_over_nn": 0.042265507124918354,
+            "nominal_counts": {
+              "lower": 9.0,
+              "upper": 22.0
+            },
+            "observable_cycles": 2.300730865753196,
+            "pure_x_repeat_eligible": true,
+            "ratio_label": "≈ 22.03 : 8.99",
+            "roles": [
+              "geometric_repeat_candidate"
+            ],
+            "short_motif": null,
+            "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+            "source_run_id": "minimize-20260927-035314-d47068",
+            "translation_angstrom": 77.49609123865527,
+            "translation_nm": 7.749609123865527
+          },
+          "observable_cycles": 2.300730865753196,
+          "pbc_size_comparison_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/pbc_size_comparison.json",
+          "pbc_size_options": [
+            {
+              "agent_size_policy_violations": [],
+              "approx_atoms": 22104,
+              "bottom_orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "bottom_size": [
+                9,
+                17,
+                3
+              ],
+              "candidate_ids": [
+                "P024"
+              ],
+              "construction_mismatch_percent": 0.20597344216680977,
+              "fractional_x_repeats": false,
+              "lattice_repeat_status": "compatible",
+              "measured_evidence": [
+                {
+                  "candidate_id": "P024",
+                  "pair_mismatch_percent": 0.2511891068482683,
+                  "roles": [
+                    "geometric_repeat_candidate"
+                  ],
+                  "x_translation_angstrom": 77.49609123865527
+                }
+              ],
+              "measured_pair_mismatch_percent": 0.2511891068482683,
+              "measured_x_translation_angstrom": 77.49609123865527,
+              "nominal_bottom_lx_angstrom": 77.59983505137107,
+              "nominal_pbc_box_lx_angstrom": 77.62983505137107,
+              "nominal_top_lx_angstrom": 77.44,
+              "roles": [
+                "geometric_repeat_candidate"
+              ],
+              "status": "candidate_not_selected",
+              "top_orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "top_size": [
+                22,
+                21,
+                3
+              ]
+            }
+          ],
+          "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "run_id": "gb-periodicity-20261008-171025-3c6369",
+          "short_motif_associations": [],
+          "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+          "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+          "source_run_id": "minimize-20260927-035314-d47068",
+          "sources": [
+            {
+              "metadata": {
+                "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+                "canonical_config": {
+                  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+                  "grains": {
+                    "bottom": {
+                      "orientation": {
+                        "x": [
+                          1,
+                          1,
+                          -2
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        23,
+                        17,
+                        3
+                      ]
+                    },
+                    "top": {
+                      "orientation": {
+                        "x": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "y": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "z": [
+                          1,
+                          -1,
+                          0
+                        ]
+                      },
+                      "size": [
+                        57,
+                        21,
+                        3
+                      ]
+                    }
+                  },
+                  "material": {
+                    "element": "Ni",
+                    "lattice": "fcc",
+                    "mass": 58.693
+                  },
+                  "potential": {
+                    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+                    "pair_style": "adp"
+                  },
+                  "simulation": {
+                    "a0": 3.52,
+                    "boundary": "p p p",
+                    "boundary_slab_thickness": 3.0,
+                    "enable_initial_staged_relaxation": false,
+                    "min_etol": 0.0,
+                    "min_ftol": 1e-06,
+                    "min_maxeval": 10000,
+                    "min_maxiter": 1000,
+                    "min_style": "cg",
+                    "relax_cycles": 4,
+                    "x_pbc": false,
+                    "y_eps": 0.01,
+                    "y_vacuum": 20.0
+                  },
+                  "version": 1
+                },
+                "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+                "metadata_basis": "registered canonical construction config; not a repeat-count prior",
+                "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+                "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+                "source_artifact_role": "minimized_cfg",
+                "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+                "source_convergence": {
+                  "all_minimizations_converged": false,
+                  "final_minimization_converged": false,
+                  "warnings": [
+                    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+                  ]
+                },
+                "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+                "source_run_id": "minimize-20260927-035314-d47068",
+                "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672"
+              },
+              "ordinal": 0,
+              "relation": "relaxed_gb_structure",
+              "source_fingerprint": "sha256:c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+              "source_run_id": "minimize-20260927-035314-d47068"
+            }
+          ],
+          "summary": "Observed GB scale 77.49609123865527 Angstrom; candidate P024; pure-x lattice closure compatible; user has not selected it",
+          "summary_image_path": "artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+          "supporting_evidence": [
+            "near_interface_xyz_residual_below_display_gate"
+          ],
+          "workflow": "gb_periodicity",
+          "x_translation_angstrom": 77.49609123865527
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "analyze_gb_periodicity"
+}

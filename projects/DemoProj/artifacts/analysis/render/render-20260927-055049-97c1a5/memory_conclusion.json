@@ -1,0 +1,279 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T05:50:57+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "ac33e0d3-e5a8-5fd2-8ffd-95aba50303df",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20260927-055049-97c1a5:main_conclusion",
+    "source_run_id": "render-20260927-055049-97c1a5",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T05:50:57+00:00",
+    "value": {
+      "boundary": {
+        "method": "cna_interior_band_interlayer_gap",
+        "y": -0.7007389800000041
+      },
+      "camera": {
+        "atom_radius": 0.875,
+        "atom_radius_range": [
+          0.875,
+          0.875
+        ],
+        "atom_scale": 0.7,
+        "box_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "fov_half_height": 8.837335902852594,
+        "image_size": [
+          3200,
+          1307
+        ],
+        "lower_color": [
+          0,
+          0,
+          0
+        ],
+        "radius_source": "OVITO imported radii",
+        "right": [
+          1,
+          0,
+          0
+        ],
+        "roll_degrees": 180,
+        "target": [
+          0.0,
+          -0.7007389800000041,
+          0.0
+        ],
+        "transparent_background": true,
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "upper_color": [
+          1.0,
+          0.98,
+          0.94
+        ],
+        "visible_width": 43.2738712917036
+      },
+      "conclusion_type": "gb_plan_view_geometry",
+      "data": "artifacts/analysis/render/render-20260927-055049-97c1a5/gb_plan_view.json",
+      "detail": null,
+      "displacement": {
+        "affine_mapping": "off",
+        "definition": "current_minus_reference",
+        "matching": "particle_identifier",
+        "minimum_image_convention": true,
+        "reference": {
+          "cell": [
+            [
+              38.7435,
+              0.0,
+              0.0,
+              -19.37175
+            ],
+            [
+              0.0,
+              248.489,
+              0.0,
+              -124.2445
+            ],
+            [
+              0.0,
+              0.0,
+              14.9298,
+              -7.4649
+            ]
+          ],
+          "effective_pbc": [
+            true,
+            true,
+            true
+          ],
+          "imported_pbc": [
+            true,
+            true,
+            true
+          ],
+          "particle_count": 11052,
+          "path": "/data/home/yazhuo/Project/GBclaw/projects/proj-20260927-164bf2/artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd"
+        },
+        "render": {
+          "alignment": "center",
+          "color": [
+            0.85,
+            0.12,
+            0.08
+          ],
+          "nonzero_projected_count": 174,
+          "normalization": "median_nonzero_slab_xz",
+          "offset": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "representative_projected_length": 0.36034577156874736,
+          "scaled_projected_max": 3.3077219501390154,
+          "scaled_projected_median": 1.5,
+          "scaling": 4.1626685210425105,
+          "target_length": 1.5,
+          "vectors_are_normalized_individually": false,
+          "width": 0.1,
+          "zero_tolerance": 2.4861184767434203e-08
+        },
+        "summary": {
+          "all": {
+            "count": 11052,
+            "magnitude_max": 0.8026190321568067,
+            "magnitude_median": 0.3483284950464517,
+            "magnitude_min": 0.06947851298055381,
+            "projected_xz_max": 0.7946157455051501,
+            "projected_xz_median": 0.34451286333997166
+          },
+          "slab": {
+            "count": 174,
+            "magnitude_max": 0.8026190321568067,
+            "magnitude_median": 0.3830514099237456,
+            "magnitude_min": 0.06947851298055381,
+            "projected_xz_max": 0.7946157455051501,
+            "projected_xz_median": 0.36034577156874736
+          }
+        }
+      },
+      "interpretation": "Approximate boundary and geometric Y-side labels; not crystallographic grain identification.",
+      "layers": {
+        "lower": {
+          "count": 108,
+          "lower_y": -1.9382141999999902,
+          "upper_y": -1.5229890810000057,
+          "y": -1.7846479980000112
+        },
+        "lower_spacing": 2.032950631249996,
+        "pair_resolved": true,
+        "upper": {
+          "count": 66,
+          "lower_y": 0.1215111209999975,
+          "upper_y": 0.21941578699998843,
+          "y": 0.18537279400000273
+        },
+        "upper_spacing": 1.2443086675000075
+      },
+      "origin": {
+        "artifact_id": "71ed1ef5-b7df-516c-9fa7-fbe052374c05",
+        "frame": {
+          "actual_shear_strain": 0.0007499999999999937,
+          "bottom_shear_stress_mpa": -2.5898089066925842,
+          "converged": true,
+          "increment_stage": "initial",
+          "loading_cycle": 1,
+          "loading_direction": "-x",
+          "loading_half_cycle": 1,
+          "relative_shear_strain": -0.016750000000000004,
+          "relative_target_shear_strain": -0.01675,
+          "sigma_xx_mpa": -28.235661203463795,
+          "sigma_xy_mpa": 2.5898089066925842,
+          "sigma_xz_mpa": -0.7191442955417262,
+          "sigma_yy_mpa": 79.57343188694013,
+          "sigma_yz_mpa": 2.6033788621230584e-05,
+          "sigma_zz_mpa": 21.332375503207214,
+          "step": 67,
+          "step_in_loading_half_cycle": 67,
+          "strain": 0.0007499999999999937,
+          "target_shear_strain": 0.0007499999999999972,
+          "top_shear_stress_mpa": 2.5898089066925842
+        },
+        "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0067.cfg",
+        "run_id": "shear-20260927-044521-841236",
+        "sha256": "035ceee420cc9e59c411ffa9329fdd99d392c71bf1a9bae9d535762ac247a156",
+        "workflow": "gb_shear"
+      },
+      "profile": "artifacts/analysis/render/render-20260927-055049-97c1a5/y_profile.png",
+      "purpose": "Step 67 relaxed reverse-unloading state versus original nominal-zero-strain P012 GB; assess displacement pattern without assigning a mechanism",
+      "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+      "reference_artifact_role": "minimized_cfg",
+      "reference_origin": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "reference_run_id": "minimize-20260927-040247-4d2144",
+      "reference_step": null,
+      "reference_structure_source": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "render": "artifacts/analysis/render/render-20260927-055049-97c1a5/plan_view.png",
+      "render_kind": "gb_plan_view",
+      "slab": {
+        "counts": {
+          "lower": 108,
+          "total": 174,
+          "upper": 66
+        },
+        "full_lateral_layers": {
+          "lower": {
+            "count": 108,
+            "lower_y": -1.9382141999999902,
+            "upper_y": -1.5229890810000057
+          },
+          "method": "interior_plane_midpoint_assignment",
+          "upper": {
+            "count": 66,
+            "lower_y": 0.1215111209999975,
+            "upper_y": 0.21941578699998843
+          }
+        },
+        "interior_counts": {
+          "lower": 108,
+          "upper": 66
+        },
+        "lower_y": -2.062520123837161,
+        "method": "one_facing_layer_per_side_with_lateral_extension",
+        "thickness": 2.7235622876743144,
+        "upper_y": 0.6610421638371531
+      },
+      "source_artifact_id": "ea41d7fa-9030-5866-ba98-71791c2de95c",
+      "source_artifact_role": "minimized_cfg",
+      "source_run_id": "structure-minimize-20260927-054622-f7218a",
+      "source_step": null,
+      "structure_source": {
+        "artifact_id": "ea41d7fa-9030-5866-ba98-71791c2de95c",
+        "frame": {
+          "converged": true
+        },
+        "path": "artifacts/lammps/structure_minimize/structure-minimize-20260927-054622-f7218a/016_gb_shear_step_0067_minimized.cfg",
+        "run_id": "structure-minimize-20260927-054622-f7218a",
+        "sha256": "637d872dc45e9e1615983fe3c253544c878af61e3fed9328139601278583795c",
+        "workflow": "structure_minimize"
+      },
+      "summary": "Estimated Y-normal boundary at y=-0.7007389800000041 in imported Cartesian length units; plan view uses black for the lower side and milk white for the upper side, with a transparent PNG background and atom radius scale 0.7. Inspect the layer profile and warnings before interpreting grain identity.",
+      "warnings": [
+        "Boundary y is a geometric estimate for one approximately planar y-normal interface; CNA and plane spacings do not prove crystallographic grain membership.",
+        "Black and milk white label the lower and upper y sides in the plan view, respectively; they are not CNA colors.",
+        "CFG periodicity follows OVITO import unless pbc is supplied; vacuum detection does not change boundary conditions.",
+        "Displacements are current minus reference, including rigid translation and affine deformation; no drift or strain is subtracted. Display scaling does not change the physical vectors.",
+        "Minimum-image displacement cannot recover motion exceeding half a periodic box between these frames; use unwrapped coordinates and disable minimum_image_convention for such motion."
+      ]
+    },
+    "version": 1
+  },
+  "memory_tool": "render_gb_plan_view"
+}

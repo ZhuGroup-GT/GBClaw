@@ -1,0 +1,1233 @@
+{
+  "status": "candidates_compared",
+  "selected_option": null,
+  "requires_user_decision": true,
+  "x_pbc": true,
+  "measured_pair_mismatch_definition": "100*abs(L_top-L_bottom)/mean(L_top,L_bottom), using relaxed bulk translations",
+  "construction_mismatch_definition": "100*abs(L_top-L_bottom)/max(L_top,L_bottom), using original a0 and orientation vectors",
+  "source_material": {
+    "lattice": "fcc",
+    "element": "Ni",
+    "mass": 58.693
+  },
+  "source_a0_angstrom": 3.52,
+  "size_policy": {
+    "X_MISMATCH_MAX_PERCENT": 2.0,
+    "TARGET_X_NM": 20.0,
+    "MIN_Y_PER_GRAIN_NM": 10.0,
+    "MIN_Z_NM": 1.0,
+    "BOX_DIM_FACTOR": 3.0,
+    "BOX_VOLUME_FACTOR": 4.0,
+    "TARGET_BOX_NM": [
+      20.0,
+      20.0,
+      1.0
+    ],
+    "PBC_X_PADDING_EPS_FACTOR": 1.5,
+    "X_MATCH_CANDIDATE_LIMIT": 6
+  },
+  "options": [
+    {
+      "candidate_ids": [
+        "P005"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 13.561318303707607,
+      "measured_pair_mismatch_percent": 8.444924213362723,
+      "measured_evidence": [
+        {
+          "candidate_id": "P005",
+          "roles": [],
+          "x_translation_angstrom": 13.561318303707607,
+          "pair_mismatch_percent": 8.444924213362723
+        }
+      ],
+      "top_size": [
+        4,
+        21,
+        3
+      ],
+      "bottom_size": [
+        1.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 14.08,
+      "nominal_bottom_lx_angstrom": 12.93330584189518,
+      "nominal_pbc_box_lx_angstrom": 14.11,
+      "construction_mismatch_percent": 8.144134645630825,
+      "approx_atoms": 3852,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 8.144% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P006"
+      ],
+      "roles": [
+        "near_coincidence_candidate",
+        "geometric_repeat_candidate",
+        "relative_short_candidate"
+      ],
+      "measured_x_translation_angstrom": 17.43280810628079,
+      "measured_pair_mismatch_percent": 1.9960300718602144,
+      "measured_evidence": [
+        {
+          "candidate_id": "P006",
+          "roles": [
+            "near_coincidence_candidate",
+            "geometric_repeat_candidate",
+            "relative_short_candidate"
+          ],
+          "x_translation_angstrom": 17.43280810628079,
+          "pair_mismatch_percent": 1.9960300718602144
+        }
+      ],
+      "top_size": [
+        5,
+        21,
+        3
+      ],
+      "bottom_size": [
+        2,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 17.6,
+      "nominal_bottom_lx_angstrom": 17.244407789193573,
+      "nominal_pbc_box_lx_angstrom": 17.630000000000003,
+      "construction_mismatch_percent": 2.020410288672886,
+      "approx_atoms": 4968,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P007"
+      ],
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "measured_x_translation_angstrom": 21.309932101459268,
+      "measured_pair_mismatch_percent": 2.0860274560513163,
+      "measured_evidence": [
+        {
+          "candidate_id": "P007",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "x_translation_angstrom": 21.309932101459268,
+          "pair_mismatch_percent": 2.0860274560513163
+        }
+      ],
+      "top_size": [
+        6,
+        21,
+        3
+      ],
+      "bottom_size": [
+        2.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 21.12,
+      "nominal_bottom_lx_angstrom": 21.555509736491967,
+      "nominal_pbc_box_lx_angstrom": 21.585509736491968,
+      "construction_mismatch_percent": 2.020410288672869,
+      "approx_atoms": 6084,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P008",
+        "P009"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 34.48987324662653,
+      "measured_pair_mismatch_percent": 1.9960300718602144,
+      "measured_evidence": [
+        {
+          "candidate_id": "P008",
+          "roles": [],
+          "x_translation_angstrom": 34.48987324662653,
+          "pair_mismatch_percent": 1.9960300718602144
+        },
+        {
+          "candidate_id": "P009",
+          "roles": [],
+          "x_translation_angstrom": 34.86809716995957,
+          "pair_mismatch_percent": 1.9960300718602144
+        }
+      ],
+      "top_size": [
+        10,
+        21,
+        3
+      ],
+      "bottom_size": [
+        4,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 35.2,
+      "nominal_bottom_lx_angstrom": 34.48881557838715,
+      "nominal_pbc_box_lx_angstrom": 35.230000000000004,
+      "construction_mismatch_percent": 2.020410288672886,
+      "approx_atoms": 9936,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P012"
+      ],
+      "roles": [
+        "near_coincidence_candidate",
+        "geometric_repeat_candidate",
+        "relative_short_candidate"
+      ],
+      "measured_x_translation_angstrom": 38.74433807057022,
+      "measured_pair_mismatch_percent": 0.2511891068482683,
+      "measured_evidence": [
+        {
+          "candidate_id": "P012",
+          "roles": [
+            "near_coincidence_candidate",
+            "geometric_repeat_candidate",
+            "relative_short_candidate"
+          ],
+          "x_translation_angstrom": 38.74433807057022,
+          "pair_mismatch_percent": 0.2511891068482683
+        }
+      ],
+      "top_size": [
+        11,
+        21,
+        3
+      ],
+      "bottom_size": [
+        4.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 38.72,
+      "nominal_bottom_lx_angstrom": 38.79991752568554,
+      "nominal_pbc_box_lx_angstrom": 38.82991752568554,
+      "construction_mismatch_percent": 0.20597344216680977,
+      "approx_atoms": 11052,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P016"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 42.62101796797839,
+      "measured_pair_mismatch_percent": 2.0860274560513163,
+      "measured_evidence": [
+        {
+          "candidate_id": "P016",
+          "roles": [],
+          "x_translation_angstrom": 42.62101796797839,
+          "pair_mismatch_percent": 2.0860274560513163
+        }
+      ],
+      "top_size": [
+        12,
+        21,
+        3
+      ],
+      "bottom_size": [
+        5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 42.24,
+      "nominal_bottom_lx_angstrom": 43.111019472983934,
+      "nominal_pbc_box_lx_angstrom": 43.141019472983935,
+      "construction_mismatch_percent": 2.020410288672869,
+      "approx_atoms": 12168,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P019"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 52.30936392303532,
+      "measured_pair_mismatch_percent": 1.9960300718602144,
+      "measured_evidence": [
+        {
+          "candidate_id": "P019",
+          "roles": [],
+          "x_translation_angstrom": 52.30936392303532,
+          "pair_mismatch_percent": 1.9960300718602144
+        }
+      ],
+      "top_size": [
+        15,
+        21,
+        3
+      ],
+      "bottom_size": [
+        6,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 52.8,
+      "nominal_bottom_lx_angstrom": 51.73322336758072,
+      "nominal_pbc_box_lx_angstrom": 52.83,
+      "construction_mismatch_percent": 2.020410288672873,
+      "approx_atoms": 14904,
+      "agent_size_policy_violations": [
+        "x repeat-length mismatch 2.020% does not satisfy the agent policy <2.000% limit; choose a better-matched nx_top:nx_bottom pair from the reported candidates."
+      ],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P020"
+      ],
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "measured_x_translation_angstrom": 56.18615913719614,
+      "measured_pair_mismatch_percent": 0.4456769549844193,
+      "measured_evidence": [
+        {
+          "candidate_id": "P020",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "x_translation_angstrom": 56.18615913719614,
+          "pair_mismatch_percent": 0.4456769549844193
+        }
+      ],
+      "top_size": [
+        16,
+        21,
+        3
+      ],
+      "bottom_size": [
+        6.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 56.32,
+      "nominal_bottom_lx_angstrom": 56.04432531487911,
+      "nominal_pbc_box_lx_angstrom": 56.35,
+      "construction_mismatch_percent": 0.48947919943339885,
+      "approx_atoms": 16020,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P021"
+      ],
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "measured_x_translation_angstrom": 60.05797772078679,
+      "measured_pair_mismatch_percent": 0.9026512121226694,
+      "measured_evidence": [
+        {
+          "candidate_id": "P021",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "x_translation_angstrom": 60.05797772078679,
+          "pair_mismatch_percent": 0.9026512121226694
+        }
+      ],
+      "top_size": [
+        17,
+        21,
+        3
+      ],
+      "bottom_size": [
+        7,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 59.84,
+      "nominal_bottom_lx_angstrom": 60.3554272621775,
+      "nominal_pbc_box_lx_angstrom": 60.3854272621775,
+      "construction_mismatch_percent": 0.8539866016332479,
+      "approx_atoms": 17136,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P022",
+        "P023"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 73.17851367110325,
+      "measured_pair_mismatch_percent": 0.8126461093179653,
+      "measured_evidence": [
+        {
+          "candidate_id": "P022",
+          "roles": [],
+          "x_translation_angstrom": 73.17851367110325,
+          "pair_mismatch_percent": 0.8126461093179653
+        },
+        {
+          "candidate_id": "P023",
+          "roles": [],
+          "x_translation_angstrom": 73.62143379184849,
+          "pair_mismatch_percent": 0.8126461093179653
+        }
+      ],
+      "top_size": [
+        21,
+        21,
+        3
+      ],
+      "bottom_size": [
+        8.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 73.92,
+      "nominal_bottom_lx_angstrom": 73.28873310407269,
+      "nominal_pbc_box_lx_angstrom": 73.95,
+      "construction_mismatch_percent": 0.8539866016332671,
+      "approx_atoms": 20988,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P024"
+      ],
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "measured_x_translation_angstrom": 77.49609123865527,
+      "measured_pair_mismatch_percent": 0.2511891068482683,
+      "measured_evidence": [
+        {
+          "candidate_id": "P024",
+          "roles": [
+            "geometric_repeat_candidate"
+          ],
+          "x_translation_angstrom": 77.49609123865527,
+          "pair_mismatch_percent": 0.2511891068482683
+        }
+      ],
+      "top_size": [
+        22,
+        21,
+        3
+      ],
+      "bottom_size": [
+        9,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 77.44,
+      "nominal_bottom_lx_angstrom": 77.59983505137107,
+      "nominal_pbc_box_lx_angstrom": 77.62983505137107,
+      "construction_mismatch_percent": 0.20597344216680977,
+      "approx_atoms": 22104,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": false,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    },
+    {
+      "candidate_ids": [
+        "P027"
+      ],
+      "roles": [],
+      "measured_x_translation_angstrom": 81.36790982224592,
+      "measured_pair_mismatch_percent": 1.2127202457397255,
+      "measured_evidence": [
+        {
+          "candidate_id": "P027",
+          "roles": [],
+          "x_translation_angstrom": 81.36790982224592,
+          "pair_mismatch_percent": 1.2127202457397255
+        }
+      ],
+      "top_size": [
+        23,
+        21,
+        3
+      ],
+      "bottom_size": [
+        9.5,
+        17,
+        3
+      ],
+      "top_orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "bottom_orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "nominal_top_lx_angstrom": 80.96,
+      "nominal_bottom_lx_angstrom": 81.91093699866947,
+      "nominal_pbc_box_lx_angstrom": 81.94093699866947,
+      "construction_mismatch_percent": 1.1609402034857972,
+      "approx_atoms": 23220,
+      "agent_size_policy_violations": [],
+      "fractional_x_repeats": true,
+      "status": "candidate_not_selected",
+      "lattice_repeat_status": "compatible"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "candidate_id": "P001",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P002",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P003",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P004",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P010",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P011",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P013",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P014",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P015",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P017",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P018",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P025",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P026",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P028",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P029",
+      "reason": "incompatible"
+    },
+    {
+      "candidate_id": "P030",
+      "reason": "incompatible"
+    }
+  ],
+  "construction_only_x_match_candidates": [
+    {
+      "nx_top": 17,
+      "nx_bottom": 7,
+      "primitive_ratio": [
+        17,
+        7
+      ],
+      "scale": 1,
+      "lx_top_lattice_units": 17.0,
+      "lx_bottom_lattice_units": 17.146428199482244,
+      "lx_top_nm": 5.984,
+      "lx_bottom_nm": 6.03554272621775,
+      "mean_lx_nm": 6.009771363108875,
+      "mismatch_percent": 0.8539866016332597,
+      "within_tolerance": true,
+      "roles": [
+        "smallest"
+      ],
+      "top_size": [
+        17,
+        21,
+        3
+      ],
+      "bottom_size": [
+        7,
+        17,
+        3
+      ],
+      "material_dimensions_nm": {
+        "x": 6.03554272621775,
+        "y": 20.81845868555408,
+        "z": 1.4934095218659886
+      },
+      "grain_dimensions_nm": {
+        "top": {
+          "x": 5.984,
+          "y": 10.453866653061919,
+          "z": 1.4934095218659886
+        },
+        "bottom": {
+          "x": 6.03554272621775,
+          "y": 10.364592032492162,
+          "z": 1.4934095218659886
+        }
+      }
+    },
+    {
+      "nx_top": 22,
+      "nx_bottom": 9,
+      "primitive_ratio": [
+        22,
+        9
+      ],
+      "scale": 1,
+      "lx_top_lattice_units": 22.0,
+      "lx_bottom_lattice_units": 22.045407685048602,
+      "lx_top_nm": 7.744,
+      "lx_bottom_nm": 7.759983505137107,
+      "mean_lx_nm": 7.7519917525685536,
+      "mismatch_percent": 0.20597344216680977,
+      "within_tolerance": true,
+      "roles": [
+        "improved_match"
+      ],
+      "top_size": [
+        22,
+        21,
+        3
+      ],
+      "bottom_size": [
+        9,
+        17,
+        3
+      ],
+      "material_dimensions_nm": {
+        "x": 7.759983505137107,
+        "y": 20.81845868555408,
+        "z": 1.4934095218659886
+      },
+      "grain_dimensions_nm": {
+        "top": {
+          "x": 7.744,
+          "y": 10.453866653061919,
+          "z": 1.4934095218659886
+        },
+        "bottom": {
+          "x": 7.759983505137107,
+          "y": 10.364592032492162,
+          "z": 1.4934095218659886
+        }
+      }
+    },
+    {
+      "nx_top": 49,
+      "nx_bottom": 20,
+      "primitive_ratio": [
+        49,
+        20
+      ],
+      "scale": 1,
+      "lx_top_lattice_units": 49.0,
+      "lx_bottom_lattice_units": 48.98979485566356,
+      "lx_top_nm": 17.247999999999998,
+      "lx_bottom_nm": 17.244407789193573,
+      "mean_lx_nm": 17.246203894596785,
+      "mismatch_percent": 0.020826825176392245,
+      "within_tolerance": true,
+      "roles": [
+        "improved_match"
+      ],
+      "top_size": [
+        49,
+        21,
+        3
+      ],
+      "bottom_size": [
+        20,
+        17,
+        3
+      ],
+      "material_dimensions_nm": {
+        "x": 17.247999999999998,
+        "y": 20.81845868555408,
+        "z": 1.4934095218659886
+      },
+      "grain_dimensions_nm": {
+        "top": {
+          "x": 17.247999999999998,
+          "y": 10.453866653061919,
+          "z": 1.4934095218659886
+        },
+        "bottom": {
+          "x": 17.244407789193573,
+          "y": 10.364592032492162,
+          "z": 1.4934095218659886
+        }
+      }
+    },
+    {
+      "nx_top": 57,
+      "nx_bottom": 23,
+      "primitive_ratio": [
+        57,
+        23
+      ],
+      "scale": 1,
+      "lx_top_lattice_units": 57.0,
+      "lx_bottom_lattice_units": 56.33826408401309,
+      "lx_top_nm": 20.064,
+      "lx_bottom_nm": 19.831068957572608,
+      "mean_lx_nm": 19.947534478786302,
+      "mismatch_percent": 1.1609402034858056,
+      "within_tolerance": true,
+      "roles": [
+        "near_target"
+      ],
+      "top_size": [
+        57,
+        21,
+        3
+      ],
+      "bottom_size": [
+        23,
+        17,
+        3
+      ],
+      "material_dimensions_nm": {
+        "x": 20.064,
+        "y": 20.81845868555408,
+        "z": 1.4934095218659886
+      },
+      "grain_dimensions_nm": {
+        "top": {
+          "x": 20.064,
+          "y": 10.453866653061919,
+          "z": 1.4934095218659886
+        },
+        "bottom": {
+          "x": 19.831068957572608,
+          "y": 10.364592032492162,
+          "z": 1.4934095218659886
+        }
+      }
+    },
+    {
+      "nx_top": 169,
+      "nx_bottom": 69,
+      "primitive_ratio": [
+        169,
+        69
+      ],
+      "scale": 1,
+      "lx_top_lattice_units": 169.0,
+      "lx_bottom_lattice_units": 169.01479225203929,
+      "lx_top_nm": 59.488,
+      "lx_bottom_nm": 59.49320687271783,
+      "mean_lx_nm": 59.49060343635891,
+      "mismatch_percent": 0.008752045807461417,
+      "within_tolerance": true,
+      "roles": [
+        "lowest_mismatch"
+      ],
+      "top_size": [
+        169,
+        21,
+        3
+      ],
+      "bottom_size": [
+        69,
+        17,
+        3
+      ],
+      "material_dimensions_nm": {
+        "x": 59.49320687271783,
+        "y": 20.81845868555408,
+        "z": 1.4934095218659886
+      },
+      "grain_dimensions_nm": {
+        "top": {
+          "x": 59.488,
+          "y": 10.453866653061919,
+          "z": 1.4934095218659886
+        },
+        "bottom": {
+          "x": 59.49320687271783,
+          "y": 10.364592032492162,
+          "z": 1.4934095218659886
+        }
+      }
+    }
+  ],
+  "construction_only_recommended_top_size": [
+    57,
+    21,
+    3
+  ],
+  "construction_only_recommended_bottom_size": [
+    23,
+    17,
+    3
+  ],
+  "notes": [
+    "Measured motifs and construction-only rational matches are separate evidence; constructor candidates are not measured structural repeats.",
+    "Candidate options retain source ny/nz; review listed size-policy violations and periodic seams before choosing a new model.",
+    "Only validated FCC/BCC pure-x lattice-repeat coefficients enter measured options; measured feature lengths are not arbitrary construction counts.",
+    "No model was rebuilt, strained, or selected. Allowed fractional repeats are preserved for explicit user review."
+  ],
+  "source_run_id": "minimize-20260927-035314-d47068",
+  "analysis_run_id": "gb-periodicity-20261008-171025-3c6369"
+}

@@ -1,0 +1,101 @@
+{
+  "workflow": "structure_minimize",
+  "purpose": "Remove residual forces at zero external load from each selected reverse-unloading post-drop state before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference; all atoms free, fixed simulation box, no applied loads or active shear constraints. Step 60 retains its source nonconvergence warning; step 70 is the converged nominal-zero-strain endpoint.",
+  "source": {
+    "artifact_id": "4ca5676a-5654-5dd0-9a4b-fd2f48aa25f0",
+    "context_config_path": "artifacts/lammps/shear/shear-20260927-044521-841236/input.json",
+    "context_config_sha256": "568989f26daddbf2a660e0ffdf5de5a3810002dd070c505b487d392945a423c2",
+    "context_run_id": "shear-20260927-044521-841236",
+    "frame": {},
+    "origin": {
+      "artifact_id": "55732240-eb6e-568d-8977-eeecb2305add",
+      "frame": {
+        "actual_shear_strain": 0.015000000000000006,
+        "bottom_shear_stress_mpa": 1.7380857652176933,
+        "converged": true,
+        "increment_stage": "initial",
+        "loading_cycle": 1,
+        "loading_direction": "-x",
+        "loading_half_cycle": 1,
+        "relative_shear_strain": -0.002499999999999991,
+        "relative_target_shear_strain": -0.0025,
+        "sigma_xx_mpa": -29.74308406548894,
+        "sigma_xy_mpa": -1.7380857652176933,
+        "sigma_xz_mpa": 0.6874829250328387,
+        "sigma_yy_mpa": 78.93648878429862,
+        "sigma_yz_mpa": 3.97201278285525e-05,
+        "sigma_zz_mpa": 22.380515841404776,
+        "step": 10,
+        "step_in_loading_half_cycle": 10,
+        "strain": 0.015000000000000006,
+        "target_shear_strain": 0.014999999999999998,
+        "top_shear_stress_mpa": -1.7380857652176933
+      },
+      "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0010.cfg",
+      "run_id": "shear-20260927-044521-841236",
+      "sha256": "ee463cbab20d1c5bf760d67ae86e499d15615d83f7b284ca822e82170c80f7c6",
+      "workflow": "gb_shear"
+    },
+    "path": "artifacts/lammps/cfg_convert/cfg-convert-20260927-054600-4cfc7e/converted/001_gb_shear_step_0010.lmp",
+    "run_id": "cfg-convert-20260927-054600-4cfc7e",
+    "sha256": "b43dcb89bcb834a5f06cd775a8653b8169aea12ce2ef4dc1fe9582eda71bd26c",
+    "workflow": "cfg_convert"
+  },
+  "potential_sha256": "4bc730061b4df3475b4330954a7b6322f6d133ea2e9cb9c7c59719eac72efb9f",
+  "boundary": "p p p",
+  "constraints": {
+    "mode": "none",
+    "fixed_ids": [],
+    "sources": []
+  },
+  "force_scope": "unconstrained atom degrees of freedom (fixed atom forces zeroed)",
+  "before": {
+    "natoms": 11052,
+    "energy_eV": -48992.81323056412,
+    "force_max_eV_per_A": 0.0037894451669540584,
+    "force_two_norm_eV_per_A": 0.10272988731118395,
+    "cell": {
+      "xlo": -19.37175440091473,
+      "xhi": 19.37174559908527,
+      "ylo": -123.7982680891511,
+      "yhi": 124.690731910849,
+      "zlo": -7.464885943232366,
+      "zhi": 7.464914056767634,
+      "xy": 0.0,
+      "xz": 0.0,
+      "yz": 0.0
+    }
+  },
+  "after": {
+    "natoms": 11052,
+    "energy_eV": -48992.82060001778,
+    "force_max_eV_per_A": 3.224095265763616e-08,
+    "force_two_norm_eV_per_A": 9.97332452036425e-07,
+    "cell": {
+      "xlo": -19.37175440091473,
+      "xhi": 19.37174559908527,
+      "ylo": -123.7982680891511,
+      "yhi": 124.690731910849,
+      "zlo": -7.464885943232366,
+      "zhi": 7.464914056767634,
+      "xy": 0.0,
+      "xz": 0.0,
+      "yz": 0.0
+    }
+  },
+  "energy_change_eV": -0.007369453662249725,
+  "validation": {
+    "cell_preserved": true,
+    "atom_ids_preserved": true,
+    "atom_types_preserved": true,
+    "masses_preserved": true,
+    "fixed_atoms_preserved": true,
+    "max_fixed_atom_displacement_A": 0.0,
+    "fixed_atom_tolerance_A": 1e-09
+  },
+  "minimization_count": 1,
+  "stopping_criterion": "force tolerance",
+  "converged": true,
+  "iterations": 580,
+  "force_evaluations": 1160
+}

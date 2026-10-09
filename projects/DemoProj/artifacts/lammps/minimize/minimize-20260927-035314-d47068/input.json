@@ -1,0 +1,78 @@
+{
+  "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+  "grains": {
+    "bottom": {
+      "orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        23,
+        17,
+        3
+      ]
+    },
+    "top": {
+      "orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        57,
+        21,
+        3
+      ]
+    }
+  },
+  "material": {
+    "element": "Ni",
+    "lattice": "fcc",
+    "mass": 58.693
+  },
+  "potential": {
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+    "pair_style": "adp"
+  },
+  "simulation": {
+    "a0": 3.52,
+    "boundary": "p p p",
+    "boundary_slab_thickness": 3.0,
+    "enable_initial_staged_relaxation": false,
+    "min_etol": 0.0,
+    "min_ftol": 1e-06,
+    "min_maxeval": 10000,
+    "min_maxiter": 1000,
+    "min_style": "cg",
+    "relax_cycles": 4,
+    "x_pbc": false,
+    "y_eps": 0.01,
+    "y_vacuum": 20.0
+  },
+  "version": 1
+}

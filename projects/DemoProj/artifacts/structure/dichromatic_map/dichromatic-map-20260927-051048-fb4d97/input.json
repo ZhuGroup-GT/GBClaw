@@ -1,0 +1,20 @@
+{
+  "angle_deg": 35.26438968,
+  "axis": "1 -1 0",
+  "center": [
+    0.0,
+    0.0
+  ],
+  "display_rotation_deg": 0.0,
+  "g1_color": "#1677d2",
+  "g2_color": "#e35d35",
+  "height": 9.0,
+  "lattice": "FCC",
+  "lattice_constant": 3.52,
+  "local_cutoff": 0.08,
+  "marker_size": 32.0,
+  "show_coincidence": true,
+  "show_csl_cell": true,
+  "visible_grain_layers": null,
+  "width": 12.0
+}

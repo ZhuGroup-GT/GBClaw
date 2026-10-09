@@ -1,0 +1,153 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T04:03:33+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "3636d2b7-2369-5094-8db3-76bad119f964",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20260927-040330-b0c165:main_conclusion",
+    "source_run_id": "render-20260927-040330-b0c165",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T04:03:33+00:00",
+    "value": {
+      "boundary": {
+        "method": "cna_interior_band_interlayer_gap",
+        "y": -0.6997450239999949
+      },
+      "camera": {
+        "atom_radius": 0.875,
+        "atom_radius_range": [
+          0.875,
+          0.875
+        ],
+        "atom_scale": 0.7,
+        "box_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "fov_half_height": 9.00853012766758,
+        "image_size": [
+          3200,
+          1335
+        ],
+        "lower_color": [
+          0,
+          0,
+          0
+        ],
+        "radius_source": "OVITO imported radii",
+        "right": [
+          1,
+          0,
+          0
+        ],
+        "roll_degrees": 180,
+        "target": [
+          0.0,
+          -0.6997450239999949,
+          0.0
+        ],
+        "transparent_background": true,
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "upper_color": [
+          1.0,
+          0.98,
+          0.94
+        ],
+        "visible_width": 43.1869609116648
+      },
+      "conclusion_type": "gb_plan_view_geometry",
+      "data": "artifacts/analysis/render/render-20260927-040330-b0c165/gb_plan_view.json",
+      "detail": null,
+      "displacement": null,
+      "interpretation": "Approximate boundary and geometric Y-side labels; not crystallographic grain identification.",
+      "layers": {
+        "lower": {
+          "count": 108,
+          "lower_y": -1.9802088410000067,
+          "upper_y": -1.4737882590000027,
+          "y": -1.8172000569999938
+        },
+        "lower_spacing": 2.0336339759999973,
+        "pair_resolved": true,
+        "upper": {
+          "count": 66,
+          "lower_y": 0.07429821100001277,
+          "upper_y": 0.2581800709999982,
+          "y": 0.19059106299998518
+        },
+        "upper_spacing": 1.2501481590000054
+      },
+      "origin": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "profile": "artifacts/analysis/render/render-20260927-040330-b0c165/y_profile.png",
+      "purpose": "Inspect the Y-normal relaxed P012 FCC Ni grain-boundary interface and periodic seam; distinguish the two facing layers with X right and Z down.",
+      "render": "artifacts/analysis/render/render-20260927-040330-b0c165/plan_view.png",
+      "render_kind": "gb_plan_view",
+      "slab": {
+        "counts": {
+          "lower": 108,
+          "total": 174,
+          "upper": 66
+        },
+        "full_lateral_layers": {
+          "lower": {
+            "count": 108,
+            "lower_y": -1.9802088410000067,
+            "upper_y": -1.4737882590000027
+          },
+          "method": "interior_plane_midpoint_assignment",
+          "upper": {
+            "count": 66,
+            "lower_y": 0.07429821100001277,
+            "upper_y": 0.2581800709999982
+          }
+        },
+        "interior_counts": {
+          "lower": 108,
+          "upper": 66
+        },
+        "lower_y": -2.094327414250003,
+        "method": "one_facing_layer_per_side_with_lateral_extension",
+        "thickness": 2.789164780500016,
+        "upper_y": 0.6948373662500131
+      },
+      "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+      "source_artifact_role": "minimized_cfg",
+      "source_run_id": "minimize-20260927-040247-4d2144",
+      "source_step": null,
+      "structure_source": {
+        "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+        "run_id": "minimize-20260927-040247-4d2144",
+        "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+        "workflow": "gb_minimize"
+      },
+      "summary": "Estimated Y-normal boundary at y=-0.6997450239999949 in imported Cartesian length units; plan view uses black for the lower side and milk white for the upper side, with a transparent PNG background and atom radius scale 0.7. Inspect the layer profile and warnings before interpreting grain identity.",
+      "warnings": [
+        "Boundary y is a geometric estimate for one approximately planar y-normal interface; CNA and plane spacings do not prove crystallographic grain membership.",
+        "Black and milk white label the lower and upper y sides in the plan view, respectively; they are not CNA colors.",
+        "CFG periodicity follows OVITO import unless pbc is supplied; vacuum detection does not change boundary conditions."
+      ]
+    },
+    "version": 1
+  },
+  "memory_tool": "render_gb_plan_view"
+}

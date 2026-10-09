@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "description": "Reverse-load/unload the exact final sheared_lmp state of parent monotonic P012 FCC Ni GB shear run after the step-36 to step-37 stress collapse. Apply displacement-controlled -x loading for exactly 70 increments of magnitude 2.5e-4, decreasing cumulative strain from +0.0175 to nominal zero. Preserve continuous periodic x, NiCr.adp physics, atom IDs, boundary constraints, and complete parent lineage; do not launch NEB.",
+  "source": {
+    "output_dir": "artifacts/lammps/shear/shear-20260927-044521-841236",
+    "parent_run_id": "shear-20260927-040956-e24773",
+    "parent_workflow": "gb_shear",
+    "initial_cumulative_shear_strain": 0.017499999999999998,
+    "data": "inputs/source.lmp",
+    "top_boundary_ids": "inputs/top_boundary.ids",
+    "bottom_boundary_ids": "inputs/bottom_boundary.ids"
+  },
+  "material": {
+    "element": "Ni",
+    "mass": 58.693
+  },
+  "simulation": {
+    "boundary": "p p p"
+  },
+  "potential": {
+    "pair_style": "adp",
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp"
+  },
+  "loading": {
+    "direction": "-x",
+    "initial_strain_increment": 0.00025,
+    "initial_steps": 70,
+    "fine_strain_increment": 0.00025,
+    "fine_steps": 0,
+    "steps_per_half_cycle": null,
+    "half_cycles": 1,
+    "top_spring_per_atom": null,
+    "bottom_spring_per_atom": null,
+    "load_type": "displacement"
+  },
+  "minimization": {
+    "style": "cg",
+    "etol": 0.0,
+    "ftol": 1e-06,
+    "maxiter": 3000,
+    "maxeval": 10000
+  },
+  "output": {
+    "dump_every": 1,
+    "thermo_every": 100
+  }
+}

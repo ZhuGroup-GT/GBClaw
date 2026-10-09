@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "artifact_id": "f75e71e3-0b85-5271-be7a-d12b5bde2e06",
+      "created_at": "2026-09-27T05:10:54+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "csl",
+        "sha256": "5c21541fdddbec6d4910f98a9a72e3ca73d31d9c17b09f88075d46b6f56caa95"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 44
+    }
+  ],
+  "run_id": "csl-20260927-051042-490db6",
+  "workflow": "csl"
+}

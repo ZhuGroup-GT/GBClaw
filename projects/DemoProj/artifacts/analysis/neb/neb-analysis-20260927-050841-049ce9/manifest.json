@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "artifact_id": "5a08dee4-cbeb-5bb6-8bcf-38c7bf0764e3",
+      "created_at": "2026-09-27T05:08:41+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "replica_count": 18,
+        "saddle_count": 1,
+        "source_run_id": "neb-20260927-045814-1d9965"
+      },
+      "path": "neb_mep_analysis.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "neb_mep_analysis",
+      "size_bytes": 10055
+    },
+    {
+      "artifact_id": "dbd8f1ea-6fd8-5328-ad97-f0c6bbb293b6",
+      "created_at": "2026-09-27T05:08:41+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "analyze_neb_mep",
+        "sha256": "f140704429878d810f73e69424a8988f3d53712ba6f28466bfd019572fb3f3fd"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 3439
+    }
+  ],
+  "run_id": "neb-analysis-20260927-050841-049ce9",
+  "workflow": "neb_analysis"
+}

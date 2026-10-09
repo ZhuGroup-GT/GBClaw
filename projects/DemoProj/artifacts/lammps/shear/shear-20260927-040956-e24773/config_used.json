@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "description": "Apply the user-requested monotonic +x displacement shear to the completed minimized P012 continuous-periodic-x FCC Ni GB, preserving exact source structure, atom IDs, crystallography, NiCr.adp model, and boundary-ID lineage. Stop after 70 loading steps at strain increment 2.5e-4; do not continue beyond 70 steps.",
+  "source": {
+    "output_dir": "artifacts/lammps/shear/shear-20260927-040956-e24773",
+    "parent_run_id": "minimize-20260927-040247-4d2144",
+    "parent_workflow": "gb_minimize",
+    "initial_cumulative_shear_strain": 0.0,
+    "data": "inputs/source.lmp",
+    "top_boundary_ids": "inputs/top_boundary.ids",
+    "bottom_boundary_ids": "inputs/bottom_boundary.ids"
+  },
+  "material": {
+    "element": "Ni",
+    "mass": 58.693
+  },
+  "simulation": {
+    "boundary": "p p p"
+  },
+  "potential": {
+    "pair_style": "adp",
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp"
+  },
+  "loading": {
+    "direction": "x",
+    "initial_strain_increment": 0.00025,
+    "initial_steps": 70,
+    "fine_strain_increment": 0.00025,
+    "fine_steps": 0,
+    "steps_per_half_cycle": null,
+    "half_cycles": 1,
+    "top_spring_per_atom": null,
+    "bottom_spring_per_atom": null,
+    "load_type": "displacement"
+  },
+  "minimization": {
+    "style": "cg",
+    "etol": 0.0,
+    "ftol": 1e-06,
+    "maxiter": 3000,
+    "maxeval": 10000
+  },
+  "output": {
+    "dump_every": 1,
+    "thermo_every": 100
+  }
+}

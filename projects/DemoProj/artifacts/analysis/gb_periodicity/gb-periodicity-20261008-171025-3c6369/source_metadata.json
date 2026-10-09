@@ -1,0 +1,97 @@
+{
+  "source_run_id": "minimize-20260927-035314-d47068",
+  "source_artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+  "source_artifact_role": "minimized_cfg",
+  "source_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+  "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+  "source_config_artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+  "construction_config_sha256": "1ba97dbea5552d02f5c2a511629c4e276639fa4c0a0eb35b7abda1a9882a9584",
+  "canonical_config": {
+    "version": 1,
+    "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+    "material": {
+      "lattice": "fcc",
+      "element": "Ni",
+      "mass": 58.693
+    },
+    "grains": {
+      "top": {
+        "orientation": {
+          "x": [
+            0,
+            0,
+            -1
+          ],
+          "y": [
+            1,
+            1,
+            0
+          ],
+          "z": [
+            1,
+            -1,
+            0
+          ]
+        },
+        "size": [
+          57,
+          21,
+          3
+        ]
+      },
+      "bottom": {
+        "orientation": {
+          "x": [
+            1,
+            1,
+            -2
+          ],
+          "y": [
+            1,
+            1,
+            1
+          ],
+          "z": [
+            1,
+            -1,
+            0
+          ]
+        },
+        "size": [
+          23,
+          17,
+          3
+        ]
+      }
+    },
+    "simulation": {
+      "a0": 3.52,
+      "boundary": "p p p",
+      "y_vacuum": 20.0,
+      "y_eps": 0.01,
+      "x_pbc": false,
+      "boundary_slab_thickness": 3.0,
+      "enable_initial_staged_relaxation": false,
+      "min_style": "cg",
+      "min_etol": 0.0,
+      "min_ftol": 1e-06,
+      "min_maxiter": 1000,
+      "min_maxeval": 10000,
+      "relax_cycles": 4
+    },
+    "potential": {
+      "pair_style": "adp",
+      "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp"
+    }
+  },
+  "purpose": "Identify possible short repeat units and possible longer structural modulation in the relaxed {110}||{111}, <110>-tilt FCC Ni boundary without assuming any repeat ratio; compare candidate continuous-periodic x cells with construction mismatch and size estimates while leaving final selection to the user.",
+  "analysis_identity": "bc467699a3b7739cbd241148518b77759ef5d5480c213cf119220cfcb210339f",
+  "source_convergence": {
+    "all_minimizations_converged": false,
+    "final_minimization_converged": false,
+    "warnings": [
+      "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+    ]
+  },
+  "metadata_basis": "registered canonical construction config; not a repeat-count prior"
+}

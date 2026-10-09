@@ -1,0 +1,203 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-09-27T04:13:04+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "a13a9b70-470b-5ea3-b4dc-4f5fe313c9f3",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:shear-20260927-040956-e24773:main_conclusion",
+        "source_run_id": "shear-20260927-040956-e24773",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-09-27T04:13:04+00:00",
+        "value": {
+          "bottom_com_current": {
+            "x": 0.6687939011725662,
+            "y": -102.01356283705674
+          },
+          "bottom_com_initial": {
+            "x": 0.6687939011725662,
+            "y": -102.01356283705674
+          },
+          "boundary_stress_source": "sigma_xy_top_and_negative_bottom",
+          "complete": true,
+          "completed_step_count": 71,
+          "config_path": "artifacts/lammps/shear/shear-20260927-040956-e24773/input.json",
+          "configuration": {
+            "description": "Apply the user-requested monotonic +x displacement shear to the completed minimized P012 continuous-periodic-x FCC Ni GB, preserving exact source structure, atom IDs, crystallography, NiCr.adp model, and boundary-ID lineage. Stop after 70 loading steps at strain increment 2.5e-4; do not continue beyond 70 steps.",
+            "loading": {
+              "bottom_spring_per_atom": null,
+              "direction": "x",
+              "fine_steps": 0,
+              "fine_strain_increment": 0.00025,
+              "half_cycles": 1,
+              "initial_steps": 70,
+              "initial_strain_increment": 0.00025,
+              "load_type": "displacement",
+              "steps_per_half_cycle": null,
+              "top_spring_per_atom": null
+            },
+            "material": {
+              "element": "Ni",
+              "mass": 58.693
+            },
+            "minimization": {
+              "etol": 0.0,
+              "ftol": 1e-06,
+              "maxeval": 10000,
+              "maxiter": 3000,
+              "style": "cg"
+            },
+            "output": {
+              "dump_every": 1,
+              "thermo_every": 100
+            },
+            "potential": {
+              "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+              "pair_style": "adp"
+            },
+            "simulation": {
+              "boundary": "p p p"
+            },
+            "source": {
+              "bottom_boundary_ids": "bot_boundary.ids",
+              "data": "gb_minimized.lmp",
+              "initial_cumulative_shear_strain": 0.0,
+              "output_dir": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144",
+              "parent_run_id": "minimize-20260927-040247-4d2144",
+              "parent_workflow": "gb_minimize",
+              "top_boundary_ids": "top_boundary.ids"
+            },
+            "version": 1
+          },
+          "current_stress_state_mpa": {
+            "bottom_shear_stress_mpa": -21.758443040431928,
+            "sigma_xx_mpa": -24.11515995846018,
+            "sigma_xy_mpa": 21.758443040431928,
+            "sigma_xz_mpa": 0.7240585929792429,
+            "sigma_yy_mpa": 87.70411377447931,
+            "sigma_yz_mpa": 0.0002156719602320683,
+            "sigma_zz_mpa": 18.19035065427907,
+            "top_shear_stress_mpa": 21.758443040431928
+          },
+          "cyclic": false,
+          "final_actual_shear_strain": 0.017499999999999998,
+          "final_loading_cycle": 1,
+          "final_loading_direction": "x",
+          "final_loading_half_cycle": 1,
+          "final_step": 70,
+          "final_step_converged": true,
+          "final_step_data": {
+            "actual_shear_strain": 0.017499999999999998,
+            "bottom_com": {
+              "x": 0.6687939011725662,
+              "y": -102.01356283705674
+            },
+            "bottom_shear_stress_mpa": -21.758443040431928,
+            "converged": true,
+            "current_slab_spacing_angstrom": 204.65239845687188,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": 0.017499999999999998,
+            "relative_target_shear_strain": 0.0175,
+            "sigma_xx_mpa": -24.11515995846018,
+            "sigma_xy_mpa": 21.758443040431928,
+            "sigma_xz_mpa": 0.7240585929792429,
+            "sigma_yy_mpa": 87.70411377447931,
+            "sigma_yz_mpa": 0.0002156719602320683,
+            "sigma_zz_mpa": 18.19035065427907,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "target_shear_strain": 0.0175,
+            "top_com": {
+              "x": 4.182074106399616,
+              "y": 102.63883561981515
+            },
+            "top_shear_stress_mpa": 21.758443040431928
+          },
+          "initial_cumulative_shear_strain": 0.0,
+          "initial_loading_direction": "x",
+          "load_type": "displacement",
+          "loading_cycle_at_peak": 1,
+          "loading_direction_at_peak": "x",
+          "loading_half_cycle_at_peak": 1,
+          "loading_steps": 70,
+          "manifest": "artifacts/lammps/shear/shear-20260927-040956-e24773/manifest.json",
+          "nonconverged_steps": 0,
+          "output_roles": [
+            "sheared_lmp",
+            "sheared_cfg",
+            "run_metadata",
+            "intermediate_structure"
+          ],
+          "parameters": {
+            "bottom_spring_per_atom": null,
+            "cyclic": false,
+            "description": "Apply the user-requested monotonic +x displacement shear to the completed minimized P012 continuous-periodic-x FCC Ni GB, preserving exact source structure, atom IDs, crystallography, NiCr.adp model, and boundary-ID lineage. Stop after 70 loading steps at strain increment 2.5e-4; do not continue beyond 70 steps.",
+            "element": "Ni",
+            "fine_steps": 0,
+            "fine_strain_increment": 0.00025,
+            "half_cycles": 1,
+            "initial_cumulative_shear_strain": 0.0,
+            "initial_direction": "x",
+            "initial_steps": 70,
+            "initial_strain_increment": 0.00025,
+            "label": "P012_70step_shear",
+            "load_type": "displacement",
+            "normal_direction": "y",
+            "planned_loading_cycles": 1,
+            "planned_loading_half_cycles": 1,
+            "protocol_warnings": [],
+            "source_workflow": "gb_minimize",
+            "spring_per_atom_unit": null,
+            "steps_per_half_cycle": null,
+            "strain_reference": "current_slab_spacing",
+            "target_final_strain": 0.0175,
+            "top_spring_per_atom": null,
+            "total_steps": 70
+          },
+          "parent_run_id": "minimize-20260927-040247-4d2144",
+          "parent_workflow": "gb_minimize",
+          "peak_abs_shear_stress_mpa": 834.7864243899115,
+          "planned_loading_cycles": 1,
+          "planned_loading_half_cycles": 1,
+          "points": 71,
+          "requested_half_cycles": 1,
+          "run_id": "shear-20260927-040956-e24773",
+          "source_fingerprint": "sha256:cfffb28744a13a038e1cf017513a19fd5dcf033cbe622d088f23055f69c2590b",
+          "source_run_id": "minimize-20260927-040247-4d2144",
+          "sources": [
+            {
+              "metadata": {},
+              "ordinal": 0,
+              "relation": "primary_input",
+              "source_fingerprint": "sha256:cfffb28744a13a038e1cf017513a19fd5dcf033cbe622d088f23055f69c2590b",
+              "source_run_id": "minimize-20260927-040247-4d2144"
+            }
+          ],
+          "step_at_peak": 36,
+          "steps_per_half_cycle": null,
+          "strain_at_peak": 0.009000000000000003,
+          "stress_at_peak_mpa": 834.7864243899115,
+          "summary": "Completed 70 shear loading steps; load type=displacement; final strain=0.017499999999999998; nonconverged steps=0",
+          "top_com_current": {
+            "x": 4.182074106399616,
+            "y": 102.63883561981515
+          },
+          "top_com_initial": {
+            "x": 0.6006571334043589,
+            "y": 102.6388356198152
+          },
+          "warnings": [],
+          "workflow": "gb_shear"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "run_gb_shear"
+}

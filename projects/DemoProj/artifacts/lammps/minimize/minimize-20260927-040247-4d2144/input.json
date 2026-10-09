@@ -1,0 +1,78 @@
+{
+  "description": "User-selected periodicity candidate P012 from completed analysis run gb-periodicity-20261008-171025-3c6369. Rebuild and minimize the original FCC Ni general tilt GB (top GB1 (110), bottom GB2 (111)); do not substitute the descriptive Sigma9 reference. Continuous periodic x (x_pbc=true), exact user-confirmed repeats top=[11,21,3], bottom=[4.5,17,3], preserving fractional bottom x repeat. Construction mismatch 0.2059734%; relaxed measured candidate mismatch 0.2511891%. Same crystallography and NiCr.adp potential as source minimization minimize-20260927-035314-d47068.",
+  "grains": {
+    "bottom": {
+      "orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        4.5,
+        17,
+        3
+      ]
+    },
+    "top": {
+      "orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        11,
+        21,
+        3
+      ]
+    }
+  },
+  "material": {
+    "element": "Ni",
+    "lattice": "fcc",
+    "mass": 58.693
+  },
+  "potential": {
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+    "pair_style": "adp"
+  },
+  "simulation": {
+    "a0": 3.52,
+    "boundary": "p p p",
+    "boundary_slab_thickness": 3.0,
+    "enable_initial_staged_relaxation": false,
+    "min_etol": 0.0,
+    "min_ftol": 1e-06,
+    "min_maxeval": 10000,
+    "min_maxiter": 1000,
+    "min_style": "cg",
+    "relax_cycles": 4,
+    "x_pbc": true,
+    "y_eps": 0.01,
+    "y_vacuum": 20.0
+  },
+  "version": 1
+}

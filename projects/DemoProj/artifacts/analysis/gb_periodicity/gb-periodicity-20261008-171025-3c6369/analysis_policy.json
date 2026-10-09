@@ -1,0 +1,15 @@
+{
+  "ptm_cutoff": 0.1,
+  "minimum_lag_in_nn": 2.5,
+  "scan_step_in_nn": 0.06,
+  "refinement_step_in_nn": 0.002,
+  "max_pair_mismatch": 0.05,
+  "shortlist_pair_mismatch": 0.02,
+  "max_primitive_count": 512,
+  "shortlist_rms_in_nn": 0.15,
+  "minimum_repeat_cycles": 3.0,
+  "minimum_long_scale_ratio": 3.0,
+  "maximum_bulk_transverse_in_nn": 0.02,
+  "max_seeds_per_method": 12,
+  "x_window": null
+}

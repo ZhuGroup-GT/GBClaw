@@ -1,0 +1,117 @@
+{
+  "version": 2,
+  "status": "completed",
+  "replicas": 18,
+  "ranks_per_replica": 2,
+  "total_mpi_ranks": 36,
+  "profile": [
+    {
+      "replica": 0,
+      "reaction_coordinate": 0.0,
+      "potential_energy_eV": -48992.796,
+      "relative_energy_eV": 0.0
+    },
+    {
+      "replica": 1,
+      "reaction_coordinate": 0.064230446,
+      "potential_energy_eV": -48992.795,
+      "relative_energy_eV": 0.0010000000038417056
+    },
+    {
+      "replica": 2,
+      "reaction_coordinate": 0.12846063,
+      "potential_energy_eV": -48992.791,
+      "relative_energy_eV": 0.005000000004656613
+    },
+    {
+      "replica": 3,
+      "reaction_coordinate": 0.19269029,
+      "potential_energy_eV": -48992.784,
+      "relative_energy_eV": 0.012000000002444722
+    },
+    {
+      "replica": 4,
+      "reaction_coordinate": 0.25691916,
+      "potential_energy_eV": -48992.776,
+      "relative_energy_eV": 0.020000000004074536
+    },
+    {
+      "replica": 5,
+      "reaction_coordinate": 0.32114699,
+      "potential_energy_eV": -48992.769,
+      "relative_energy_eV": 0.027000000001862645
+    },
+    {
+      "replica": 6,
+      "reaction_coordinate": 0.38537351,
+      "potential_energy_eV": -48992.762,
+      "relative_energy_eV": 0.033999999999650754
+    },
+    {
+      "replica": 7,
+      "reaction_coordinate": 0.44959845,
+      "potential_energy_eV": -48992.754,
+      "relative_energy_eV": 0.04200000000128057
+    },
+    {
+      "replica": 8,
+      "reaction_coordinate": 0.51382174,
+      "potential_energy_eV": -48992.742,
+      "relative_energy_eV": 0.05400000000372529
+    },
+    {
+      "replica": 9,
+      "reaction_coordinate": 0.57804419,
+      "potential_energy_eV": -48992.711,
+      "relative_energy_eV": 0.08499999999912689
+    },
+    {
+      "replica": 10,
+      "reaction_coordinate": 0.63079072,
+      "potential_energy_eV": -48992.766,
+      "relative_energy_eV": 0.029999999998835847
+    },
+    {
+      "replica": 11,
+      "reaction_coordinate": 0.6835374,
+      "potential_energy_eV": -48992.776,
+      "relative_energy_eV": 0.020000000004074536
+    },
+    {
+      "replica": 12,
+      "reaction_coordinate": 0.73628325,
+      "potential_energy_eV": -48992.779,
+      "relative_energy_eV": 0.016999999999825377
+    },
+    {
+      "replica": 13,
+      "reaction_coordinate": 0.78902781,
+      "potential_energy_eV": -48992.789,
+      "relative_energy_eV": 0.0070000000050640665
+    },
+    {
+      "replica": 14,
+      "reaction_coordinate": 0.84177174,
+      "potential_energy_eV": -48992.802,
+      "relative_energy_eV": -0.006000000001222361
+    },
+    {
+      "replica": 15,
+      "reaction_coordinate": 0.89451498,
+      "potential_energy_eV": -48992.808,
+      "relative_energy_eV": -0.011999999995168764
+    },
+    {
+      "replica": 16,
+      "reaction_coordinate": 0.94725764,
+      "potential_energy_eV": -48992.811,
+      "relative_energy_eV": -0.014999999999417923
+    },
+    {
+      "replica": 17,
+      "reaction_coordinate": 1.0,
+      "potential_energy_eV": -48992.812,
+      "relative_energy_eV": -0.01599999999598367
+    }
+  ]
+}

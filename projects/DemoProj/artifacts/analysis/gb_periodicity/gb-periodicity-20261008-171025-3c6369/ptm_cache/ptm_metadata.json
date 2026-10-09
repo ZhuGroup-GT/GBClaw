@@ -1,0 +1,61 @@
+{
+  "source": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/lammps/minimize/minimize-20260927-035314-d47068/gb_minimized.cfg",
+  "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+  "ptm_rmsd_cutoff": 0.1,
+  "enabled_templates": [
+    "Other",
+    "FCC",
+    "HCP",
+    "BCC"
+  ],
+  "particle_count": 56880,
+  "cell": [
+    [
+      240.864,
+      0.0,
+      0.0,
+      -120.432
+    ],
+    [
+      0.0,
+      248.201,
+      0.0,
+      -124.1005
+    ],
+    [
+      0.0,
+      0.0,
+      14.9273,
+      -7.46365
+    ]
+  ],
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "imported_pbc": [
+    true,
+    true,
+    true
+  ],
+  "pbc_sources": [
+    "source_metadata.boundary",
+    "source_metadata.boundary",
+    "source_metadata.boundary"
+  ],
+  "particle_ids_from_file": true,
+  "structure_counts": {
+    "Other": 3516,
+    "FCC": 53322,
+    "HCP": 42,
+    "BCC": 0,
+    "ICO": 0,
+    "Simple cubic": 0,
+    "Cubic diamond": 0,
+    "Hexagonal diamond": 0,
+    "Graphene": 0
+  },
+  "coordinate_frame": "OVITO imported Cartesian Angstrom coordinates (CFG origin may be shifted)",
+  "method_note": "PTM runs on the full input before any surface or slab filtering."
+}

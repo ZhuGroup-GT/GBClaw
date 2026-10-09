@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-09-27T03:52:46+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "70ff5054-b062-56aa-8de5-6444970bbf4b",
+        "kind": "gb_crystallography",
+        "lookup_key": "gb:crystallography:b7ae2dad11a88d658246bd6b",
+        "source_run_id": "csl-20260927-035230-cf0c22",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-09-27T03:52:46+00:00",
+        "value": {
+          "actual_boundary": {
+            "geometry_classification": "pure_tilt_geometry",
+            "misorientation_degrees": 35.26438968,
+            "ordered_plane1": [
+              1,
+              1,
+              0
+            ],
+            "ordered_plane2": [
+              1,
+              1,
+              1
+            ],
+            "oriented_normal_angle_degrees": 35.26438968,
+            "tilt_axis": [
+              1,
+              -1,
+              0
+            ]
+          },
+          "basis": "fcc",
+          "csl_assessment": {
+            "candidate_count": 2,
+            "candidate_set_exhaustive_within_reported_bounds": true,
+            "criteria": {
+              "max_misorientation_delta_degrees": 5.0,
+              "max_plane_deviation_degrees": 5.0,
+              "max_plane_matches_per_sigma": 3,
+              "plane_limit": 5,
+              "sigma_limit": 50
+            },
+            "exact_rotation_assigned": null,
+            "exact_sigma_assigned": null,
+            "search_classification": "near_csl_reference_found",
+            "selected_reference": {
+              "boundary_type": "Tilt",
+              "classification": "near_csl_reference",
+              "exact_plane1": [
+                11,
+                11,
+                -1
+              ],
+              "exact_plane2": [
+                1,
+                1,
+                1
+              ],
+              "max_plane_deviation_degrees": 3.67805159,
+              "misorientation_delta_degrees": 3.67805159,
+              "plane1_deviation_degrees": 3.67805159,
+              "plane2_deviation_degrees": 0.0,
+              "reference_atom_count": 972,
+              "rotation_m": 4,
+              "rotation_n": 1,
+              "sigma": 9,
+              "theta_degrees": 38.94244127,
+              "total_plane_deviation_degrees": 3.67805159
+            },
+            "selected_reference_is_descriptive_only": true
+          },
+          "downstream_policy": {
+            "authoritative_for_structure_construction": false,
+            "informational_only": true,
+            "must_not_supply_orientations_periods_or_repeat_counts": true,
+            "near_csl_reference_must_not_replace_actual_boundary": true,
+            "requires_user_or_task_confirmation_for_reuse": true
+          },
+          "fact_scope": "descriptive_general_gb_crystallography",
+          "provenance": {
+            "artifact_id": "46c206b2-986d-5d93-a393-d7eb1f771198",
+            "artifact_path": "artifacts/structure/csl-20260927-035230-cf0c22/results/02_match_csl_tilt_references.txt",
+            "source_run_id": "csl-20260927-035230-cf0c22",
+            "source_tool": "match_csl_tilt_references",
+            "tool_sequence": 2
+          }
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "csl"
+}

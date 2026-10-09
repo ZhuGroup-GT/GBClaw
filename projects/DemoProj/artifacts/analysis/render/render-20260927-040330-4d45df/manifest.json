@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "artifact_id": "82c6052a-aad8-5549-95a0-877b90154d04",
+      "created_at": "2026-09-27T04:03:32+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Visually inspect the relaxed continuous-periodic-x P012 FCC Ni grain-boundary structure and periodic seam/interface; retain all atoms with default CNA coloring.",
+        "render_kind": "atomic_structure",
+        "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20260927-040247-4d2144",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render_data",
+      "size_bytes": 2208
+    },
+    {
+      "artifact_id": "b98c1bb7-05ce-5b7f-956d-97b3566660d1",
+      "created_at": "2026-09-27T04:03:32+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Visually inspect the relaxed continuous-periodic-x P012 FCC Ni grain-boundary structure and periodic seam/interface; retain all atoms with default CNA coloring.",
+        "render_kind": "atomic_structure",
+        "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20260927-040247-4d2144",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render",
+      "size_bytes": 1010664
+    },
+    {
+      "artifact_id": "c850fe9f-8b4d-5a0a-840a-700c0d89593b",
+      "created_at": "2026-09-27T04:03:32+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_atomic_structure",
+        "sha256": "264156951c4d7cfa05290b4bab91dc8d1d88207978f051ac6b3c1f6b4d37bd11"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 2268
+    }
+  ],
+  "run_id": "render-20260927-040330-4d45df",
+  "workflow": "render"
+}

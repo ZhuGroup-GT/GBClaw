@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "artifact_id": "76c267c9-eb11-5b2b-b8e2-fc06c68215d5",
+      "created_at": "2026-09-27T04:14:23+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 1851
+    },
+    {
+      "artifact_id": "e150b7d8-a742-5b19-8c68-6bfa62e4d1b6",
+      "created_at": "2026-09-27T04:14:23+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sandbox_path": "/inputs/000-shear_run.json",
+        "sha256": "d1b0ded0342085d3fe348db75c5855399119e77b9d6a97ef8f4e6fb2e21a4468",
+        "source_artifact_id": "6579ee6c-35ac-558f-a9c5-fa4a7e5cd41e",
+        "source_role": "run_metadata",
+        "source_run_id": "shear-20260927-040956-e24773"
+      },
+      "path": "inputs/000-shear_run.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_input",
+      "size_bytes": 81648
+    },
+    {
+      "artifact_id": "dabb59f7-68d4-5959-b5fc-3406f24f4a22",
+      "created_at": "2026-09-27T04:15:00+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "description": "Publication-quality PNG of signed actual cumulative shear strain versus signed top-boundary shear stress for P012 FCC Ni.",
+        "sha256": "0e7e7c0e7e70fd14bd3d70b6d23c9c7151dffe3e9ae882432375e4d212598ac8"
+      },
+      "path": "published/p012_shear_stress_strain.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "plot",
+      "size_bytes": 169695
+    },
+    {
+      "artifact_id": "805fca7c-928b-586a-b6dc-a99f722bd008",
+      "created_at": "2026-09-27T04:15:00+00:00",
+      "media_type": "text/csv",
+      "metadata": {
+        "description": "Unsmoothed 71-point table with step, actual shear strain, top shear stress in MPa, and convergence flag.",
+        "sha256": "47382a4d8c8fbc536a01622558da320979d1056c1b1224ccf3020acb703f3f17"
+      },
+      "path": "published/p012_shear_stress_strain.csv",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "data",
+      "size_bytes": 3415
+    },
+    {
+      "artifact_id": "f4738469-7f69-52a1-977b-992b868291b2",
+      "created_at": "2026-09-27T04:15:00+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "description": "Source lineage plus exact point-count, convergence, peak, and final-point metrics.",
+        "sha256": "ac3509dd4c0cdd9c4f33a7b51a8316e89f9100361898966deca6229bcefc1054"
+      },
+      "path": "published/p012_shear_stress_strain_summary.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "summary",
+      "size_bytes": 1151
+    },
+    {
+      "artifact_id": "4f41b7a3-4b69-54e7-9e2b-3dfa4edb2893",
+      "created_at": "2026-09-27T04:15:00+00:00",
+      "media_type": "text/x-python",
+      "metadata": {
+        "description": "Reproducible script used to derive the CSV, PNG, and JSON summary from the staged metadata.",
+        "sha256": "045d2d3a3b5cb7cbdc0828c725aac3cf6b31769ce97f16c97a6ae5aedbe7061d"
+      },
+      "path": "published/create_p012_shear_plot.py",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "script",
+      "size_bytes": 5366
+    },
+    {
+      "artifact_id": "77d1cf85-0dd5-58ef-8f97-223d816ea8bc",
+      "created_at": "2026-09-27T04:15:00+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "publish_coding_result",
+        "sha256": "5cfb9d6c004a94e541749b1c910cca097ff748e3c2e843be01b097809e9ddd13"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 7880
+    }
+  ],
+  "run_id": "code-20260927-041423-4734dc",
+  "workflow": "code"
+}

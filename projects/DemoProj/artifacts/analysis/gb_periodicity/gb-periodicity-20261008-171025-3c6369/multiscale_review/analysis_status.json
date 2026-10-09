@@ -1,0 +1,1588 @@
+{
+  "status": "completed",
+  "source_sha256": "c7917fa030af68ee013bf629ea10160d4b50e76493f3085ca50d40f1e1a9d672",
+  "lattice_repeat_checks": {
+    "P001": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 2.0,
+          "nearest_length_error_angstrom": 0.586567246587208,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 0.5,
+          "nearest_length_error_angstrom": 2.1383271854128054,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P002": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 2.0,
+          "nearest_length_error_angstrom": 0.2581096289561593,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 1.0,
+          "nearest_length_error_angstrom": 1.8429947489561265,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P003": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 2.0,
+          "nearest_length_error_angstrom": 0.7139398137514643,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 1.0,
+          "nearest_length_error_angstrom": 0.8709453062485029,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P004": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 3.0,
+          "nearest_length_error_angstrom": 0.10049662336560239,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 1.0,
+          "nearest_length_error_angstrom": 2.0329484953656323,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P005": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.0,
+          "nearest_length_error_angstrom": 0.5080296642923816,
+          "nominal_count": 4.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 1.5,
+          "nearest_length_error_angstrom": 0.6319796477076647,
+          "nominal_count": 1.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 4.0,
+        "lower": 1.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P006": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.0,
+          "nearest_length_error_angstrom": 0.15387685371919702,
+          "nominal_count": 5.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 2.0,
+          "nearest_length_error_angstrom": 0.1936898982808657,
+          "nominal_count": 2.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 5.0,
+        "lower": 2.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P007": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 6.0,
+          "nearest_length_error_angstrom": 0.2059101494592852,
+          "nominal_count": 6.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 2.5,
+          "nearest_length_error_angstrom": 0.23896565854063567,
+          "nominal_count": 2.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 6.0,
+        "lower": 2.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P008": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 10.0,
+          "nearest_length_error_angstrom": 0.6834966733734404,
+          "nominal_count": 10.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.0,
+          "nearest_length_error_angstrom": 0.011636830626684969,
+          "nominal_count": 4.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 10.0,
+        "lower": 4.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P009": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 10.0,
+          "nearest_length_error_angstrom": 0.3052727500404018,
+          "nominal_count": 10.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.0,
+          "nearest_length_error_angstrom": 0.38986075395972364,
+          "nominal_count": 4.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 10.0,
+        "lower": 4.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P010": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 10.0,
+          "nearest_length_error_angstrom": 0.9182238585348586,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.0,
+          "nearest_length_error_angstrom": 1.613357362534984,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P011": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 10.0,
+          "nearest_length_error_angstrom": 1.4158869155516527,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.0,
+          "nearest_length_error_angstrom": 2.111020419551778,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P012": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 11.0,
+          "nearest_length_error_angstrom": 0.05363115857025491,
+          "nominal_count": 11.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.5,
+          "nearest_length_error_angstrom": 0.04367789742960326,
+          "nominal_count": 4.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 11.0,
+        "lower": 4.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P013": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 12.0,
+          "nearest_length_error_angstrom": 1.2700639199606485,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 4.5,
+          "nearest_length_error_angstrom": 2.1499640160394904,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P014": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 12.0,
+          "nearest_length_error_angstrom": 0.7773774935137112,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.0,
+          "nearest_length_error_angstrom": 1.667129109513553,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P015": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 12.0,
+          "nearest_length_error_angstrom": 0.07953981577691138,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.0,
+          "nearest_length_error_angstrom": 0.8102118002229304,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P016": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 12.0,
+          "nearest_length_error_angstrom": 0.4129740639784245,
+          "nominal_count": 12.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.0,
+          "nearest_length_error_angstrom": 0.47677755202141725,
+          "nominal_count": 5.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 12.0,
+        "lower": 5.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P017": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 13.0,
+          "nearest_length_error_angstrom": 0.4386777634729526,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.5,
+          "nearest_length_error_angstrom": 2.120871939472778,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P018": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 13.0,
+          "nearest_length_error_angstrom": 0.19979949610466008,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 5.5,
+          "nearest_length_error_angstrom": 1.8819936721044854,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P019": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 15.0,
+          "nearest_length_error_angstrom": 0.45069095696463535,
+          "nominal_count": 15.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 6.0,
+          "nearest_length_error_angstrom": 0.5920092990355528,
+          "nominal_count": 6.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 15.0,
+        "lower": 6.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P020": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 16.0,
+          "nearest_length_error_angstrom": 0.09123273480381044,
+          "nominal_count": 16.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 6.5,
+          "nearest_length_error_angstrom": 0.1590249611963941,
+          "nominal_count": 6.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 16.0,
+        "lower": 6.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P021": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 17.0,
+          "nearest_length_error_angstrom": 0.26324885678683785,
+          "nominal_count": 17.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 7.0,
+          "nearest_length_error_angstrom": 0.2789360072129412,
+          "nominal_count": 7.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 17.0,
+        "lower": 7.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P022": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 21.0,
+          "nearest_length_error_angstrom": 0.6855631608966917,
+          "nominal_count": 21.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 8.5,
+          "nearest_length_error_angstrom": 0.08773871289642443,
+          "nominal_count": 8.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 21.0,
+        "lower": 8.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P023": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 21.0,
+          "nearest_length_error_angstrom": 0.24264304015144944,
+          "nominal_count": 21.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 8.5,
+          "nearest_length_error_angstrom": 0.3551814078488178,
+          "nominal_count": 8.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 21.0,
+        "lower": 8.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P024": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 22.0,
+          "nearest_length_error_angstrom": 0.11467741465533265,
+          "nominal_count": 22.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.0,
+          "nearest_length_error_angstrom": 0.0799406973443837,
+          "nominal_count": 9.0,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 22.0,
+        "lower": 9.0
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P025": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 23.0,
+          "nearest_length_error_angstrom": 1.2721304074838997,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.0,
+          "nearest_length_error_angstrom": 2.050588472516381,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P026": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 23.0,
+          "nearest_length_error_angstrom": 0.7794439810369624,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.5,
+          "nearest_length_error_angstrom": 1.7665046530366624,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid",
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P027": {
+      "status": "compatible",
+      "eligible": true,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 23.0,
+          "nearest_length_error_angstrom": 0.46915900624598805,
+          "nominal_count": 23.0,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.5,
+          "nearest_length_error_angstrom": 0.5179016657537119,
+          "nominal_count": 9.5,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": {
+        "upper": 23.0,
+        "lower": 9.5
+      },
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P028": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 23.0,
+          "nearest_length_error_angstrom": 0.9772091520787001,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.5,
+          "nearest_length_error_angstrom": 0.009851519920999863,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "upper_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P029": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 24.0,
+          "nearest_length_error_angstrom": 0.44074425099620385,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 9.5,
+          "nearest_length_error_angstrom": 2.0895320690040933,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    },
+    "P030": {
+      "status": "incompatible",
+      "eligible": false,
+      "grains": {
+        "upper": {
+          "lattice": "FCC",
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 1.0,
+          "full_vector_length_angstrom": 3.517336991999997,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 24.0,
+          "nearest_length_error_angstrom": 0.14214641678587725,
+          "nominal_count": null,
+          "indexing_validated": true
+        },
+        "lower": {
+          "lattice": "FCC",
+          "direction": [
+            1,
+            1,
+            -2
+          ],
+          "direction_basis": "validated_source_direction",
+          "coefficient_step": 0.5,
+          "full_vector_length_angstrom": 8.619559103999961,
+          "length_basis": "measured_far_field_translation",
+          "nearest_allowed_count": 10.0,
+          "nearest_length_error_angstrom": 1.9216496487855608,
+          "nominal_count": null,
+          "indexing_validated": true
+        }
+      },
+      "nominal_counts": null,
+      "length_tolerance_angstrom": 0.7464945855251909,
+      "reasons": [
+        "lower_outside_allowed_translation_grid"
+      ],
+      "meaning": "Necessary pure-x Bravais-lattice closure only; not sufficient for a GB supercell, chemical-order repeat, or a selected PBC size."
+    }
+  },
+  "summary_image_path": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+  "detailed_report_path": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+  "artifact_paths": {
+    "summary_image": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_summary.png",
+    "multiscale_report": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/multiscale_review.json",
+    "candidate_table": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/all_candidates.csv",
+    "candidate_details": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/ALL_CANDIDATES.md",
+    "elastic_report": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/elastic_periodicity.json",
+    "elastic_atoms": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/elastic_atoms.npz",
+    "strain_peak_table": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/strain_fft_peaks.csv",
+    "strain_peak_review": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/strain_fft_review.json",
+    "structure_peak_table": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/structure_fft_peaks.csv",
+    "review_index": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/elastic/review_index.json",
+    "local_strain_report": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/local_strain/local_strain_events.json",
+    "local_strain_image": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/local_strain/local_strain_events.png",
+    "coordinate_rows_report": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/coordinate_rows/coordinate_rows.json",
+    "coordinate_rows_image": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/coordinate_rows/coordinate_rows.png",
+    "analysis_status": "/data/home/yazhuo/Project/GBclaw/projects/DemoProj/artifacts/analysis/gb_periodicity/gb-periodicity-20261008-171025-3c6369/multiscale_review/analysis_status.json"
+  },
+  "review_priority_candidate": {
+    "candidate_id": "P012",
+    "translation_angstrom": 38.74433807057022,
+    "translation_nm": 3.8744338070570223,
+    "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+    "ratio_label": "\u2248 11.02 : 4.49",
+    "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+    "near_rms_over_nn": 0.03679126718257097,
+    "defect_rms_over_nn": 0.038986692303376105,
+    "observable_cycles": 4.601902057617884,
+    "highlight_score": 0.9605038107710739,
+    "highlight_eligible": true,
+    "roles": [
+      "near_coincidence_candidate",
+      "geometric_repeat_candidate",
+      "relative_short_candidate"
+    ],
+    "lattice_repeat_status": "compatible",
+    "pure_x_repeat_eligible": true,
+    "nominal_counts": {
+      "upper": 11.0,
+      "lower": 4.5
+    },
+    "evidence_scores": {
+      "coordinate_rows": 0.9991361682319286,
+      "local_strain": 0.929510397025008,
+      "coordinate_geometry": 0.9399874145693337
+    },
+    "short_motif": {
+      "candidate_id": "P012",
+      "row_period_nm": 3.880414065623809,
+      "period_nm": 3.8744338070570223,
+      "coordinate_period_nm": 3.8744338070570223,
+      "association_kind": "within_tolerance",
+      "association_relative_difference": 0.00154113928710991,
+      "association_difference_angstrom": 0.05980258566786745,
+      "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+      "reason": "Repeated atomic-row motif agrees with the coordinate translation; a matching FFT peak is not required.",
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true
+    },
+    "long_scale": null
+  },
+  "alternative_candidates": [
+    {
+      "candidate_id": "P006",
+      "translation_angstrom": 17.43280810628079,
+      "translation_nm": 1.7432808106280788,
+      "display_lattice_label": "5[0 0 -1] : 2[1 1 -2]",
+      "ratio_label": "\u2248 4.96 : 2.02",
+      "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+      "near_rms_over_nn": 0.10435491929450248,
+      "defect_rms_over_nn": 0.12017212572054188,
+      "observable_cycles": 10.22770674701352,
+      "highlight_score": 0.6755583959475218,
+      "highlight_eligible": true,
+      "roles": [
+        "near_coincidence_candidate",
+        "geometric_repeat_candidate",
+        "relative_short_candidate"
+      ],
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true,
+      "nominal_counts": {
+        "upper": 5.0,
+        "lower": 2.0
+      },
+      "evidence_scores": {
+        "coordinate_rows": 0.9645105626576235,
+        "local_strain": 0.3243826296647492,
+        "coordinate_geometry": 0.6414646066168255
+      },
+      "short_motif": null,
+      "long_scale": null
+    },
+    {
+      "candidate_id": "P007",
+      "translation_angstrom": 21.309932101459268,
+      "translation_nm": 2.1309932101459266,
+      "display_lattice_label": "6[0 0 -1] : 2.5[1 1 -2]",
+      "ratio_label": "\u2248 6.06 : 2.47",
+      "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+      "near_rms_over_nn": 0.11208818625263686,
+      "defect_rms_over_nn": 0.12370717787836527,
+      "observable_cycles": 8.366880205863747,
+      "highlight_score": 0.564525959130432,
+      "highlight_eligible": true,
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true,
+      "nominal_counts": {
+        "upper": 6.0,
+        "lower": 2.5
+      },
+      "evidence_scores": {
+        "coordinate_rows": 0.947488023010216,
+        "local_strain": 0.0,
+        "coordinate_geometry": 0.6184358330878186
+      },
+      "short_motif": null,
+      "long_scale": null
+    },
+    {
+      "candidate_id": "P005",
+      "translation_angstrom": 13.561318303707607,
+      "translation_nm": 1.3561318303707606,
+      "display_lattice_label": "4[0 0 -1] : 1.5[1 1 -2]",
+      "ratio_label": "\u2248 3.86 : 1.57",
+      "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+      "near_rms_over_nn": 0.2550175128787768,
+      "defect_rms_over_nn": 0.27033883650055945,
+      "observable_cycles": 13.147515978535376,
+      "highlight_score": 0.3276237815958673,
+      "highlight_eligible": false,
+      "roles": [],
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true,
+      "nominal_counts": {
+        "upper": 4.0,
+        "lower": 1.5
+      },
+      "evidence_scores": {
+        "coordinate_rows": 0.3710986363322247,
+        "local_strain": 0.35106085396919284,
+        "coordinate_geometry": 0.24622023624073192
+      },
+      "short_motif": null,
+      "long_scale": null
+    },
+    {
+      "candidate_id": "P024",
+      "translation_angstrom": 77.49609123865527,
+      "translation_nm": 7.749609123865527,
+      "display_lattice_label": "22[0 0 -1] : 9[1 1 -2]",
+      "ratio_label": "\u2248 22.03 : 8.99",
+      "display_direction_ratio_label": "upper [0 0 -1] : lower [1 1 -2]",
+      "near_rms_over_nn": 0.042265507124918354,
+      "defect_rms_over_nn": 0.04422674412637327,
+      "observable_cycles": 2.300730865753196,
+      "highlight_score": 0.2769697348702815,
+      "highlight_eligible": false,
+      "roles": [
+        "geometric_repeat_candidate"
+      ],
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true,
+      "nominal_counts": {
+        "upper": 22.0,
+        "lower": 9.0
+      },
+      "evidence_scores": {
+        "coordinate_rows": 0.0,
+        "local_strain": 0.0,
+        "coordinate_geometry": 0.923232449567605
+      },
+      "short_motif": null,
+      "long_scale": null
+    }
+  ],
+  "short_motif_candidates": [
+    {
+      "candidate_id": "P012",
+      "row_period_nm": 3.880414065623809,
+      "period_nm": 3.8744338070570223,
+      "coordinate_period_nm": 3.8744338070570223,
+      "association_kind": "within_tolerance",
+      "association_relative_difference": 0.00154113928710991,
+      "association_difference_angstrom": 0.05980258566786745,
+      "display_lattice_label": "11[0 0 -1] : 4.5[1 1 -2]",
+      "reason": "Repeated atomic-row motif agrees with the coordinate translation; a matching FFT peak is not required.",
+      "lattice_repeat_status": "compatible",
+      "pure_x_repeat_eligible": true
+    }
+  ],
+  "longer_candidates": [],
+  "short_motif_candidate_count": 1,
+  "longer_candidate_count": 0,
+  "total_candidate_count": 30,
+  "lattice_filter": {
+    "compatible_count": 14,
+    "distinct_pair_count": 12,
+    "incompatible_count": 16,
+    "unresolved_count": 0,
+    "oblique_count": 0,
+    "total_count": 30,
+    "length_tolerance_angstrom": 0.7464945855251909,
+    "rule": "For reduced [uvw]: FCC half-integer steps iff u+v+w is even; BCC half-integer steps iff all three are odd; otherwise integer steps. Divide by gcd for unreduced indices.",
+    "scope": "Filter reported pure-x lattice-repeat candidates, not measured FFT wavelengths, spatial intervals or row motifs. Compatible means necessary closure only; geometry, mismatch and user choice still apply."
+  },
+  "priority_reason": "P012: local-repeat display score 0.961 = 0.4\u00d7row 0.999 + 0.3\u00d7strain 0.930 + 0.3\u00d7geometry 0.940. This is visual emphasis, not a unique or confirmed period.",
+  "selection_policy": {
+    "meaning": "Priority for review based on local repeat evidence; heuristic, not a probability or a selected physical period.",
+    "weights": {
+      "coordinate_row_local_spacing": 0.4,
+      "strain_local_spacing": 0.3,
+      "xyz_geometry": 0.3
+    },
+    "local_association_tolerance_angstrom": 0.7464945855251909,
+    "local_association": "Within 0.3 NN; exp(-0.5*(distance/tolerance)^2). Keep maximum per grain, average over both grains; channels are correlated, not extra votes.",
+    "local_quality": "At least 3 observations; strain relative spread <= 0.15. Prominence-stable strain modes weight 1; otherwise 0.5. Only uniformly sampled coordinate rows.",
+    "geometry": "Mean of 1/(1+(RMS/NN/0.15)^2) for near-GB and non-bulk populations.",
+    "highlight_eligibility": "Validated pure-x FCC/BCC lattice closure in both grains, positive local row or strain support, both finite geometry residuals, near-GB RMS/NN <= 0.20, at least 3 observable cycles when reported, and no oblique-only role.",
+    "tie_break": "Equal score to 8 decimals: smaller physical translation first, then candidate id.",
+    "count_labels": "Upper : lower full a[hkl] coefficients. Display a nominal enumerated pair or allowed FCC/BCC translation-grid pair only when each independently predicted grain length lies within 0.3 NN of the coordinate candidate. Otherwise prefix measured counts with approximation sign; exact measured counts remain separate.",
+    "indexing": "Validated source orientation when present; otherwise nonnegative descending-index cubic-symmetry representatives for compact display. Original signed PTM directions are preserved in metadata; unresolved directions stay unresolved."
+  },
+  "long_band_observability": {
+    "status": "available",
+    "minimum_nm": 5.2298424318842365,
+    "maximum_nm": 5.9432549696,
+    "meaning": "The exploratory long-wave band requires its lower bound to be below the observable upper bound. An unresolved band does not establish absence of long periodicity."
+  },
+  "evidence_semantics": {
+    "primary_output": "Present the summary image first, with the review-priority candidate and a few distinct alternatives. Read the linked detailed reports only when needed.",
+    "priority": "Highest declared local-evidence review score among eligible candidates; a heuristic, not a probability or a confirmed period. If none is eligible, no priority is assigned.",
+    "short_and_long": "Short atomic-row motifs, local strain intervals and full-coordinate recurrences are separate observations. A nearby lattice pair retains its own coordinate length; it does not replace the measured motif length.",
+    "spectra": "Colored S/L guides are hypotheses, not inserted Fourier maxima. Actual structure and strain peaks retain review outcomes; far-field strain overlap never automatically rejects a peak.",
+    "decision": "Candidates do not establish secondary dislocations or automatically select PBC dimensions. The user makes the final selection."
+  },
+  "selected_candidate_id": null,
+  "requires_user_decision": true
+}

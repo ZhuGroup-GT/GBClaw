@@ -1,0 +1,136 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T05:10:50+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "565a842f-2ced-5909-929e-cf9f023d8606",
+    "kind": "scientific_conclusion",
+    "lookup_key": "dichromatic_map:dichromatic-map-20260927-051048-fb4d97",
+    "source_run_id": "dichromatic-map-20260927-051048-fb4d97",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T05:10:50+00:00",
+    "value": {
+      "conclusion_type": "dichromatic_map",
+      "coordinate_artifact": "artifacts/structure/dichromatic_map/dichromatic-map-20260927-051048-fb4d97/dichromatic_map.json",
+      "counts": {
+        "candidate_columns": 1990,
+        "exact_csl_cell_available": false,
+        "pick_candidate_count": 13,
+        "strain_applied": false,
+        "visible_atoms_per_grain": [
+          409,
+          409
+        ],
+        "visible_atoms_per_grain_per_layer": [
+          [
+            205,
+            204
+          ],
+          [
+            205,
+            204
+          ]
+        ],
+        "visible_coincidences": 1,
+        "visible_local_pairs": 12
+      },
+      "exact_csl_cell": null,
+      "geometry": {
+        "angle_range": {
+          "maximum_deg": 90.0,
+          "minimum_deg": 0.0
+        },
+        "axial_period_a0": 0.7071067811865476,
+        "axis": "1 -1 0",
+        "axis_indices": [
+          1,
+          -1,
+          0
+        ],
+        "axis_label": "[1 -1 0]",
+        "frame": [
+          [
+            0.7071067811865476,
+            0.0,
+            0.7071067811865475
+          ],
+          [
+            0.7071067811865476,
+            0.0,
+            -0.7071067811865475
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "lattice": "FCC",
+        "layer_count": 2,
+        "layer_names": [
+          "A",
+          "B"
+        ],
+        "layer_spacing_a0": 0.35355339059327373,
+        "x_label": "x",
+        "y_label": "y"
+      },
+      "image_paths": [
+        "artifacts/structure/dichromatic_map/dichromatic-map-20260927-051048-fb4d97/dichromatic_map.png"
+      ],
+      "origin": "structure_agent",
+      "parameters": {
+        "angle_deg": 35.26438968,
+        "axis": "1 -1 0",
+        "center": [
+          0.0,
+          0.0
+        ],
+        "display_rotation_deg": 0.0,
+        "g1_color": "#1677d2",
+        "g2_color": "#e35d35",
+        "height": 12.0,
+        "lattice": "FCC",
+        "lattice_constant": 3.52,
+        "local_cutoff": 0.08,
+        "marker_size": 32.0,
+        "show_coincidence": true,
+        "show_csl_cell": true,
+        "visible_grain_layers": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "width": 12.0
+      },
+      "purpose": "Initial read-only FCC Ni dichromatic-pattern setup for the actual general/near-CSL pure-tilt grain boundary used in the project. Preserve the original ordered geometry GB1=(110) as top and GB2=(111) as bottom, physical tilt axis [1 -1 0], and actual misorientation 35.26438968 degrees. Inspect coincident and near-coincident sites, layer-dependent mismatch vectors, and geometric displacement/Burgers-vector candidates relevant to the transition between original and post-collapse states. The bounded Sigma-9 branch (m,n)=(4,1), 38.94244127 degrees is presentation-only context and must not replace the supplied angle, planes, orientations, periods, or repeat counts. This is initial read-only visualization only: do not select sites, apply strain, or create a cell. Production structure context: P012 continuous-periodic-x cell from minimize-20260927-040247-4d2144. Source crystallography: csl-20260927-035230-cf0c22.",
+      "scientific_scope": "Ideal cubic lattice projection; no atomic relaxation or elastic-energy minimization.",
+      "software": {
+        "name": "dichromatic-map",
+        "repository": "https://github.com/Yazhuo-Liu/DichromaticMap",
+        "version": "0.2.0"
+      },
+      "source_run_id": "csl-20260927-035230-cf0c22",
+      "summary": "Dichromatic pattern rendered: Initial read-only FCC Ni dichromatic-pattern setup for the actual general/near-CSL pure-tilt grain boundary used in the project. Preserve the original ordered geometry GB1=(110) as top and GB2=(111) as bottom, physical tilt axis [1 -1 0], and actual misorientation 35.26438968 degrees. Inspect coincident and near-coincident sites, layer-dependent mismatch vectors, and geometric displacement/Burgers-vector candidates relevant to the transition between original and post-collapse states. The bounded Sigma-9 branch (m,n)=(4,1), 38.94244127 degrees is presentation-only context and must not replace the supplied angle, planes, orientations, periods, or repeat counts. This is initial read-only visualization only: do not select sites, apply strain, or create a cell. Production structure context: P012 continuous-periodic-x cell from minimize-20260927-040247-4d2144. Source crystallography: csl-20260927-035230-cf0c22.",
+      "units": {
+        "coordinates": "a0",
+        "half_indices": "reference crystal a0/2",
+        "lattice_constant_angstrom": 3.52,
+        "marker_size": "points squared"
+      },
+      "warnings": [
+        "This is an ideal, unstrained lattice projection; it does not relax or reconstruct a grain boundary.",
+        "Coincidences and local pairs compare atoms in the same axial phase only.",
+        "The common cell preserves axial layers and is not necessarily primitive in three dimensions.",
+        "No exact common cell recognized at this angle within the library's bounded rational search; no strained fit was substituted."
+      ]
+    },
+    "version": 1
+  },
+  "memory_tool": "render_dichromatic_map"
+}

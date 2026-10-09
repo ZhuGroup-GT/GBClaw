@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "artifact_id": "af41b066-7606-5412-beb2-17c219d182f7",
+      "created_at": "2026-09-27T03:52:33+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "axis_is_family": true,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane1_is_family": true,
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane2_is_family": true
+        },
+        "input_fingerprint": "6ada50e9d667a5ea8fccf56f57bd8a061de713497d39260657db9a990f9b476f",
+        "sequence": 1,
+        "sha256": "c7f7d049d4177a0d62f154b605004f8121a50db0f310b8df0d03585684dd6818",
+        "tool": "analyze_tilt_geometry"
+      },
+      "path": "results/01_analyze_tilt_geometry.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 3483
+    },
+    {
+      "artifact_id": "46c206b2-986d-5d93-a393-d7eb1f771198",
+      "created_at": "2026-09-27T03:52:39+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            -1,
+            0
+          ],
+          "axis_is_family": false,
+          "basis": "fcc",
+          "max_misorientation_delta_degrees": 5.0,
+          "max_plane_deviation_degrees": 5.0,
+          "max_plane_matches_per_sigma": 3,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane_limit": 5,
+          "sigma_limit": 50
+        },
+        "input_fingerprint": "67bb9be61ae09ccbcd8127482fa12013fbf9582786a9a7acd5283121026e86a7",
+        "sequence": 2,
+        "sha256": "de83886e784d6800b2513f574e8a6ed209fbac0ba15603f297279ed9bd18c6a2",
+        "tool": "match_csl_tilt_references"
+      },
+      "path": "results/02_match_csl_tilt_references.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 5785
+    },
+    {
+      "artifact_id": "0251a02e-8f91-5fda-a66b-e26c0a64fc7d",
+      "created_at": "2026-09-27T03:52:46+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "csl",
+        "sha256": "9f3753d3e08ead03655fac005d20428ad26f5723198ecc0d6f694a3c9b615e69"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 3346
+    }
+  ],
+  "run_id": "csl-20260927-035230-cf0c22",
+  "workflow": "csl"
+}

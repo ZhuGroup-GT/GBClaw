@@ -1,0 +1,174 @@
+{
+  "files": [
+    {
+      "artifact_id": "17c4d65b-e186-5522-a343-368edcceea80",
+      "created_at": "2026-09-27T04:03:33+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect the Y-normal relaxed P012 FCC Ni grain-boundary interface and periodic seam; distinguish the two facing layers with X right and Z down.",
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20260927-040247-4d2144",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "gb_plan_view.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_data",
+      "size_bytes": 60920
+    },
+    {
+      "artifact_id": "d769031b-8ded-5e71-8e23-ccf1724ce458",
+      "created_at": "2026-09-27T04:03:33+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 9.00853012766758,
+          "image_size": [
+            3200,
+            1335
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.6997450239999949,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 43.1869609116648
+        },
+        "origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect the Y-normal relaxed P012 FCC Ni grain-boundary interface and periodic seam; distinguish the two facing layers with X right and Z down.",
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20260927-040247-4d2144",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "plan_view.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view",
+      "size_bytes": 1004421
+    },
+    {
+      "artifact_id": "79fead3d-b17c-5230-a081-5916508dd83d",
+      "created_at": "2026-09-27T04:03:33+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect the Y-normal relaxed P012 FCC Ni grain-boundary interface and periodic seam; distinguish the two facing layers with X right and Z down.",
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20260927-040247-4d2144",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "y_profile.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_profile",
+      "size_bytes": 160961
+    },
+    {
+      "artifact_id": "a2721fe6-5bdf-5469-bd69-5e0a99cf7bdc",
+      "created_at": "2026-09-27T04:03:33+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_gb_plan_view",
+        "sha256": "b6877a385851bfcc2f42b0e6ca4dbb1b5d4aae94fc24993d80ac223b37ce0b02"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 5290
+    }
+  ],
+  "run_id": "render-20260927-040330-b0c165",
+  "workflow": "render"
+}

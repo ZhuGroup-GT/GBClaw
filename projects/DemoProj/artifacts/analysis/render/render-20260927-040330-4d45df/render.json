@@ -1,0 +1,83 @@
+{
+  "analysis_mode": "CNA",
+  "camera": {
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "image_size": [
+      3840,
+      2160
+    ],
+    "projection": "xy"
+  },
+  "displacement": null,
+  "dxa_lattice": "fcc",
+  "hide_structure_types": [],
+  "origin": {
+    "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+    "run_id": "minimize-20260927-040247-4d2144",
+    "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+    "workflow": "gb_minimize"
+  },
+  "outputs": {
+    "data": "render.json",
+    "render": "render.png"
+  },
+  "purpose": "Visually inspect the relaxed continuous-periodic-x P012 FCC Ni grain-boundary structure and periodic seam/interface; retain all atoms with default CNA coloring.",
+  "render_kind": "atomic_structure",
+  "rendered_particle_count": 11052,
+  "source": {
+    "cell": [
+      [
+        38.7435,
+        0.0,
+        0.0,
+        -19.37175
+      ],
+      [
+        0.0,
+        248.489,
+        0.0,
+        -124.2445
+      ],
+      [
+        0.0,
+        0.0,
+        14.9298,
+        -7.4649
+      ]
+    ],
+    "effective_pbc": [
+      true,
+      true,
+      true
+    ],
+    "imported_pbc": [
+      true,
+      true,
+      true
+    ],
+    "particle_count": 11052,
+    "path": "/data/home/yazhuo/Project/GBclaw/projects/proj-20260927-164bf2/artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+    "pbc_source": "OVITO_import",
+    "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd"
+  },
+  "source_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+  "source_artifact_role": "minimized_cfg",
+  "source_run_id": "minimize-20260927-040247-4d2144",
+  "source_step": null,
+  "status": "completed",
+  "structure_source": {
+    "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+    "run_id": "minimize-20260927-040247-4d2144",
+    "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+    "workflow": "gb_minimize"
+  },
+  "warnings": []
+}

@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-09-27T04:50:18+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "b906b930-04ad-5645-819a-c46ce849a307",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:stress-strain-20260927-045018-d12bcb:main_conclusion",
+        "source_run_id": "stress-strain-20260927-045018-d12bcb",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-09-27T04:50:18+00:00",
+        "value": {
+          "config_path": null,
+          "data": "artifacts/analysis/stress_strain/stress-strain-20260927-045018-d12bcb/stress_strain_comparison.json",
+          "manifest": "artifacts/analysis/stress_strain/stress-strain-20260927-045018-d12bcb/manifest.json",
+          "parameters": {
+            "_gbclaw_context": {
+              "chat_thread_id": "273561be-b61d-496f-b03f-78d42f577e1a",
+              "project_id": "proj-20260927-164bf2"
+            },
+            "colors": [
+              "#c62828",
+              "#1565c0"
+            ],
+            "convergence_affects_plot": false,
+            "labels": [
+              "Forward +x loading",
+              "Reverse unloading"
+            ],
+            "legend_location": "best",
+            "legend_title": "P012 FCC Ni GB path",
+            "line_styles": [
+              "-",
+              "-"
+            ],
+            "linewidth": 1.8,
+            "marker_size": 3.2,
+            "markers": [
+              "o",
+              "s"
+            ],
+            "mode": "comparison_plot",
+            "show_legend": true,
+            "source_run_ids": [
+              "shear-20260927-040956-e24773",
+              "shear-20260927-044521-841236"
+            ],
+            "stress_field": "top_shear_stress_mpa",
+            "title": "P012 FCC Ni GB Signed Stress–Strain Hysteresis",
+            "use_absolute_strain": false,
+            "use_absolute_stress": false,
+            "x_label": "Signed actual cumulative shear strain",
+            "y_label": "Signed top-boundary shear stress (MPa)"
+          },
+          "plot": "artifacts/analysis/stress_strain/stress-strain-20260927-045018-d12bcb/stress_strain_comparison.png",
+          "run_id": "stress-strain-20260927-045018-d12bcb",
+          "series": [
+            {
+              "color": "#c62828",
+              "label": "Forward +x loading",
+              "line_style": "-",
+              "marker": "o",
+              "nonconverged_point_count": 0,
+              "point_count": 71,
+              "source_run_id": "shear-20260927-040956-e24773"
+            },
+            {
+              "color": "#1565c0",
+              "label": "Reverse unloading",
+              "line_style": "-",
+              "marker": "s",
+              "nonconverged_point_count": 1,
+              "point_count": 71,
+              "source_run_id": "shear-20260927-044521-841236"
+            }
+          ],
+          "source_fingerprint": "sha256:b364f8eb5f38a1cd2d477605eae0d8bd72a5502c2fab435832bddad0526068e0",
+          "source_run_id": null,
+          "source_run_ids": [
+            "shear-20260927-040956-e24773",
+            "shear-20260927-044521-841236"
+          ],
+          "sources": [
+            {
+              "metadata": {
+                "label": "Forward +x loading",
+                "source_artifact_id": "6579ee6c-35ac-558f-a9c5-fa4a7e5cd41e"
+              },
+              "ordinal": 0,
+              "relation": "comparison_curve",
+              "source_fingerprint": "sha256:d1b0ded0342085d3fe348db75c5855399119e77b9d6a97ef8f4e6fb2e21a4468",
+              "source_run_id": "shear-20260927-040956-e24773"
+            },
+            {
+              "metadata": {
+                "label": "Reverse unloading",
+                "source_artifact_id": "83943ffc-d909-59ab-bda7-0c6f333903d4"
+              },
+              "ordinal": 1,
+              "relation": "comparison_curve",
+              "source_fingerprint": "sha256:22cd4b53f34633e3e60fd6f89a9ddbe9bb9250b268e4fc15bddcac59743f6644",
+              "source_run_id": "shear-20260927-044521-841236"
+            }
+          ],
+          "summary": "Plotted 2 stress-strain curve(s) using top_shear_stress_mpa",
+          "workflow": "stress_strain_analysis"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "plot_stress_strain_comparison"
+}

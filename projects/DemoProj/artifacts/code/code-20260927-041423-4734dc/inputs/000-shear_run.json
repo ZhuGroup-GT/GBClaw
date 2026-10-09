@@ -1,0 +1,2538 @@
+{
+  "version": 1,
+  "status": "completed",
+  "started_at": "2026-09-27T04:10:04+00:00",
+  "updated_at": "2026-09-27T04:13:05+00:00",
+  "finished_at": "2026-09-27T04:13:05+00:00",
+  "error": "",
+  "loading": {
+    "load_type": "displacement",
+    "initial_direction": "x",
+    "steps_per_half_cycle": null,
+    "requested_half_cycles": 1,
+    "cyclic": false,
+    "planned_loading_half_cycles": 1,
+    "planned_loading_cycles": 1,
+    "normal_direction": "y",
+    "control_mode": "direct_displacement",
+    "boundary_stress_source": "sigma_xy_top_and_negative_bottom",
+    "y_constraint": "fixed_per_atom",
+    "strain_reference": "current_slab_spacing",
+    "initial_strain_increment": 0.00025,
+    "initial_steps": 70,
+    "fine_strain_increment": 0.00025,
+    "fine_steps": 0,
+    "dump_every": 1
+  },
+  "lineage": {
+    "parent_run_id": "minimize-20260927-040247-4d2144",
+    "parent_workflow": "gb_minimize",
+    "initial_cumulative_shear_strain": 0.0
+  },
+  "warnings": [],
+  "reference": {
+    "top_com_initial": {
+      "x": 0.6006571334043589,
+      "y": 102.6388356198152
+    },
+    "bottom_com_initial": {
+      "x": 0.6687939011725662,
+      "y": -102.01356283705674
+    },
+    "slab_spacing_initial_angstrom": 204.65239845687194,
+    "gb_area_angstrom2": 530.1830053064351,
+    "atom_bounds_initial_angstrom": {
+      "x": {
+        "min": -19.369854741381484,
+        "max": 19.370285437918138,
+        "span": 38.74014017929962
+      },
+      "y": {
+        "min": -103.03411920072608,
+        "max": 103.87464605319624,
+        "span": 206.90876525392233
+      },
+      "z": {
+        "min": -6.2215703219186365,
+        "max": 7.464054016367384,
+        "span": 13.68562433828602
+      }
+    },
+    "atom_region_volume_initial_angstrom3": 109699.51098656822,
+    "box_lx_angstrom": 38.743508801829456,
+    "box_ly_angstrom": 248.4892823839997,
+    "box_lz_angstrom": 14.929771886464732,
+    "box_volume_initial_angstrom3": 143734.09009103652,
+    "stress_volume_correction_factor": 1.3102527878053671,
+    "top_group_atoms": 198,
+    "bottom_group_atoms": 216,
+    "top_spring_total_ev_per_angstrom2": null,
+    "bottom_spring_total_ev_per_angstrom2": null,
+    "top_spring_per_atom_ev_per_angstrom2": null,
+    "bottom_spring_per_atom_ev_per_angstrom2": null
+  },
+  "progress": {
+    "planned_loading_steps": 70,
+    "planned_points": 71,
+    "last_completed_step": 70,
+    "completed_points": 71,
+    "nonconverged_points": 0
+  },
+  "summary": {
+    "peak_abs_shear_stress_mpa": 834.7864243899115,
+    "stress_at_peak_mpa": 834.7864243899115,
+    "strain_at_peak": 0.009000000000000003,
+    "step_at_peak": 36,
+    "loading_direction_at_peak": "x",
+    "loading_half_cycle_at_peak": 1,
+    "loading_cycle_at_peak": 1
+  },
+  "current": {
+    "step": 70,
+    "increment_stage": "initial",
+    "loading_direction": "x",
+    "loading_half_cycle": 1,
+    "loading_cycle": 1,
+    "step_in_loading_half_cycle": 70,
+    "relative_target_shear_strain": 0.0175,
+    "target_shear_strain": 0.0175,
+    "relative_shear_strain": 0.017499999999999998,
+    "actual_shear_strain": 0.017499999999999998,
+    "current_slab_spacing_angstrom": 204.65239845687188,
+    "top_shear_stress_mpa": 21.758443040431928,
+    "bottom_shear_stress_mpa": -21.758443040431928,
+    "sigma_xx_mpa": -24.11515995846018,
+    "sigma_yy_mpa": 87.70411377447931,
+    "sigma_zz_mpa": 18.19035065427907,
+    "sigma_xy_mpa": 21.758443040431928,
+    "sigma_xz_mpa": 0.7240585929792429,
+    "sigma_yz_mpa": 0.0002156719602320683,
+    "top_com": {
+      "x": 4.182074106399616,
+      "y": 102.63883561981515
+    },
+    "bottom_com": {
+      "x": 0.6687939011725662,
+      "y": -102.01356283705674
+    },
+    "converged": true
+  },
+  "points": [
+    {
+      "step": 0,
+      "increment_stage": "reference",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 0,
+      "relative_target_shear_strain": 0.0,
+      "target_shear_strain": 0.0,
+      "relative_shear_strain": 0.0,
+      "actual_shear_strain": 0.0,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": -0.0007137557952401845,
+      "bottom_shear_stress_mpa": 0.0007137557952401845,
+      "sigma_xx_mpa": 1.7720329436249496e-07,
+      "sigma_yy_mpa": 4.2381505412846684e-07,
+      "sigma_zz_mpa": 5.692059164952673e-07,
+      "sigma_xy_mpa": -0.0007137557952401845,
+      "sigma_xz_mpa": 4.023889600794362e-06,
+      "sigma_yz_mpa": -2.1373736722420933e-05,
+      "top_com": {
+        "x": 0.6006571334043589,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 1,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 1,
+      "relative_target_shear_strain": 0.00025,
+      "target_shear_strain": 0.00025,
+      "relative_shear_strain": 0.00025000000000000467,
+      "actual_shear_strain": 0.00025000000000000467,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 23.97166408844363,
+      "bottom_shear_stress_mpa": -23.97166408844363,
+      "sigma_xx_mpa": 6.601016094662879,
+      "sigma_yy_mpa": -0.06329859831113743,
+      "sigma_zz_mpa": -6.348134873045761,
+      "sigma_xy_mpa": 23.97166408844363,
+      "sigma_xz_mpa": 1.1417730749644156e-06,
+      "sigma_yz_mpa": -6.158151931883093e-06,
+      "top_com": {
+        "x": 0.6518202330185778,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 2,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 2,
+      "relative_target_shear_strain": 0.0005,
+      "target_shear_strain": 0.0005,
+      "relative_shear_strain": 0.0005000000000000066,
+      "actual_shear_strain": 0.0005000000000000066,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 47.93140982862477,
+      "bottom_shear_stress_mpa": -47.93140982862477,
+      "sigma_xx_mpa": 13.213766828353016,
+      "sigma_yy_mpa": -0.12173951176723484,
+      "sigma_zz_mpa": -12.70180229829866,
+      "sigma_xy_mpa": 47.93140982862477,
+      "sigma_xz_mpa": 3.255590739353205e-07,
+      "sigma_yz_mpa": -1.7762047027238398e-06,
+      "top_com": {
+        "x": 0.7029833326327962,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 3,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 3,
+      "relative_target_shear_strain": 0.00075,
+      "target_shear_strain": 0.00075,
+      "relative_shear_strain": 0.0007499999999999901,
+      "actual_shear_strain": 0.0007499999999999901,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 71.87693393453205,
+      "bottom_shear_stress_mpa": -71.87693393453205,
+      "sigma_xx_mpa": 19.83788719164061,
+      "sigma_yy_mpa": -0.17675949538436567,
+      "sigma_zz_mpa": -19.06094113816636,
+      "sigma_xy_mpa": 71.87693393453205,
+      "sigma_xz_mpa": 9.322956684670928e-08,
+      "sigma_yz_mpa": -5.157766901914461e-07,
+      "top_com": {
+        "x": 0.7541464322470108,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 4,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 4,
+      "relative_target_shear_strain": 0.001,
+      "target_shear_strain": 0.001,
+      "relative_shear_strain": 0.000999999999999998,
+      "actual_shear_strain": 0.000999999999999998,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 95.80706681353816,
+      "bottom_shear_stress_mpa": -95.80706681353816,
+      "sigma_xx_mpa": 26.472913188682703,
+      "sigma_yy_mpa": -0.22963422620193238,
+      "sigma_zz_mpa": -25.425505601179225,
+      "sigma_xy_mpa": 95.80706681353816,
+      "sigma_xz_mpa": 2.5534976071209245e-08,
+      "sigma_yz_mpa": -1.429203380098621e-07,
+      "top_com": {
+        "x": 0.8053095318612304,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 5,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 5,
+      "relative_target_shear_strain": 0.00125,
+      "target_shear_strain": 0.00125,
+      "relative_shear_strain": 0.0012499999999999968,
+      "actual_shear_strain": 0.0012499999999999968,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 119.72017983950269,
+      "bottom_shear_stress_mpa": -119.72017983950269,
+      "sigma_xx_mpa": 33.11826005954526,
+      "sigma_yy_mpa": -0.2814985400849363,
+      "sigma_zz_mpa": -31.795336009976584,
+      "sigma_xy_mpa": 119.72017983950269,
+      "sigma_xz_mpa": 2.460724034799591e-09,
+      "sigma_yz_mpa": -2.9573945021007452e-08,
+      "top_com": {
+        "x": 0.8564726314754482,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 6,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 6,
+      "relative_target_shear_strain": 0.0015,
+      "target_shear_strain": 0.0015,
+      "relative_shear_strain": 0.0014999999999999961,
+      "actual_shear_strain": 0.0014999999999999961,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 143.6153561819696,
+      "bottom_shear_stress_mpa": -143.6153561819696,
+      "sigma_xx_mpa": 39.77385180244551,
+      "sigma_yy_mpa": -0.3328604726638001,
+      "sigma_zz_mpa": -38.17029162028539,
+      "sigma_xy_mpa": 143.6153561819696,
+      "sigma_xz_mpa": 1.099827045017303e-09,
+      "sigma_yz_mpa": -7.517655234133835e-09,
+      "top_com": {
+        "x": 0.907635731089666,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 7,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 7,
+      "relative_target_shear_strain": 0.00175,
+      "target_shear_strain": 0.00175,
+      "relative_shear_strain": 0.0017499999999999977,
+      "actual_shear_strain": 0.0017499999999999977,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 167.4915679683391,
+      "bottom_shear_stress_mpa": -167.4915679683391,
+      "sigma_xx_mpa": 46.43956992262037,
+      "sigma_yy_mpa": -0.3837971190928007,
+      "sigma_zz_mpa": -44.55002351335705,
+      "sigma_xy_mpa": 167.4915679683391,
+      "sigma_xz_mpa": -3.7203216260186365e-10,
+      "sigma_yz_mpa": 1.5282224103899455e-09,
+      "top_com": {
+        "x": 0.9587988307038843,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 8,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 8,
+      "relative_target_shear_strain": 0.002,
+      "target_shear_strain": 0.002,
+      "relative_shear_strain": 0.002000000000000006,
+      "actual_shear_strain": 0.002000000000000006,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 191.34804944644102,
+      "bottom_shear_stress_mpa": -191.34804944644102,
+      "sigma_xx_mpa": 53.11547975134701,
+      "sigma_yy_mpa": -0.43421750157804967,
+      "sigma_zz_mpa": -50.93429017189238,
+      "sigma_xy_mpa": 191.34804944644102,
+      "sigma_xz_mpa": -5.725716597421889e-10,
+      "sigma_yz_mpa": 6.921323468441107e-11,
+      "top_com": {
+        "x": 1.009961930318104,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 9,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 9,
+      "relative_target_shear_strain": 0.0022500000000000003,
+      "target_shear_strain": 0.0022500000000000003,
+      "relative_shear_strain": 0.0022499999999999955,
+      "actual_shear_strain": 0.0022499999999999955,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 215.18379193047136,
+      "bottom_shear_stress_mpa": -215.18379193047136,
+      "sigma_xx_mpa": 59.801389475110064,
+      "sigma_yy_mpa": -0.4841826490947034,
+      "sigma_zz_mpa": -57.322873108894264,
+      "sigma_xy_mpa": 215.18379193047136,
+      "sigma_xz_mpa": 2.5374143120794173e-10,
+      "sigma_yz_mpa": 1.0763153522619438e-09,
+      "top_com": {
+        "x": 1.0611250299323198,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 10,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 10,
+      "relative_target_shear_strain": 0.0025,
+      "target_shear_strain": 0.0025,
+      "relative_shear_strain": 0.002499999999999995,
+      "actual_shear_strain": 0.002499999999999995,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 238.99800637226954,
+      "bottom_shear_stress_mpa": -238.99800637226954,
+      "sigma_xx_mpa": 66.49700024845575,
+      "sigma_yy_mpa": -0.5336672431109429,
+      "sigma_zz_mpa": -63.71555731553614,
+      "sigma_xy_mpa": 238.99800637226954,
+      "sigma_xz_mpa": -4.2036247393056977e-10,
+      "sigma_yz_mpa": 9.61580886009474e-10,
+      "top_com": {
+        "x": 1.1122881295465377,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 11,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 11,
+      "relative_target_shear_strain": 0.00275,
+      "target_shear_strain": 0.00275,
+      "relative_shear_strain": 0.0027499999999999994,
+      "actual_shear_strain": 0.0027499999999999994,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 262.7896029204054,
+      "bottom_shear_stress_mpa": -262.7896029204054,
+      "sigma_xx_mpa": 73.20216524858719,
+      "sigma_yy_mpa": -0.5824956763947192,
+      "sigma_zz_mpa": -70.1120023460724,
+      "sigma_xy_mpa": 262.7896029204054,
+      "sigma_xz_mpa": -2.4011113539404163e-11,
+      "sigma_yz_mpa": -4.136483127977442e-09,
+      "top_com": {
+        "x": 1.1634512291607566,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 12,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 12,
+      "relative_target_shear_strain": 0.003,
+      "target_shear_strain": 0.003,
+      "relative_shear_strain": 0.0029999999999999923,
+      "actual_shear_strain": 0.0029999999999999923,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 286.5574637124694,
+      "bottom_shear_stress_mpa": -286.5574637124694,
+      "sigma_xx_mpa": 79.91689562322634,
+      "sigma_yy_mpa": -0.6304141202963871,
+      "sigma_zz_mpa": -76.51180097993897,
+      "sigma_xy_mpa": 286.5574637124694,
+      "sigma_xz_mpa": 1.194633973387962e-10,
+      "sigma_yz_mpa": -4.591882240003232e-09,
+      "top_com": {
+        "x": 1.214614328774973,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 13,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 13,
+      "relative_target_shear_strain": 0.0032500000000000003,
+      "target_shear_strain": 0.0032500000000000003,
+      "relative_shear_strain": 0.003250000000000009,
+      "actual_shear_strain": 0.003250000000000009,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 310.3004903516716,
+      "bottom_shear_stress_mpa": -310.3004903516716,
+      "sigma_xx_mpa": 86.64116040359598,
+      "sigma_yy_mpa": -0.6768349852846525,
+      "sigma_zz_mpa": -82.91458917981215,
+      "sigma_xy_mpa": 310.3004903516716,
+      "sigma_xz_mpa": -9.257704699981942e-11,
+      "sigma_yz_mpa": 3.7313218552360405e-09,
+      "top_com": {
+        "x": 1.2657774283891945,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 14,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 14,
+      "relative_target_shear_strain": 0.0035,
+      "target_shear_strain": 0.0035,
+      "relative_shear_strain": 0.003500000000000002,
+      "actual_shear_strain": 0.003500000000000002,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 334.0177310020933,
+      "bottom_shear_stress_mpa": -334.0177310020933,
+      "sigma_xx_mpa": 93.37488117669517,
+      "sigma_yy_mpa": -0.7208235447979693,
+      "sigma_zz_mpa": -89.31998752643125,
+      "sigma_xy_mpa": 334.0177310020933,
+      "sigma_xz_mpa": 2.776734157400037e-10,
+      "sigma_yz_mpa": -1.5597624543984315e-09,
+      "top_com": {
+        "x": 1.316940528003411,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 15,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 15,
+      "relative_target_shear_strain": 0.00375,
+      "target_shear_strain": 0.00375,
+      "relative_shear_strain": 0.0037499999999999977,
+      "actual_shear_strain": 0.0037499999999999977,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 357.70797259210855,
+      "bottom_shear_stress_mpa": -357.70797259210855,
+      "sigma_xx_mpa": 100.1180936774098,
+      "sigma_yy_mpa": -0.76112468354894,
+      "sigma_zz_mpa": -95.7274325488691,
+      "sigma_xy_mpa": 357.70797259210855,
+      "sigma_xz_mpa": -1.883432524348968e-10,
+      "sigma_yz_mpa": 5.219069129772043e-09,
+      "top_com": {
+        "x": 1.3681036276176282,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 16,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 16,
+      "relative_target_shear_strain": 0.004,
+      "target_shear_strain": 0.004,
+      "relative_shear_strain": 0.003999999999999999,
+      "actual_shear_strain": 0.003999999999999999,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 381.3698579007891,
+      "bottom_shear_stress_mpa": -381.3698579007891,
+      "sigma_xx_mpa": 106.87092316612033,
+      "sigma_yy_mpa": -0.7963157699954576,
+      "sigma_zz_mpa": -102.13627634880015,
+      "sigma_xy_mpa": 381.3698579007891,
+      "sigma_xz_mpa": -8.905866000614433e-10,
+      "sigma_yz_mpa": 9.15621201908929e-09,
+      "top_com": {
+        "x": 1.4192667272318464,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 17,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 17,
+      "relative_target_shear_strain": 0.00425,
+      "target_shear_strain": 0.00425,
+      "relative_shear_strain": 0.004249999999999995,
+      "actual_shear_strain": 0.004249999999999995,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 405.0020473048626,
+      "bottom_shear_stress_mpa": -405.0020473048626,
+      "sigma_xx_mpa": 113.63351114580396,
+      "sigma_yy_mpa": -0.8246427459989599,
+      "sigma_zz_mpa": -108.54581343137347,
+      "sigma_xy_mpa": 405.0020473048626,
+      "sigma_xz_mpa": -1.2848799576632915e-09,
+      "sigma_yz_mpa": 7.474842549571194e-09,
+      "top_com": {
+        "x": 1.4704298268460636,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 18,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 18,
+      "relative_target_shear_strain": 0.0045000000000000005,
+      "target_shear_strain": 0.0045000000000000005,
+      "relative_shear_strain": 0.004500000000000003,
+      "actual_shear_strain": 0.004500000000000003,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 428.60272704347676,
+      "bottom_shear_stress_mpa": -428.60272704347676,
+      "sigma_xx_mpa": 120.40590591133063,
+      "sigma_yy_mpa": -0.8438284195158128,
+      "sigma_zz_mpa": -114.95517363329768,
+      "sigma_xy_mpa": 428.60272704347676,
+      "sigma_xz_mpa": -1.0165593311517644e-09,
+      "sigma_yz_mpa": 6.788202534154735e-09,
+      "top_com": {
+        "x": 1.5215929264602832,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 19,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 19,
+      "relative_target_shear_strain": 0.00475,
+      "target_shear_strain": 0.00475,
+      "relative_shear_strain": 0.004750000000000005,
+      "actual_shear_strain": 0.004750000000000005,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 452.16978138124136,
+      "bottom_shear_stress_mpa": -452.16978138124136,
+      "sigma_xx_mpa": 127.18807145474231,
+      "sigma_yy_mpa": -0.8511476726239099,
+      "sigma_zz_mpa": -121.36337601949732,
+      "sigma_xy_mpa": 452.16978138124136,
+      "sigma_xz_mpa": -7.238488096230643e-11,
+      "sigma_yz_mpa": 6.830543039067007e-09,
+      "top_com": {
+        "x": 1.5727560260745017,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 20,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 20,
+      "relative_target_shear_strain": 0.005,
+      "target_shear_strain": 0.005,
+      "relative_shear_strain": 0.004999999999999995,
+      "actual_shear_strain": 0.004999999999999995,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 475.7006325275324,
+      "bottom_shear_stress_mpa": -475.7006325275324,
+      "sigma_xx_mpa": 133.98015627196338,
+      "sigma_yy_mpa": -0.8431397967669516,
+      "sigma_zz_mpa": -127.76910325217078,
+      "sigma_xy_mpa": 475.7006325275324,
+      "sigma_xz_mpa": 1.6227737909827942e-10,
+      "sigma_yz_mpa": 2.3466498417395336e-09,
+      "top_com": {
+        "x": 1.6239191256887175,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 21,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 21,
+      "relative_target_shear_strain": 0.00525,
+      "target_shear_strain": 0.00525,
+      "relative_shear_strain": 0.005249999999999999,
+      "actual_shear_strain": 0.005249999999999999,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 499.1921039434939,
+      "bottom_shear_stress_mpa": -499.1921039434939,
+      "sigma_xx_mpa": 140.78240408009924,
+      "sigma_yy_mpa": -0.8150101566422858,
+      "sigma_zz_mpa": -134.17063293975247,
+      "sigma_xy_mpa": 499.1921039434939,
+      "sigma_xz_mpa": 3.614016344843371e-10,
+      "sigma_yz_mpa": -4.0579248872456044e-09,
+      "top_com": {
+        "x": 1.6750822253029365,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 22,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 22,
+      "relative_target_shear_strain": 0.0055,
+      "target_shear_strain": 0.0055,
+      "relative_shear_strain": 0.005499999999999993,
+      "actual_shear_strain": 0.005499999999999993,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 522.6402323049786,
+      "bottom_shear_stress_mpa": -522.6402323049786,
+      "sigma_xx_mpa": 147.5950195488795,
+      "sigma_yy_mpa": -0.7601680814522945,
+      "sigma_zz_mpa": -140.56573830458922,
+      "sigma_xy_mpa": 522.6402323049786,
+      "sigma_xz_mpa": 4.868314886964174e-11,
+      "sigma_yz_mpa": -6.35546026216564e-09,
+      "top_com": {
+        "x": 1.726245324917153,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 23,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 23,
+      "relative_target_shear_strain": 0.00575,
+      "target_shear_strain": 0.00575,
+      "relative_shear_strain": 0.00574999999999999,
+      "actual_shear_strain": 0.00574999999999999,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 546.0396799342509,
+      "bottom_shear_stress_mpa": -546.0396799342509,
+      "sigma_xx_mpa": 154.41829764265213,
+      "sigma_yy_mpa": -0.6697450796338327,
+      "sigma_zz_mpa": -146.95139622797728,
+      "sigma_xy_mpa": 546.0396799342509,
+      "sigma_xz_mpa": 2.9537172084939644e-12,
+      "sigma_yz_mpa": -5.029849620870595e-09,
+      "top_com": {
+        "x": 1.7774084245313708,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 24,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 24,
+      "relative_target_shear_strain": 0.006,
+      "target_shear_strain": 0.006,
+      "relative_shear_strain": 0.005999999999999995,
+      "actual_shear_strain": 0.005999999999999995,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 569.382646081183,
+      "bottom_shear_stress_mpa": -569.382646081183,
+      "sigma_xx_mpa": 161.252904877281,
+      "sigma_yy_mpa": -0.5302578459676043,
+      "sigma_zz_mpa": -153.32315804942763,
+      "sigma_xy_mpa": 569.382646081183,
+      "sigma_xz_mpa": 2.964808241490286e-11,
+      "sigma_yz_mpa": 4.462790399107104e-09,
+      "top_com": {
+        "x": 1.8285715241455898,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 25,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 25,
+      "relative_target_shear_strain": 0.00625,
+      "target_shear_strain": 0.00625,
+      "relative_shear_strain": 0.006249999999999998,
+      "actual_shear_strain": 0.006249999999999998,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 592.6570989952338,
+      "bottom_shear_stress_mpa": -592.6570989952338,
+      "sigma_xx_mpa": 168.1000518326648,
+      "sigma_yy_mpa": -0.3207440913958931,
+      "sigma_zz_mpa": -159.67414647605375,
+      "sigma_xy_mpa": 592.6570989952338,
+      "sigma_xz_mpa": -1.1916504206521096e-09,
+      "sigma_yz_mpa": -6.760234970248221e-09,
+      "top_com": {
+        "x": 1.879734623759808,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 26,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 26,
+      "relative_target_shear_strain": 0.006500000000000001,
+      "target_shear_strain": 0.006500000000000001,
+      "relative_shear_strain": 0.0064999999999999876,
+      "actual_shear_strain": 0.0064999999999999876,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 615.8424864460418,
+      "bottom_shear_stress_mpa": -615.8424864460418,
+      "sigma_xx_mpa": 174.96129027389108,
+      "sigma_yy_mpa": -0.0052100709899338135,
+      "sigma_zz_mpa": -165.99259104318594,
+      "sigma_xy_mpa": 615.8424864460418,
+      "sigma_xz_mpa": -1.9453684847515824e-09,
+      "sigma_yz_mpa": -4.932554668957603e-09,
+      "top_com": {
+        "x": 1.930897723374024,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 27,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 27,
+      "relative_target_shear_strain": 0.00675,
+      "target_shear_strain": 0.00675,
+      "relative_shear_strain": 0.006750000000000005,
+      "actual_shear_strain": 0.006750000000000005,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 638.897524211489,
+      "bottom_shear_stress_mpa": -638.897524211489,
+      "sigma_xx_mpa": 181.8402060172784,
+      "sigma_yy_mpa": 0.4901788834341593,
+      "sigma_zz_mpa": -172.254549533982,
+      "sigma_xy_mpa": 638.897524211489,
+      "sigma_xz_mpa": -2.770108724531182e-09,
+      "sigma_yz_mpa": -5.16763527499963e-09,
+      "top_com": {
+        "x": 1.9820608229882455,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 28,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 28,
+      "relative_target_shear_strain": 0.007,
+      "target_shear_strain": 0.007,
+      "relative_shear_strain": 0.006999999999999999,
+      "actual_shear_strain": 0.006999999999999999,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 661.7040699004648,
+      "bottom_shear_stress_mpa": -661.7040699004648,
+      "sigma_xx_mpa": 188.7473283940023,
+      "sigma_yy_mpa": 1.3744610569704947,
+      "sigma_zz_mpa": -178.3922384423902,
+      "sigma_xy_mpa": 661.7040699004648,
+      "sigma_xz_mpa": -2.468987178681061e-09,
+      "sigma_yz_mpa": -2.2854480947493077e-09,
+      "top_com": {
+        "x": 2.0332239226024624,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 29,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 29,
+      "relative_target_shear_strain": 0.00725,
+      "target_shear_strain": 0.00725,
+      "relative_shear_strain": 0.0072499999999999926,
+      "actual_shear_strain": 0.0072499999999999926,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 673.0120461600729,
+      "bottom_shear_stress_mpa": -673.0120461600729,
+      "sigma_xx_mpa": 197.68530029302377,
+      "sigma_yy_mpa": 20.597119336023802,
+      "sigma_zz_mpa": -178.01058897232906,
+      "sigma_xy_mpa": 673.0120461600729,
+      "sigma_xz_mpa": -1.1391029872509599e-08,
+      "sigma_yz_mpa": 7.675108986776344e-09,
+      "top_com": {
+        "x": 2.084387022216679,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 30,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 30,
+      "relative_target_shear_strain": 0.0075,
+      "target_shear_strain": 0.0075,
+      "relative_shear_strain": 0.007499999999999995,
+      "actual_shear_strain": 0.007499999999999995,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 696.1534459460112,
+      "bottom_shear_stress_mpa": -696.1534459460112,
+      "sigma_xx_mpa": 204.6811641479186,
+      "sigma_yy_mpa": 20.5591773558985,
+      "sigma_zz_mpa": -184.38494535037773,
+      "sigma_xy_mpa": 696.1534459460112,
+      "sigma_xz_mpa": -1.8215900918386384e-08,
+      "sigma_yz_mpa": 1.4151021758872561e-08,
+      "top_com": {
+        "x": 2.1355501218308977,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 31,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 31,
+      "relative_target_shear_strain": 0.00775,
+      "target_shear_strain": 0.00775,
+      "relative_shear_strain": 0.007749999999999996,
+      "actual_shear_strain": 0.007749999999999996,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 719.2974186886601,
+      "bottom_shear_stress_mpa": -719.2974186886601,
+      "sigma_xx_mpa": 211.67804871776002,
+      "sigma_yy_mpa": 20.455065975782926,
+      "sigma_zz_mpa": -190.7819313786163,
+      "sigma_xy_mpa": 719.2974186886601,
+      "sigma_xz_mpa": -7.726851574397077e-09,
+      "sigma_yz_mpa": 9.881827610810715e-09,
+      "top_com": {
+        "x": 2.1867132214451157,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 32,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 32,
+      "relative_target_shear_strain": 0.008,
+      "target_shear_strain": 0.008,
+      "relative_shear_strain": 0.007999999999999998,
+      "actual_shear_strain": 0.007999999999999998,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 742.4334815948562,
+      "bottom_shear_stress_mpa": -742.4334815948562,
+      "sigma_xx_mpa": 218.67836505636578,
+      "sigma_yy_mpa": 20.298729866261308,
+      "sigma_zz_mpa": -197.19643693164605,
+      "sigma_xy_mpa": 742.4334815948562,
+      "sigma_xz_mpa": 2.7621059929156784e-08,
+      "sigma_yz_mpa": -3.855609397909342e-08,
+      "top_com": {
+        "x": 2.237876321059334,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 33,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 33,
+      "relative_target_shear_strain": 0.00825,
+      "target_shear_strain": 0.00825,
+      "relative_shear_strain": 0.00825,
+      "actual_shear_strain": 0.00825,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 765.5550407587026,
+      "bottom_shear_stress_mpa": -765.5550407587026,
+      "sigma_xx_mpa": 225.6835157731872,
+      "sigma_yy_mpa": 20.09944316325786,
+      "sigma_zz_mpa": -203.62472265873274,
+      "sigma_xy_mpa": 765.5550407587026,
+      "sigma_xz_mpa": 8.195375724066936e-08,
+      "sigma_yz_mpa": -1.2003542223006963e-07,
+      "top_com": {
+        "x": 2.2890394206735527,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 34,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 34,
+      "relative_target_shear_strain": 0.0085,
+      "target_shear_strain": 0.0085,
+      "relative_shear_strain": 0.008499999999999997,
+      "actual_shear_strain": 0.008499999999999997,
+      "current_slab_spacing_angstrom": 204.65239845687194,
+      "top_shear_stress_mpa": 788.6571993387731,
+      "bottom_shear_stress_mpa": -788.6571993387731,
+      "sigma_xx_mpa": 232.69479734980203,
+      "sigma_yy_mpa": 19.86394041767668,
+      "sigma_zz_mpa": -210.0639203013665,
+      "sigma_xy_mpa": 788.6571993387731,
+      "sigma_xz_mpa": 4.4627551996708054e-07,
+      "sigma_yz_mpa": -7.075787130475683e-07,
+      "top_com": {
+        "x": 2.34020252028777,
+        "y": 102.6388356198152
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 35,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 35,
+      "relative_target_shear_strain": 0.00875,
+      "target_shear_strain": 0.00875,
+      "relative_shear_strain": 0.00875000000000001,
+      "actual_shear_strain": 0.00875000000000001,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 811.7356426047926,
+      "bottom_shear_stress_mpa": -811.7356426047926,
+      "sigma_xx_mpa": 239.71269235193103,
+      "sigma_yy_mpa": 19.596487081161694,
+      "sigma_zz_mpa": -216.51220401201306,
+      "sigma_xy_mpa": 811.7356426047926,
+      "sigma_xz_mpa": 5.776644567478394e-06,
+      "sigma_yz_mpa": -9.583721710346309e-06,
+      "top_com": {
+        "x": 2.39136561990199,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 36,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 36,
+      "relative_target_shear_strain": 0.009000000000000001,
+      "target_shear_strain": 0.009000000000000001,
+      "relative_shear_strain": 0.009000000000000003,
+      "actual_shear_strain": 0.009000000000000003,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 834.7864243899115,
+      "bottom_shear_stress_mpa": -834.7864243899115,
+      "sigma_xx_mpa": 246.73750071254983,
+      "sigma_yy_mpa": 19.30028201549917,
+      "sigma_zz_mpa": -222.96801894191452,
+      "sigma_xy_mpa": 834.7864243899115,
+      "sigma_xz_mpa": 0.00014259371449576298,
+      "sigma_yz_mpa": -0.0002444282130417633,
+      "top_com": {
+        "x": 2.442528719516207,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 37,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 37,
+      "relative_target_shear_strain": 0.00925,
+      "target_shear_strain": 0.00925,
+      "relative_shear_strain": 0.009250000000000005,
+      "actual_shear_strain": 0.009250000000000005,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": -2.511115670423117,
+      "bottom_shear_stress_mpa": 2.511115670423117,
+      "sigma_xx_mpa": -31.89785113362724,
+      "sigma_yy_mpa": 83.94088000339146,
+      "sigma_zz_mpa": 23.987129607640696,
+      "sigma_xy_mpa": -2.511115670423117,
+      "sigma_xz_mpa": 0.7265363523847633,
+      "sigma_yz_mpa": -0.0004003342324786487,
+      "top_com": {
+        "x": 2.493691819130425,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 38,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 38,
+      "relative_target_shear_strain": 0.0095,
+      "target_shear_strain": 0.0095,
+      "relative_shear_strain": 0.009499999999999993,
+      "actual_shear_strain": 0.009499999999999993,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 9.943730488921924,
+      "bottom_shear_stress_mpa": -9.943730488921924,
+      "sigma_xx_mpa": -27.616254977857647,
+      "sigma_yy_mpa": 85.76186526495265,
+      "sigma_zz_mpa": 20.97299907659482,
+      "sigma_xy_mpa": 9.943730488921924,
+      "sigma_xz_mpa": 0.8034959487381776,
+      "sigma_yz_mpa": -2.3646057857080455e-05,
+      "top_com": {
+        "x": 2.5448549187446403,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 39,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 39,
+      "relative_target_shear_strain": 0.00975,
+      "target_shear_strain": 0.00975,
+      "relative_shear_strain": 0.009749999999999993,
+      "actual_shear_strain": 0.009749999999999993,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 20.786285940797267,
+      "bottom_shear_stress_mpa": -20.786285940797267,
+      "sigma_xx_mpa": -24.15691507943524,
+      "sigma_yy_mpa": 87.36971962451304,
+      "sigma_zz_mpa": 18.371777640777005,
+      "sigma_xy_mpa": 20.786285940797267,
+      "sigma_xz_mpa": 0.8050048802093698,
+      "sigma_yz_mpa": -0.0003658598436304351,
+      "top_com": {
+        "x": 2.5960180183588584,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 40,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 40,
+      "relative_target_shear_strain": 0.01,
+      "target_shear_strain": 0.01,
+      "relative_shear_strain": 0.009999999999999988,
+      "actual_shear_strain": 0.009999999999999988,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": -12.544717549845718,
+      "bottom_shear_stress_mpa": 12.544717549845718,
+      "sigma_xx_mpa": -35.499532542513684,
+      "sigma_yy_mpa": 82.4559537909219,
+      "sigma_zz_mpa": 26.423609682256547,
+      "sigma_xy_mpa": -12.544717549845718,
+      "sigma_xz_mpa": -0.6175853320992893,
+      "sigma_yz_mpa": -0.0003130614578179864,
+      "top_com": {
+        "x": 2.6471811179730755,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 41,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 41,
+      "relative_target_shear_strain": 0.01025,
+      "target_shear_strain": 0.01025,
+      "relative_shear_strain": 0.01025000000000001,
+      "actual_shear_strain": 0.01025000000000001,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": -0.31610618789325595,
+      "bottom_shear_stress_mpa": 0.31610618789325595,
+      "sigma_xx_mpa": -31.12798267728,
+      "sigma_yy_mpa": 84.26495106679457,
+      "sigma_zz_mpa": 23.455169520053463,
+      "sigma_xy_mpa": -0.31610618789325595,
+      "sigma_xz_mpa": -0.7439334770755847,
+      "sigma_yz_mpa": -5.116664807477394e-05,
+      "top_com": {
+        "x": 2.698344217587298,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 42,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 42,
+      "relative_target_shear_strain": 0.0105,
+      "target_shear_strain": 0.0105,
+      "relative_shear_strain": 0.0105,
+      "actual_shear_strain": 0.0105,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 12.060234860816745,
+      "bottom_shear_stress_mpa": -12.060234860816745,
+      "sigma_xx_mpa": -26.912402259774904,
+      "sigma_yy_mpa": 86.06817862330647,
+      "sigma_zz_mpa": 20.461955020057434,
+      "sigma_xy_mpa": 12.060234860816745,
+      "sigma_xz_mpa": -0.8108619325697629,
+      "sigma_yz_mpa": 5.186801880846266e-05,
+      "top_com": {
+        "x": 2.749507317201514,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 43,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 43,
+      "relative_target_shear_strain": 0.010750000000000001,
+      "target_shear_strain": 0.010750000000000001,
+      "relative_shear_strain": 0.010749999999999992,
+      "actual_shear_strain": 0.010749999999999992,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 21.95958057947741,
+      "bottom_shear_stress_mpa": -21.95958057947741,
+      "sigma_xx_mpa": -23.850128494140826,
+      "sigma_yy_mpa": 87.58171740978851,
+      "sigma_zz_mpa": 18.101556987550886,
+      "sigma_xy_mpa": 21.95958057947741,
+      "sigma_xz_mpa": -0.7864930296100021,
+      "sigma_yz_mpa": 0.0005648336014689419,
+      "top_com": {
+        "x": 2.80067041681573,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 44,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 44,
+      "relative_target_shear_strain": 0.011,
+      "target_shear_strain": 0.011,
+      "relative_shear_strain": 0.010999999999999992,
+      "actual_shear_strain": 0.010999999999999992,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": -10.47060115407354,
+      "bottom_shear_stress_mpa": 10.47060115407354,
+      "sigma_xx_mpa": -34.74295770663511,
+      "sigma_yy_mpa": 82.76047716445002,
+      "sigma_zz_mpa": 25.918361066924955,
+      "sigma_xy_mpa": -10.47060115407354,
+      "sigma_xz_mpa": 0.6448790041287991,
+      "sigma_yz_mpa": 0.0003217490908341402,
+      "top_com": {
+        "x": 2.851833516429948,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 45,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 45,
+      "relative_target_shear_strain": 0.01125,
+      "target_shear_strain": 0.01125,
+      "relative_shear_strain": 0.01125,
+      "actual_shear_strain": 0.01125,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 1.8836533000886984,
+      "bottom_shear_stress_mpa": -1.8836533000886984,
+      "sigma_xx_mpa": -30.362695794815526,
+      "sigma_yy_mpa": 84.58846148246079,
+      "sigma_zz_mpa": 22.922507450335605,
+      "sigma_xy_mpa": 1.8836533000886984,
+      "sigma_xz_mpa": 0.7598432096246825,
+      "sigma_yz_mpa": -1.6112994134890935e-05,
+      "top_com": {
+        "x": 2.9029966160441676,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 46,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 46,
+      "relative_target_shear_strain": 0.0115,
+      "target_shear_strain": 0.0115,
+      "relative_shear_strain": 0.011500000000000002,
+      "actual_shear_strain": 0.011500000000000002,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 14.12411643381714,
+      "bottom_shear_stress_mpa": -14.12411643381714,
+      "sigma_xx_mpa": -26.234929383027055,
+      "sigma_yy_mpa": 86.36752483448026,
+      "sigma_zz_mpa": 19.964349204469347,
+      "sigma_xy_mpa": 14.12411643381714,
+      "sigma_xz_mpa": 0.8159533910561148,
+      "sigma_yz_mpa": -0.00010237704362009855,
+      "top_com": {
+        "x": 2.9541597156583865,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 47,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 47,
+      "relative_target_shear_strain": 0.01175,
+      "target_shear_strain": 0.01175,
+      "relative_shear_strain": 0.011749999999999991,
+      "actual_shear_strain": 0.011749999999999991,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 22.206281979308365,
+      "bottom_shear_stress_mpa": -22.206281979308365,
+      "sigma_xx_mpa": -23.901563560144687,
+      "sigma_yy_mpa": 87.71147417632399,
+      "sigma_zz_mpa": 18.067689660264374,
+      "sigma_xy_mpa": 22.206281979308365,
+      "sigma_xz_mpa": 0.7471492287264793,
+      "sigma_yz_mpa": 7.324819273270753e-05,
+      "top_com": {
+        "x": 3.0053228152726024,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 48,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 48,
+      "relative_target_shear_strain": 0.012,
+      "target_shear_strain": 0.012,
+      "relative_shear_strain": 0.011999999999999999,
+      "actual_shear_strain": 0.011999999999999999,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -8.354930094413685,
+      "bottom_shear_stress_mpa": 8.354930094413685,
+      "sigma_xx_mpa": -33.97875271150825,
+      "sigma_yy_mpa": 83.07371672612531,
+      "sigma_zz_mpa": 25.40485579720881,
+      "sigma_xy_mpa": -8.354930094413685,
+      "sigma_xz_mpa": -0.6697786065327997,
+      "sigma_yz_mpa": -0.00018005457453338996,
+      "top_com": {
+        "x": 3.0564859148868218,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 49,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 49,
+      "relative_target_shear_strain": 0.01225,
+      "target_shear_strain": 0.01225,
+      "relative_shear_strain": 0.012249999999999999,
+      "actual_shear_strain": 0.012249999999999999,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 4.081858209529793,
+      "bottom_shear_stress_mpa": -4.081858209529793,
+      "sigma_xx_mpa": -29.60471109004424,
+      "sigma_yy_mpa": 84.91021833302955,
+      "sigma_zz_mpa": 22.390720322924523,
+      "sigma_xy_mpa": 4.081858209529793,
+      "sigma_xz_mpa": -0.7739512514554463,
+      "sigma_yz_mpa": 4.952066798230502e-05,
+      "top_com": {
+        "x": 3.10764901450104,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 50,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 50,
+      "relative_target_shear_strain": 0.0125,
+      "target_shear_strain": 0.0125,
+      "relative_shear_strain": 0.012499999999999997,
+      "actual_shear_strain": 0.012499999999999997,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 16.113901790940037,
+      "bottom_shear_stress_mpa": -16.113901790940037,
+      "sigma_xx_mpa": -25.592240430479727,
+      "sigma_yy_mpa": 86.65790137781363,
+      "sigma_zz_mpa": 19.48562323722971,
+      "sigma_xy_mpa": 16.113901790940037,
+      "sigma_xz_mpa": -0.8183831884600449,
+      "sigma_yz_mpa": 0.0001756187192073352,
+      "top_com": {
+        "x": 3.1588121141152574,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 51,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 51,
+      "relative_target_shear_strain": 0.012750000000000001,
+      "target_shear_strain": 0.012750000000000001,
+      "relative_shear_strain": 0.012749999999999996,
+      "actual_shear_strain": 0.012749999999999996,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -17.81037340780207,
+      "bottom_shear_stress_mpa": 17.81037340780207,
+      "sigma_xx_mpa": -37.45605933473719,
+      "sigma_yy_mpa": 81.71355680937522,
+      "sigma_zz_mpa": 27.713100161277602,
+      "sigma_xy_mpa": -17.81037340780207,
+      "sigma_xz_mpa": 0.5261390113540368,
+      "sigma_yz_mpa": -0.00043055108486888735,
+      "top_com": {
+        "x": 3.209975213729475,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 52,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 52,
+      "relative_target_shear_strain": 0.013000000000000001,
+      "target_shear_strain": 0.013000000000000001,
+      "relative_shear_strain": 0.012999999999999996,
+      "actual_shear_strain": 0.012999999999999996,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -6.208000687462845,
+      "bottom_shear_stress_mpa": 6.208000687462845,
+      "sigma_xx_mpa": -33.208657640954826,
+      "sigma_yy_mpa": 83.39246638904208,
+      "sigma_zz_mpa": 24.883359968492915,
+      "sigma_xy_mpa": -6.208000687462845,
+      "sigma_xz_mpa": 0.6924696180960133,
+      "sigma_yz_mpa": -5.41916316017712e-05,
+      "top_com": {
+        "x": 3.261138313343693,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 53,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 53,
+      "relative_target_shear_strain": 0.01325,
+      "target_shear_strain": 0.01325,
+      "relative_shear_strain": 0.013249999999999994,
+      "actual_shear_strain": 0.013249999999999994,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 6.27068358727269,
+      "bottom_shear_stress_mpa": -6.27068358727269,
+      "sigma_xx_mpa": -28.856412412533345,
+      "sigma_yy_mpa": 85.22930795901513,
+      "sigma_zz_mpa": 21.861311074529738,
+      "sigma_xy_mpa": 6.27068358727269,
+      "sigma_xz_mpa": 0.7864042424406694,
+      "sigma_yz_mpa": 4.1115030301902137e-05,
+      "top_com": {
+        "x": 3.3123014129579107,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 54,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 54,
+      "relative_target_shear_strain": 0.0135,
+      "target_shear_strain": 0.0135,
+      "relative_shear_strain": 0.01349999999999999,
+      "actual_shear_strain": 0.01349999999999999,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 17.997868975808696,
+      "bottom_shear_stress_mpa": -17.997868975808696,
+      "sigma_xx_mpa": -24.996506247971485,
+      "sigma_yy_mpa": 86.93664388610362,
+      "sigma_zz_mpa": 19.03389365593427,
+      "sigma_xy_mpa": 17.997868975808696,
+      "sigma_xz_mpa": 0.8175080185822399,
+      "sigma_yz_mpa": -0.00027810287944037357,
+      "top_com": {
+        "x": 3.363464512572128,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 55,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 55,
+      "relative_target_shear_strain": 0.01375,
+      "target_shear_strain": 0.01375,
+      "relative_shear_strain": 0.013750000000000004,
+      "actual_shear_strain": 0.013750000000000004,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -15.930202935496647,
+      "bottom_shear_stress_mpa": 15.930202935496647,
+      "sigma_xx_mpa": -36.74891107804965,
+      "sigma_yy_mpa": 81.97058764443568,
+      "sigma_zz_mpa": 27.24897535765518,
+      "sigma_xy_mpa": -15.930202935496647,
+      "sigma_xz_mpa": -0.5601225824583704,
+      "sigma_yz_mpa": -0.006064023066981213,
+      "top_com": {
+        "x": 3.4146276121863486,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 56,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 56,
+      "relative_target_shear_strain": 0.014,
+      "target_shear_strain": 0.014,
+      "relative_shear_strain": 0.013999999999999997,
+      "actual_shear_strain": 0.013999999999999997,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -4.0370930160018075,
+      "bottom_shear_stress_mpa": 4.0370930160018075,
+      "sigma_xx_mpa": -32.43669701840675,
+      "sigma_yy_mpa": 83.71459804450964,
+      "sigma_zz_mpa": 24.356832409179283,
+      "sigma_xy_mpa": -4.0370930160018075,
+      "sigma_xz_mpa": -0.7130726957516169,
+      "sigma_yz_mpa": 5.666784908583082e-05,
+      "top_com": {
+        "x": 3.4657907118005653,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 57,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 57,
+      "relative_target_shear_strain": 0.01425,
+      "target_shear_strain": 0.01425,
+      "relative_shear_strain": 0.014249999999999992,
+      "actual_shear_strain": 0.014249999999999992,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 8.442485792383566,
+      "bottom_shear_stress_mpa": -8.442485792383566,
+      "sigma_xx_mpa": -28.12040105006274,
+      "sigma_yy_mpa": 85.54441468582465,
+      "sigma_zz_mpa": 21.33585414389,
+      "sigma_xy_mpa": 8.442485792383566,
+      "sigma_xz_mpa": -0.7972098801471605,
+      "sigma_yz_mpa": 0.00020390901867022192,
+      "top_com": {
+        "x": 3.516953811414782,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 58,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 58,
+      "relative_target_shear_strain": 0.0145,
+      "target_shear_strain": 0.0145,
+      "relative_shear_strain": 0.014499999999999987,
+      "actual_shear_strain": 0.014499999999999987,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 19.723053566522758,
+      "bottom_shear_stress_mpa": -19.723053566522758,
+      "sigma_xx_mpa": -24.467910311239518,
+      "sigma_yy_mpa": 87.19951228576295,
+      "sigma_zz_mpa": 18.622705535562574,
+      "sigma_xy_mpa": 19.723053566522758,
+      "sigma_xz_mpa": -0.8121994955538782,
+      "sigma_yz_mpa": 0.00019431689850279716,
+      "top_com": {
+        "x": 3.568116911028999,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 59,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 59,
+      "relative_target_shear_strain": 0.014750000000000001,
+      "target_shear_strain": 0.014750000000000001,
+      "relative_shear_strain": 0.01475,
+      "actual_shear_strain": 0.01475,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -13.96226334502972,
+      "bottom_shear_stress_mpa": 13.96226334502972,
+      "sigma_xx_mpa": -36.02063731765848,
+      "sigma_yy_mpa": 82.25044876516581,
+      "sigma_zz_mpa": 26.769550649610107,
+      "sigma_xy_mpa": -13.96226334502972,
+      "sigma_xz_mpa": 0.5963789338914447,
+      "sigma_yz_mpa": 0.001156539905367708,
+      "top_com": {
+        "x": 3.6192800106432195,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 60,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 60,
+      "relative_target_shear_strain": 0.015,
+      "target_shear_strain": 0.015,
+      "relative_shear_strain": 0.015000000000000003,
+      "actual_shear_strain": 0.015000000000000003,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -1.849887565117592,
+      "bottom_shear_stress_mpa": 1.849887565117592,
+      "sigma_xx_mpa": -31.665328496743903,
+      "sigma_yy_mpa": 84.03840872210615,
+      "sigma_zz_mpa": 23.82678683237241,
+      "sigma_xy_mpa": -1.849887565117592,
+      "sigma_xz_mpa": 0.7318292758055168,
+      "sigma_yz_mpa": -2.779019816418993e-05,
+      "top_com": {
+        "x": 3.6704431102574384,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 61,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 61,
+      "relative_target_shear_strain": 0.01525,
+      "target_shear_strain": 0.01525,
+      "relative_shear_strain": 0.015249999999999994,
+      "actual_shear_strain": 0.015249999999999994,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 10.58590349808076,
+      "bottom_shear_stress_mpa": -10.58590349808076,
+      "sigma_xx_mpa": -27.401793942498827,
+      "sigma_yy_mpa": 85.8548486193924,
+      "sigma_zz_mpa": 20.81788891459407,
+      "sigma_xy_mpa": 10.58590349808076,
+      "sigma_xz_mpa": 0.8059395069917468,
+      "sigma_yz_mpa": -2.877287689572223e-05,
+      "top_com": {
+        "x": 3.7216062098716547,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 62,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 62,
+      "relative_target_shear_strain": 0.0155,
+      "target_shear_strain": 0.0155,
+      "relative_shear_strain": 0.015499999999999995,
+      "actual_shear_strain": 0.015499999999999995,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 21.192466632779393,
+      "bottom_shear_stress_mpa": -21.192466632779393,
+      "sigma_xx_mpa": -24.043733068079977,
+      "sigma_yy_mpa": 87.4383178592829,
+      "sigma_zz_mpa": 18.27690544103252,
+      "sigma_xy_mpa": 21.192466632779393,
+      "sigma_xz_mpa": 0.8006436117072602,
+      "sigma_yz_mpa": -0.00046017836688809765,
+      "top_com": {
+        "x": 3.7727693094858727,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 63,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 63,
+      "relative_target_shear_strain": 0.01575,
+      "target_shear_strain": 0.01575,
+      "relative_shear_strain": 0.015749999999999993,
+      "actual_shear_strain": 0.015749999999999993,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -11.92432240808315,
+      "bottom_shear_stress_mpa": 11.92432240808315,
+      "sigma_xx_mpa": -35.27275379730431,
+      "sigma_yy_mpa": 82.54653434627728,
+      "sigma_zz_mpa": 26.272479538615073,
+      "sigma_xy_mpa": -11.92432240808315,
+      "sigma_xz_mpa": -0.6262555154831525,
+      "sigma_yz_mpa": 0.0002696492183757923,
+      "top_com": {
+        "x": 3.82393240910009,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 64,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 64,
+      "relative_target_shear_strain": 0.016,
+      "target_shear_strain": 0.016,
+      "relative_shear_strain": 0.016,
+      "actual_shear_strain": 0.016,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 0.34654317000180757,
+      "bottom_shear_stress_mpa": -0.34654317000180757,
+      "sigma_xx_mpa": -30.896813637035297,
+      "sigma_yy_mpa": 84.36255328004953,
+      "sigma_zz_mpa": 23.29470295503751,
+      "sigma_xy_mpa": 0.34654317000180757,
+      "sigma_xz_mpa": -0.7489003235466501,
+      "sigma_yz_mpa": -4.5403819601910265e-05,
+      "top_com": {
+        "x": 3.8750955087143097,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 65,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 65,
+      "relative_target_shear_strain": 0.01625,
+      "target_shear_strain": 0.01625,
+      "relative_shear_strain": 0.016249999999999994,
+      "actual_shear_strain": 0.016249999999999994,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 12.688446903836418,
+      "bottom_shear_stress_mpa": -12.688446903836418,
+      "sigma_xx_mpa": -26.705158821113898,
+      "sigma_yy_mpa": 86.15921252979282,
+      "sigma_zz_mpa": 20.310408007847798,
+      "sigma_xy_mpa": 12.688446903836418,
+      "sigma_xz_mpa": -0.812648836642592,
+      "sigma_yz_mpa": 6.727810110090105e-05,
+      "top_com": {
+        "x": 3.926258608328526,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 66,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 66,
+      "relative_target_shear_strain": 0.0165,
+      "target_shear_strain": 0.0165,
+      "relative_shear_strain": 0.01649999999999999,
+      "actual_shear_strain": 0.01649999999999999,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 22.18095859329652,
+      "bottom_shear_stress_mpa": -22.18095859329652,
+      "sigma_xx_mpa": -23.809228115953633,
+      "sigma_yy_mpa": 87.63386525314512,
+      "sigma_zz_mpa": 18.053855924098386,
+      "sigma_xy_mpa": 22.18095859329652,
+      "sigma_xz_mpa": -0.7779442762443275,
+      "sigma_yz_mpa": 0.0006290846620077651,
+      "top_com": {
+        "x": 3.9774217079427436,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 67,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 67,
+      "relative_target_shear_strain": 0.01675,
+      "target_shear_strain": 0.01675,
+      "relative_shear_strain": 0.016749999999999987,
+      "actual_shear_strain": 0.016749999999999987,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": -9.836962801177908,
+      "bottom_shear_stress_mpa": 9.836962801177908,
+      "sigma_xx_mpa": -34.51338664699691,
+      "sigma_yy_mpa": 82.85415897373719,
+      "sigma_zz_mpa": 25.7644965416359,
+      "sigma_xy_mpa": -9.836962801177908,
+      "sigma_xz_mpa": 0.6525938239198874,
+      "sigma_yz_mpa": 0.00025576118174829065,
+      "top_com": {
+        "x": 4.028584807556961,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 68,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 68,
+      "relative_target_shear_strain": 0.017,
+      "target_shear_strain": 0.017,
+      "relative_shear_strain": 0.01699999999999999,
+      "actual_shear_strain": 0.01699999999999999,
+      "current_slab_spacing_angstrom": 204.6523984568719,
+      "top_shear_stress_mpa": 2.546754640520345,
+      "bottom_shear_stress_mpa": -2.546754640520345,
+      "sigma_xx_mpa": -30.133323238105913,
+      "sigma_yy_mpa": 84.68557095871229,
+      "sigma_zz_mpa": 22.762017783662156,
+      "sigma_xy_mpa": 2.546754640520345,
+      "sigma_xz_mpa": 0.764349024793509,
+      "sigma_yz_mpa": -0.00027919860816319963,
+      "top_com": {
+        "x": 4.079747907171179,
+        "y": 102.63883561981517
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 69,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 69,
+      "relative_target_shear_strain": 0.01725,
+      "target_shear_strain": 0.01725,
+      "relative_shear_strain": 0.01725000000000001,
+      "actual_shear_strain": 0.01725000000000001,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 14.73253442449089,
+      "bottom_shear_stress_mpa": -14.73253442449089,
+      "sigma_xx_mpa": -26.037192522895715,
+      "sigma_yy_mpa": 86.45610660596513,
+      "sigma_zz_mpa": 19.817850313842683,
+      "sigma_xy_mpa": 14.73253442449089,
+      "sigma_xz_mpa": 0.8169820258565825,
+      "sigma_yz_mpa": -0.00011974994933010966,
+      "top_com": {
+        "x": 4.130911006785401,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    },
+    {
+      "step": 70,
+      "increment_stage": "initial",
+      "loading_direction": "x",
+      "loading_half_cycle": 1,
+      "loading_cycle": 1,
+      "step_in_loading_half_cycle": 70,
+      "relative_target_shear_strain": 0.0175,
+      "target_shear_strain": 0.0175,
+      "relative_shear_strain": 0.017499999999999998,
+      "actual_shear_strain": 0.017499999999999998,
+      "current_slab_spacing_angstrom": 204.65239845687188,
+      "top_shear_stress_mpa": 21.758443040431928,
+      "bottom_shear_stress_mpa": -21.758443040431928,
+      "sigma_xx_mpa": -24.11515995846018,
+      "sigma_yy_mpa": 87.70411377447931,
+      "sigma_zz_mpa": 18.19035065427907,
+      "sigma_xy_mpa": 21.758443040431928,
+      "sigma_xz_mpa": 0.7240585929792429,
+      "sigma_yz_mpa": 0.0002156719602320683,
+      "top_com": {
+        "x": 4.182074106399616,
+        "y": 102.63883561981515
+      },
+      "bottom_com": {
+        "x": 0.6687939011725662,
+        "y": -102.01356283705674
+      },
+      "converged": true
+    }
+  ],
+  "frames": [
+    {
+      "step": 0,
+      "path": "structures/gb_shear_step_0000.cfg"
+    },
+    {
+      "step": 1,
+      "path": "structures/gb_shear_step_0001.cfg"
+    },
+    {
+      "step": 2,
+      "path": "structures/gb_shear_step_0002.cfg"
+    },
+    {
+      "step": 3,
+      "path": "structures/gb_shear_step_0003.cfg"
+    },
+    {
+      "step": 4,
+      "path": "structures/gb_shear_step_0004.cfg"
+    },
+    {
+      "step": 5,
+      "path": "structures/gb_shear_step_0005.cfg"
+    },
+    {
+      "step": 6,
+      "path": "structures/gb_shear_step_0006.cfg"
+    },
+    {
+      "step": 7,
+      "path": "structures/gb_shear_step_0007.cfg"
+    },
+    {
+      "step": 8,
+      "path": "structures/gb_shear_step_0008.cfg"
+    },
+    {
+      "step": 9,
+      "path": "structures/gb_shear_step_0009.cfg"
+    },
+    {
+      "step": 10,
+      "path": "structures/gb_shear_step_0010.cfg"
+    },
+    {
+      "step": 11,
+      "path": "structures/gb_shear_step_0011.cfg"
+    },
+    {
+      "step": 12,
+      "path": "structures/gb_shear_step_0012.cfg"
+    },
+    {
+      "step": 13,
+      "path": "structures/gb_shear_step_0013.cfg"
+    },
+    {
+      "step": 14,
+      "path": "structures/gb_shear_step_0014.cfg"
+    },
+    {
+      "step": 15,
+      "path": "structures/gb_shear_step_0015.cfg"
+    },
+    {
+      "step": 16,
+      "path": "structures/gb_shear_step_0016.cfg"
+    },
+    {
+      "step": 17,
+      "path": "structures/gb_shear_step_0017.cfg"
+    },
+    {
+      "step": 18,
+      "path": "structures/gb_shear_step_0018.cfg"
+    },
+    {
+      "step": 19,
+      "path": "structures/gb_shear_step_0019.cfg"
+    },
+    {
+      "step": 20,
+      "path": "structures/gb_shear_step_0020.cfg"
+    },
+    {
+      "step": 21,
+      "path": "structures/gb_shear_step_0021.cfg"
+    },
+    {
+      "step": 22,
+      "path": "structures/gb_shear_step_0022.cfg"
+    },
+    {
+      "step": 23,
+      "path": "structures/gb_shear_step_0023.cfg"
+    },
+    {
+      "step": 24,
+      "path": "structures/gb_shear_step_0024.cfg"
+    },
+    {
+      "step": 25,
+      "path": "structures/gb_shear_step_0025.cfg"
+    },
+    {
+      "step": 26,
+      "path": "structures/gb_shear_step_0026.cfg"
+    },
+    {
+      "step": 27,
+      "path": "structures/gb_shear_step_0027.cfg"
+    },
+    {
+      "step": 28,
+      "path": "structures/gb_shear_step_0028.cfg"
+    },
+    {
+      "step": 29,
+      "path": "structures/gb_shear_step_0029.cfg"
+    },
+    {
+      "step": 30,
+      "path": "structures/gb_shear_step_0030.cfg"
+    },
+    {
+      "step": 31,
+      "path": "structures/gb_shear_step_0031.cfg"
+    },
+    {
+      "step": 32,
+      "path": "structures/gb_shear_step_0032.cfg"
+    },
+    {
+      "step": 33,
+      "path": "structures/gb_shear_step_0033.cfg"
+    },
+    {
+      "step": 34,
+      "path": "structures/gb_shear_step_0034.cfg"
+    },
+    {
+      "step": 35,
+      "path": "structures/gb_shear_step_0035.cfg"
+    },
+    {
+      "step": 36,
+      "path": "structures/gb_shear_step_0036.cfg"
+    },
+    {
+      "step": 37,
+      "path": "structures/gb_shear_step_0037.cfg"
+    },
+    {
+      "step": 38,
+      "path": "structures/gb_shear_step_0038.cfg"
+    },
+    {
+      "step": 39,
+      "path": "structures/gb_shear_step_0039.cfg"
+    },
+    {
+      "step": 40,
+      "path": "structures/gb_shear_step_0040.cfg"
+    },
+    {
+      "step": 41,
+      "path": "structures/gb_shear_step_0041.cfg"
+    },
+    {
+      "step": 42,
+      "path": "structures/gb_shear_step_0042.cfg"
+    },
+    {
+      "step": 43,
+      "path": "structures/gb_shear_step_0043.cfg"
+    },
+    {
+      "step": 44,
+      "path": "structures/gb_shear_step_0044.cfg"
+    },
+    {
+      "step": 45,
+      "path": "structures/gb_shear_step_0045.cfg"
+    },
+    {
+      "step": 46,
+      "path": "structures/gb_shear_step_0046.cfg"
+    },
+    {
+      "step": 47,
+      "path": "structures/gb_shear_step_0047.cfg"
+    },
+    {
+      "step": 48,
+      "path": "structures/gb_shear_step_0048.cfg"
+    },
+    {
+      "step": 49,
+      "path": "structures/gb_shear_step_0049.cfg"
+    },
+    {
+      "step": 50,
+      "path": "structures/gb_shear_step_0050.cfg"
+    },
+    {
+      "step": 51,
+      "path": "structures/gb_shear_step_0051.cfg"
+    },
+    {
+      "step": 52,
+      "path": "structures/gb_shear_step_0052.cfg"
+    },
+    {
+      "step": 53,
+      "path": "structures/gb_shear_step_0053.cfg"
+    },
+    {
+      "step": 54,
+      "path": "structures/gb_shear_step_0054.cfg"
+    },
+    {
+      "step": 55,
+      "path": "structures/gb_shear_step_0055.cfg"
+    },
+    {
+      "step": 56,
+      "path": "structures/gb_shear_step_0056.cfg"
+    },
+    {
+      "step": 57,
+      "path": "structures/gb_shear_step_0057.cfg"
+    },
+    {
+      "step": 58,
+      "path": "structures/gb_shear_step_0058.cfg"
+    },
+    {
+      "step": 59,
+      "path": "structures/gb_shear_step_0059.cfg"
+    },
+    {
+      "step": 60,
+      "path": "structures/gb_shear_step_0060.cfg"
+    },
+    {
+      "step": 61,
+      "path": "structures/gb_shear_step_0061.cfg"
+    },
+    {
+      "step": 62,
+      "path": "structures/gb_shear_step_0062.cfg"
+    },
+    {
+      "step": 63,
+      "path": "structures/gb_shear_step_0063.cfg"
+    },
+    {
+      "step": 64,
+      "path": "structures/gb_shear_step_0064.cfg"
+    },
+    {
+      "step": 65,
+      "path": "structures/gb_shear_step_0065.cfg"
+    },
+    {
+      "step": 66,
+      "path": "structures/gb_shear_step_0066.cfg"
+    },
+    {
+      "step": 67,
+      "path": "structures/gb_shear_step_0067.cfg"
+    },
+    {
+      "step": 68,
+      "path": "structures/gb_shear_step_0068.cfg"
+    },
+    {
+      "step": 69,
+      "path": "structures/gb_shear_step_0069.cfg"
+    },
+    {
+      "step": 70,
+      "path": "structures/gb_shear_step_0070.cfg"
+    }
+  ]
+}

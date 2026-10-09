@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "status": "completed",
+  "mpi_ranks": 36,
+  "convergence_basis": "final_minimization",
+  "minimization_count": 8,
+  "nonconverged_minimization_count": 4,
+  "all_minimizations_converged": false,
+  "final_minimization_converged": false,
+  "minimizations": [
+    {
+      "minimization_index": 1,
+      "stopping_criterion": "force tolerance",
+      "converged": true,
+      "energy_initial_eV": -250996.857865911,
+      "energy_next_to_last_eV": -251374.643132506,
+      "energy_final_eV": -251374.643132506,
+      "force_two_norm_initial": 16.990111,
+      "force_two_norm_final": 9.9763008e-07,
+      "force_max_component_initial": 0.48642057,
+      "force_max_component_final": 1.0675387e-07,
+      "iterations": 876,
+      "force_evaluations": 1727
+    },
+    {
+      "minimization_index": 2,
+      "stopping_criterion": "max iterations",
+      "converged": false,
+      "energy_initial_eV": -251374.643132506,
+      "energy_next_to_last_eV": -251375.963281759,
+      "energy_final_eV": -251375.963282593,
+      "force_two_norm_initial": 1594.2998,
+      "force_two_norm_final": 1.7839351,
+      "force_max_component_initial": 1594.2998,
+      "force_max_component_final": 1.2183732,
+      "iterations": 1000,
+      "force_evaluations": 1984
+    },
+    {
+      "minimization_index": 3,
+      "stopping_criterion": "force tolerance",
+      "converged": true,
+      "energy_initial_eV": -251375.963282593,
+      "energy_next_to_last_eV": -251376.07584832,
+      "energy_final_eV": -251376.075848317,
+      "force_two_norm_initial": 0.29723625,
+      "force_two_norm_final": 9.5908261e-07,
+      "force_max_component_initial": 0.0098194143,
+      "force_max_component_final": 5.2597608e-08,
+      "iterations": 662,
+      "force_evaluations": 1324
+    },
+    {
+      "minimization_index": 4,
+      "stopping_criterion": "linesearch alpha is zero",
+      "converged": false,
+      "energy_initial_eV": -251376.075848318,
+      "energy_next_to_last_eV": -251376.076834843,
+      "energy_final_eV": -251376.076834843,
+      "force_two_norm_initial": 44.402826,
+      "force_two_norm_final": 0.009568506,
+      "force_max_component_initial": 44.402826,
+      "force_max_component_final": 0.0059733871,
+      "iterations": 18,
+      "force_evaluations": 64
+    },
+    {
+      "minimization_index": 5,
+      "stopping_criterion": "force tolerance",
+      "converged": true,
+      "energy_initial_eV": -251376.076834843,
+      "energy_next_to_last_eV": -251376.076939602,
+      "energy_final_eV": -251376.076939604,
+      "force_two_norm_initial": 0.0057779086,
+      "force_two_norm_final": 9.7657253e-07,
+      "force_max_component_initial": 0.0001926746,
+      "force_max_component_final": 8.2894043e-08,
+      "iterations": 499,
+      "force_evaluations": 998
+    },
+    {
+      "minimization_index": 6,
+      "stopping_criterion": "linesearch alpha is zero",
+      "converged": false,
+      "energy_initial_eV": -251376.076939604,
+      "energy_next_to_last_eV": -251376.076950649,
+      "energy_final_eV": -251376.076950649,
+      "force_two_norm_initial": 4.7135694,
+      "force_two_norm_final": 0.0010224486,
+      "force_max_component_initial": 4.7135692,
+      "force_max_component_final": 0.00061326549,
+      "iterations": 6,
+      "force_evaluations": 23
+    },
+    {
+      "minimization_index": 7,
+      "stopping_criterion": "force tolerance",
+      "converged": true,
+      "energy_initial_eV": -251376.076950649,
+      "energy_next_to_last_eV": -251376.076951877,
+      "energy_final_eV": -251376.076951876,
+      "force_two_norm_initial": 0.00074898483,
+      "force_two_norm_final": 9.919644e-07,
+      "force_max_component_initial": 2.7504516e-05,
+      "force_max_component_final": 6.0540412e-08,
+      "iterations": 380,
+      "force_evaluations": 760
+    },
+    {
+      "minimization_index": 8,
+      "stopping_criterion": "linesearch alpha is zero",
+      "converged": false,
+      "energy_initial_eV": -251376.076951876,
+      "energy_next_to_last_eV": -251376.076952016,
+      "energy_final_eV": -251376.076952016,
+      "force_two_norm_initial": 0.52262875,
+      "force_two_norm_final": 0.00031113946,
+      "force_max_component_initial": 0.52262872,
+      "force_max_component_final": 0.00028639279,
+      "iterations": 4,
+      "force_evaluations": 10
+    }
+  ],
+  "warnings": [
+    "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+  ],
+  "structure_metadata": {
+    "metadata_basis": "construction_config",
+    "material": {
+      "element": "Ni",
+      "lattice": "fcc"
+    },
+    "reference_a0_angstrom": 3.52,
+    "simulation_frame": {
+      "x": "in_plane",
+      "y": "gb_normal",
+      "z": "tilt_axis"
+    },
+    "x_pbc": false,
+    "boundary": "p p p",
+    "x_vacuum_padding_per_side_angstrom": 20.0,
+    "top": {
+      "orientation": {
+        "x": [
+          0,
+          0,
+          -1
+        ],
+        "y": [
+          1,
+          1,
+          0
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        57,
+        21,
+        3
+      ]
+    },
+    "bottom": {
+      "orientation": {
+        "x": [
+          1,
+          1,
+          -2
+        ],
+        "y": [
+          1,
+          1,
+          1
+        ],
+        "z": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "size": [
+        23,
+        17,
+        3
+      ]
+    }
+  },
+  "analysis_followups": [
+    {
+      "tool": "analyze_gb_periodicity",
+      "agent": "analysis",
+      "source_run_id": "minimize-20260927-035314-d47068",
+      "source_artifact_role": "minimized_cfg",
+      "reason": "Completed GB minimization with configured vacuum on both X sides.",
+      "purpose": "Identify short repeat and possible longer structural-modulation candidates in the relaxed boundary, then compare them with construction mismatch and size estimates so the user can choose a continuous-periodic X cell.",
+      "required": true
+    }
+  ],
+  "error": ""
+}

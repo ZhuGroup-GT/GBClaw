@@ -1,0 +1,141 @@
+{
+  "files": [
+    {
+      "artifact_id": "f6543932-a6f6-5b59-9bdf-fabfb020a150",
+      "created_at": "2026-09-27T03:53:14+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 1687
+    },
+    {
+      "artifact_id": "46135fc1-4868-5e6a-bb21-aab78e37fc00",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "launcher.stdout.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stdout",
+      "size_bytes": 29863
+    },
+    {
+      "artifact_id": "d4706b70-4740-5cfc-84de-8c5470f08beb",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "launcher.stderr.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stderr",
+      "size_bytes": 0
+    },
+    {
+      "artifact_id": "9f85f04b-31b9-5c6a-a02f-b9a422155cb1",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "log.lammps",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "log",
+      "size_bytes": 32433
+    },
+    {
+      "artifact_id": "1a35576c-258d-5f6c-a698-a2ef7443e3cc",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "gb_minimize.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "initial_cfg",
+      "size_bytes": 3031317
+    },
+    {
+      "artifact_id": "387aa784-6aa7-503a-9cb9-00a3073a9486",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "gb_minimize.lammpstrj",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "trajectory",
+      "size_bytes": 97241040
+    },
+    {
+      "artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "gb_minimized.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_cfg",
+      "size_bytes": 3055234
+    },
+    {
+      "artifact_id": "0e31d1a7-d13a-50f8-a94a-123f4c125746",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {},
+      "path": "gb_minimized.lmp",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_lmp",
+      "size_bytes": 4672620
+    },
+    {
+      "artifact_id": "160d9093-0530-5987-b31e-aa6cc42d07d7",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "top_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "top_boundary_ids",
+      "size_bytes": 6054
+    },
+    {
+      "artifact_id": "93980413-33fe-54d1-bdcf-54120d5bdc55",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": null,
+      "metadata": {},
+      "path": "bot_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "bottom_boundary_ids",
+      "size_bytes": 6138
+    },
+    {
+      "artifact_id": "ca28c8c7-dd55-5179-9cfa-967685558cc0",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "minimize_run.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "run_metadata",
+      "size_bytes": 6054
+    },
+    {
+      "artifact_id": "6e433e59-cb6c-57e2-ae6f-36b629d035a4",
+      "created_at": "2026-09-27T03:54:32+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "run_gb_minimize",
+        "sha256": "d3c8fd86afd3ffd8a9ebc0cfd12b878ef4d5fb250eb2f08aec146ee35b00e01b"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 13276
+    }
+  ],
+  "run_id": "minimize-20260927-035314-d47068",
+  "workflow": "gb_minimize"
+}

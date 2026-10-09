@@ -1,0 +1,358 @@
+{
+  "analysis": {
+    "definition": "Interior discrete local maxima where the reaction-coordinate energy derivative changes from positive to negative; zero-slope plateaus between those signs produce one saddle candidate.",
+    "derivative_tolerance_eV_per_coordinate": 0.0,
+    "derivatives": [
+      {
+        "derivative_eV_per_coordinate": 0.01556894068339033,
+        "left_reaction_coordinate": 0.0,
+        "left_replica": 0,
+        "right_reaction_coordinate": 0.064230446,
+        "right_replica": 1,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.062276016534763584,
+        "left_reaction_coordinate": 0.064230446,
+        "left_replica": 1,
+        "right_reaction_coordinate": 0.12846063,
+        "right_replica": 2,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.10898391798723689,
+        "left_reaction_coordinate": 0.12846063,
+        "left_replica": 2,
+        "right_reaction_coordinate": 0.19269029,
+        "right_replica": 3,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.12455458116622346,
+        "left_reaction_coordinate": 0.19269029,
+        "left_replica": 3,
+        "right_reaction_coordinate": 0.25691916,
+        "right_replica": 4,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.10898702319209763,
+        "left_reaction_coordinate": 0.25691916,
+        "left_replica": 4,
+        "right_reaction_coordinate": 0.32114699,
+        "right_replica": 5,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.10898924615233885,
+        "left_reaction_coordinate": 0.32114699,
+        "left_replica": 5,
+        "right_reaction_coordinate": 0.38537351,
+        "right_replica": 6,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.1245622028082831,
+        "left_reaction_coordinate": 0.38537351,
+        "left_replica": 6,
+        "right_reaction_coordinate": 0.44959845,
+        "right_replica": 7,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.18684810451854325,
+        "left_reaction_coordinate": 0.44959845,
+        "left_replica": 7,
+        "right_reaction_coordinate": 0.51382174,
+        "right_replica": 8,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": 0.4826972498775993,
+        "left_reaction_coordinate": 0.51382174,
+        "left_replica": 8,
+        "right_reaction_coordinate": 0.57804419,
+        "right_replica": 9,
+        "sign": "positive"
+      },
+      {
+        "derivative_eV_per_coordinate": -1.0427226208110936,
+        "left_reaction_coordinate": 0.57804419,
+        "left_replica": 9,
+        "right_reaction_coordinate": 0.63079072,
+        "right_replica": 10,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.18958539181539621,
+        "left_reaction_coordinate": 0.63079072,
+        "left_replica": 10,
+        "right_reaction_coordinate": 0.6835374,
+        "right_replica": 11,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.05687651264031503,
+        "left_reaction_coordinate": 0.6835374,
+        "left_replica": 11,
+        "right_reaction_coordinate": 0.73628325,
+        "right_replica": 12,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.18959301195727674,
+        "left_reaction_coordinate": 0.73628325,
+        "left_replica": 12,
+        "right_reaction_coordinate": 0.78902781,
+        "right_replica": 13,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.24647385976521713,
+        "left_reaction_coordinate": 0.78902781,
+        "left_replica": 13,
+        "right_reaction_coordinate": 0.84177174,
+        "right_replica": 14,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.1137586540748427,
+        "left_reaction_coordinate": 0.84177174,
+        "left_replica": 14,
+        "right_reaction_coordinate": 0.89451498,
+        "right_replica": 15,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.05687995266543546,
+        "left_reaction_coordinate": 0.89451498,
+        "left_replica": 15,
+        "right_reaction_coordinate": 0.94725764,
+        "right_replica": 16,
+        "sign": "negative"
+      },
+      {
+        "derivative_eV_per_coordinate": -0.01896009197475707,
+        "left_reaction_coordinate": 0.94725764,
+        "left_replica": 16,
+        "right_reaction_coordinate": 1.0,
+        "right_replica": 17,
+        "sign": "negative"
+      }
+    ],
+    "final_energy_eV": -48992.812,
+    "final_relative_energy_eV": -0.01599999999598367,
+    "highest_saddle": {
+      "barrier_from_final_eV": 0.10099999999511056,
+      "barrier_from_initial_eV": 0.08499999999912689,
+      "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+      "left_derivative_eV_per_coordinate": 0.4826972498775993,
+      "left_minimum": {
+        "potential_energy_eV": -48992.796,
+        "reaction_coordinate": 0.0,
+        "relative_energy_eV": 0.0,
+        "replica": 0
+      },
+      "plateau_end_reaction_coordinate": 0.57804419,
+      "plateau_end_replica": 9,
+      "plateau_start_reaction_coordinate": 0.57804419,
+      "plateau_start_replica": 9,
+      "potential_energy_eV": -48992.711,
+      "profile_index": 9,
+      "reaction_coordinate": 0.57804419,
+      "relative_energy_eV": 0.08499999999912689,
+      "replica": 9,
+      "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+      "right_derivative_eV_per_coordinate": -1.0427226208110936,
+      "right_minimum": {
+        "potential_energy_eV": -48992.812,
+        "reaction_coordinate": 1.0,
+        "relative_energy_eV": -0.01599999999598367,
+        "replica": 17
+      },
+      "saddle_number": 1
+    },
+    "initial_energy_eV": -48992.796,
+    "profile": [
+      {
+        "potential_energy_eV": -48992.796,
+        "reaction_coordinate": 0.0,
+        "relative_energy_eV": 0.0,
+        "replica": 0
+      },
+      {
+        "potential_energy_eV": -48992.795,
+        "reaction_coordinate": 0.064230446,
+        "relative_energy_eV": 0.0010000000038417056,
+        "replica": 1
+      },
+      {
+        "potential_energy_eV": -48992.791,
+        "reaction_coordinate": 0.12846063,
+        "relative_energy_eV": 0.005000000004656613,
+        "replica": 2
+      },
+      {
+        "potential_energy_eV": -48992.784,
+        "reaction_coordinate": 0.19269029,
+        "relative_energy_eV": 0.012000000002444722,
+        "replica": 3
+      },
+      {
+        "potential_energy_eV": -48992.776,
+        "reaction_coordinate": 0.25691916,
+        "relative_energy_eV": 0.020000000004074536,
+        "replica": 4
+      },
+      {
+        "potential_energy_eV": -48992.769,
+        "reaction_coordinate": 0.32114699,
+        "relative_energy_eV": 0.027000000001862645,
+        "replica": 5
+      },
+      {
+        "potential_energy_eV": -48992.762,
+        "reaction_coordinate": 0.38537351,
+        "relative_energy_eV": 0.033999999999650754,
+        "replica": 6
+      },
+      {
+        "potential_energy_eV": -48992.754,
+        "reaction_coordinate": 0.44959845,
+        "relative_energy_eV": 0.04200000000128057,
+        "replica": 7
+      },
+      {
+        "potential_energy_eV": -48992.742,
+        "reaction_coordinate": 0.51382174,
+        "relative_energy_eV": 0.05400000000372529,
+        "replica": 8
+      },
+      {
+        "potential_energy_eV": -48992.711,
+        "reaction_coordinate": 0.57804419,
+        "relative_energy_eV": 0.08499999999912689,
+        "replica": 9
+      },
+      {
+        "potential_energy_eV": -48992.766,
+        "reaction_coordinate": 0.63079072,
+        "relative_energy_eV": 0.029999999998835847,
+        "replica": 10
+      },
+      {
+        "potential_energy_eV": -48992.776,
+        "reaction_coordinate": 0.6835374,
+        "relative_energy_eV": 0.020000000004074536,
+        "replica": 11
+      },
+      {
+        "potential_energy_eV": -48992.779,
+        "reaction_coordinate": 0.73628325,
+        "relative_energy_eV": 0.016999999999825377,
+        "replica": 12
+      },
+      {
+        "potential_energy_eV": -48992.789,
+        "reaction_coordinate": 0.78902781,
+        "relative_energy_eV": 0.0070000000050640665,
+        "replica": 13
+      },
+      {
+        "potential_energy_eV": -48992.802,
+        "reaction_coordinate": 0.84177174,
+        "relative_energy_eV": -0.006000000001222361,
+        "replica": 14
+      },
+      {
+        "potential_energy_eV": -48992.808,
+        "reaction_coordinate": 0.89451498,
+        "relative_energy_eV": -0.011999999995168764,
+        "replica": 15
+      },
+      {
+        "potential_energy_eV": -48992.811,
+        "reaction_coordinate": 0.94725764,
+        "relative_energy_eV": -0.014999999999417923,
+        "replica": 16
+      },
+      {
+        "potential_energy_eV": -48992.812,
+        "reaction_coordinate": 1.0,
+        "relative_energy_eV": -0.01599999999598367,
+        "replica": 17
+      }
+    ],
+    "replica_count": 18,
+    "saddle_count": 1,
+    "saddles": [
+      {
+        "barrier_from_final_eV": 0.10099999999511056,
+        "barrier_from_initial_eV": 0.08499999999912689,
+        "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+        "left_derivative_eV_per_coordinate": 0.4826972498775993,
+        "left_minimum": {
+          "potential_energy_eV": -48992.796,
+          "reaction_coordinate": 0.0,
+          "relative_energy_eV": 0.0,
+          "replica": 0
+        },
+        "plateau_end_reaction_coordinate": 0.57804419,
+        "plateau_end_replica": 9,
+        "plateau_start_reaction_coordinate": 0.57804419,
+        "plateau_start_replica": 9,
+        "potential_energy_eV": -48992.711,
+        "profile_index": 9,
+        "reaction_coordinate": 0.57804419,
+        "relative_energy_eV": 0.08499999999912689,
+        "replica": 9,
+        "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+        "right_derivative_eV_per_coordinate": -1.0427226208110936,
+        "right_minimum": {
+          "potential_energy_eV": -48992.812,
+          "reaction_coordinate": 1.0,
+          "relative_energy_eV": -0.01599999999598367,
+          "replica": 17
+        },
+        "saddle_number": 1
+      }
+    ],
+    "source": {
+      "artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632",
+      "artifact_path": "artifacts/lammps/neb/neb-20260927-045814-1d9965/mep.json",
+      "fingerprint": "sha256:1ed69b37459bc52f2a2752209e5de59655ef955d0e57c350df30d6cde8fca544",
+      "run_id": "neb-20260927-045814-1d9965"
+    },
+    "source_mep_version": 2,
+    "version": 1,
+    "warnings": []
+  },
+  "plot": {
+    "annotate_saddle": true,
+    "color": "#1f5a94",
+    "derivative_tolerance_eV_per_coordinate": 0.0,
+    "label": "P012 FCC Ni GB MEP",
+    "legend_location": "best",
+    "line_style": "-",
+    "linewidth": 2.0,
+    "marker": "o",
+    "marker_size": 4.5,
+    "memory_tool": "plot_neb_mep",
+    "mode": "mep_plot",
+    "saddle_color": "#c62828",
+    "show_grid": true,
+    "show_legend": true,
+    "show_saddle": true,
+    "source_mep_artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632",
+    "title": "Minimum-energy path: P012 FCC Ni grain-boundary transition",
+    "x_label": "Reaction coordinate",
+    "y_label": "Energy relative to initial replica (eV)"
+  },
+  "source": {
+    "artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632",
+    "artifact_path": "artifacts/lammps/neb/neb-20260927-045814-1d9965/mep.json",
+    "fingerprint": "sha256:1ed69b37459bc52f2a2752209e5de59655ef955d0e57c350df30d6cde8fca544",
+    "run_id": "neb-20260927-045814-1d9965"
+  },
+  "version": 1
+}

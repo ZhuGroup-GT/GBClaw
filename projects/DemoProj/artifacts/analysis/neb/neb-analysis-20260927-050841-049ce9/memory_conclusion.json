@@ -1,0 +1,88 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T05:08:41+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "380e5d85-2ccd-5e64-be8c-7f07973f0920",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:neb-analysis-20260927-050841-049ce9:main_conclusion",
+    "source_run_id": "neb-analysis-20260927-050841-049ce9",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T05:08:41+00:00",
+    "value": {
+      "conclusion_type": "neb_saddle_analysis",
+      "data_artifact_path": "artifacts/analysis/neb/neb-analysis-20260927-050841-049ce9/neb_mep_analysis.json",
+      "derivative_tolerance_eV_per_coordinate": 0.0,
+      "final_relative_energy_eV": -0.01599999999598367,
+      "highest_saddle": {
+        "barrier_from_final_eV": 0.10099999999511056,
+        "barrier_from_initial_eV": 0.08499999999912689,
+        "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+        "left_derivative_eV_per_coordinate": 0.4826972498775993,
+        "left_minimum": {
+          "potential_energy_eV": -48992.796,
+          "reaction_coordinate": 0.0,
+          "relative_energy_eV": 0.0,
+          "replica": 0
+        },
+        "plateau_end_reaction_coordinate": 0.57804419,
+        "plateau_end_replica": 9,
+        "plateau_start_reaction_coordinate": 0.57804419,
+        "plateau_start_replica": 9,
+        "potential_energy_eV": -48992.711,
+        "profile_index": 9,
+        "reaction_coordinate": 0.57804419,
+        "relative_energy_eV": 0.08499999999912689,
+        "replica": 9,
+        "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+        "right_derivative_eV_per_coordinate": -1.0427226208110936,
+        "right_minimum": {
+          "potential_energy_eV": -48992.812,
+          "reaction_coordinate": 1.0,
+          "relative_energy_eV": -0.01599999999598367,
+          "replica": 17
+        },
+        "saddle_number": 1
+      },
+      "replica_count": 18,
+      "saddle_count": 1,
+      "saddles": [
+        {
+          "barrier_from_final_eV": 0.10099999999511056,
+          "barrier_from_initial_eV": 0.08499999999912689,
+          "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+          "left_derivative_eV_per_coordinate": 0.4826972498775993,
+          "left_minimum": {
+            "potential_energy_eV": -48992.796,
+            "reaction_coordinate": 0.0,
+            "relative_energy_eV": 0.0,
+            "replica": 0
+          },
+          "plateau_end_reaction_coordinate": 0.57804419,
+          "plateau_end_replica": 9,
+          "plateau_start_reaction_coordinate": 0.57804419,
+          "plateau_start_replica": 9,
+          "potential_energy_eV": -48992.711,
+          "profile_index": 9,
+          "reaction_coordinate": 0.57804419,
+          "relative_energy_eV": 0.08499999999912689,
+          "replica": 9,
+          "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+          "right_derivative_eV_per_coordinate": -1.0427226208110936,
+          "right_minimum": {
+            "potential_energy_eV": -48992.812,
+            "reaction_coordinate": 1.0,
+            "relative_energy_eV": -0.01599999999598367,
+            "replica": 17
+          },
+          "saddle_number": 1
+        }
+      ],
+      "source_mep_artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632",
+      "source_neb_run_id": "neb-20260927-045814-1d9965",
+      "warnings": []
+    },
+    "version": 1
+  },
+  "memory_tool": "analyze_neb_mep"
+}

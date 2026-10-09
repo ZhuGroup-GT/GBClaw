@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "purpose": "Remove residual forces at zero external load from each selected reverse-unloading post-drop state before atom-ID displacement comparison to the original nominal-zero-strain minimized P012 reference; all atoms free, fixed simulation box, no applied loads or active shear constraints. Step 60 retains its source nonconvergence warning; step 70 is the converged nominal-zero-strain endpoint.",
+  "description": "Ordered batch of converted exact CFG frames; FCC Ni P012, continuous periodic x, 11052 atoms, NiCr.adp inherited; preserve atom IDs and box lineage.",
+  "source": {
+    "artifact_id": "8f8d1b2a-f41b-55a6-8852-712d886f15da",
+    "context_config_path": "artifacts/lammps/shear/shear-20260927-044521-841236/input.json",
+    "context_config_sha256": "568989f26daddbf2a660e0ffdf5de5a3810002dd070c505b487d392945a423c2",
+    "context_run_id": "shear-20260927-044521-841236",
+    "frame": {},
+    "origin": {
+      "artifact_id": "150f80cd-4b8f-5a99-95cc-60ea67723d95",
+      "frame": {
+        "actual_shear_strain": 0.0017499999999999946,
+        "bottom_shear_stress_mpa": -4.652441064454117,
+        "converged": true,
+        "increment_stage": "initial",
+        "loading_cycle": 1,
+        "loading_direction": "-x",
+        "loading_half_cycle": 1,
+        "relative_shear_strain": -0.015750000000000004,
+        "relative_target_shear_strain": -0.01575,
+        "sigma_xx_mpa": -27.526612664932724,
+        "sigma_xy_mpa": 4.652441064454117,
+        "sigma_xz_mpa": 0.7318383673704801,
+        "sigma_yy_mpa": 79.87468485546458,
+        "sigma_yz_mpa": -5.1186284493722384e-05,
+        "sigma_zz_mpa": 20.833181993078238,
+        "step": 63,
+        "step_in_loading_half_cycle": 63,
+        "strain": 0.0017499999999999946,
+        "target_shear_strain": 0.001749999999999998,
+        "top_shear_stress_mpa": 4.652441064454117
+      },
+      "path": "artifacts/lammps/shear/shear-20260927-044521-841236/structures/gb_shear_step_0063.cfg",
+      "run_id": "shear-20260927-044521-841236",
+      "sha256": "7392e1c370113b0fb5075121315116564dd760ae5d27ea8275c5bbab99b2f0e7",
+      "workflow": "gb_shear"
+    },
+    "path": "artifacts/lammps/cfg_convert/cfg-convert-20260927-054600-4cfc7e/converted/015_gb_shear_step_0063.lmp",
+    "run_id": "cfg-convert-20260927-054600-4cfc7e",
+    "sha256": "10c692133dbac01947f88d6afbd1502fea7c9cb333e4b1bdd315c11ccdaf17bb",
+    "workflow": "cfg_convert"
+  },
+  "potential": {
+    "elements": [
+      "Ni"
+    ],
+    "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+    "pair_style": "adp",
+    "sha256": "4bc730061b4df3475b4330954a7b6322f6d133ea2e9cb9c7c59719eac72efb9f"
+  },
+  "simulation": {
+    "boundary": "p p p",
+    "min_style": "cg",
+    "min_etol": 0.0,
+    "min_ftol": 1e-06,
+    "min_maxiter": 1000,
+    "min_maxeval": 10000
+  },
+  "constraints": {
+    "mode": "none",
+    "fixed_ids": [],
+    "sources": []
+  }
+}

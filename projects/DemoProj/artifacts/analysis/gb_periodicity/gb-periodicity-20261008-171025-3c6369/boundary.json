@@ -1,0 +1,42 @@
+{
+  "dominant_bulk_structure_type": 1,
+  "nearest_neighbor_angstrom": 2.48831528508397,
+  "occupied_bounds_angstrom": [
+    [
+      -98.5349574144,
+      -103.48053178229999,
+      -6.22054028152
+    ],
+    [
+      100.3318992,
+      103.73808996000001,
+      7.462814071200001
+    ]
+  ],
+  "vacuum_axes": [
+    "x",
+    "y"
+  ],
+  "lateral_exclusion_margins_angstrom": {
+    "x": 9.943342830719999
+  },
+  "normal_exclusion_margin_angstrom": 7.4649458552519095,
+  "gb_y_angstrom": -0.5989090130000037,
+  "gb_y_method": "largest interlayer gap within the unique interior PTM defect band",
+  "defect_band_y_angstrom": [
+    -2.0181223310000007,
+    1.7016660559999934
+  ],
+  "near_boundary_y_angstrom": [
+    -4.5064376160839705,
+    4.189981341083963
+  ],
+  "all_nonbulk_count": 3558,
+  "interior_defect_count": 1104,
+  "near_boundary_count_including_crystalline_neighbors": 2220,
+  "interior_x_interval_angstrom": [
+    -88.50306816,
+    89.794580928
+  ],
+  "selection_meaning": "Interior non-bulk PTM atoms are interface seeds, not a complete or unique physical GB definition; neighboring crystalline atoms are retained for pattern matching."
+}

@@ -1,0 +1,367 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-09-27T03:53:17+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "e137de7e-c220-5295-a04a-a5c604cfe3ed",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:minimize-20260927-035314-d47068:main_conclusion",
+        "source_run_id": "minimize-20260927-035314-d47068",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-09-27T03:53:17+00:00",
+        "value": {
+          "all_minimizations_converged": false,
+          "analysis_followups": [
+            {
+              "agent": "analysis",
+              "purpose": "Identify short repeat and possible longer structural-modulation candidates in the relaxed boundary, then compare them with construction mismatch and size estimates so the user can choose a continuous-periodic X cell.",
+              "reason": "Completed GB minimization with configured vacuum on both X sides.",
+              "required": true,
+              "source_artifact_role": "minimized_cfg",
+              "source_run_id": "minimize-20260927-035314-d47068",
+              "tool": "analyze_gb_periodicity"
+            }
+          ],
+          "atoms": 56880,
+          "config_path": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/input.json",
+          "configuration": {
+            "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+            "grains": {
+              "bottom": {
+                "orientation": {
+                  "x": [
+                    1,
+                    1,
+                    -2
+                  ],
+                  "y": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "z": [
+                    1,
+                    -1,
+                    0
+                  ]
+                },
+                "size": [
+                  23,
+                  17,
+                  3
+                ]
+              },
+              "top": {
+                "orientation": {
+                  "x": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "y": [
+                    1,
+                    1,
+                    0
+                  ],
+                  "z": [
+                    1,
+                    -1,
+                    0
+                  ]
+                },
+                "size": [
+                  57,
+                  21,
+                  3
+                ]
+              }
+            },
+            "material": {
+              "element": "Ni",
+              "lattice": "fcc",
+              "mass": 58.693
+            },
+            "potential": {
+              "file": "/data/home/yazhuo/Project/GBclaw/src/tools/potentials/NiCr.adp",
+              "pair_style": "adp"
+            },
+            "simulation": {
+              "a0": 3.52,
+              "boundary": "p p p",
+              "boundary_slab_thickness": 3.0,
+              "enable_initial_staged_relaxation": false,
+              "min_etol": 0.0,
+              "min_ftol": 1e-06,
+              "min_maxeval": 10000,
+              "min_maxiter": 1000,
+              "min_style": "cg",
+              "relax_cycles": 4,
+              "x_pbc": false,
+              "y_eps": 0.01,
+              "y_vacuum": 20.0
+            },
+            "version": 1
+          },
+          "convergence_basis": "final_minimization",
+          "energy_final": -251376.076952016,
+          "energy_initial": -251376.076951876,
+          "final_minimization_converged": false,
+          "force_evaluations": 10,
+          "force_norm_final": 0.00031113946,
+          "force_norm_initial": 0.52262875,
+          "iterations": 4,
+          "manifest": "artifacts/lammps/minimize/minimize-20260927-035314-d47068/manifest.json",
+          "minimization_count": 8,
+          "minimizations": [
+            {
+              "converged": true,
+              "energy_final_eV": -251374.643132506,
+              "energy_initial_eV": -250996.857865911,
+              "energy_next_to_last_eV": -251374.643132506,
+              "force_evaluations": 1727,
+              "force_max_component_final": 1.0675387e-07,
+              "force_max_component_initial": 0.48642057,
+              "force_two_norm_final": 9.9763008e-07,
+              "force_two_norm_initial": 16.990111,
+              "iterations": 876,
+              "minimization_index": 1,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251375.963282593,
+              "energy_initial_eV": -251374.643132506,
+              "energy_next_to_last_eV": -251375.963281759,
+              "force_evaluations": 1984,
+              "force_max_component_final": 1.2183732,
+              "force_max_component_initial": 1594.2998,
+              "force_two_norm_final": 1.7839351,
+              "force_two_norm_initial": 1594.2998,
+              "iterations": 1000,
+              "minimization_index": 2,
+              "stopping_criterion": "max iterations"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.075848317,
+              "energy_initial_eV": -251375.963282593,
+              "energy_next_to_last_eV": -251376.07584832,
+              "force_evaluations": 1324,
+              "force_max_component_final": 5.2597608e-08,
+              "force_max_component_initial": 0.0098194143,
+              "force_two_norm_final": 9.5908261e-07,
+              "force_two_norm_initial": 0.29723625,
+              "iterations": 662,
+              "minimization_index": 3,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.076834843,
+              "energy_initial_eV": -251376.075848318,
+              "energy_next_to_last_eV": -251376.076834843,
+              "force_evaluations": 64,
+              "force_max_component_final": 0.0059733871,
+              "force_max_component_initial": 44.402826,
+              "force_two_norm_final": 0.009568506,
+              "force_two_norm_initial": 44.402826,
+              "iterations": 18,
+              "minimization_index": 4,
+              "stopping_criterion": "linesearch alpha is zero"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.076939604,
+              "energy_initial_eV": -251376.076834843,
+              "energy_next_to_last_eV": -251376.076939602,
+              "force_evaluations": 998,
+              "force_max_component_final": 8.2894043e-08,
+              "force_max_component_initial": 0.0001926746,
+              "force_two_norm_final": 9.7657253e-07,
+              "force_two_norm_initial": 0.0057779086,
+              "iterations": 499,
+              "minimization_index": 5,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.076950649,
+              "energy_initial_eV": -251376.076939604,
+              "energy_next_to_last_eV": -251376.076950649,
+              "force_evaluations": 23,
+              "force_max_component_final": 0.00061326549,
+              "force_max_component_initial": 4.7135692,
+              "force_two_norm_final": 0.0010224486,
+              "force_two_norm_initial": 4.7135694,
+              "iterations": 6,
+              "minimization_index": 6,
+              "stopping_criterion": "linesearch alpha is zero"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.076951876,
+              "energy_initial_eV": -251376.076950649,
+              "energy_next_to_last_eV": -251376.076951877,
+              "force_evaluations": 760,
+              "force_max_component_final": 6.0540412e-08,
+              "force_max_component_initial": 2.7504516e-05,
+              "force_two_norm_final": 9.919644e-07,
+              "force_two_norm_initial": 0.00074898483,
+              "iterations": 380,
+              "minimization_index": 7,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.076952016,
+              "energy_initial_eV": -251376.076951876,
+              "energy_next_to_last_eV": -251376.076952016,
+              "force_evaluations": 10,
+              "force_max_component_final": 0.00028639279,
+              "force_max_component_initial": 0.52262872,
+              "force_two_norm_final": 0.00031113946,
+              "force_two_norm_initial": 0.52262875,
+              "iterations": 4,
+              "minimization_index": 8,
+              "stopping_criterion": "linesearch alpha is zero"
+            }
+          ],
+          "nonconverged_minimization_count": 4,
+          "output_roles": [
+            "minimized_lmp",
+            "minimized_cfg",
+            "top_boundary_ids",
+            "bottom_boundary_ids"
+          ],
+          "parameters": {
+            "auto_sized_bottom": false,
+            "auto_sized_top": false,
+            "bottom_orientation": {
+              "x": [
+                1,
+                1,
+                -2
+              ],
+              "y": [
+                1,
+                1,
+                1
+              ],
+              "z": [
+                1,
+                -1,
+                0
+              ]
+            },
+            "construction_warnings": [],
+            "description": "Build and initially minimize the user's original general tilt FCC Ni GB: ordered GB1 (110) || GB2 (111), local tilt directions [1 -1 0], pure-tilt misorientation 35.26438968 degrees. Spatial placement is top=GB1 (110), bottom=GB2 (111) by FCC planar density. Preserve original geometry; do not substitute descriptive Sigma9 near-CSL reference. Use x direction with vacuum (non-contiguous periodic connection), x_pbc=false, and retain periodicity-analysis follow-up.",
+            "element": "Ni",
+            "enable_initial_staged_relaxation": false,
+            "label": "fcc_ni_original_general_tilt_110_111",
+            "lattice": "fcc",
+            "sizing_target_x_nm": 20.0,
+            "top_orientation": {
+              "x": [
+                0,
+                0,
+                -1
+              ],
+              "y": [
+                1,
+                1,
+                0
+              ],
+              "z": [
+                1,
+                -1,
+                0
+              ]
+            },
+            "user_confirmed_size_override": false,
+            "x_pbc": false
+          },
+          "run_id": "minimize-20260927-035314-d47068",
+          "source_fingerprint": null,
+          "source_run_id": null,
+          "sources": [],
+          "stopping": "linesearch alpha is zero",
+          "structure_metadata": {
+            "bottom": {
+              "orientation": {
+                "x": [
+                  1,
+                  1,
+                  -2
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "size": [
+                23,
+                17,
+                3
+              ]
+            },
+            "boundary": "p p p",
+            "material": {
+              "element": "Ni",
+              "lattice": "fcc"
+            },
+            "metadata_basis": "construction_config",
+            "reference_a0_angstrom": 3.52,
+            "simulation_frame": {
+              "x": "in_plane",
+              "y": "gb_normal",
+              "z": "tilt_axis"
+            },
+            "top": {
+              "orientation": {
+                "x": [
+                  0,
+                  0,
+                  -1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  1,
+                  -1,
+                  0
+                ]
+              },
+              "size": [
+                57,
+                21,
+                3
+              ]
+            },
+            "x_pbc": false,
+            "x_vacuum_padding_per_side_angstrom": 20.0
+          },
+          "summary": "Constructed and relaxed a grain boundary; final minimization converged=False",
+          "wall_time": "0:01:09",
+          "warnings": [
+            "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+          ],
+          "workflow": "gb_minimize"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "run_gb_minimize"
+}

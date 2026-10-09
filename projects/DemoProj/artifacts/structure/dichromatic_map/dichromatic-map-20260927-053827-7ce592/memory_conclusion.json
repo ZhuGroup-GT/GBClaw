@@ -1,0 +1,343 @@
+{
+  "fact": {
+    "created_at": "2026-09-27T05:38:27+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "0295d9db-302c-5c95-bd84-aefada0db447",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:dichromatic-map-20260927-053827-7ce592:main_conclusion",
+    "source_run_id": "dichromatic-map-20260927-053827-7ce592",
+    "source_turn_id": null,
+    "status": "active",
+    "updated_at": "2026-09-27T05:38:27+00:00",
+    "value": {
+      "candidate_ids": [
+        "pair-ce0880141b852755407a7f8224694b41",
+        "pair-585e4ca840791a0520059a7f91f2cd97",
+        "pair-0cd22ebb8e2810dc8f05b32f17bd9118",
+        "pair-08db2fa7f0bb823cf35230a64f8bbb32"
+      ],
+      "parameters": {
+        "angle_deg": 35.26438968,
+        "axis": "1 -1 0",
+        "center": [
+          0.0,
+          0.0
+        ],
+        "display_rotation_deg": 0.0,
+        "g1_color": "#1677d2",
+        "g2_color": "#e35d35",
+        "height": 12.0,
+        "lattice": "FCC",
+        "lattice_constant": 3.52,
+        "local_cutoff": 0.08,
+        "marker_size": 32.0,
+        "show_coincidence": true,
+        "show_csl_cell": true,
+        "visible_grain_layers": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "width": 12.0
+      },
+      "purpose": "Continue initial near-CSL setup for the Ni {110} || {111} grain boundary using the saved actual geometry. The user selects four near-CSL sites in the floating widget; after confirmation, Structure reads this request, applies strain, and reports the all-layer edge vectors as possible secondary misfit Burgers vectors.",
+      "request_id": "dmap-pick-4ad75d0e400248d18ed917a28d6acacb",
+      "selection": {
+        "candidate_ids": [
+          "pair-ce0880141b852755407a7f8224694b41",
+          "pair-585e4ca840791a0520059a7f91f2cd97",
+          "pair-0cd22ebb8e2810dc8f05b32f17bd9118",
+          "pair-08db2fa7f0bb823cf35230a64f8bbb32"
+        ],
+        "candidates": [
+          {
+            "distance_a0": 0.0,
+            "grain_half_indices": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "grain_positions_a0": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "id": "pair-ce0880141b852755407a7f8224694b41",
+            "layer": 0,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "position_a0": [
+              0.0,
+              0.0
+            ],
+            "source": "exact"
+          },
+          {
+            "distance_a0": 0.02270384252430246,
+            "grain_half_indices": [
+              [
+                0,
+                0,
+                -22
+              ],
+              [
+                9,
+                9,
+                -18
+              ]
+            ],
+            "grain_positions_a0": [
+              [
+                3.3319599115525436,
+                -10.483226752665745
+              ],
+              [
+                3.3388370296147927,
+                -10.504863982445137
+              ]
+            ],
+            "id": "pair-585e4ca840791a0520059a7f91f2cd97",
+            "layer": 0,
+            "position": [
+              3.335398470583668,
+              -10.49404536755544
+            ],
+            "position_a0": [
+              3.335398470583668,
+              -10.49404536755544
+            ],
+            "source": "local"
+          },
+          {
+            "distance_a0": 0.026545119955717743,
+            "grain_half_indices": [
+              [
+                18,
+                18,
+                -40
+              ],
+              [
+                31,
+                31,
+                -18
+              ]
+            ],
+            "grain_positions_a0": [
+              [
+                18.188081026411098,
+                -15.205055362500481
+              ],
+              [
+                18.16435848066715,
+                -15.216966878646202
+              ]
+            ],
+            "id": "pair-0cd22ebb8e2810dc8f05b32f17bd9118",
+            "layer": 0,
+            "position": [
+              18.176219753539122,
+              -15.211011120573342
+            ],
+            "position_a0": [
+              18.176219753539122,
+              -15.211011120573342
+            ],
+            "source": "local"
+          },
+          {
+            "distance_a0": 0.03210808201585145,
+            "grain_half_indices": [
+              [
+                18,
+                18,
+                -18
+              ],
+              [
+                22,
+                22,
+                0
+              ]
+            ],
+            "grain_positions_a0": [
+              [
+                14.856121114858556,
+                -4.721828609834738
+              ],
+              [
+                14.825521451052357,
+                -4.712102896201066
+              ]
+            ],
+            "id": "pair-08db2fa7f0bb823cf35230a64f8bbb32",
+            "layer": 0,
+            "position": [
+              14.840821282955456,
+              -4.716965753017902
+            ],
+            "position_a0": [
+              14.840821282955456,
+              -4.716965753017902
+            ],
+            "source": "local"
+          }
+        ],
+        "grain_half_indices": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -22
+            ],
+            [
+              18,
+              18,
+              -40
+            ],
+            [
+              18,
+              18,
+              -18
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              9,
+              -18
+            ],
+            [
+              31,
+              31,
+              -18
+            ],
+            [
+              22,
+              22,
+              0
+            ]
+          ]
+        ],
+        "grain_vertices_a0": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              3.3319599115525436,
+              -10.483226752665745
+            ],
+            [
+              18.188081026411098,
+              -15.205055362500481
+            ],
+            [
+              14.856121114858556,
+              -4.721828609834738
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              3.3388370296147927,
+              -10.504863982445137
+            ],
+            [
+              18.16435848066715,
+              -15.216966878646202
+            ],
+            [
+              14.825521451052357,
+              -4.712102896201066
+            ]
+          ]
+        ],
+        "is_parallelogram": [
+          true,
+          true
+        ],
+        "layer": 0,
+        "reference_angle_deg": 35.26438968,
+        "vertices": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3.335398470583668,
+            -10.49404536755544
+          ],
+          [
+            18.176219753539122,
+            -15.211011120573342
+          ],
+          [
+            14.840821282955456,
+            -4.716965753017902
+          ]
+        ],
+        "vertices_a0": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            3.335398470583668,
+            -10.49404536755544
+          ],
+          [
+            18.176219753539122,
+            -15.211011120573342
+          ],
+          [
+            14.840821282955456,
+            -4.716965753017902
+          ]
+        ]
+      },
+      "selection_artifact": "artifacts/structure/dichromatic_map/dichromatic-map-20260927-053827-7ce592/cell_selection.json",
+      "selection_origin": "browser_user",
+      "software": {
+        "name": "dichromatic-map",
+        "repository": "https://github.com/Yazhuo-Liu/DichromaticMap",
+        "version": "0.2.0"
+      },
+      "strain_applied": false,
+      "summary": "User confirmed four paired lattice sites defining a near-CSL cell; strain is not applied."
+    },
+    "version": 1
+  },
+  "memory_tool": "select_dichromatic_cell"
+}

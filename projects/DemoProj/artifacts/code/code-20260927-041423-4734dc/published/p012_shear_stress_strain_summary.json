@@ -1,0 +1,34 @@
+{
+  "source": {
+    "source_run_id": "shear-20260927-040956-e24773",
+    "source_artifact_id": "6579ee6c-35ac-558f-a9c5-fa4a7e5cd41e",
+    "source_role": "run_metadata",
+    "staged_source_path": "/inputs/000-shear_run.json",
+    "source_sha256": "d1b0ded0342085d3fe348db75c5855399119e77b9d6a97ef8f4e6fb2e21a4468",
+    "source_status": "completed",
+    "parent_run_id": "minimize-20260927-040247-4d2144",
+    "parent_workflow": "gb_minimize"
+  },
+  "curve_definition": {
+    "material": "P012 FCC Ni",
+    "loading": "+x displacement shear",
+    "strain_increment": 0.00025,
+    "x_quantity": "signed actual/cumulative shear strain",
+    "y_quantity": "signed top-boundary shear stress",
+    "stress_units": "MPa",
+    "included_points": "all finite recorded points; no convergence-status filtering"
+  },
+  "point_count": 71,
+  "nonconverged_point_count": 0,
+  "peak_signed_top_shear_stress": {
+    "step": 36,
+    "actual_shear_strain": 0.009000000000000003,
+    "stress_mpa": 834.7864243899115
+  },
+  "final_point": {
+    "step": 70,
+    "actual_shear_strain": 0.017499999999999998,
+    "stress_mpa": 21.758443040431928,
+    "converged": true
+  }
+}

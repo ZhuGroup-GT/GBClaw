@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-09-27T05:08:41+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "52e86e7c-1751-54c7-87b8-e491b8be3807",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:neb-analysis-20260927-050841-24df21:main_conclusion",
+        "source_run_id": "neb-analysis-20260927-050841-24df21",
+        "source_turn_id": null,
+        "status": "active",
+        "updated_at": "2026-09-27T05:08:41+00:00",
+        "value": {
+          "config_path": null,
+          "data": "artifacts/analysis/neb/neb-analysis-20260927-050841-24df21/neb_mep_plot.json",
+          "derivative_tolerance_eV_per_coordinate": 0.0,
+          "final_relative_energy_eV": -0.01599999999598367,
+          "highest_saddle": {
+            "barrier_from_final_eV": 0.10099999999511056,
+            "barrier_from_initial_eV": 0.08499999999912689,
+            "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+            "left_derivative_eV_per_coordinate": 0.4826972498775993,
+            "left_minimum": {
+              "potential_energy_eV": -48992.796,
+              "reaction_coordinate": 0.0,
+              "relative_energy_eV": 0.0,
+              "replica": 0
+            },
+            "plateau_end_reaction_coordinate": 0.57804419,
+            "plateau_end_replica": 9,
+            "plateau_start_reaction_coordinate": 0.57804419,
+            "plateau_start_replica": 9,
+            "potential_energy_eV": -48992.711,
+            "profile_index": 9,
+            "reaction_coordinate": 0.57804419,
+            "relative_energy_eV": 0.08499999999912689,
+            "replica": 9,
+            "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+            "right_derivative_eV_per_coordinate": -1.0427226208110936,
+            "right_minimum": {
+              "potential_energy_eV": -48992.812,
+              "reaction_coordinate": 1.0,
+              "relative_energy_eV": -0.01599999999598367,
+              "replica": 17
+            },
+            "saddle_number": 1
+          },
+          "manifest": "artifacts/analysis/neb/neb-analysis-20260927-050841-24df21/manifest.json",
+          "parameters": {
+            "_gbclaw_context": {
+              "chat_thread_id": "273561be-b61d-496f-b03f-78d42f577e1a",
+              "project_id": "proj-20260927-164bf2"
+            },
+            "annotate_saddle": true,
+            "color": "#1f5a94",
+            "derivative_tolerance_eV_per_coordinate": 0.0,
+            "label": "P012 FCC Ni GB MEP",
+            "legend_location": "best",
+            "line_style": "-",
+            "linewidth": 2.0,
+            "marker": "o",
+            "marker_size": 4.5,
+            "mode": "mep_plot",
+            "saddle_color": "#c62828",
+            "show_grid": true,
+            "show_legend": true,
+            "show_saddle": true,
+            "source_mep_artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632",
+            "title": "Minimum-energy path: P012 FCC Ni grain-boundary transition",
+            "x_label": "Reaction coordinate",
+            "y_label": "Energy relative to initial replica (eV)"
+          },
+          "plot": "artifacts/analysis/neb/neb-analysis-20260927-050841-24df21/neb_mep.png",
+          "replica_count": 18,
+          "run_id": "neb-analysis-20260927-050841-24df21",
+          "saddle_count": 1,
+          "saddles": [
+            {
+              "barrier_from_final_eV": 0.10099999999511056,
+              "barrier_from_initial_eV": 0.08499999999912689,
+              "forward_barrier_from_left_minimum_eV": 0.08499999999912689,
+              "left_derivative_eV_per_coordinate": 0.4826972498775993,
+              "left_minimum": {
+                "potential_energy_eV": -48992.796,
+                "reaction_coordinate": 0.0,
+                "relative_energy_eV": 0.0,
+                "replica": 0
+              },
+              "plateau_end_reaction_coordinate": 0.57804419,
+              "plateau_end_replica": 9,
+              "plateau_start_reaction_coordinate": 0.57804419,
+              "plateau_start_replica": 9,
+              "potential_energy_eV": -48992.711,
+              "profile_index": 9,
+              "reaction_coordinate": 0.57804419,
+              "relative_energy_eV": 0.08499999999912689,
+              "replica": 9,
+              "reverse_barrier_from_right_minimum_eV": 0.10099999999511056,
+              "right_derivative_eV_per_coordinate": -1.0427226208110936,
+              "right_minimum": {
+                "potential_energy_eV": -48992.812,
+                "reaction_coordinate": 1.0,
+                "relative_energy_eV": -0.01599999999598367,
+                "replica": 17
+              },
+              "saddle_number": 1
+            }
+          ],
+          "source_fingerprint": "sha256:1ed69b37459bc52f2a2752209e5de59655ef955d0e57c350df30d6cde8fca544",
+          "source_run_id": "neb-20260927-045814-1d9965",
+          "sources": [
+            {
+              "metadata": {
+                "source_artifact_id": "ee0983e5-b420-50e8-974b-b21b0f099632"
+              },
+              "ordinal": 0,
+              "relation": "neb_profile",
+              "source_fingerprint": "sha256:1ed69b37459bc52f2a2752209e5de59655ef955d0e57c350df30d6cde8fca544",
+              "source_run_id": "neb-20260927-045814-1d9965"
+            }
+          ],
+          "summary": "Rendered NEB minimum-energy path with 1 saddle candidates",
+          "warnings": [],
+          "workflow": "neb_analysis"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "plot_neb_mep"
+}

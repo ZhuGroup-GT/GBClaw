@@ -1,0 +1,360 @@
+{
+  "files": [
+    {
+      "artifact_id": "45fdb880-e517-52e3-b677-d5ae43a4dc8e",
+      "created_at": "2026-09-27T04:53:58+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "origin": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Compare atom-ID-matched displacements at the nominal-zero-strain reverse-unloaded endpoint against the original minimized zero-strain P012 FCC Ni GB after the large forward stress drop; inspect whether displacement is localized near the Y-normal GB or distributed.",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+        "source_artifact_role": "sheared_cfg",
+        "source_run_id": "shear-20260927-044521-841236",
+        "source_step": 70,
+        "structure_source": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        }
+      },
+      "path": "gb_plan_view.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_data",
+      "size_bytes": 93365
+    },
+    {
+      "artifact_id": "613f6940-449b-53c1-9c83-d4b32feddea6",
+      "created_at": "2026-09-27T04:53:58+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 9.026667537994145,
+          "image_size": [
+            3200,
+            1324
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.7032238700000022,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 43.63343825012276
+        },
+        "origin": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Compare atom-ID-matched displacements at the nominal-zero-strain reverse-unloaded endpoint against the original minimized zero-strain P012 FCC Ni GB after the large forward stress drop; inspect whether displacement is localized near the Y-normal GB or distributed.",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+        "source_artifact_role": "sheared_cfg",
+        "source_run_id": "shear-20260927-044521-841236",
+        "source_step": 70,
+        "structure_source": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        }
+      },
+      "path": "plan_view.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view",
+      "size_bytes": 1680394
+    },
+    {
+      "artifact_id": "1271b314-81bc-5e42-8b93-60ca2b345043",
+      "created_at": "2026-09-27T04:53:58+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "origin": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        },
+        "purpose": "Compare atom-ID-matched displacements at the nominal-zero-strain reverse-unloaded endpoint against the original minimized zero-strain P012 FCC Ni GB after the large forward stress drop; inspect whether displacement is localized near the Y-normal GB or distributed.",
+        "reference_artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+        "reference_artifact_role": "minimized_cfg",
+        "reference_origin": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "reference_run_id": "minimize-20260927-040247-4d2144",
+        "reference_step": null,
+        "reference_structure_source": {
+          "artifact_id": "1bea7725-aea7-5b2f-b0b0-479af5b92778",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20260927-040247-4d2144/gb_minimized.cfg",
+          "run_id": "minimize-20260927-040247-4d2144",
+          "sha256": "73330feadd4abffed6fb69259d7b1000583212bcae6ef87740c9049d7b1cebcd",
+          "workflow": "gb_minimize"
+        },
+        "render_kind": "gb_plan_view",
+        "source_artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+        "source_artifact_role": "sheared_cfg",
+        "source_run_id": "shear-20260927-044521-841236",
+        "source_step": 70,
+        "structure_source": {
+          "artifact_id": "195969d5-6954-55b0-abb7-97e55902d762",
+          "frame": {
+            "actual_shear_strain": -1.0408340855860843e-17,
+            "bottom_shear_stress_mpa": -12.105451294653983,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.01750000000000001,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.022302541963402,
+            "sigma_xy_mpa": 12.105451294653983,
+            "sigma_xz_mpa": 0.7634973601161495,
+            "sigma_yy_mpa": 80.95562058166983,
+            "sigma_yz_mpa": 0.0008221036248125101,
+            "sigma_zz_mpa": 19.03211209428077,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": -1.0408340855860843e-17,
+            "target_shear_strain": -3.469446951953614e-18,
+            "top_shear_stress_mpa": 12.105451294653983
+          },
+          "path": "artifacts/lammps/shear/shear-20260927-044521-841236/gb_sheared.cfg",
+          "run_id": "shear-20260927-044521-841236",
+          "sha256": "6cdba540b4d42ae7f2f90102669d222c44dbac5069b47a9f064a7045a019b3b5",
+          "workflow": "gb_shear"
+        }
+      },
+      "path": "y_profile.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_profile",
+      "size_bytes": 158480
+    },
+    {
+      "artifact_id": "2dfc0427-475e-5772-9cd8-57a88c9710e2",
+      "created_at": "2026-09-27T04:53:58+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_gb_plan_view",
+        "sha256": "ade0f3749150ae870a6fc8c5adcaefbee0125d7a32df0a9e402f9986809ec5a1"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 10986
+    }
+  ],
+  "run_id": "render-20260927-045354-eda0d9",
+  "workflow": "render"
+}

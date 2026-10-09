@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "artifact_id": "4c410c9e-1d5e-5a26-bbcd-924987bbd856",
+      "created_at": "2026-09-27T05:38:42+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 782
+    },
+    {
+      "artifact_id": "ed0c067b-1a63-59b6-bfd5-a14fd24a8f22",
+      "created_at": "2026-09-27T05:38:43+00:00",
+      "media_type": "application/json",
+      "metadata": {},
+      "path": "dichromatic_map.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "dichromatic_map_data",
+      "size_bytes": 389109
+    },
+    {
+      "artifact_id": "668abfda-0207-5ff8-a9fa-2380a2695ae1",
+      "created_at": "2026-09-27T05:38:43+00:00",
+      "media_type": "image/png",
+      "metadata": {},
+      "path": "dichromatic_map.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "dichromatic_map_png",
+      "size_bytes": 766296
+    },
+    {
+      "artifact_id": "870ae139-e6dc-5a7d-a5ba-99ab755ff959",
+      "created_at": "2026-09-27T05:38:43+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "apply_dichromatic_cell_strain",
+        "sha256": "d957818424bc25ccd4968fad5f8a826518908c00ac89c206d18a36c923e57b96"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 91869
+    }
+  ],
+  "run_id": "dichromatic-map-20260927-053842-684790",
+  "workflow": "dichromatic_map"
+}

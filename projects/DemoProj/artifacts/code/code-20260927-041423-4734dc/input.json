@@ -1,0 +1,33 @@
+{
+  "expected_outputs": [
+    "p012_shear_stress_strain.png",
+    "p012_shear_stress_strain.csv",
+    "p012_shear_stress_strain_summary.json"
+  ],
+  "resource_allocation": {
+    "compute_slots": 4,
+    "mpi_enabled": false,
+    "mpi_ranks": 1,
+    "total_compute_slots": 36
+  },
+  "runtime_environment": {
+    "available": true,
+    "capabilities": [],
+    "description": "Current service Python environment for plotting and general post-processing.",
+    "fingerprint": "fb3d7e4fb8c8afb752a054065fd4f902fef1b0232e465e30f2198fed2fb97f3c",
+    "name": "current"
+  },
+  "sandbox": {
+    "external_network": "disabled",
+    "inputs": "read_only",
+    "workspace": "ephemeral"
+  },
+  "source_artifacts": [
+    {
+      "artifact_id": "6579ee6c-35ac-558f-a9c5-fa4a7e5cd41e",
+      "role": "run_metadata",
+      "run_id": "shear-20260927-040956-e24773"
+    }
+  ],
+  "task": "Create the requested single-run stress–strain plot from the staged shear run metadata JSON. Read all 71 recorded shear points (reference step 0 plus steps 1–70). Plot signed actual/cumulative shear strain on the x-axis and signed top-boundary shear stress in MPa on the y-axis. Do not exclude finite points based on convergence status; separately report the count of nonconverged points. Use a clean publication-quality style and label/title the curve as P012 FCC Ni, +x displacement shear, Δγ = 2.5×10⁻4. Mark or annotate the peak signed stress and optionally the final point without obscuring the curve. Validate that there are 71 points, final strain is 0.0175, peak is approximately 834.786 MPa at strain 0.009, and final stress is approximately 21.758 MPa. Publish a PNG, a CSV containing step, actual shear strain, top shear stress MPa, and convergence flag, and a JSON summary with exact source run lineage and peak/final metrics. Do not fabricate or smooth data."
+}
