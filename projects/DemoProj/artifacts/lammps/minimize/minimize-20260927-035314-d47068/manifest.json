@@ -56,17 +56,6 @@
       "size_bytes": 3031317
     },
     {
-      "artifact_id": "387aa784-6aa7-503a-9cb9-00a3073a9486",
-      "created_at": "2026-09-27T03:54:32+00:00",
-      "media_type": null,
-      "metadata": {},
-      "path": "gb_minimize.lammpstrj",
-      "permanent": true,
-      "provenance_class": "derived",
-      "role": "trajectory",
-      "size_bytes": 97241040
-    },
-    {
       "artifact_id": "f28af88d-cd14-584f-b4ad-811c432ec901",
       "created_at": "2026-09-27T03:54:32+00:00",
       "media_type": null,
@@ -137,5 +126,15 @@
     }
   ],
   "run_id": "minimize-20260927-035314-d47068",
-  "workflow": "gb_minimize"
+  "workflow": "gb_minimize",
+  "omitted_from_demo": [
+    {
+      "artifact_id": "387aa784-6aa7-503a-9cb9-00a3073a9486",
+      "path": "gb_minimize.lammpstrj",
+      "role": "trajectory",
+      "size_bytes": 97241040,
+      "sha256": "0b62b5916c7a8ad7f0e0f5c7aff78c8fa8026115e11437c63ae0526263d1b563",
+      "reason": "Intermediate minimization trajectory excluded from the public showcase; the final structure files remain available."
+    }
+  ]
 }

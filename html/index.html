@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>GBClaw — DemoProj Showcase</title>
+  <meta name="description" content="Explore DemoProj, a recorded FCC Ni grain boundary research workspace, through its conversation, project memory, and saved results." />
+  <link rel="icon" href="assets/icon/GBClaw-on-white.png" type="image/png" />
+  <link rel="stylesheet" href="assets/vendor/katex.min.css?v=0.16.22" />
+  <link rel="stylesheet" href="assets/vendor/github-dark.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=8" />
+  <link rel="stylesheet" href="assets/css/dichromatic_widget.css?v=3" />
+  <link rel="stylesheet" href="assets/css/demo.css?v=1" />
+  <link rel="stylesheet" href="assets/css/demo_dichromatic.css?v=1" />
+</head>
+<body class="demo-showcase">
+  <script>(function(){try{var k="gbclaw.theme";var t=localStorage.getItem(k);if(t!=="light"&&t!=="dark"){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+  <header>
+    <div class="brand">
+      <img id="brand-logo" class="logo" src="assets/icon/GBClaw-on-white.png" alt="GBClaw" width="44" height="44" />
+      <div>
+        <div class="brand-title-row">
+          <h1 id="brand-name">GBClaw</h1>
+          <span class="demo-badge">Recorded demo</span>
+        </div>
+        <p id="brand-tagline"></p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="project-bar" id="project-bar">
+        <span class="project-label" id="project-label"></span>
+        <code class="project-id" id="project-id" title=""></code>
+        <button type="button" id="project-switch-btn" class="project-switch-btn"></button>
+      </div>
+      <div id="status-badge" class="status-badge">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="status-text"></span>
+      </div>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" aria-pressed="false">
+        <span class="theme-toggle-icon theme-toggle-icon-sun" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m4.93 19.07 1.41-1.41"></path>
+            <path d="m17.66 6.34 1.41-1.41"></path>
+          </svg>
+        </span>
+        <span class="theme-toggle-icon theme-toggle-icon-moon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </span>
+        <span class="theme-toggle-track" aria-hidden="true">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+        <span id="theme-toggle-label" class="theme-toggle-label">Light</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="workspace" id="workspace">
+    <aside class="files-panel" id="files-panel" aria-label="Project files">
+      <div class="files-panel-header">
+        <h2 id="files-panel-title"></h2>
+        <button type="button" id="files-refresh-btn" class="files-refresh-btn"></button>
+      </div>
+      <nav id="files-breadcrumb" class="files-breadcrumb" aria-label="Folder path"></nav>
+      <ul id="files-list" class="files-list"></ul>
+      <p id="files-empty" class="files-empty" hidden></p>
+      <div
+        class="panel-resizer panel-resizer-files"
+        id="files-resizer"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize files panel"
+        tabindex="0"
+      ></div>
+    </aside>
+
+    <div class="chat-column">
+      <main>
+        <section class="welcome" id="welcome">
+          <p class="demo-eyebrow">DemoProj · Recorded research workspace</p>
+          <h2 id="welcome-title"></h2>
+          <p id="welcome-description"></p>
+          <nav class="chips" id="suggestions" aria-label="Explore the demonstration"></nav>
+        </section>
+
+        <section class="demo-section demo-overview" id="demo-overview" aria-labelledby="demo-overview-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-overview-title">A grain boundary workflow, recorded</h2>
+            <span class="demo-readonly">Read-only showcase</span>
+          </div>
+          <p class="demo-section-description">Follow a saved FCC Ni study from geometry and cell selection through simulation and analysis. Browse the original conversation, inspect project files, and explore the figures produced along the way.</p>
+          <dl class="demo-facts">
+            <div>
+              <dt>Material &amp; boundary</dt>
+              <dd>FCC Ni <span>(110) ∥ (111)</span></dd>
+            </div>
+            <div>
+              <dt>Ordered misorientation</dt>
+              <dd>35.264° <span>⟨110⟩ tilt-axis family</span></dd>
+            </div>
+            <div>
+              <dt>Selected periodic cell</dt>
+              <dd>P012 <span>Continuous periodic x</span></dd>
+            </div>
+          </dl>
+          <ol class="demo-workflow" aria-label="Recorded workflow stages">
+            <li>Geometry</li>
+            <li>P012 selection</li>
+            <li>Minimization</li>
+            <li>Shear &amp; unloading</li>
+            <li>NEB</li>
+            <li>Structural review</li>
+          </ol>
+          <div class="demo-stats" id="demo-stats" aria-label="Recorded project at a glance"></div>
+        </section>
+
+        <section class="demo-section" id="demo-memory" aria-labelledby="demo-memory-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-memory-title">Project memory</h2>
+            <span class="demo-section-meta">Saved research context</span>
+          </div>
+          <details class="demo-memory-details">
+            <summary>Read the recorded project summary</summary>
+            <div class="demo-memory-content" id="demo-memory-content"><p class="demo-loading">Loading project summary…</p></div>
+          </details>
+        </section>
+
+        <section class="demo-section" id="demo-gallery" aria-labelledby="demo-gallery-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-gallery-title">Recorded results</h2>
+            <span class="demo-section-meta">Saved figures &amp; analysis</span>
+          </div>
+          <p class="demo-section-description">Open a figure to inspect it, or follow its file link for the saved output and its context.</p>
+          <div class="demo-gallery-grid" id="demo-gallery-content" aria-live="polite"><p class="demo-loading">Loading recorded figures…</p></div>
+        </section>
+
+        <section class="demo-section" id="demo-map" aria-labelledby="demo-map-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-map-title">Dichromatic map</h2>
+            <span class="demo-section-meta">Geometry viewer</span>
+          </div>
+          <p class="demo-section-description">Explore the recorded ideal-lattice projection and selected cell geometry.</p>
+          <div id="demo-map-content"><p class="demo-loading">Loading recorded map…</p></div>
+        </section>
+
+        <section class="demo-section demo-history-header" id="demo-history" aria-labelledby="demo-history-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-history-title">Recorded conversation</h2>
+            <span class="demo-section-meta" id="demo-history-status" role="status">Loading history…</span>
+          </div>
+          <p class="demo-section-description">Read the requests, decisions, and responses that shaped DemoProj. Search the original conversation to find a topic.</p>
+          <label class="demo-search" for="demo-history-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+            <span class="demo-visually-hidden">Search the recorded conversation</span>
+            <input id="demo-history-search" type="search" placeholder="Search the original conversation…" autocomplete="off" />
+          </label>
+        </section>
+
+        <div id="chat-log" role="log" aria-live="polite"></div>
+
+        <form class="composer" id="chat-form" hidden aria-hidden="true">
+          <section id="plan-approval" class="plan-approval" hidden aria-live="polite">
+            <div class="plan-approval-copy">
+              <strong id="plan-approval-title"></strong>
+              <span id="plan-approval-meta"></span>
+            </div>
+            <div class="plan-approval-actions">
+              <button type="button" id="plan-request-changes-btn" class="plan-request-changes-btn"></button>
+              <button type="button" id="plan-approve-btn" class="plan-approve-btn"></button>
+            </div>
+          </section>
+          <div class="composer-input">
+            <div id="slash-menu" class="slash-menu" hidden role="listbox" aria-label="Slash commands"></div>
+            <div class="input-row">
+              <textarea
+                id="user-input"
+                rows="1"
+                aria-autocomplete="list"
+                aria-controls="slash-menu"
+                aria-expanded="false"
+              ></textarea>
+              <button id="stop-btn" type="button" hidden>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
+                </svg>
+              </button>
+              <button id="send-btn" type="submit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 2L11 13"></path>
+                  <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p class="hint">
+            <span id="hint-prefix"></span><code id="hint-endpoint"></code><span id="hint-project-prefix"></span><code id="project-id-hint"></code><span id="hint-thread-prefix"></span><code id="thread-id"></code>
+          </p>
+        </form>
+        <div class="composer-spacer" aria-hidden="true"></div>
+      </main>
+    </div>
+
+    <aside class="file-preview-panel" id="file-preview-panel" hidden aria-label="File preview">
+      <div
+        class="panel-resizer panel-resizer-preview"
+        id="preview-resizer"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize preview panel"
+        tabindex="0"
+      ></div>
+      <div class="file-preview-header">
+        <code id="file-preview-name" class="file-preview-name"></code>
+        <span id="file-preview-badge" class="file-preview-badge" hidden></span>
+        <a id="file-preview-download" class="file-preview-download" href="#" download></a>
+        <button type="button" id="file-preview-close" class="file-preview-close"></button>
+      </div>
+      <pre id="file-preview-content" class="file-preview-content"></pre>
+    </aside>
+  </div>
+
+  <footer>
+    <span id="footer-text"></span>
+  </footer>
+
+  <div id="project-modal" class="project-modal" hidden>
+    <div class="project-modal-backdrop" id="project-modal-backdrop"></div>
+    <div class="project-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+      <div class="project-modal-header">
+        <h3 id="project-modal-title"></h3>
+        <button type="button" id="project-modal-close" class="project-modal-close" aria-label="Close"></button>
+      </div>
+      <p class="project-modal-hint" id="project-modal-hint"></p>
+      <ul id="project-list" class="project-list"></ul>
+      <div class="project-modal-actions">
+        <button type="button" id="project-new-btn" class="project-new-btn" hidden></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="image-modal" class="image-modal" hidden>
+    <div class="image-modal-backdrop" id="image-modal-backdrop"></div>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-label="Image preview">
+      <div class="image-modal-header">
+        <code id="image-modal-name" class="image-modal-name"></code>
+        <div class="image-modal-tools">
+          <button type="button" id="image-zoom-out" class="image-modal-btn" title="Zoom out" aria-label="Zoom out">−</button>
+          <span id="image-zoom-level" class="image-zoom-level">100%</span>
+          <button type="button" id="image-zoom-in" class="image-modal-btn" title="Zoom in" aria-label="Zoom in">+</button>
+          <button type="button" id="image-zoom-reset" class="image-modal-btn" title="Reset zoom">Reset</button>
+          <a id="image-modal-download" class="image-modal-btn" href="#" download title="Download">↓</a>
+          <button type="button" id="image-modal-close" class="image-modal-btn image-modal-close" title="Close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="image-modal-stage" id="image-modal-stage">
+        <img id="image-modal-img" alt="" draggable="false" />
+      </div>
+    </div>
+  </div>
+
+  <script defer src="assets/vendor/marked.min.js"></script>
+  <script defer src="assets/vendor/purify.min.js"></script>
+  <script defer src="assets/vendor/katex.min.js"></script>
+  <script defer src="assets/vendor/highlight.min.js"></script>
+  <script type="module" src="assets/js/app.js?v=18"></script>
+</body>
+</html>
