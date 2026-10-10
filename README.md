@@ -46,8 +46,11 @@ The standard-library script reads the existing SQLite databases in immutable,
 read-only mode and generates `html/data/demo.json`, `history.json`, and lazy turn
 details. It indexes original project files without copying them. Caches, hidden
 entries, lock files, and SQLite sidecars are omitted from the browser index.
-Seven large tool outputs in the current snapshot are marked as shortened display
-previews; original transcripts and numerical artifacts remain downloadable.
+Tool traces use the default workspace previews: ordinary inputs are limited to
+280 characters and outputs to 400, including the truncation ellipsis. Delegated
+tasks show up to 1,200 characters; their result summaries show up to 8,000.
+Image references are extracted before truncation, so recorded figures remain
+available. Original transcripts and numerical artifacts remain downloadable.
 Text file previews are limited to the first 256 KB, with full-file downloads
 available alongside them.
 
@@ -55,6 +58,7 @@ available alongside them.
 
 ```sh
 node html/tests/demo_api.test.mjs
+python3 -m unittest discover -s html/tests -p 'test_*.py'
 ```
 
 These checks cover read-only requests, history pagination and trace references,

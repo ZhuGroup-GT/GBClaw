@@ -27,8 +27,15 @@ TEXT_SUFFIXES = {
 }
 EXCLUDED_DIRS = {".cache", ".mpl_cache", "__pycache__", ".git"}
 EXCLUDED_SUFFIXES = (".lock", ".sqlite-shm", ".sqlite-wal")
-MAX_ARRAY_ITEMS = 80
-MAX_TRACE_TEXT = 64000
+# Match the default interactive workspace previews, independently of its backend.
+TOOL_INPUT_CHARS = 280
+TOOL_OUTPUT_CHARS = 400
+DELEGATE_INPUT_CHARS = 1200
+DELEGATE_OUTPUT_CHARS = 8000
+DELEGATE_TOOLS = {
+    "delegate_plan", "delegate_csl", "delegate_lammps",
+    "delegate_analysis", "delegate_coding",
+}
 HISTORICAL_PROJECT_PREFIX = "projects/proj-20260927-164bf2/"
 IMAGE_PATTERN = re.compile(
     r"artifacts/[^\s`\"'<>|,;\[\]{}]+?\.(?:png|jpe?g|gif|webp|bmp|svg)(?=$|[?#\s)\]},.;:!\"'`<>])",
@@ -119,62 +126,41 @@ def image_paths(value) -> list[str]:
     return list(found)
 
 
-def compact_trace_text(value: str) -> tuple[str, bool]:
-    """Keep useful tool output while removing very large coordinate/vector arrays.
+def bounded_preview(value: str, limit: int) -> str:
+    """Keep an exact text prefix, including the ellipsis within the character limit."""
+    text = value.strip()
+    return text if len(text) <= limit else f"{text[:limit - 1]}…"
 
-    These are display previews, never inputs to a scientific computation. Complete
-    numerical records remain available through the indexed project files.
-    """
-    changed = False
 
-    def compact(item, depth=0):
-        nonlocal changed
-        if depth > 30:
-            changed = True
-            return "[Nested data omitted from the display preview.]"
-        if isinstance(item, list):
-            if len(item) > MAX_ARRAY_ITEMS:
-                changed = True
-                return [compact(child, depth + 1) for child in item[:8]] + [
-                    f"[Recorded output preview: {len(item) - 8} further items omitted; see the project files for the complete data.]"
-                ]
-            return [compact(child, depth + 1) for child in item]
-        if isinstance(item, dict):
-            return {key: compact(child, depth + 1) for key, child in item.items()}
-        if isinstance(item, str) and len(item) > MAX_TRACE_TEXT:
-            changed = True
-            return item[:MAX_TRACE_TEXT] + "\n[Recorded output preview truncated; complete data remains in the project files.]"
-        return item
-
+def delegate_payload(value: str) -> dict:
     try:
         parsed = json.loads(value)
-    except (json.JSONDecodeError, ValueError):
-        parsed = None
-    if parsed is not None:
-        rendered = compact(parsed)
-        if changed:
-            value = json.dumps(rendered, ensure_ascii=False, separators=(",", ":"))
-    if len(value) > MAX_TRACE_TEXT:
-        if parsed is not None:
-            # Keep shortened structured output valid JSON, including its image
-            # presentation semantics. The text excerpt is explicitly a preview.
-            presentation = parsed.get("result") if isinstance(parsed, dict) and isinstance(parsed.get("result"), dict) else parsed
-            preview = {
-                "_preview_note": "Recorded tool-output preview shortened for the demonstration. Complete numerical artifacts remain in the project files."
-            }
-            if isinstance(presentation, dict):
-                for key in ("presentation_policy", "summary_image_path", "image_paths", "summary", "warnings"):
-                    if key in presentation:
-                        preview[key] = compact(presentation[key])
-            remaining = max(1000, MAX_TRACE_TEXT - len(json.dumps(preview, ensure_ascii=False)) - 200)
-            preview["recorded_output_preview"] = value[:remaining]
-            if isinstance(parsed, dict) and isinstance(parsed.get("result"), dict):
-                preview = {"result": preview}
-            value = json.dumps(preview, ensure_ascii=False, separators=(",", ":"))
-        else:
-            value = value[:MAX_TRACE_TEXT] + "\n[Recorded output preview truncated; complete data remains in the project files.]"
-        changed = True
-    return value, changed
+    except (ValueError, TypeError):
+        return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
+def preview_tool_input(value: str, tool_name: str | None = None) -> str:
+    if tool_name in DELEGATE_TOOLS:
+        task = delegate_payload(value).get("task")
+        if task is not None and str(task).strip():
+            return bounded_preview(str(task), DELEGATE_INPUT_CHARS)
+    return bounded_preview(value, TOOL_INPUT_CHARS)
+
+
+def preview_tool_output(value: str, tool_name: str | None = None) -> str:
+    if tool_name in DELEGATE_TOOLS:
+        payload = delegate_payload(value)
+        result = payload.get("result")
+        candidates = [payload.get("summary")]
+        if isinstance(result, dict):
+            candidates.append(result.get("summary"))
+        candidates.append(payload.get("error"))
+        for candidate in candidates:
+            summary = str(candidate or "").strip()
+            if summary:
+                return bounded_preview(summary, DELEGATE_OUTPUT_CHARS)
+    return bounded_preview(value, TOOL_OUTPUT_CHARS)
 
 
 def is_text(path: Path) -> bool:
@@ -238,11 +224,15 @@ def history_snapshot() -> tuple[dict, int]:
         for row in connection.execute("SELECT * FROM trace_events ORDER BY turn_id, sequence"):
             event = dict(row)
             original_output = event.get("output_text") or ""
+            # Image references come from the complete output, even when they occur
+            # after the text preview. Reasoning events retain their recorded text.
             event["image_paths"] = image_paths(original_output)
-            event["output_text"], truncated = compact_trace_text(public_text(original_output))
-            if truncated:
-                event["output_truncated"] = True
+            event["output_text"] = public_text(original_output)
             event["input_json"] = public_text(event.get("input_json") or "")
+            if event["event_type"] == "tool_start":
+                event["input_json"] = preview_tool_input(event["input_json"], event.get("tool_name"))
+            elif event["event_type"] == "tool_end":
+                event["output_text"] = preview_tool_output(event["output_text"], event.get("tool_name"))
             events_by_turn[event["turn_id"]].append(event)
             tool_count += event["event_type"] == "tool_start"
 
@@ -384,7 +374,7 @@ def main() -> None:
         "snapshot_notes": [
             "This is a read-only snapshot of the recorded DemoProj project.",
             "Cache directories, hidden entries, lock files and SQLite WAL/shared-memory sidecars are excluded from the file index.",
-            "Very large tool-output arrays are shortened in chat trace previews; complete numerical artifacts remain available in the project files.",
+            "Tool trace previews use the default workspace character limits; complete recorded data remains available in the project files.",
         ],
     }
     write_json(OUTPUT / "demo.json", demo)

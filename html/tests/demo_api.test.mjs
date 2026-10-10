@@ -47,6 +47,33 @@ test("pagination and lazy turn details preserve complete recorded trace relation
   assert.equal((await api("/projects/DemoProj/history/unknown")).status, 404);
 });
 
+test("lazy traces use workspace preview limits and retain images beyond the text preview", async () => {
+  const history = await (await api("/projects/DemoProj/history")).json();
+  const delegateTools = new Set(["delegate_plan", "delegate_csl", "delegate_lammps", "delegate_analysis", "delegate_coding"]);
+  let ordinaryOutputs = 0;
+  let imageAfterPreview = false;
+  for (const turn of history.turns) {
+    const detail = await (await api(`/projects/DemoProj/history/${turn.turn_id}`)).json();
+    for (const event of detail.trace) {
+      const delegate = delegateTools.has(event.tool_name);
+      if (event.event_type === "tool_start") {
+        assert.ok(Array.from(event.input_json || "").length <= (delegate ? 1200 : 280));
+      }
+      if (event.event_type === "tool_end") {
+        const output = event.output_text || "";
+        assert.ok(Array.from(output).length <= (delegate ? 8000 : 400));
+        if (!delegate) ordinaryOutputs += 1;
+        for (const image of event.image_paths) {
+          assert.ok(data.files[image]);
+          if (!output.includes(image)) imageAfterPreview = true;
+        }
+      }
+    }
+  }
+  assert.equal(ordinaryOutputs, 150);
+  assert.ok(imageAfterPreview, "An image omitted from the preview still has an explicit reference.");
+});
+
 test("directory entries resolve to published files and text previews stay bounded", async () => {
   const root = await (await api("/projects/DemoProj/files")).json();
   assert.ok(root.entries.some((entry) => entry.path === "artifacts" && entry.entry_type === "dir"));
