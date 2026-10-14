@@ -1,0 +1,282 @@
+{
+  "files": [
+    {
+      "artifact_id": "4909d23e-4557-5a0c-aad5-fa3bf5f58fd0",
+      "created_at": "2026-08-08T03:52:02+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "max_index": 3,
+          "max_misorientation_delta_degrees": 5.0,
+          "max_plane_deviation_degrees": 5.0,
+          "max_suggestions_per_pair": 3,
+          "source_pairs": [
+            {
+              "plane1": [
+                1,
+                -1,
+                1
+              ],
+              "plane2": [
+                1,
+                -1,
+                -1
+              ],
+              "sigma": 3
+            },
+            {
+              "plane1": [
+                0,
+                0,
+                -1
+              ],
+              "plane2": [
+                -2,
+                2,
+                -1
+              ],
+              "sigma": 3
+            },
+            {
+              "plane1": [
+                -1,
+                1,
+                0
+              ],
+              "plane2": [
+                -1,
+                1,
+                4
+              ],
+              "sigma": 3
+            },
+            {
+              "plane1": [
+                1,
+                -1,
+                -1
+              ],
+              "plane2": [
+                -1,
+                1,
+                -5
+              ],
+              "sigma": 3
+            },
+            {
+              "plane1": [
+                -1,
+                1,
+                -5
+              ],
+              "plane2": [
+                -1,
+                1,
+                -1
+              ],
+              "sigma": 9
+            },
+            {
+              "plane1": [
+                7,
+                -7,
+                8
+              ],
+              "plane2": [
+                1,
+                -1,
+                0
+              ],
+              "sigma": 9
+            },
+            {
+              "plane1": [
+                4,
+                -4,
+                -7
+              ],
+              "plane2": [
+                0,
+                0,
+                -1
+              ],
+              "sigma": 9
+            },
+            {
+              "plane1": [
+                -1,
+                1,
+                -1
+              ],
+              "plane2": [
+                -11,
+                11,
+                1
+              ],
+              "sigma": 9
+            },
+            {
+              "plane1": [
+                0,
+                0,
+                -1
+              ],
+              "plane2": [
+                -6,
+                6,
+                -7
+              ],
+              "sigma": 11
+            },
+            {
+              "plane1": [
+                -1,
+                1,
+                -19
+              ],
+              "plane2": [
+                -1,
+                1,
+                -1
+              ],
+              "sigma": 11
+            },
+            {
+              "plane1": [
+                7,
+                -7,
+                12
+              ],
+              "plane2": [
+                1,
+                -1,
+                0
+              ],
+              "sigma": 11
+            },
+            {
+              "plane1": [
+                12,
+                -12,
+                -1
+              ],
+              "plane2": [
+                0,
+                0,
+                -1
+              ],
+              "sigma": 17
+            },
+            {
+              "plane1": [
+                1,
+                -1,
+                24
+              ],
+              "plane2": [
+                1,
+                -1,
+                0
+              ],
+              "sigma": 17
+            },
+            {
+              "plane1": [
+                -1,
+                1,
+                0
+              ],
+              "plane2": [
+                -17,
+                17,
+                12
+              ],
+              "sigma": 19
+            },
+            {
+              "plane1": [
+                0,
+                0,
+                -1
+              ],
+              "plane2": [
+                -6,
+                6,
+                -17
+              ],
+              "sigma": 19
+            },
+            {
+              "plane1": [
+                11,
+                -11,
+                -1
+              ],
+              "plane2": [
+                1,
+                -1,
+                -1
+              ],
+              "sigma": 27
+            },
+            {
+              "plane1": [
+                0,
+                0,
+                1
+              ],
+              "plane2": [
+                10,
+                -10,
+                23
+              ],
+              "sigma": 27
+            },
+            {
+              "plane1": [
+                13,
+                -13,
+                -5
+              ],
+              "plane2": [
+                1,
+                -1,
+                -1
+              ],
+              "sigma": 33
+            },
+            {
+              "plane1": [
+                30,
+                -30,
+                -7
+              ],
+              "plane2": [
+                0,
+                0,
+                -1
+              ],
+              "sigma": 43
+            }
+          ]
+        },
+        "input_fingerprint": "26944699790934382a59c763922e01f24840e391c22012b12d745a4c6fdb1099",
+        "output_schema": "low-index-near-csl-v1",
+        "sequence": 1,
+        "tool": "suggest_low_index_near_csl_planes"
+      },
+      "path": "results/01_suggest_low_index_near_csl_planes.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 10018
+    }
+  ],
+  "run_id": "csl-20260808-035152-67c8b7",
+  "workflow": "csl"
+}

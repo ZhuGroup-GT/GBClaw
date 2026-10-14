@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "artifact_id": "2ceedc12-9a60-55ab-b5f4-3212a96cda07",
+      "created_at": "2026-08-07T21:58:45+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "basis": "fcc",
+          "gb_type": "tilt",
+          "limit": 6,
+          "sigmas": [
+            3,
+            9,
+            11,
+            17,
+            19,
+            27,
+            33,
+            41,
+            43
+          ],
+          "u": 1,
+          "v": 1,
+          "w": 0
+        },
+        "input_fingerprint": "5ddb3d290a40442c58e52f9857f196341e8fae1c4aa5ad75774dc2cd95e567c0",
+        "output_schema": "primitive-miller-v2",
+        "sequence": 1,
+        "tool": "list_csl_gb_planes_batch"
+      },
+      "path": "results/01_list_csl_gb_planes_batch.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 11339
+    }
+  ],
+  "run_id": "csl-20260807-215836-b2bd26",
+  "workflow": "csl"
+}

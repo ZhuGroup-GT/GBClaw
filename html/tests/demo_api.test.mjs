@@ -23,6 +23,32 @@ test("DemoProj is the only available project, with no pending write actions", as
   }
 });
 
+test("the two CSL question-and-answer pairs precede the original DemoProj conversation", async () => {
+  const history = await (await api("/projects/DemoProj/history?limit=5")).json();
+  const expectedIds = [
+    "7056affc-a772-47c1-9ac4-b1ba3e23d8b5",
+    "8c32b44d-a064-4b61-86c0-98e545d66f2a",
+    "b195e370-81c2-4482-815a-a92e359c946d",
+    "02bbc733-ff1f-46a5-865c-fac714de6b46",
+  ];
+  assert.equal(data.stats.turns, 28);
+  assert.deepEqual(history.turns.slice(0, 4).map((turn) => turn.turn_id), expectedIds);
+  assert.deepEqual(history.turns.slice(0, 4).map((turn) => turn.role), ["user", "assistant", "user", "assistant"]);
+  assert.deepEqual(history.turns.slice(0, 4).map((turn) => turn.sequence), [0, 1, 2, 3]);
+  assert.ok(history.turns.every((turn) => turn.thread_id === data.project.thread_id));
+  assert.equal(history.turns[4].turn_id, "4636984f-d48d-48ab-9fc8-cf9d0826a5ed");
+  assert.equal(history.turns[4].sequence, 4);
+  let events = 0;
+  for (const turn of history.turns.slice(0, 4)) {
+    const detail = await (await api(`/projects/DemoProj/history/${turn.turn_id}`)).json();
+    assert.equal(detail.content, turn.content);
+    assert.ok(detail.content.trim());
+    assert.ok(detail.trace.every((event) => !/(?:^|_)plans?(?:_|$)/i.test(event.tool_name || "")));
+    events += detail.trace.length;
+  }
+  assert.equal(events, 20);
+});
+
 test("pagination and lazy turn details preserve complete recorded trace relationships", async () => {
   const first = await (await api("/projects/DemoProj/history?limit=5")).json();
   assert.equal(first.turns.length, 5);
@@ -42,8 +68,9 @@ test("pagination and lazy turn details preserve complete recorded trace relation
     }
     eventCount += detail.trace.length;
   }
-  assert.equal(eventCount, 389);
+  assert.equal(eventCount, 409);
   assert.equal(toolCount, data.stats.tool_calls);
+  assert.equal(toolCount, 176);
   assert.equal((await api("/projects/DemoProj/history/unknown")).status, 404);
 });
 
@@ -51,6 +78,7 @@ test("lazy traces use workspace preview limits and retain images beyond the text
   const history = await (await api("/projects/DemoProj/history")).json();
   const delegateTools = new Set(["delegate_plan", "delegate_csl", "delegate_lammps", "delegate_analysis", "delegate_coding"]);
   let ordinaryOutputs = 0;
+  let delegateOutputs = 0;
   let imageAfterPreview = false;
   for (const turn of history.turns) {
     const detail = await (await api(`/projects/DemoProj/history/${turn.turn_id}`)).json();
@@ -63,6 +91,7 @@ test("lazy traces use workspace preview limits and retain images beyond the text
         const output = event.output_text || "";
         assert.ok(Array.from(output).length <= (delegate ? 8000 : 400));
         if (!delegate) ordinaryOutputs += 1;
+        else delegateOutputs += 1;
         for (const image of event.image_paths) {
           assert.ok(data.files[image]);
           if (!output.includes(image)) imageAfterPreview = true;
@@ -70,7 +99,8 @@ test("lazy traces use workspace preview limits and retain images beyond the text
       }
     }
   }
-  assert.equal(ordinaryOutputs, 150);
+  assert.equal(ordinaryOutputs, 153);
+  assert.equal(delegateOutputs, 23);
   assert.ok(imageAfterPreview, "An image omitted from the preview still has an explicit reference.");
 });
 

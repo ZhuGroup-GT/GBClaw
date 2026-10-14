@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "artifact_id": "7aa31892-eca4-50ac-9c1a-c8fa95e500f1",
+      "created_at": "2026-08-07T21:58:20+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "basis": "fcc",
+          "limit": 50,
+          "u": 1,
+          "v": 1,
+          "w": 0
+        },
+        "input_fingerprint": "7240b8cbfa7b1bfc0767096810bdc2f48a1dcfd4415309aaed06c197c1f31405",
+        "output_schema": "v1",
+        "sequence": 1,
+        "tool": "list_csl_sigmas"
+      },
+      "path": "results/01_list_csl_sigmas.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 295
+    }
+  ],
+  "run_id": "csl-20260807-215816-a5c75e",
+  "workflow": "csl"
+}

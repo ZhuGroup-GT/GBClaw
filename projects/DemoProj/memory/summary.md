@@ -5,6 +5,12 @@
 - No active project plan or pending approval gate is recorded.
 - Current analysis stage: all selected reverse-unloading post-drop frames have been fixed-box, zero-load minimized. Selected step 14, 29, and 67 minimized structures have plan-view/displacement renders versus the original P012 minimized reference. Mechanism/Burgers-vector assignment remains unresolved.
 
+## CSL and near-CSL screening context
+
+- FCC Ni ⟨110⟩ exact-CSL screening through Σ50 enumerated nine non-trivial misorientations and 135 primitive tilt plane pairs. Nineteen source pairs across eight Σ values have at least one {100}, {110}, or {111} plane. [Misorientation list](artifacts/csl/csl-20260807-215816-a5c75e/results/01_list_csl_sigmas.txt); [complete plane-pair enumeration](artifacts/csl/csl-20260807-215836-b2bd26/results/01_list_csl_gb_planes_batch.txt).
+- Screening those 19 source pairs with max_index ≤ 3, ≤5° plane-normal deviation per side, and ≤5° misorientation change produced 19 passing suggestions from 16 source pairs; three source pairs produced none. Sign/grain-swap deduplication leaves 16 unique geometries: two exact and 14 near-CSL. Representative near-CSL families include Σ9 {111} ∥ {110}, Σ11 {100} ∥ {111}, Σ17 {110} ∥ {100}, and Σ33 {331} ∥ {111}. [Complete near-CSL results](artifacts/csl/csl-20260808-035152-67c8b7/results/01_suggest_low_index_near_csl_planes.txt).
+- For nonzero-deviation geometries, Σ identifies the source CSL reference. The subsequent P012 study retains its actual (110) ∥ (111) geometry and 35.26438968° misorientation.
+
 ## Crystallography and P012 geometry
 
 - Deterministic GB geometry: FCC pure tilt; ordered GB1 `(110)` and GB2 `(111)`; local/shared tilt axis `[1 -1 0]`; ordered-pair misorientation `35.26438968°`; spatially top = GB1 `(110)`, bottom = GB2 `(111)`. (fact: `gb:crystallography:b7ae2dad11a88d658246bd6b`)

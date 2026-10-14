@@ -1,0 +1,11 @@
+CSL candidates for axis [1, 1, 0] (limit=50):
+Sigma:   1  Theta:  0.00
+Sigma:   3  Theta: 70.53
+Sigma:   9  Theta: 38.94
+Sigma:  11  Theta: 50.48
+Sigma:  17  Theta: 86.63
+Sigma:  19  Theta: 26.53
+Sigma:  27  Theta: 31.59
+Sigma:  33  Theta: 20.05
+Sigma:  41  Theta: 55.88
+Sigma:  43  Theta: 80.63
