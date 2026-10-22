@@ -1,0 +1,126 @@
+{
+  "run_id": "csl-20261021-201945-0edf88",
+  "workflow": "csl",
+  "status": "completed",
+  "manifest": "artifacts/structure/csl-20261021-201945-0edf88/manifest.json",
+  "artifacts": [
+    {
+      "artifact_id": "32003833-f9a5-5843-a8b4-0999c705c062",
+      "role": "csl_result",
+      "path": "artifacts/structure/csl-20261021-201945-0edf88/results/01_analyze_tilt_geometry.txt",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "axis_is_family": true,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane1_is_family": true,
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane2_is_family": true
+        },
+        "input_fingerprint": "6ada50e9d667a5ea8fccf56f57bd8a061de713497d39260657db9a990f9b476f",
+        "sequence": 1,
+        "sha256": "c7f7d049d4177a0d62f154b605004f8121a50db0f310b8df0d03585684dd6818",
+        "tool": "analyze_tilt_geometry"
+      }
+    },
+    {
+      "artifact_id": "50c17c6a-aa3f-5cf4-bd6e-494b9ead4f1c",
+      "role": "csl_result",
+      "path": "artifacts/structure/csl-20261021-201945-0edf88/results/02_analyze_tilt_geometry.txt",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "axis_is_family": true,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane1_is_family": false,
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane2_is_family": false
+        },
+        "input_fingerprint": "ea13c29cbd469ff651f72f4fd524a98f2bf49d7eae6d51ec5216dae942349a2d",
+        "sequence": 2,
+        "sha256": "e56a914fbbd2f423c2d22522943aeaca32fb94f427e35d3d204481c57b3b45d1",
+        "tool": "analyze_tilt_geometry"
+      }
+    },
+    {
+      "artifact_id": "97a3d36a-28c8-5fde-8ac8-cbe989db77bc",
+      "role": "memory_facts",
+      "path": "artifacts/structure/csl-20261021-201945-0edf88/memory_facts.json",
+      "metadata": {
+        "memory_tool": "csl",
+        "sha256": "9a8779571edd1e74d8a3f7dee411beac582dae25b3e430743e1df8fdc5bba453"
+      }
+    }
+  ],
+  "result": {
+    "awaiting_user": false,
+    "child_run_ids": [],
+    "dichromatic_errors": [],
+    "dichromatic_maps": [],
+    "edge_vector_summaries": [],
+    "image_paths": [],
+    "interactions": [],
+    "memory_fact_refs": [],
+    "memory_publication": {
+      "artifact_id": "97a3d36a-28c8-5fde-8ac8-cbe989db77bc",
+      "attempts": 1,
+      "contract_sha256": "ad1d34137b65817722e490668fcf2a560e552b4af5d14f17c49910f6d51ff386",
+      "contract_version": 1,
+      "format": "fact_batch",
+      "memory_tool": "csl",
+      "path": "artifacts/structure/csl-20261021-201945-0edf88/memory_facts.json",
+      "sha256": "9a8779571edd1e74d8a3f7dee411beac582dae25b3e430743e1df8fdc5bba453",
+      "status": "completed"
+    },
+    "memory_result_ref": {
+      "contract_sha256": "ad1d34137b65817722e490668fcf2a560e552b4af5d14f17c49910f6d51ff386",
+      "contract_version": 1,
+      "manifest_path": "artifacts/structure/csl-20261021-201945-0edf88/manifest.json",
+      "memory_tool": "csl",
+      "project_root": "projects/Demo-GPT",
+      "publication_mode": "facts",
+      "result_location": "runs.result_json",
+      "run_id": "csl-20261021-201945-0edf88",
+      "workflow": "csl"
+    },
+    "summary": "**Resolved: one physically distinct FCC tilt geometry, not an unresolved family choice.** The family analysis finds **12 indexing variants in one equivalence class** under proper cubic symmetry (ordered, unoriented plane pairs and unoriented tilt line). Representative ordered planes are **GB1 (110) || GB2 (111)**. The actual tilt misorientation is **35.26438968°**; this is a **general asymmetric pure-tilt boundary**. No Sigma was assigned, and no near-CSL reference was used.\n\nA subsequent grain-local resolution of these concrete planes gives the following consistent construction frames. Each integer direction is reduced; \\(x=y\\times z\\), with directions normalized independently when constructing the rotation.\n\n| Spatial grain | Original side | Concrete local plane / y | Signed local tilt / z | Local x |\n|---|---|---|---|---|\n| **Top** | GB1 | (110), [110] | [−1 1 0] | [001] |\n| **Bottom** | GB2 | (111), [111] | [−1 0 1] | [1 −2 1] |\n\nThese **different local z triples represent the same physical simulation tilt direction** after grain orientation. Do not substitute the raw cross product of the two grain-local normals for that physical axis.\n\n**Density assignment:** FCC {111} is denser than FCC {110}: their ideal planar densities are respectively \\(4/(\\sqrt3\\,a_0^2)\\) and \\(\\sqrt2/a_0^2\\). Thus **(111) goes to bottom**, consistent with the default; the ordered GB1/GB2 labels remain unchanged.\n\n**Evidence and downstream limits**\n- Family-resolution tool: `ambiguous=false`, `equivalence_class_count=1`, `raw_candidate_count=12`.\n- Concrete grain-local resolution: `ambiguous=false`; six signed axis/symmetry representatives, all at **35.26438968°**, rather than additional physical choices.\n- The frames above are obtained from the tool-resolved local normals/axes and their exact integer cross products. No exact-CSL orientation or period record was obtained; this general boundary must not be replaced by a nearby CSL construction.\n- LAMMPS must determine actual-basis translation periods, repeat counts, and whether compatible periodic dimensions require accommodation. This crystallography stage does **not** complete sizing, minimization, rendering, or periodicity analysis.",
+    "task": "Resolve new general tilt FCC Ni GB ordered plane families {110} || {111}, physical tilt axis family <110>, for actual construction and relaxation. Use analyze_tilt_geometry with plane1_is_family=true, plane2_is_family=true, axis_is_family=true to resolve coupled concrete normals and grain-local axes; report physically distinct choices vs proper cubic indexing equivalents. Do not use changed near-CSL references. Determine actual misorientation/classification and compare planar atomic densities for these actual FCC planes to assign higher density bottom by default (if equal retain order). Return explicit top/bottom concrete planes and corresponding signed local tilt z directions, consistent y=normal,z=tilt,x=y×z; exact orientation/period evidence if available. User authorized build,minimize,render top and GB plan view,periodicity analysis; this stage crystallography only. If physically ambiguous report choices rather than selecting silently."
+  },
+  "error": "",
+  "worker_outcome": {
+    "schema_version": 1,
+    "status": "completed",
+    "summary": "**Resolved: one physically distinct FCC tilt geometry, not an unresolved family choice.** The family analysis finds **12 indexing variants in one equivalence class** under proper cubic symmetry (ordered, unoriented plane pairs and unoriented tilt line). Representative ordered planes are **GB1 (110) || GB2 (111)**. The actual tilt misorientation is **35.26438968°**; this is a **general asymmetric pure-tilt boundary**. No Sigma was assigned, and no near-CSL reference was used.\n\nA subsequent grain-local resolution of these concrete planes gives the following consistent construction frames. Each integer direction is reduced; \\(x=y\\times z\\), with directions normalized independently when constructing the rotation.\n\n| Spatial grain | Original side | Concrete local plane / y | Signed local tilt / z | Local x |\n|---|---|---|---|---|\n| **Top** | GB1 | (110), [110] | [−1 1 0] | [001] |\n| **Bottom** | GB2 | (111), [111] | [−1 0 1] | [1 −2 1] |\n\nThese **different local z triples represent the same physical simulation tilt direction** after grain orientation. Do not substitute the raw cross product of the two grain-local normals for that physical axis.\n\n**Density assignment:** FCC {111} is denser than FCC {110}: their ideal planar densities are respectively \\(4/(\\sqrt3\\,a_0^2)\\) and \\(\\sqrt2/a_0^2\\). Thus **(111) goes to bottom**, consistent with the default; the ordered GB1/GB2 labels remain unchanged.\n\n**Evidence and downstream limits**\n- Family-resolution tool: `ambiguous=false`, `equivalence_class_count=1`, `raw_candidate_count=12`.\n- Concrete grain-local resolution: `ambiguous=false`; six signed axis/symmetry representatives, all at **35.26438968°**, rather than additional physical choices.\n- The frames above are obtained from the tool-resolved local normals/axes and their exact integer cross products. No exact-CSL orientation or period record was obtained; this general boundary must not be replaced by a nearby CSL construction.\n- LAMMPS must determine actual-basis translation periods, repeat counts, and whether compatible periodic dimensions require accommodation. This crystallography stage does **not** complete sizing, minimization, rendering, or periodicity analysis.",
+    "evidence_refs": [
+      {
+        "kind": "run",
+        "id": "csl-20261021-201945-0edf88"
+      }
+    ],
+    "next_action": ""
+  }
+}

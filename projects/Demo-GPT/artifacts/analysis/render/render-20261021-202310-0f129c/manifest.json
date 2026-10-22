@@ -1,0 +1,286 @@
+{
+  "files": [
+    {
+      "artifact_id": "86565d58-6b1f-5a6a-a819-b183864d9bad",
+      "created_at": "2026-10-21T20:23:14+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect facing layers of minimized general FCC Ni {110}||{111} Y-normal GB in XZ plan view; no displacement arrows.",
+        "render_kind": "gb_plan_view",
+        "sha256": "72ef229f7c5deb71c3981468e864c0806453de0c28adb461d4f81c41764c9dcc",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "gb_plan_view.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_data",
+      "size_bytes": 72094
+    },
+    {
+      "artifact_id": "c9178a50-ae8b-5220-8896-5d969f3e8861",
+      "created_at": "2026-10-21T20:23:14+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "crop_box": [
+            96,
+            -22,
+            3129,
+            307
+          ],
+          "crop_margin_pixels": 50,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 9.004830712596974,
+          "image_size": [
+            3033,
+            329
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "rendered_image_size": [
+            3200,
+            266
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.7149779220322685,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 216.65758105496477
+        },
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect facing layers of minimized general FCC Ni {110}||{111} Y-normal GB in XZ plan view; no displacement arrows.",
+        "render_kind": "gb_plan_view",
+        "sha256": "43448e03368ed2b6829404e47d29a54c8aabb3169eac362b82ebf9c970fb8531",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "plan_view.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view",
+      "size_bytes": 458140
+    },
+    {
+      "artifact_id": "990d5251-07e5-5013-8e85-047ac9302235",
+      "created_at": "2026-10-21T20:23:14+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "crop_box": [
+            -50,
+            19,
+            1850,
+            679
+          ],
+          "crop_margin_pixels": 50,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 9.009704344897926,
+          "image_size": [
+            1900,
+            660
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "rendered_image_size": [
+            1800,
+            652
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.7149779220322685,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 49.74683380618487
+        },
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect facing layers of minimized general FCC Ni {110}||{111} Y-normal GB in XZ plan view; no displacement arrows.",
+        "render_kind": "gb_plan_view",
+        "sha256": "02c0b3c8885c66b89a7ab249ccc73f6475a6ef667b960e29f3f47ed30cd2d4dc",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "plan_view_detail.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_detail",
+      "size_bytes": 430038
+    },
+    {
+      "artifact_id": "ea9b3f7f-a263-50ef-98c2-d83aca70454e",
+      "created_at": "2026-10-21T20:23:14+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect facing layers of minimized general FCC Ni {110}||{111} Y-normal GB in XZ plan view; no displacement arrows.",
+        "render_kind": "gb_plan_view",
+        "sha256": "8a1def15f9866397c7d781b1ee25873d094a440dcfc82cab1d11622fce11b48f",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "y_profile.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_profile",
+      "size_bytes": 177210
+    },
+    {
+      "artifact_id": "9ea0b7f7-4060-546e-927d-6a2f7f0aff10",
+      "created_at": "2026-10-21T20:23:15+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_gb_plan_view",
+        "sha256": "757607835ed74c49e8f52c7f23582e509e4fb05f85c617d0ce33fd6f65605cd8"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 5855
+    }
+  ],
+  "run_id": "render-20261021-202310-0f129c",
+  "workflow": "render"
+}

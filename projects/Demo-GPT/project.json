@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-21T20:10:42+00:00",
+  "goal": "",
+  "name": "Demo-GPT",
+  "project_id": "Demo-GPT",
+  "thread_id": "c1d2f74f-95b9-4aba-a105-126d2a65d6ac",
+  "updated_at": "2026-10-21T23:59:18+00:00",
+  "showcase": {
+    "models": {
+      "orchestrator": "GPT-6.1 Sol",
+      "coding": "GPT-6.1 Sol",
+      "structure": "GPT-6.1 Sol",
+      "lammps": "GPT-6.1 Sol",
+      "analysis": "GPT-6.1 Sol"
+    },
+    "file_selection": {
+      "omitted_neb_trajectory_count": 18,
+      "retained_neb_final_structure_count": 18,
+      "deduplicated_potential_count": 17,
+      "shared_potential_path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/inputs/potential_NiCr.adp",
+      "additional_cleanup": {
+        "removed_count": 124,
+        "removed_bytes": 394612101,
+        "categories": {
+          "initial_structure": 20,
+          "intermediate_trajectory": 20,
+          "duplicate_source_input": 47,
+          "redundant_item_final": 36,
+          "execution_checkpoint": 1
+        },
+        "retained_batch_final_count": 18,
+        "omitted_runtime_files": [
+          "runtime/checkpoints.sqlite"
+        ]
+      }
+    }
+  }
+}

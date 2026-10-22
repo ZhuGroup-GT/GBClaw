@@ -1,0 +1,11 @@
+CSL candidates for basis=fcc, axis [1, 1, 0] (limit=50):
+Sigma:   3  Theta: 70.53  rotation_m:   2  rotation_n:   1  branch: 1/1
+Sigma:   9  Theta: 38.94  rotation_m:   4  rotation_n:   1  branch: 1/1
+Sigma:  11  Theta: 50.48  rotation_m:   3  rotation_n:   1  branch: 1/1
+Sigma:  17  Theta: 86.63  rotation_m:   3  rotation_n:   2  branch: 1/1
+Sigma:  19  Theta: 26.53  rotation_m:   6  rotation_n:   1  branch: 1/1
+Sigma:  27  Theta: 31.59  rotation_m:   5  rotation_n:   1  branch: 1/1
+Sigma:  33  Theta: 20.05  rotation_m:   8  rotation_n:   1  branch: 1/2
+Sigma:  33  Theta: 58.99  rotation_m:   5  rotation_n:   2  branch: 2/2
+Sigma:  41  Theta: 55.88  rotation_m:   8  rotation_n:   3  branch: 1/1
+Sigma:  43  Theta: 80.63  rotation_m:   5  rotation_n:   3  branch: 1/1

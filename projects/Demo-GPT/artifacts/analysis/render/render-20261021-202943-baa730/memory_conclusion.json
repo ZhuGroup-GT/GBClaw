@@ -1,0 +1,72 @@
+{
+  "contract_sha256": "552c1aa3d42b19d6b93a8701f3d32173a603236493f9ad76d51d4ea4836c699e",
+  "contract_version": 1,
+  "fact": {
+    "created_at": "2026-10-21T20:29:46+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "86621b78-80e6-5270-9023-1a4733b7de0a",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20261021-202943-baa730:main_conclusion",
+    "source_run_id": "render-20261021-202943-baa730",
+    "source_turn_id": null,
+    "source_type": "tool_result",
+    "status": "active",
+    "updated_at": "2026-10-21T20:29:46+00:00",
+    "value": {
+      "analysis_mode": "CNA",
+      "camera": {
+        "crop_box": [
+          1706,
+          45,
+          2133,
+          2116
+        ],
+        "crop_margin_pixels": 50,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "image_size": [
+          427,
+          2071
+        ],
+        "projection": "xy",
+        "rendered_image_size": [
+          3840,
+          2160
+        ]
+      },
+      "conclusion_type": "atomic_structure_render",
+      "data": "artifacts/analysis/render/render-20261021-202943-baa730/render.json",
+      "displacement": null,
+      "origin": {
+        "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+        "run_id": "minimize-20261021-202820-718597",
+        "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+        "workflow": "gb_minimize"
+      },
+      "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) minimized boundary structure and seam in XY; image alone does not validate seam.",
+      "render": "artifacts/analysis/render/render-20261021-202943-baa730/render.png",
+      "render_kind": "atomic_structure",
+      "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+      "source_artifact_role": "minimized_cfg",
+      "source_run_id": "minimize-20261021-202820-718597",
+      "source_step": null,
+      "structure_source": {
+        "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+        "run_id": "minimize-20261021-202820-718597",
+        "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+        "workflow": "gb_minimize"
+      },
+      "summary": "CNA atomic structure rendered in XY top view.",
+      "warnings": []
+    },
+    "version": 1
+  },
+  "memory_tool": "render_atomic_structure"
+}

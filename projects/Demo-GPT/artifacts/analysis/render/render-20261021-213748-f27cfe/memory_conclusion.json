@@ -1,0 +1,362 @@
+{
+  "contract_sha256": "ca6f3bbc9ae5c8a65dbf2c8ea04dacbf24b1dbc012d3bfc6cdcb555adfd0ee92",
+  "contract_version": 1,
+  "fact": {
+    "created_at": "2026-10-21T21:37:53+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "3e08f546-5955-5f7f-8b9b-15733cf5ae11",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20261021-213748-f27cfe:main_conclusion",
+    "source_run_id": "render-20261021-213748-f27cfe",
+    "source_turn_id": null,
+    "source_type": "tool_result",
+    "status": "active",
+    "updated_at": "2026-10-21T21:37:53+00:00",
+    "value": {
+      "boundary": {
+        "method": "cna_interior_band_interlayer_gap",
+        "y": -0.703241054045364
+      },
+      "camera": {
+        "atom_radius": 0.875,
+        "atom_radius_range": [
+          0.875,
+          0.875
+        ],
+        "atom_scale": 0.7,
+        "box_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "crop_box": [
+          68,
+          44,
+          3029,
+          1294
+        ],
+        "crop_margin_pixels": 50,
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "fov_half_height": 8.800002178832345,
+        "image_size": [
+          2961,
+          1250
+        ],
+        "lower_color": [
+          0,
+          0,
+          0
+        ],
+        "radius_source": "OVITO imported radii",
+        "rendered_image_size": [
+          3200,
+          1291
+        ],
+        "right": [
+          1,
+          0,
+          0
+        ],
+        "roll_degrees": 180,
+        "target": [
+          0.0,
+          -0.703241054045364,
+          0.0
+        ],
+        "transparent_background": true,
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "upper_color": [
+          1.0,
+          0.98,
+          0.94
+        ],
+        "visible_width": 43.625107625505045
+      },
+      "conclusion_type": "gb_plan_view_geometry",
+      "data": "artifacts/analysis/render/render-20261021-213748-f27cfe/gb_plan_view.json",
+      "detail": null,
+      "displacement": {
+        "affine_mapping": "off",
+        "definition": "current_minus_reference",
+        "matching": "particle_identifier",
+        "minimum_image_convention": true,
+        "reference": {
+          "cell": [
+            [
+              38.74350875828372,
+              0.0,
+              0.0,
+              -19.37175437914186
+            ],
+            [
+              0.0,
+              248.4870778412964,
+              0.0,
+              -124.2435389206482
+            ],
+            [
+              0.0,
+              0.0,
+              14.929771900901663,
+              -7.464885950450832
+            ]
+          ],
+          "effective_pbc": [
+            true,
+            true,
+            true
+          ],
+          "imported_pbc": [
+            true,
+            true,
+            true
+          ],
+          "particle_count": 11052,
+          "path": "projects/Demo-GPT/artifacts/lammps/shear/shear-20261021-203147-9d18c4/structures/gb_shear_step_0000.cfg",
+          "sha256": "0dd916d8169840899eeb246946b18e05a3c4fb87b581305f06c5aef2623518be"
+        },
+        "render": {
+          "algorithm_version": 2,
+          "alignment": "center",
+          "cap_applied": false,
+          "color": [
+            0.85,
+            0.12,
+            0.08
+          ],
+          "display_max_3d": 0.7805016440779857,
+          "hard_max_length": 2.0,
+          "length_unit": "input",
+          "max_length": 2.0,
+          "nonzero_projected_count": 174,
+          "normalization": "physical_capped",
+          "offset": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "physical_max_3d": 0.7805016440779857,
+          "representative_projected_length": 0.3043919214825748,
+          "scale_mode": "physical_capped",
+          "scaled_projected_max": 0.7720592651384401,
+          "scaled_projected_median": 0.3043919214825748,
+          "scaling": 1.0,
+          "target_length": 1.5,
+          "vectors_are_normalized_individually": false,
+          "width": 0.1,
+          "zero_tolerance": 2.4861228714201823e-08
+        },
+        "summary": {
+          "all": {
+            "count": 11052,
+            "magnitude_max": 0.7805016440779857,
+            "magnitude_median": 0.29712343443278044,
+            "magnitude_min": 0.06108599470125781,
+            "projected_xz_max": 0.7720592651384401,
+            "projected_xz_median": 0.29609166908614465
+          },
+          "slab": {
+            "count": 174,
+            "magnitude_max": 0.7805016440779857,
+            "magnitude_median": 0.30439479008577364,
+            "magnitude_min": 0.06108599470125781,
+            "projected_xz_max": 0.7720592651384401,
+            "projected_xz_median": 0.3043919214825748
+          }
+        }
+      },
+      "interpretation": "Approximate boundary and geometric Y-side labels; not crystallographic grain identification.",
+      "layers": {
+        "lower": {
+          "count": 108,
+          "lower_y": -1.9386947244380508,
+          "upper_y": -1.527178165226772,
+          "y": -1.7831900861758285
+        },
+        "lower_spacing": 2.03332732539009,
+        "pair_resolved": true,
+        "upper": {
+          "count": 66,
+          "lower_y": 0.12069605713604403,
+          "upper_y": 0.21888674374812922,
+          "y": 0.1821768971673663
+        },
+        "upper_spacing": 1.2446573962523217
+      },
+      "origin": {
+        "artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+        "frame": {
+          "actual_shear_strain": 0.0,
+          "bottom_shear_stress_mpa": -12.1052210278582,
+          "converged": true,
+          "increment_stage": "initial",
+          "loading_cycle": 1,
+          "loading_direction": "-x",
+          "loading_half_cycle": 1,
+          "relative_shear_strain": -0.017500000000000016,
+          "relative_target_shear_strain": -0.0175,
+          "sigma_xx_mpa": -25.02252854594975,
+          "sigma_xy_mpa": 12.1052210278582,
+          "sigma_xz_mpa": 0.7634988797857798,
+          "sigma_yy_mpa": 80.95556362935271,
+          "sigma_yz_mpa": 0.0008211296203003445,
+          "sigma_zz_mpa": 19.03232572062387,
+          "step": 70,
+          "step_in_loading_half_cycle": 70,
+          "strain": 0.0,
+          "target_shear_strain": 1.3877787807814457e-17,
+          "top_shear_stress_mpa": 12.1052210278582
+        },
+        "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+        "run_id": "shear-20261021-211934-d84742",
+        "sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8",
+        "workflow": "gb_shear"
+      },
+      "profile": "artifacts/analysis/render/render-20261021-213748-f27cfe/y_profile.png",
+      "purpose": "Compare initial zero-strain first-loading step0 to unloaded continuation local step70 at cumulative actual strain zero; test persistent atomic rearrangement after first stress collapse and unloading. Current-minus-reference displacements retain rigid motion and strain, not proof of permanence or dislocations.",
+      "reference_artifact_id": "ed6fdc81-7786-59b4-9671-fb6729be1245",
+      "reference_artifact_role": "intermediate_structure",
+      "reference_origin": {
+        "artifact_id": "ed6fdc81-7786-59b4-9671-fb6729be1245",
+        "frame": {
+          "actual_shear_strain": 0.0,
+          "bottom_shear_stress_mpa": 0.0014901516408687037,
+          "converged": true,
+          "increment_stage": "reference",
+          "loading_cycle": 1,
+          "loading_direction": "x",
+          "loading_half_cycle": 1,
+          "relative_shear_strain": 0.0,
+          "relative_target_shear_strain": 0.0,
+          "sigma_xx_mpa": -0.00011096452433736448,
+          "sigma_xy_mpa": -0.0014901516408687037,
+          "sigma_xz_mpa": 3.3791985558654764e-06,
+          "sigma_yy_mpa": 1.6353518102605307e-05,
+          "sigma_yz_mpa": -1.794858796545762e-05,
+          "sigma_zz_mpa": 9.569346463818697e-05,
+          "step": 0,
+          "step_in_loading_half_cycle": 0,
+          "strain": 0.0,
+          "target_shear_strain": 0.0,
+          "top_shear_stress_mpa": -0.0014901516408687037
+        },
+        "path": "artifacts/lammps/shear/shear-20261021-203147-9d18c4/structures/gb_shear_step_0000.cfg",
+        "run_id": "shear-20261021-203147-9d18c4",
+        "sha256": "0dd916d8169840899eeb246946b18e05a3c4fb87b581305f06c5aef2623518be",
+        "workflow": "gb_shear"
+      },
+      "reference_run_id": "shear-20261021-203147-9d18c4",
+      "reference_step": 0,
+      "reference_structure_source": {
+        "artifact_id": "ed6fdc81-7786-59b4-9671-fb6729be1245",
+        "frame": {
+          "actual_shear_strain": 0.0,
+          "bottom_shear_stress_mpa": 0.0014901516408687037,
+          "converged": true,
+          "increment_stage": "reference",
+          "loading_cycle": 1,
+          "loading_direction": "x",
+          "loading_half_cycle": 1,
+          "relative_shear_strain": 0.0,
+          "relative_target_shear_strain": 0.0,
+          "sigma_xx_mpa": -0.00011096452433736448,
+          "sigma_xy_mpa": -0.0014901516408687037,
+          "sigma_xz_mpa": 3.3791985558654764e-06,
+          "sigma_yy_mpa": 1.6353518102605307e-05,
+          "sigma_yz_mpa": -1.794858796545762e-05,
+          "sigma_zz_mpa": 9.569346463818697e-05,
+          "step": 0,
+          "step_in_loading_half_cycle": 0,
+          "strain": 0.0,
+          "target_shear_strain": 0.0,
+          "top_shear_stress_mpa": -0.0014901516408687037
+        },
+        "path": "artifacts/lammps/shear/shear-20261021-203147-9d18c4/structures/gb_shear_step_0000.cfg",
+        "run_id": "shear-20261021-203147-9d18c4",
+        "sha256": "0dd916d8169840899eeb246946b18e05a3c4fb87b581305f06c5aef2623518be",
+        "workflow": "gb_shear"
+      },
+      "render": "artifacts/analysis/render/render-20261021-213748-f27cfe/plan_view.png",
+      "render_kind": "gb_plan_view",
+      "slab": {
+        "counts": {
+          "lower": 108,
+          "total": 174,
+          "upper": 66
+        },
+        "full_lateral_layers": {
+          "lower": {
+            "count": 108,
+            "lower_y": -1.9386947244380508,
+            "upper_y": -1.527178165226772
+          },
+          "method": "interior_plane_midpoint_assignment",
+          "upper": {
+            "count": 66,
+            "lower_y": 0.12069605713604403,
+            "upper_y": 0.21888674374812922
+          }
+        },
+        "interior_counts": {
+          "lower": 108,
+          "upper": 66
+        },
+        "lower_y": -2.06300086800906,
+        "method": "one_facing_layer_per_side_with_lateral_extension",
+        "thickness": 2.719519627927392,
+        "upper_y": 0.656518759918332
+      },
+      "source_artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+      "source_artifact_role": "intermediate_structure",
+      "source_run_id": "shear-20261021-211934-d84742",
+      "source_step": 70,
+      "structure_source": {
+        "artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+        "frame": {
+          "actual_shear_strain": 0.0,
+          "bottom_shear_stress_mpa": -12.1052210278582,
+          "converged": true,
+          "increment_stage": "initial",
+          "loading_cycle": 1,
+          "loading_direction": "-x",
+          "loading_half_cycle": 1,
+          "relative_shear_strain": -0.017500000000000016,
+          "relative_target_shear_strain": -0.0175,
+          "sigma_xx_mpa": -25.02252854594975,
+          "sigma_xy_mpa": 12.1052210278582,
+          "sigma_xz_mpa": 0.7634988797857798,
+          "sigma_yy_mpa": 80.95556362935271,
+          "sigma_yz_mpa": 0.0008211296203003445,
+          "sigma_zz_mpa": 19.03232572062387,
+          "step": 70,
+          "step_in_loading_half_cycle": 70,
+          "strain": 0.0,
+          "target_shear_strain": 1.3877787807814457e-17,
+          "top_shear_stress_mpa": 12.1052210278582
+        },
+        "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+        "run_id": "shear-20261021-211934-d84742",
+        "sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8",
+        "workflow": "gb_shear"
+      },
+      "summary": "Estimated Y-normal boundary at y=-0.703241054045364 in imported Cartesian length units; plan view uses black for the lower side and milk white for the upper side, with a transparent PNG background and atom radius scale 0.7. Inspect the layer profile and warnings before interpreting grain identity.",
+      "warnings": [
+        "Boundary y is a geometric estimate for one approximately planar y-normal interface; CNA and plane spacings do not prove crystallographic grain membership.",
+        "Black and milk white label the lower and upper y sides in the plan view, respectively; they are not CNA colors.",
+        "CFG periodicity follows OVITO import unless pbc is supplied; vacuum detection does not change boundary conditions.",
+        "Displacements are current minus reference, including rigid translation and affine deformation; no drift or strain is subtracted. Display scaling does not change the physical vectors.",
+        "Minimum-image displacement cannot recover motion exceeding half a periodic box between these frames; use unwrapped coordinates and disable minimum_image_convention for such motion."
+      ]
+    },
+    "version": 1
+  },
+  "memory_tool": "render_gb_plan_view"
+}

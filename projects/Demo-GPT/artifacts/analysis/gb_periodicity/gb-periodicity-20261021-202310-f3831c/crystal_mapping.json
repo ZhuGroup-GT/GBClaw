@@ -1,0 +1,298 @@
+{
+  "input_ptm_cache": "projects/Demo-GPT/artifacts/analysis/gb_periodicity/gb-periodicity-20261021-202310-f3831c/ptm_cache/ptm_atoms.npz",
+  "gb_y_angstrom": -0.5988217162949141,
+  "orientation_convention": "OVITO xyzw quaternion; cubic symmetry aligned before averaging",
+  "index_ambiguity": "Signed axis labels depend on the cubic symmetry branch; families are invariant. Original builder labels require its orientation metadata.",
+  "grains": {
+    "lower": {
+      "rotation_crystal_to_lab": [
+        [
+          0.8168031835470683,
+          0.40794151635101566,
+          -0.40794151368132303
+        ],
+        [
+          -0.576916423190894,
+          0.5775670719536681,
+          -0.5775670680081176
+        ],
+        [
+          6.762719612332918e-11,
+          0.7071067788050841,
+          0.7071067835680114
+        ]
+      ],
+      "misorientation_median_deg": 0.016295897649779557,
+      "misorientation_p95_deg": 0.045047732988417084,
+      "lattice": "FCC",
+      "bulk_atom_count": 11520,
+      "bulk_y_interval_angstrom": [
+        -82.89320373475121,
+        -21.17241722090899
+      ],
+      "local_a_median_angstrom": 3.5191625307042087,
+      "local_a_p05_p95_angstrom": [
+        3.518806417842181,
+        3.5195682108825923
+      ],
+      "x_direction": {
+        "crystal_unit_components": [
+          0.816803183547068,
+          0.40794151635101555,
+          -0.4079415136813229
+        ],
+        "signed_indices_in_ptm_branch": [
+          2,
+          1,
+          -1
+        ],
+        "cubic_family": [
+          1,
+          1,
+          2
+        ],
+        "angular_residual_deg": 0.030438434667377536,
+        "angular_tolerance_deg": 0.25,
+        "accepted": true,
+        "status": "resolved_low_index_direction",
+        "search_maximum_index": 12
+      },
+      "gb_plane_normal": {
+        "crystal_unit_components": [
+          -0.5769164231908934,
+          0.5775670719536675,
+          -0.5775670680081171
+        ],
+        "signed_indices_in_ptm_branch": [
+          -1,
+          1,
+          -1
+        ],
+        "cubic_family": [
+          1,
+          1,
+          1
+        ],
+        "angular_residual_deg": 0.030438434691325206,
+        "angular_tolerance_deg": 0.25,
+        "accepted": true,
+        "status": "resolved_low_index_direction",
+        "search_maximum_index": 12
+      },
+      "shortest_translation_coefficient": 0.5,
+      "full_a_hkl_length_angstrom": 8.62015252214685,
+      "shortest_translation_length_angstrom": 4.310076261073425,
+      "predicted_translation_lab_angstrom": [
+        4.310075652862366,
+        0.0022897318040870918,
+        -8.142766461105566e-09
+      ],
+      "coordinate_translation_check": {
+        "matched_pairs": 11520,
+        "median_translation_lab_angstrom": [
+          4.309702412337572,
+          0.0009606526377439195,
+          -4.4781955921280314e-11
+        ],
+        "median_x_translation_angstrom": 4.309702412337572,
+        "x_translation_p05_p95_angstrom": [
+          4.308605896298417,
+          4.310917658341685
+        ],
+        "median_prediction_residual_angstrom": 0.0030670261013402067,
+        "median_transverse_distance_angstrom": 0.0019909782026843463
+      },
+      "conversion_assumptions": "Local FCC/BCC conventional cubic cell with isotropic PTM scale; anisotropic strain is checked by measured actual atom translations rather than assumed absent.",
+      "pure_x_conversion_check": {
+        "maximum_transverse_angstrom": 0.04976634355391524,
+        "measured_transverse_angstrom": 0.0019909782026843463,
+        "accepted": true
+      },
+      "source_convention": {
+        "source_grain": "bot",
+        "source_orientation": {
+          "x": [
+            1,
+            -2,
+            1
+          ],
+          "y": [
+            1,
+            1,
+            1
+          ],
+          "z": [
+            -1,
+            0,
+            1
+          ]
+        },
+        "source_repeat_counts": [
+          23,
+          17,
+          3
+        ],
+        "repeat_counts_used_for_discovery": false,
+        "accepted": true,
+        "orientation_residual_deg": 0.03043843459553454,
+        "angular_tolerance_deg": 1.0,
+        "signed_x_indices": [
+          1,
+          -2,
+          1
+        ],
+        "primitive_signed_x_indices": [
+          1,
+          -2,
+          1
+        ],
+        "full_direction_translation_coefficient": 0.5
+      }
+    },
+    "upper": {
+      "rotation_crystal_to_lab": [
+        [
+          0.9999999644561528,
+          0.00018853075631128632,
+          -0.00018853075193638467
+        ],
+        [
+          -0.0002666227494063555,
+          0.7071067580451041,
+          -0.7071067540614013
+        ],
+        [
+          -2.342472039291064e-12,
+          0.7071067791946954,
+          0.7071067831783993
+        ]
+      ],
+      "misorientation_median_deg": 0.026031938175194103,
+      "misorientation_p95_deg": 0.07993534964023692,
+      "lattice": "FCC",
+      "bulk_atom_count": 11850,
+      "bulk_y_interval_angstrom": [
+        20.2097221564177,
+        82.63535377455554
+      ],
+      "local_a_median_angstrom": 3.518888253121082,
+      "local_a_p05_p95_angstrom": [
+        3.5185061440605594,
+        3.519447348186043
+      ],
+      "x_direction": {
+        "crystal_unit_components": [
+          0.9999999644561541,
+          0.00018853075631128656,
+          -0.00018853075193638491
+        ],
+        "signed_indices_in_ptm_branch": [
+          1,
+          0,
+          0
+        ],
+        "cubic_family": [
+          0,
+          0,
+          1
+        ],
+        "angular_residual_deg": 0.015276358440796408,
+        "angular_tolerance_deg": 0.25,
+        "accepted": true,
+        "status": "resolved_low_index_direction",
+        "search_maximum_index": 12
+      },
+      "gb_plane_normal": {
+        "crystal_unit_components": [
+          -0.00026662274940635565,
+          0.7071067580451046,
+          -0.7071067540614018
+        ],
+        "signed_indices_in_ptm_branch": [
+          0,
+          1,
+          -1
+        ],
+        "cubic_family": [
+          0,
+          1,
+          1
+        ],
+        "angular_residual_deg": 0.015276358440796408,
+        "angular_tolerance_deg": 0.25,
+        "accepted": true,
+        "status": "resolved_low_index_direction",
+        "search_maximum_index": 12
+      },
+      "shortest_translation_coefficient": 1.0,
+      "full_a_hkl_length_angstrom": 3.518888253121082,
+      "shortest_translation_length_angstrom": 3.518888253121082,
+      "predicted_translation_lab_angstrom": [
+        3.5188881280462554,
+        -0.0009382156609008702,
+        -8.24289734232591e-12
+      ],
+      "coordinate_translation_check": {
+        "matched_pairs": 11850,
+        "median_translation_lab_angstrom": [
+          3.5172933443008105,
+          -0.0007854731094596445,
+          -1.4926726521480305e-11
+        ],
+        "median_x_translation_angstrom": 3.5172933443008105,
+        "x_translation_p05_p95_angstrom": [
+          3.5156098845505,
+          3.5218059790820746
+        ],
+        "median_prediction_residual_angstrom": 0.0028863496833972067,
+        "median_transverse_distance_angstrom": 0.0016287180233689469
+      },
+      "conversion_assumptions": "Local FCC/BCC conventional cubic cell with isotropic PTM scale; anisotropic strain is checked by measured actual atom translations rather than assumed absent.",
+      "pure_x_conversion_check": {
+        "maximum_transverse_angstrom": 0.04976634355391524,
+        "measured_transverse_angstrom": 0.0016287180233689469,
+        "accepted": true
+      },
+      "source_convention": {
+        "source_grain": "top",
+        "source_orientation": {
+          "x": [
+            0,
+            0,
+            1
+          ],
+          "y": [
+            1,
+            1,
+            0
+          ],
+          "z": [
+            -1,
+            1,
+            0
+          ]
+        },
+        "source_repeat_counts": [
+          57,
+          21,
+          3
+        ],
+        "repeat_counts_used_for_discovery": false,
+        "accepted": true,
+        "orientation_residual_deg": 0.015276358679377301,
+        "angular_tolerance_deg": 1.0,
+        "signed_x_indices": [
+          0,
+          0,
+          1
+        ],
+        "primitive_signed_x_indices": [
+          0,
+          0,
+          1
+        ],
+        "full_direction_translation_coefficient": 1.0
+      }
+    }
+  }
+}

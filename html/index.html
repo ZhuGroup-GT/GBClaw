@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>GBClaw — Research Showcases</title>
+  <meta name="description" content="Explore recorded GBClaw grain boundary research workspaces through their conversations, project memory, model configurations, and saved results." />
+  <link id="site-icon" rel="icon" href="assets/icon/GBClaw-icon.svg" type="image/svg+xml" sizes="any" data-theme-light-src="assets/icon/GBClaw-icon.svg" data-theme-dark-src="assets/icon/GBClaw-icon-light.svg" />
+  <script>(function(){var t;try{t=localStorage.getItem("gbclaw.theme");}catch(e){}if(t!=="light"&&t!=="dark"){t="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)t="dark";}catch(e){}}document.documentElement.setAttribute("data-theme",t);var icon=document.getElementById("site-icon");icon.href=t==="dark"?icon.dataset.themeDarkSrc:icon.dataset.themeLightSrc;})();</script>
+  <link rel="stylesheet" href="assets/vendor/katex.min.css?v=0.16.22" />
+  <link rel="stylesheet" href="assets/vendor/github-dark.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=10" />
+  <link rel="stylesheet" href="assets/css/dichromatic_widget.css?v=3" />
+  <link rel="stylesheet" href="assets/css/demo.css?v=4" />
+  <link rel="stylesheet" href="assets/css/demo_dichromatic.css?v=1" />
+  <link rel="stylesheet" href="assets/css/demo_models.css?v=4" />
+  <link rel="stylesheet" href="assets/css/citation.css?v=2" />
+</head>
+<body class="demo-showcase">
+  <header>
+    <div class="brand">
+      <div>
+        <div class="brand-title-row">
+          <img id="brand-logo" class="logo" src="assets/icon/GBClaw-logo.svg" alt="GBClaw" width="156" height="52" data-theme-light-src="assets/icon/GBClaw-logo.svg" data-theme-dark-src="assets/icon/GBClaw-logo-light.svg" />
+          <script>(function(){var logo=document.getElementById("brand-logo");logo.src=document.documentElement.getAttribute("data-theme")==="dark"?logo.dataset.themeDarkSrc:logo.dataset.themeLightSrc;})();</script>
+          <h1 id="brand-name" class="demo-visually-hidden">GBClaw</h1>
+          <span class="demo-badge">Recorded demo</span>
+        </div>
+        <p id="brand-tagline"></p>
+      </div>
+    </div>
+    <section class="header-citations" aria-labelledby="header-citations-title">
+      <h2 id="header-citations-title" class="demo-visually-hidden">Citations &amp; related research</h2>
+      <details class="header-citation" name="header-citations">
+        <summary><span><span class="header-citation-label">Architecture paper</span><span class="header-citation-short-title">GBClaw</span></span></summary>
+        <div class="header-citation-panel">
+          <p class="demo-citation-intro">If you use this architecture in your work, or find it helpful, please cite:</p>
+          <p class="demo-citation-reference">Y. Liu, K. Ding, X. Gong, Z. Wang, Y. Yang, Y. Che, W. Chen, J. Kacher, O. Pierron, S. Ogata, T. Zhu, <strong>GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery</strong>, arXiv preprint arXiv:2610.28629 (2026). <a href="https://doi.org/10.48550/arXiv.2610.28629">https://doi.org/10.48550/arXiv.2610.28629</a></p>
+        </div>
+      </details>
+      <details class="header-citation" name="header-citations">
+        <summary><span><span class="header-citation-label">Related study</span><span class="header-citation-short-title">Misfit-dislocation hierarchy</span></span></summary>
+        <div class="header-citation-panel">
+          <p class="demo-citation-intro">For a deeper discussion of the scientific questions behind GBClaw, we invite you to read our related study:</p>
+          <p class="demo-citation-reference">K. Ding, Y. Liu, Y. Zhang, L. Wang, X. Han, T. Zhu, <strong>Misfit-dislocation hierarchy governs sliding of asymmetric non-CSL grain boundaries</strong>, arXiv preprint arXiv:2609.14673 (2026). <a href="https://doi.org/10.48550/arXiv.2609.14673">https://doi.org/10.48550/arXiv.2609.14673</a></p>
+        </div>
+      </details>
+    </section>
+    <div class="header-actions">
+      <div class="project-bar" id="project-bar">
+        <span class="project-label" id="project-label"></span>
+        <code class="project-id" id="project-id" title=""></code>
+        <button type="button" id="project-switch-btn" class="project-switch-btn"></button>
+      </div>
+      <div id="status-badge" class="status-badge">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="status-text"></span>
+      </div>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" aria-pressed="false">
+        <span class="theme-toggle-icon theme-toggle-icon-sun" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m4.93 19.07 1.41-1.41"></path>
+            <path d="m17.66 6.34 1.41-1.41"></path>
+          </svg>
+        </span>
+        <span class="theme-toggle-icon theme-toggle-icon-moon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </span>
+        <span class="theme-toggle-track" aria-hidden="true">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+        <span id="theme-toggle-label" class="theme-toggle-label">Light</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="workspace" id="workspace">
+    <aside class="files-panel" id="files-panel" aria-label="Project files">
+      <div class="files-panel-header">
+        <h2 id="files-panel-title"></h2>
+        <button type="button" id="files-refresh-btn" class="files-refresh-btn"></button>
+      </div>
+      <nav id="files-breadcrumb" class="files-breadcrumb" aria-label="Folder path"></nav>
+      <ul id="files-list" class="files-list"></ul>
+      <p id="files-empty" class="files-empty" hidden></p>
+      <div
+        class="panel-resizer panel-resizer-files"
+        id="files-resizer"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize files panel"
+        tabindex="0"
+      ></div>
+    </aside>
+
+    <div class="chat-column">
+      <main>
+        <section class="welcome" id="welcome">
+          <p class="demo-eyebrow" id="demo-project-eyebrow">Recorded research workspaces</p>
+          <h2 id="welcome-title"></h2>
+          <p id="welcome-description"></p>
+          <section class="demo-models" id="demo-models" aria-labelledby="demo-models-title" hidden>
+            <h3 id="demo-models-title">Model configuration</h3>
+            <div class="demo-model-grid" id="demo-model-grid"></div>
+          </section>
+          <section class="welcome-citations" aria-labelledby="welcome-citations-title">
+            <h3 id="welcome-citations-title">Citations &amp; related research</h3>
+            <div class="welcome-citation">
+              <p class="demo-citation-intro">If you use this architecture in your work, or find it helpful, please cite:</p>
+              <blockquote>
+                <p class="demo-citation-reference">Y. Liu, K. Ding, X. Gong, Z. Wang, Y. Yang, Y. Che, W. Chen, J. Kacher, O. Pierron, S. Ogata, T. Zhu, <strong>GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery</strong>, arXiv preprint arXiv:2610.28629 (2026). <a href="https://doi.org/10.48550/arXiv.2610.28629">https://doi.org/10.48550/arXiv.2610.28629</a></p>
+              </blockquote>
+            </div>
+            <div class="welcome-citation">
+              <p class="demo-citation-intro">For a deeper discussion of the scientific questions behind GBClaw, we invite you to read our related study:</p>
+              <blockquote>
+                <p class="demo-citation-reference">K. Ding, Y. Liu, Y. Zhang, L. Wang, X. Han, T. Zhu, <strong>Misfit-dislocation hierarchy governs sliding of asymmetric non-CSL grain boundaries</strong>, arXiv preprint arXiv:2609.14673 (2026). <a href="https://doi.org/10.48550/arXiv.2609.14673">https://doi.org/10.48550/arXiv.2609.14673</a></p>
+              </blockquote>
+            </div>
+          </section>
+          <nav class="chips" id="suggestions" aria-label="Explore the demonstration"></nav>
+        </section>
+
+        <section class="demo-section demo-overview" id="demo-overview" aria-labelledby="demo-overview-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-overview-title">A grain boundary workflow, recorded</h2>
+            <span class="demo-readonly">Read-only showcase</span>
+          </div>
+          <p class="demo-section-description" id="demo-overview-description">Explore the selected project's recorded workflow, research files, and analysis outputs.</p>
+          <dl class="demo-facts" id="demo-facts" hidden></dl>
+          <ol class="demo-workflow" id="demo-workflow" aria-label="Recorded workflow stages" hidden></ol>
+          <div class="demo-stats" id="demo-stats" aria-label="Recorded project at a glance"></div>
+          <p class="demo-scope-note" id="demo-file-notice" hidden></p>
+        </section>
+
+        <section class="demo-section" id="demo-memory" aria-labelledby="demo-memory-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-memory-title">Project memory</h2>
+            <span class="demo-section-meta">Saved research context</span>
+          </div>
+          <details class="demo-memory-details">
+            <summary>Read the recorded project summary</summary>
+            <div class="demo-memory-content" id="demo-memory-content"><p class="demo-loading">Loading project summary…</p></div>
+          </details>
+        </section>
+
+        <section class="demo-section" id="demo-gallery" aria-labelledby="demo-gallery-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-gallery-title">Recorded results</h2>
+            <span class="demo-section-meta">Saved figures &amp; analysis</span>
+          </div>
+          <p class="demo-section-description">Open a figure to inspect it, or follow its file link for the saved output and its context.</p>
+          <div class="demo-gallery-grid" id="demo-gallery-content" aria-live="polite"><p class="demo-loading">Loading recorded figures…</p></div>
+        </section>
+
+        <section class="demo-section" id="demo-map" aria-labelledby="demo-map-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-map-title">Dichromatic map</h2>
+            <span class="demo-section-meta">Geometry viewer</span>
+          </div>
+          <p class="demo-section-description">Explore the recorded ideal-lattice projection and selected cell geometry.</p>
+          <div id="demo-map-content"><p class="demo-loading">Loading recorded map…</p></div>
+        </section>
+
+        <section class="demo-section demo-history-header" id="demo-history" aria-labelledby="demo-history-title">
+          <div class="demo-section-heading">
+            <h2 id="demo-history-title">Recorded conversation</h2>
+            <span class="demo-section-meta" id="demo-history-status" role="status">Loading history…</span>
+          </div>
+          <p class="demo-section-description" id="demo-history-description">Read the requests, decisions, and responses in the selected project. Search the original conversation to find a topic.</p>
+          <label class="demo-search" for="demo-history-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+            <span class="demo-visually-hidden">Search the recorded conversation</span>
+            <input id="demo-history-search" type="search" placeholder="Search the original conversation…" autocomplete="off" />
+          </label>
+        </section>
+
+        <div id="chat-log" role="log" aria-live="polite"></div>
+
+        <form class="composer" id="chat-form" hidden aria-hidden="true">
+          <section id="plan-approval" class="plan-approval" hidden aria-live="polite">
+            <div class="plan-approval-copy">
+              <strong id="plan-approval-title"></strong>
+              <span id="plan-approval-meta"></span>
+            </div>
+            <div class="plan-approval-actions">
+              <button type="button" id="plan-request-changes-btn" class="plan-request-changes-btn"></button>
+              <button type="button" id="plan-approve-btn" class="plan-approve-btn"></button>
+            </div>
+          </section>
+          <div class="composer-input">
+            <div id="slash-menu" class="slash-menu" hidden role="listbox" aria-label="Slash commands"></div>
+            <div class="input-row">
+              <textarea
+                id="user-input"
+                rows="1"
+                aria-autocomplete="list"
+                aria-controls="slash-menu"
+                aria-expanded="false"
+              ></textarea>
+              <button id="stop-btn" type="button" hidden>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
+                </svg>
+              </button>
+              <button id="send-btn" type="submit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 2L11 13"></path>
+                  <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p class="hint">
+            <span id="hint-prefix"></span><code id="hint-endpoint"></code><span id="hint-project-prefix"></span><code id="project-id-hint"></code><span id="hint-thread-prefix"></span><code id="thread-id"></code>
+          </p>
+        </form>
+        <div class="composer-spacer" aria-hidden="true"></div>
+      </main>
+    </div>
+
+    <aside class="file-preview-panel" id="file-preview-panel" hidden aria-label="File preview">
+      <div
+        class="panel-resizer panel-resizer-preview"
+        id="preview-resizer"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize preview panel"
+        tabindex="0"
+      ></div>
+      <div class="file-preview-header">
+        <code id="file-preview-name" class="file-preview-name"></code>
+        <span id="file-preview-badge" class="file-preview-badge" hidden></span>
+        <a id="file-preview-download" class="file-preview-download" href="#" download></a>
+        <button type="button" id="file-preview-close" class="file-preview-close"></button>
+      </div>
+      <pre id="file-preview-content" class="file-preview-content"></pre>
+    </aside>
+  </div>
+
+  <footer>
+    <span id="footer-text"></span>
+  </footer>
+
+  <div id="project-modal" class="project-modal" hidden>
+    <div class="project-modal-backdrop" id="project-modal-backdrop"></div>
+    <div class="project-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+      <div class="project-modal-header">
+        <h3 id="project-modal-title"></h3>
+        <button type="button" id="project-modal-close" class="project-modal-close" aria-label="Close"></button>
+      </div>
+      <p class="project-modal-hint" id="project-modal-hint"></p>
+      <ul id="project-list" class="project-list"></ul>
+      <div class="project-modal-actions">
+        <button type="button" id="project-new-btn" class="project-new-btn" hidden></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="image-modal" class="image-modal" hidden>
+    <div class="image-modal-backdrop" id="image-modal-backdrop"></div>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-label="Image preview">
+      <div class="image-modal-header">
+        <code id="image-modal-name" class="image-modal-name"></code>
+        <div class="image-modal-tools">
+          <button type="button" id="image-zoom-out" class="image-modal-btn" title="Zoom out" aria-label="Zoom out">−</button>
+          <span id="image-zoom-level" class="image-zoom-level">100%</span>
+          <button type="button" id="image-zoom-in" class="image-modal-btn" title="Zoom in" aria-label="Zoom in">+</button>
+          <button type="button" id="image-zoom-reset" class="image-modal-btn" title="Reset zoom">Reset</button>
+          <a id="image-modal-download" class="image-modal-btn" href="#" download title="Download">↓</a>
+          <button type="button" id="image-modal-close" class="image-modal-btn image-modal-close" title="Close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="image-modal-stage" id="image-modal-stage">
+        <img id="image-modal-img" alt="" draggable="false" />
+      </div>
+    </div>
+  </div>
+
+  <script defer src="assets/vendor/marked.min.js"></script>
+  <script defer src="assets/vendor/purify.min.js"></script>
+  <script defer src="assets/vendor/katex.min.js"></script>
+  <script defer src="assets/vendor/highlight.min.js"></script>
+  <script type="module" src="assets/js/app.js?v=26"></script>
+</body>
+</html>

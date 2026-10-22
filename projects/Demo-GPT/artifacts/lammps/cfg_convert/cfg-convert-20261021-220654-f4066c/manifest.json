@@ -1,0 +1,2123 @@
+{
+  "files": [
+    {
+      "artifact_id": "30cbb38b-283e-521d-b373-8eb115014a58",
+      "created_at": "2026-10-21T22:06:54+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "a64d27d97296d53e1a152a42a2dc0e8de0a60bad72c25889f5c9c8cc1ee119f6"
+      },
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 40480
+    },
+    {
+      "artifact_id": "cfc7661b-555e-5377-9073-4fbd2ac446f9",
+      "created_at": "2026-10-21T22:06:55+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+          "frame": {
+            "actual_shear_strain": 0.0,
+            "bottom_shear_stress_mpa": -12.1052210278582,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "-x",
+            "loading_half_cycle": 1,
+            "relative_shear_strain": -0.017500000000000016,
+            "relative_target_shear_strain": -0.0175,
+            "sigma_xx_mpa": -25.02252854594975,
+            "sigma_xy_mpa": 12.1052210278582,
+            "sigma_xz_mpa": 0.7634988797857798,
+            "sigma_yy_mpa": 80.95556362935271,
+            "sigma_yz_mpa": 0.0008211296203003445,
+            "sigma_zz_mpa": 19.03232572062387,
+            "step": 70,
+            "step_in_loading_half_cycle": 70,
+            "strain": 0.0,
+            "target_shear_strain": 1.3877787807814457e-17,
+            "top_shear_stress_mpa": 12.1052210278582
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 0,
+        "sha256": "b67ed21605784ba25e415291e88de21b89782b4d259ed13a4fbf46d0a95b74f6",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+        "source_sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/000_gb_shear_step_0070.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756635
+    },
+    {
+      "artifact_id": "b70c29ac-cb23-54ea-bad4-14833243bacf",
+      "created_at": "2026-10-21T22:06:56+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "736921db-55fe-5f55-adc0-6f7d3fc1d44c",
+          "frame": {
+            "actual_shear_strain": 0.0017500000000000085,
+            "bottom_shear_stress_mpa": -4.652145493653098,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.015750000000000007,
+            "relative_target_shear_strain": -0.01575,
+            "sigma_xx_mpa": -27.527127830781705,
+            "sigma_xy_mpa": 4.652145493653098,
+            "sigma_xz_mpa": 0.7318110241775464,
+            "sigma_yy_mpa": 79.87469155985467,
+            "sigma_yz_mpa": -2.6387624664916886e-05,
+            "sigma_zz_mpa": 20.8336393419513,
+            "step": 77,
+            "step_in_loading_half_cycle": 7,
+            "strain": 0.0017500000000000085,
+            "target_shear_strain": 0.0017500000000000154,
+            "top_shear_stress_mpa": 4.652145493653098
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0077.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "cd5c93e00ccab97b0437068ba788b0e81ff6f245f520b6fe3113657019e646ac",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 1,
+        "sha256": "bb8dd8337aab3b13cb27cc35cea8b84360584b4c23a316789c8bec0932720273",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "736921db-55fe-5f55-adc0-6f7d3fc1d44c",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0077.cfg",
+        "source_sha256": "cd5c93e00ccab97b0437068ba788b0e81ff6f245f520b6fe3113657019e646ac",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/001_gb_shear_step_0077.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756269
+    },
+    {
+      "artifact_id": "f8c04c57-0884-56ad-88b2-e3c45e45dd0b",
+      "created_at": "2026-10-21T22:06:58+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "acdb29e2-9d24-5519-995e-15885e3cda47",
+          "frame": {
+            "actual_shear_strain": 0.002499999999999997,
+            "bottom_shear_stress_mpa": 5.023616010094836,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.015000000000000019,
+            "relative_target_shear_strain": -0.015000000000000001,
+            "sigma_xx_mpa": -30.904875848491837,
+            "sigma_xy_mpa": -5.023616010094836,
+            "sigma_xz_mpa": -0.6583280250246669,
+            "sigma_yy_mpa": 78.44961169428075,
+            "sigma_yz_mpa": 3.9857919054253255e-05,
+            "sigma_zz_mpa": 23.176992280253486,
+            "step": 80,
+            "step_in_loading_half_cycle": 10,
+            "strain": 0.002499999999999997,
+            "target_shear_strain": 0.0025000000000000144,
+            "top_shear_stress_mpa": -5.023616010094836
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0080.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "2cce247d99fbf6ed795f911b80426be28101e1eac80a7e1c9de458618fb3844e",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 2,
+        "sha256": "d6caafcbcdc7f2aff9f10a563aeb18f486e44bb3a27ac26195f4657d4c84d526",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "acdb29e2-9d24-5519-995e-15885e3cda47",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0080.cfg",
+        "source_sha256": "2cce247d99fbf6ed795f911b80426be28101e1eac80a7e1c9de458618fb3844e",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/002_gb_shear_step_0080.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756432
+    },
+    {
+      "artifact_id": "1f16feaa-9012-52c6-a086-05c295251259",
+      "created_at": "2026-10-21T22:06:59+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "e0ae7a38-d4da-517b-9654-f2a190ddad80",
+          "frame": {
+            "actual_shear_strain": 0.003499999999999996,
+            "bottom_shear_stress_mpa": 2.9776676563095927,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.01400000000000002,
+            "relative_target_shear_strain": -0.014000000000000002,
+            "sigma_xx_mpa": -30.17968980829905,
+            "sigma_xy_mpa": -2.9776676563095927,
+            "sigma_xz_mpa": 0.6769828432237991,
+            "sigma_yy_mpa": 78.7529918327922,
+            "sigma_yz_mpa": -4.0428669030843116e-05,
+            "sigma_zz_mpa": 22.680912470505707,
+            "step": 84,
+            "step_in_loading_half_cycle": 14,
+            "strain": 0.003499999999999996,
+            "target_shear_strain": 0.0035000000000000135,
+            "top_shear_stress_mpa": -2.9776676563095927
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0084.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "b6c3dab77c8e8223931f973f1e6719fcae2e4fdefa51802abfe4aed82c7609a8",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 3,
+        "sha256": "7eb1f7cbeb594cc25d27dec9d35c11608f39a11eb54359618c46c106b53b46e7",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "e0ae7a38-d4da-517b-9654-f2a190ddad80",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0084.cfg",
+        "source_sha256": "b6c3dab77c8e8223931f973f1e6719fcae2e4fdefa51802abfe4aed82c7609a8",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/003_gb_shear_step_0084.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756213
+    },
+    {
+      "artifact_id": "a9a1c236-8246-5c9a-9077-9d9fa31c9ab4",
+      "created_at": "2026-10-21T22:07:00+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "8c3dc28a-2380-545a-8aca-c3854b96bc6c",
+          "frame": {
+            "actual_shear_strain": 0.004499999999999999,
+            "bottom_shear_stress_mpa": 0.9190323872612706,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.013000000000000017,
+            "relative_target_shear_strain": -0.013000000000000001,
+            "sigma_xx_mpa": -29.455966002686154,
+            "sigma_xy_mpa": -0.9190323872612706,
+            "sigma_xz_mpa": -0.6939553450654506,
+            "sigma_yy_mpa": 79.05738216485699,
+            "sigma_yz_mpa": 1.9863161283430018e-05,
+            "sigma_zz_mpa": 22.182138718580035,
+            "step": 88,
+            "step_in_loading_half_cycle": 18,
+            "strain": 0.004499999999999999,
+            "target_shear_strain": 0.004500000000000014,
+            "top_shear_stress_mpa": -0.9190323872612706
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0088.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "a0cf21e560aec685e0cf3dcf181eb2281a4d7dd5e42592f63c9b8a3262799fd7",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 4,
+        "sha256": "09ce84ebd88090a6d1e99800eef7b9e8b550d2614be5b960b5a89839bf33cc0a",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "8c3dc28a-2380-545a-8aca-c3854b96bc6c",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0088.cfg",
+        "source_sha256": "a0cf21e560aec685e0cf3dcf181eb2281a4d7dd5e42592f63c9b8a3262799fd7",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/004_gb_shear_step_0088.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756389
+    },
+    {
+      "artifact_id": "0cb6a4d2-a7a9-51d6-a72c-e812ebbbb373",
+      "created_at": "2026-10-21T22:07:01+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "c9b27c28-df9a-579a-8705-5b3ae3477a4a",
+          "frame": {
+            "actual_shear_strain": 0.005500000000000005,
+            "bottom_shear_stress_mpa": -1.1461256626025194,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.01200000000000001,
+            "relative_target_shear_strain": -0.012000000000000002,
+            "sigma_xx_mpa": -28.73564988971132,
+            "sigma_xy_mpa": 1.1461256626025194,
+            "sigma_xz_mpa": 0.7093501492332984,
+            "sigma_yy_mpa": 79.36161474580604,
+            "sigma_yz_mpa": 8.203296993942513e-05,
+            "sigma_zz_mpa": 21.681887387930264,
+            "step": 92,
+            "step_in_loading_half_cycle": 22,
+            "strain": 0.005500000000000005,
+            "target_shear_strain": 0.0055000000000000136,
+            "top_shear_stress_mpa": 1.1461256626025194
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0092.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "5b37bbd31fe4c99349c6b331556f67946b70fa6d97cf3f976f253f2fe49dc9e3",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 5,
+        "sha256": "23993809f910a6becb2e3210f92118259fa10f9e551d2f2d06780bc421c6843a",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "c9b27c28-df9a-579a-8705-5b3ae3477a4a",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0092.cfg",
+        "source_sha256": "5b37bbd31fe4c99349c6b331556f67946b70fa6d97cf3f976f253f2fe49dc9e3",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/005_gb_shear_step_0092.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756332
+    },
+    {
+      "artifact_id": "c6d91e44-d10d-580e-86bb-1b391cf0cc8e",
+      "created_at": "2026-10-21T22:07:02+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "e559dba9-dff9-506a-a1c4-ccf68584a6cd",
+          "frame": {
+            "actual_shear_strain": 0.006500000000000023,
+            "bottom_shear_stress_mpa": -3.212026624820308,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.010999999999999992,
+            "relative_target_shear_strain": -0.011000000000000001,
+            "sigma_xx_mpa": -28.021387420221995,
+            "sigma_xy_mpa": 3.212026624820308,
+            "sigma_xz_mpa": -0.723104347068353,
+            "sigma_yy_mpa": 79.66442987740972,
+            "sigma_yz_mpa": 4.490181356405641e-05,
+            "sigma_zz_mpa": 21.182012437102877,
+            "step": 96,
+            "step_in_loading_half_cycle": 26,
+            "strain": 0.006500000000000023,
+            "target_shear_strain": 0.0065000000000000144,
+            "top_shear_stress_mpa": 3.212026624820308
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0096.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "720b3aecba6d4d6569cadc50d289b77f46361d9f9843ca3466f8b70e5bd5fd7c",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 6,
+        "sha256": "e99bd4970a933e1a2762ccb67dbbf14cb883093ce6d02440738193f3ca7bac7f",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "e559dba9-dff9-506a-a1c4-ccf68584a6cd",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0096.cfg",
+        "source_sha256": "720b3aecba6d4d6569cadc50d289b77f46361d9f9843ca3466f8b70e5bd5fd7c",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/006_gb_shear_step_0096.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756215
+    },
+    {
+      "artifact_id": "7351fc2e-3a67-58c2-bcae-b3ae9bea929b",
+      "created_at": "2026-10-21T22:07:03+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "fef03739-b50f-5f5f-9e69-e6327dbddd4b",
+          "frame": {
+            "actual_shear_strain": 0.0075000000000000275,
+            "bottom_shear_stress_mpa": -5.271542902407936,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.009999999999999988,
+            "relative_target_shear_strain": -0.010000000000000002,
+            "sigma_xx_mpa": -27.315460594852453,
+            "sigma_xy_mpa": 5.271542902407936,
+            "sigma_xz_mpa": 0.7353095274831131,
+            "sigma_yy_mpa": 79.96497941128914,
+            "sigma_yz_mpa": -4.487516952104554e-06,
+            "sigma_zz_mpa": 20.683830607990963,
+            "step": 100,
+            "step_in_loading_half_cycle": 30,
+            "strain": 0.0075000000000000275,
+            "target_shear_strain": 0.007500000000000014,
+            "top_shear_stress_mpa": 5.271542902407936
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0100.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "b511a56da9ab174b9a2b462ce94dbcd1028f9314c10216b668d8a59ff31e4e09",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 7,
+        "sha256": "52b7b2bf7091b9c57e5d71d20b8f6577facf17d88beb3a3c33fa566bd42c4d51",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "fef03739-b50f-5f5f-9e69-e6327dbddd4b",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0100.cfg",
+        "source_sha256": "b511a56da9ab174b9a2b462ce94dbcd1028f9314c10216b668d8a59ff31e4e09",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/007_gb_shear_step_0100.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756119
+    },
+    {
+      "artifact_id": "29d8d8b9-edbf-51b6-973e-98dcf0c64085",
+      "created_at": "2026-10-21T22:07:05+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "362dd501-5584-57ae-8cb1-3a7f4b1da213",
+          "frame": {
+            "actual_shear_strain": 0.008249999999999995,
+            "bottom_shear_stress_mpa": 4.408682509043169,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.00925000000000002,
+            "relative_target_shear_strain": -0.009250000000000001,
+            "sigma_xx_mpa": -30.686205481601988,
+            "sigma_xy_mpa": -4.408682509043169,
+            "sigma_xz_mpa": -0.6641277398748182,
+            "sigma_yy_mpa": 78.54078168688098,
+            "sigma_yz_mpa": 5.439461800287263e-05,
+            "sigma_zz_mpa": 23.027739562699935,
+            "step": 103,
+            "step_in_loading_half_cycle": 33,
+            "strain": 0.008249999999999995,
+            "target_shear_strain": 0.008250000000000014,
+            "top_shear_stress_mpa": -4.408682509043169
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0103.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "bf9bce8e767f17b09fd3c2ad24503cfe1513139d5c8f7d02a056363e76f60c27",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 8,
+        "sha256": "1ddf3289fd43bd615d2dafa3a500614ae3c435d0b0d74f22c444e53486d73f6a",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "362dd501-5584-57ae-8cb1-3a7f4b1da213",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0103.cfg",
+        "source_sha256": "bf9bce8e767f17b09fd3c2ad24503cfe1513139d5c8f7d02a056363e76f60c27",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/008_gb_shear_step_0103.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756557
+    },
+    {
+      "artifact_id": "3c91cff4-ba2a-5d2d-ae78-6c4ef4dbc546",
+      "created_at": "2026-10-21T22:07:06+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "7faccca0-6e62-51f8-8fef-4365f8412d0d",
+          "frame": {
+            "actual_shear_strain": 0.009250000000000012,
+            "bottom_shear_stress_mpa": 2.3583890416035826,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.008250000000000004,
+            "relative_target_shear_strain": -0.008250000000000002,
+            "sigma_xx_mpa": -29.96137154516281,
+            "sigma_xy_mpa": -2.3583890416035826,
+            "sigma_xz_mpa": 0.6822623263038416,
+            "sigma_yy_mpa": 78.84467793252536,
+            "sigma_yz_mpa": -3.1692987127725305e-05,
+            "sigma_zz_mpa": 22.530842712598144,
+            "step": 107,
+            "step_in_loading_half_cycle": 37,
+            "strain": 0.009250000000000012,
+            "target_shear_strain": 0.009250000000000013,
+            "top_shear_stress_mpa": -2.3583890416035826
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0107.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "b11d26b2160862c38faeb58aa9a1031e7075b77023f369b0f889141547bc91ac",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 9,
+        "sha256": "b3abc6fd1f84cb69ad6b2305303d6dd1f0e1ce8b17aecea7b2b8f44e540acd26",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "7faccca0-6e62-51f8-8fef-4365f8412d0d",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0107.cfg",
+        "source_sha256": "b11d26b2160862c38faeb58aa9a1031e7075b77023f369b0f889141547bc91ac",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/009_gb_shear_step_0107.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756403
+    },
+    {
+      "artifact_id": "91cbfebe-781b-5bf5-9218-44ae744dfd0e",
+      "created_at": "2026-10-21T22:07:08+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "fe342479-8c1e-5761-8336-e5de5dcdbfce",
+          "frame": {
+            "actual_shear_strain": 0.010250000000000009,
+            "bottom_shear_stress_mpa": 0.2971700101869515,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.0072500000000000064,
+            "relative_target_shear_strain": -0.007250000000000001,
+            "sigma_xx_mpa": -29.23843618114289,
+            "sigma_xy_mpa": -0.2971700101869515,
+            "sigma_xz_mpa": -0.6987671210951365,
+            "sigma_yy_mpa": 79.14916749828943,
+            "sigma_yz_mpa": -4.766702027478418e-05,
+            "sigma_zz_mpa": 22.031421585648953,
+            "step": 111,
+            "step_in_loading_half_cycle": 41,
+            "strain": 0.010250000000000009,
+            "target_shear_strain": 0.010250000000000014,
+            "top_shear_stress_mpa": -0.2971700101869515
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0111.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "17864913150cff2025e3bce5cff4412329a8fa0359076ecd7b21c40f7138608a",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 10,
+        "sha256": "190e6e25893a31a9856bf1fdcf5a610055570b75ade899f21e8b4ec47700daa1",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "fe342479-8c1e-5761-8336-e5de5dcdbfce",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0111.cfg",
+        "source_sha256": "17864913150cff2025e3bce5cff4412329a8fa0359076ecd7b21c40f7138608a",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/010_gb_shear_step_0111.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756279
+    },
+    {
+      "artifact_id": "ea7f7cd6-6a2c-5594-ada4-6d2d0402f22a",
+      "created_at": "2026-10-21T22:07:08+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "9c6574f6-2104-5020-b4ad-d54d1b9dc0ab",
+          "frame": {
+            "actual_shear_strain": 0.01125,
+            "bottom_shear_stress_mpa": -1.7690428193335508,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.006250000000000015,
+            "relative_target_shear_strain": -0.006250000000000002,
+            "sigma_xx_mpa": -28.519610328457244,
+            "sigma_xy_mpa": 1.7690428193335508,
+            "sigma_xz_mpa": 0.7137117455917336,
+            "sigma_yy_mpa": 79.45303799307221,
+            "sigma_yz_mpa": -1.531148859272986e-05,
+            "sigma_zz_mpa": 21.531098335035114,
+            "step": 115,
+            "step_in_loading_half_cycle": 45,
+            "strain": 0.01125,
+            "target_shear_strain": 0.011250000000000013,
+            "top_shear_stress_mpa": 1.7690428193335508
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0115.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "4bfaf7908d160f2110f37596b174cbfd26f478587739428b24331a3a506cb2b9",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 11,
+        "sha256": "0028852b1b9a4aa79b1d316332cfaf3148a193ba68ba7f16c1a3406fef3f2d90",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "9c6574f6-2104-5020-b4ad-d54d1b9dc0ab",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0115.cfg",
+        "source_sha256": "4bfaf7908d160f2110f37596b174cbfd26f478587739428b24331a3a506cb2b9",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/011_gb_shear_step_0115.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756192
+    },
+    {
+      "artifact_id": "5593c9aa-38a7-58fa-976a-081437378e1f",
+      "created_at": "2026-10-21T22:07:10+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "1d13f81e-e544-5c6a-888e-a44e734a4521",
+          "frame": {
+            "actual_shear_strain": 0.012250000000000004,
+            "bottom_shear_stress_mpa": -3.833798985121501,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.005250000000000011,
+            "relative_target_shear_strain": -0.005250000000000001,
+            "sigma_xx_mpa": -27.807639328390785,
+            "sigma_xy_mpa": 3.833798985121501,
+            "sigma_xz_mpa": -0.7269634405862103,
+            "sigma_yy_mpa": 79.75526016960903,
+            "sigma_yz_mpa": 4.5577460977157685e-05,
+            "sigma_zz_mpa": 21.031593613689964,
+            "step": 119,
+            "step_in_loading_half_cycle": 49,
+            "strain": 0.012250000000000004,
+            "target_shear_strain": 0.012250000000000014,
+            "top_shear_stress_mpa": 3.833798985121501
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0119.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "2c2c18bbe6342bf3c88c114373f537e6974061bcd0c62f51a594e7e14b7b747c",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 12,
+        "sha256": "cb002ba147f7fcd5f8b5f26a659d69891cb6518f89a6c7fc8787aebded93565a",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "1d13f81e-e544-5c6a-888e-a44e734a4521",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0119.cfg",
+        "source_sha256": "2c2c18bbe6342bf3c88c114373f537e6974061bcd0c62f51a594e7e14b7b747c",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/012_gb_shear_step_0119.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756166
+    },
+    {
+      "artifact_id": "255b5331-5421-5c38-8e4e-bd803c8b57ad",
+      "created_at": "2026-10-21T22:07:11+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "a7811451-169c-5fb3-be59-86ad2d889f49",
+          "frame": {
+            "actual_shear_strain": 0.013000000000000012,
+            "bottom_shear_stress_mpa": 5.831343586336057,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.004500000000000003,
+            "relative_target_shear_strain": -0.0045000000000000005,
+            "sigma_xx_mpa": -31.192800603206702,
+            "sigma_xy_mpa": -5.831343586336057,
+            "sigma_xz_mpa": 0.6504264045299544,
+            "sigma_yy_mpa": 78.32965361965005,
+            "sigma_yz_mpa": -4.738875818703569e-05,
+            "sigma_zz_mpa": 23.372910613439036,
+            "step": 122,
+            "step_in_loading_half_cycle": 52,
+            "strain": 0.013000000000000012,
+            "target_shear_strain": 0.013000000000000015,
+            "top_shear_stress_mpa": -5.831343586336057
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0122.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "7355785fef32f6049e1d6ee0f281178432e6e5e988c8c8416812c50ee21939a9",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 13,
+        "sha256": "4d918eb7bef5311a3f8447e7f02b4bf1759d54534b48f629336533c31e7ec235",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "a7811451-169c-5fb3-be59-86ad2d889f49",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0122.cfg",
+        "source_sha256": "7355785fef32f6049e1d6ee0f281178432e6e5e988c8c8416812c50ee21939a9",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/013_gb_shear_step_0122.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756463
+    },
+    {
+      "artifact_id": "63a9245e-4ec7-5e08-a42e-648e1f5c8802",
+      "created_at": "2026-10-21T22:07:12+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "55c48761-63d9-5104-8d9d-1af9985d0d8f",
+          "frame": {
+            "actual_shear_strain": 0.014000000000000009,
+            "bottom_shear_stress_mpa": 3.79237811510815,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.003500000000000007,
+            "relative_target_shear_strain": -0.0035000000000000014,
+            "sigma_xx_mpa": -30.46769180042678,
+            "sigma_xy_mpa": -3.79237811510815,
+            "sigma_xz_mpa": -0.6697837214706147,
+            "sigma_yy_mpa": 78.63224687985632,
+            "sigma_yz_mpa": 4.918361977712072e-05,
+            "sigma_zz_mpa": 22.87833886378567,
+            "step": 126,
+            "step_in_loading_half_cycle": 56,
+            "strain": 0.014000000000000009,
+            "target_shear_strain": 0.014000000000000014,
+            "top_shear_stress_mpa": -3.79237811510815
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0126.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "5867ef3c91947d42117fc648d01d81727d8de5bcad1e0bcc46b0a94bc1f1c3f8",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 14,
+        "sha256": "fe550ef6d6772c3d95fee10ab06279a2bffdfb10f7a01de5a51428011e7c8690",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "55c48761-63d9-5104-8d9d-1af9985d0d8f",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0126.cfg",
+        "source_sha256": "5867ef3c91947d42117fc648d01d81727d8de5bcad1e0bcc46b0a94bc1f1c3f8",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/014_gb_shear_step_0126.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 755956
+    },
+    {
+      "artifact_id": "1f5b0b1d-8d9c-5c37-ae39-dddc90283217",
+      "created_at": "2026-10-21T22:07:13+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "5f88337a-9882-524a-884f-489ee2992886",
+          "frame": {
+            "actual_shear_strain": 0.015000000000000013,
+            "bottom_shear_stress_mpa": 1.7378347387767328,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.0025000000000000027,
+            "relative_target_shear_strain": -0.0025000000000000022,
+            "sigma_xx_mpa": -29.74316076487422,
+            "sigma_xy_mpa": -1.7378347387767328,
+            "sigma_xz_mpa": 0.6873978457670857,
+            "sigma_yy_mpa": 78.93637870000647,
+            "sigma_yz_mpa": -2.615422191627565e-05,
+            "sigma_zz_mpa": 22.38047846164496,
+            "step": 130,
+            "step_in_loading_half_cycle": 60,
+            "strain": 0.015000000000000013,
+            "target_shear_strain": 0.015000000000000013,
+            "top_shear_stress_mpa": -1.7378347387767328
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0130.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "177da69547df169e8362445cfa9f0c86255377191f6c04f3821dcf8326e3a180",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 15,
+        "sha256": "9a70cb73f0537861b4b6ee56013cbb4529e0bfd5380d80bd65ff2cacd5311148",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "5f88337a-9882-524a-884f-489ee2992886",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0130.cfg",
+        "source_sha256": "177da69547df169e8362445cfa9f0c86255377191f6c04f3821dcf8326e3a180",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/015_gb_shear_step_0130.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756127
+    },
+    {
+      "artifact_id": "73e0c9a8-182f-5c2e-bc06-19db3f561e9e",
+      "created_at": "2026-10-21T22:07:14+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "5591fac9-b9bb-5229-903b-2e5713976f49",
+          "frame": {
+            "actual_shear_strain": 0.016000000000000007,
+            "bottom_shear_stress_mpa": -0.3252473212956231,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.0015000000000000068,
+            "relative_target_shear_strain": -0.0015000000000000013,
+            "sigma_xx_mpa": -29.02130223841588,
+            "sigma_xy_mpa": 0.3252473212956231,
+            "sigma_xz_mpa": -0.7034329830876229,
+            "sigma_yy_mpa": 79.24084427880904,
+            "sigma_yz_mpa": -4.332739765553372e-05,
+            "sigma_zz_mpa": 21.880698074457758,
+            "step": 134,
+            "step_in_loading_half_cycle": 64,
+            "strain": 0.016000000000000007,
+            "target_shear_strain": 0.016000000000000014,
+            "top_shear_stress_mpa": 0.3252473212956231
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0134.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "15fdea00a552fe10f102b927af29dfb5924a764ceb6f119c8471b54fff8dfdd2",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 16,
+        "sha256": "ddf78da5e1f821b76eb00e8588cae6618cad114183c3d389169f12957c772fdb",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "5591fac9-b9bb-5229-903b-2e5713976f49",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0134.cfg",
+        "source_sha256": "15fdea00a552fe10f102b927af29dfb5924a764ceb6f119c8471b54fff8dfdd2",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/016_gb_shear_step_0134.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756247
+    },
+    {
+      "artifact_id": "6d3ec4a5-d24c-5162-83a0-2074fdaea086",
+      "created_at": "2026-10-21T22:07:15+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "atom_types": 2,
+        "atoms": 11052,
+        "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+        "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+        "cell_source": "source_lammps_data",
+        "coordinate_origin": "source_lammps_box",
+        "origin": {
+          "artifact_id": "2fbd2522-6b2d-50ea-9832-ca156d76344b",
+          "frame": {
+            "actual_shear_strain": 0.017,
+            "bottom_shear_stress_mpa": -2.3918255351739472,
+            "converged": true,
+            "increment_stage": "initial",
+            "loading_cycle": 1,
+            "loading_direction": "x",
+            "loading_half_cycle": 2,
+            "relative_shear_strain": -0.0005000000000000153,
+            "relative_target_shear_strain": -0.0005000000000000004,
+            "sigma_xx_mpa": -28.304166011363684,
+            "sigma_xy_mpa": 2.3918255351739472,
+            "sigma_xz_mpa": 0.7179610152029597,
+            "sigma_yy_mpa": 79.54425454660907,
+            "sigma_yz_mpa": -0.0002585800307746591,
+            "sigma_zz_mpa": 21.380356719056035,
+            "step": 138,
+            "step_in_loading_half_cycle": 68,
+            "strain": 0.017,
+            "target_shear_strain": 0.017000000000000015,
+            "top_shear_stress_mpa": 2.3918255351739472
+          },
+          "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0138.cfg",
+          "run_id": "shear-20261021-211934-d84742",
+          "sha256": "aec9cfc223e9be8369af68e28ca5314a66021942cb711ca9a12750e1ecb12944",
+          "workflow": "gb_shear"
+        },
+        "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+        "restricted_cell_angstrom": {
+          "geometric_center": [
+            0.0,
+            0.4463731028487956,
+            0.0
+          ],
+          "lx": 38.74350875828372,
+          "ly": 248.4870778412964,
+          "lz": 14.929771900901663,
+          "origin": [
+            -19.37175437914186,
+            -123.79716581779941,
+            -7.464885950450832
+          ],
+          "xy": 0.0,
+          "xz": 0.0,
+          "yz": 0.0
+        },
+        "sequence": 17,
+        "sha256": "85c78442d1a19e4db27fd7c19bd2af9153f402c3770f74a8ce26aca6ee46fca8",
+        "source_cell_angstrom": [
+          [
+            38.74350875828372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            248.4870778412964,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            14.929771900901663
+          ]
+        ],
+        "source_cfg_artifact_id": "2fbd2522-6b2d-50ea-9832-ca156d76344b",
+        "source_project_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0138.cfg",
+        "source_sha256": "aec9cfc223e9be8369af68e28ca5314a66021942cb711ca9a12750e1ecb12944",
+        "type_map": [
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 1
+          },
+          {
+            "cfg_label": "Ni",
+            "mass": 58.6934,
+            "type": 2
+          }
+        ],
+        "type_reference": null,
+        "type_source": "cfg_type_column"
+      },
+      "path": "converted/017_gb_shear_step_0138.lmp",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "converted_lmp",
+      "size_bytes": 756528
+    },
+    {
+      "artifact_id": "b3b65d2c-1d88-5922-abed-c0607e554006",
+      "created_at": "2026-10-21T22:07:16+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "convert_cfg_to_lammps",
+        "sha256": "1782fca2e48d6b085a75e5c755c44a7b47cbe0b5b92347b8e038e71493257a6a"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 159251
+    }
+  ],
+  "run_id": "cfg-convert-20261021-220654-f4066c",
+  "workflow": "cfg_convert",
+  "pruned_from_demo": [
+    {
+      "path": "sources/000_gb_shear_step_0070.cfg",
+      "artifact_id": "d5d3dc34-7191-5ec3-adf6-367908fdef9c",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 806456,
+      "original_sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8",
+      "replacement_artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/000_gb_shear_step_0070.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/001_gb_shear_step_0077.cfg",
+      "artifact_id": "c426da0a-cc61-5ce1-b6f4-294c6b707692",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805811,
+      "original_sha256": "cd5c93e00ccab97b0437068ba788b0e81ff6f245f520b6fe3113657019e646ac",
+      "replacement_artifact_id": "736921db-55fe-5f55-adc0-6f7d3fc1d44c",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0077.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/001_gb_shear_step_0077.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/002_gb_shear_step_0080.cfg",
+      "artifact_id": "82a8377b-eef1-51e0-a01a-01ee89022ef8",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805921,
+      "original_sha256": "2cce247d99fbf6ed795f911b80426be28101e1eac80a7e1c9de458618fb3844e",
+      "replacement_artifact_id": "acdb29e2-9d24-5519-995e-15885e3cda47",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0080.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/002_gb_shear_step_0080.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/003_gb_shear_step_0084.cfg",
+      "artifact_id": "bf2c344b-79d3-5262-80c4-c15cf9f227be",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805866,
+      "original_sha256": "b6c3dab77c8e8223931f973f1e6719fcae2e4fdefa51802abfe4aed82c7609a8",
+      "replacement_artifact_id": "e0ae7a38-d4da-517b-9654-f2a190ddad80",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0084.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/003_gb_shear_step_0084.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/004_gb_shear_step_0088.cfg",
+      "artifact_id": "281d6521-726c-5c97-9eb7-77ced31565dd",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805523,
+      "original_sha256": "a0cf21e560aec685e0cf3dcf181eb2281a4d7dd5e42592f63c9b8a3262799fd7",
+      "replacement_artifact_id": "8c3dc28a-2380-545a-8aca-c3854b96bc6c",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0088.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/004_gb_shear_step_0088.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/005_gb_shear_step_0092.cfg",
+      "artifact_id": "9d3dccf8-4e1c-5d8f-b35c-8ee550c2b17f",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805820,
+      "original_sha256": "5b37bbd31fe4c99349c6b331556f67946b70fa6d97cf3f976f253f2fe49dc9e3",
+      "replacement_artifact_id": "c9b27c28-df9a-579a-8705-5b3ae3477a4a",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0092.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/005_gb_shear_step_0092.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/006_gb_shear_step_0096.cfg",
+      "artifact_id": "f532458f-7da1-5835-8295-b8a2ee84e270",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805635,
+      "original_sha256": "720b3aecba6d4d6569cadc50d289b77f46361d9f9843ca3466f8b70e5bd5fd7c",
+      "replacement_artifact_id": "e559dba9-dff9-506a-a1c4-ccf68584a6cd",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0096.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/006_gb_shear_step_0096.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/007_gb_shear_step_0100.cfg",
+      "artifact_id": "05cc427c-2d95-5136-a367-0b1bf07c769d",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805535,
+      "original_sha256": "b511a56da9ab174b9a2b462ce94dbcd1028f9314c10216b668d8a59ff31e4e09",
+      "replacement_artifact_id": "fef03739-b50f-5f5f-9e69-e6327dbddd4b",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0100.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/007_gb_shear_step_0100.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/008_gb_shear_step_0103.cfg",
+      "artifact_id": "4800969e-0d24-5e3d-83e2-b9deaf338ed8",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805764,
+      "original_sha256": "bf9bce8e767f17b09fd3c2ad24503cfe1513139d5c8f7d02a056363e76f60c27",
+      "replacement_artifact_id": "362dd501-5584-57ae-8cb1-3a7f4b1da213",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0103.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/008_gb_shear_step_0103.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/009_gb_shear_step_0107.cfg",
+      "artifact_id": "e0298582-d483-5dfd-bc96-bd1c5ffa4a00",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 806184,
+      "original_sha256": "b11d26b2160862c38faeb58aa9a1031e7075b77023f369b0f889141547bc91ac",
+      "replacement_artifact_id": "7faccca0-6e62-51f8-8fef-4365f8412d0d",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0107.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/009_gb_shear_step_0107.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/010_gb_shear_step_0111.cfg",
+      "artifact_id": "a1985877-251e-508c-a5a6-7d2e545d4b1a",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 806253,
+      "original_sha256": "17864913150cff2025e3bce5cff4412329a8fa0359076ecd7b21c40f7138608a",
+      "replacement_artifact_id": "fe342479-8c1e-5761-8336-e5de5dcdbfce",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0111.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/010_gb_shear_step_0111.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/011_gb_shear_step_0115.cfg",
+      "artifact_id": "edf3f045-7eb3-5f0a-a90c-33944946c80d",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805790,
+      "original_sha256": "4bfaf7908d160f2110f37596b174cbfd26f478587739428b24331a3a506cb2b9",
+      "replacement_artifact_id": "9c6574f6-2104-5020-b4ad-d54d1b9dc0ab",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0115.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/011_gb_shear_step_0115.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/012_gb_shear_step_0119.cfg",
+      "artifact_id": "ee450ac4-dc6d-58f0-a2a2-c4e98b931ff7",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805766,
+      "original_sha256": "2c2c18bbe6342bf3c88c114373f537e6974061bcd0c62f51a594e7e14b7b747c",
+      "replacement_artifact_id": "1d13f81e-e544-5c6a-888e-a44e734a4521",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0119.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/012_gb_shear_step_0119.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/013_gb_shear_step_0122.cfg",
+      "artifact_id": "bb39327c-dcf2-541b-a6af-d7d57243f3cc",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805515,
+      "original_sha256": "7355785fef32f6049e1d6ee0f281178432e6e5e988c8c8416812c50ee21939a9",
+      "replacement_artifact_id": "a7811451-169c-5fb3-be59-86ad2d889f49",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0122.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/013_gb_shear_step_0122.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/014_gb_shear_step_0126.cfg",
+      "artifact_id": "632101a3-423b-55fc-98c0-c9465e5c2838",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805776,
+      "original_sha256": "5867ef3c91947d42117fc648d01d81727d8de5bcad1e0bcc46b0a94bc1f1c3f8",
+      "replacement_artifact_id": "55c48761-63d9-5104-8d9d-1af9985d0d8f",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0126.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/014_gb_shear_step_0126.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/015_gb_shear_step_0130.cfg",
+      "artifact_id": "0fa133cb-d233-5e27-b65d-cce596cbfcda",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805647,
+      "original_sha256": "177da69547df169e8362445cfa9f0c86255377191f6c04f3821dcf8326e3a180",
+      "replacement_artifact_id": "5f88337a-9882-524a-884f-489ee2992886",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0130.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/015_gb_shear_step_0130.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/016_gb_shear_step_0134.cfg",
+      "artifact_id": "a4ebbc37-4531-56cf-be4c-37aaaa0a5dcf",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805425,
+      "original_sha256": "15fdea00a552fe10f102b927af29dfb5924a764ceb6f119c8471b54fff8dfdd2",
+      "replacement_artifact_id": "5591fac9-b9bb-5229-903b-2e5713976f49",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0134.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/016_gb_shear_step_0134.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    },
+    {
+      "path": "sources/017_gb_shear_step_0138.cfg",
+      "artifact_id": "86a5f822-153e-5f85-b557-fe506b160ddf",
+      "run_id": "cfg-convert-20261021-220654-f4066c",
+      "role": "source_cfg",
+      "kind": "duplicate_source_input",
+      "original_size_bytes": 805733,
+      "original_sha256": "aec9cfc223e9be8369af68e28ca5314a66021942cb711ca9a12750e1ecb12944",
+      "replacement_artifact_id": "2fbd2522-6b2d-50ea-9832-ca156d76344b",
+      "replacement_path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0138.cfg",
+      "replacement_run_id": "shear-20261021-211934-d84742",
+      "project_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/sources/017_gb_shear_step_0138.cfg",
+      "reason": "Byte-identical duplicate; canonical source retained."
+    }
+  ]
+}

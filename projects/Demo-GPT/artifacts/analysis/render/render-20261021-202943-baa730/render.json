@@ -1,0 +1,94 @@
+{
+  "analysis_mode": "CNA",
+  "camera": {
+    "crop_box": [
+      1706,
+      45,
+      2133,
+      2116
+    ],
+    "crop_margin_pixels": 50,
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "image_size": [
+      427,
+      2071
+    ],
+    "projection": "xy",
+    "rendered_image_size": [
+      3840,
+      2160
+    ]
+  },
+  "displacement": null,
+  "dxa_lattice": "fcc",
+  "hide_structure_types": [],
+  "origin": {
+    "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+    "run_id": "minimize-20261021-202820-718597",
+    "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+    "workflow": "gb_minimize"
+  },
+  "outputs": {
+    "data": "render.json",
+    "render": "render.png"
+  },
+  "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) minimized boundary structure and seam in XY; image alone does not validate seam.",
+  "render_kind": "atomic_structure",
+  "rendered_particle_count": 11052,
+  "source": {
+    "cell": [
+      [
+        38.74350875828372,
+        0.0,
+        0.0,
+        -19.37175437914186
+      ],
+      [
+        0.0,
+        248.4870778412964,
+        0.0,
+        -124.2435389206482
+      ],
+      [
+        0.0,
+        0.0,
+        14.929771900901663,
+        -7.464885950450832
+      ]
+    ],
+    "effective_pbc": [
+      true,
+      true,
+      true
+    ],
+    "imported_pbc": [
+      true,
+      true,
+      true
+    ],
+    "particle_count": 11052,
+    "path": "projects/Demo-GPT/artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+    "pbc_source": "OVITO_import",
+    "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419"
+  },
+  "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+  "source_artifact_role": "minimized_cfg",
+  "source_run_id": "minimize-20261021-202820-718597",
+  "source_step": null,
+  "status": "completed",
+  "structure_source": {
+    "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+    "run_id": "minimize-20261021-202820-718597",
+    "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+    "workflow": "gb_minimize"
+  },
+  "warnings": []
+}

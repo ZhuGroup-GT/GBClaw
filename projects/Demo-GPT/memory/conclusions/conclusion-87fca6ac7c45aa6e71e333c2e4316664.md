@@ -1,0 +1,403 @@
+{
+  "status": "ok",
+  "summary": "Exact 11052-ID three-frame MIC translations confirm alternating relative Z and nearly pure-X net 77→84. Fixed z0=0 mirrors give verified full Ni/side-preserving bijections but 0.618383574 Å RMS mismatch dominated by Z; translated unreflected net control RMS 0.020322449 Å. Prior method reproduced; masks, sensitivity, additivity, signed coefficients and residuals published.",
+  "data": {
+    "run": {
+      "run_id": "code-20261021-231633-f084af",
+      "workflow": "code",
+      "status": "completed",
+      "manifest": "artifacts/code/code-20261021-231633-f084af/manifest.json",
+      "full_output": {
+        "tool": "query_project_memory",
+        "entity": "runs",
+        "run_id": "code-20261021-231633-f084af"
+      },
+      "artifact_roles": [
+        "config",
+        "measurement_script",
+        "memory_facts",
+        "source_input",
+        "two_drop_report",
+        "two_drop_shift_data"
+      ],
+      "conclusion_lookup_key": "run:code-20261021-231633-f084af:main_conclusion",
+      "result": {
+        "summary": "Exact 11052-ID three-frame MIC translations confirm alternating relative Z and nearly pure-X net 77→84. Fixed z0=0 mirrors give verified full Ni/side-preserving bijections but 0.618383574 Å RMS mismatch dominated by Z; translated unreflected net control RMS 0.020322449 Å. Prior method reproduced; masks, sensitivity, additivity, signed coefficients and residuals published.",
+        "memory_fact_refs": [
+          {
+            "source_run_id": "code-20261021-231633-f084af",
+            "fact_id": "d1488ba1-6b0f-57ac-92e2-f8683c37f642",
+            "kind": "scientific_conclusion",
+            "lookup_key": "run:code-20261021-231633-f084af:main_conclusion"
+          }
+        ],
+        "conclusion_lookup_key": "run:code-20261021-231633-f084af:main_conclusion",
+        "conclusion_fact_id": "d1488ba1-6b0f-57ac-92e2-f8683c37f642",
+        "memory_publication": {
+          "status": "completed",
+          "artifact_id": "e1af0729-c619-5683-8c49-37e4261b1e00",
+          "attempts": 1,
+          "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+          "contract_version": 1,
+          "format": "fact_batch",
+          "memory_tool": "publish_coding_result",
+          "path": "artifacts/code/code-20261021-231633-f084af/memory_facts.json",
+          "sha256": "e9621ab946ae9ebd4e4dda32f3d76fe86e9a0d772e14860c93cac0d156d0ff83"
+        },
+        "memory_result_ref": {
+          "run_id": "code-20261021-231633-f084af",
+          "workflow": "code",
+          "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+          "contract_version": 1,
+          "manifest_path": "artifacts/code/code-20261021-231633-f084af/manifest.json",
+          "memory_tool": "publish_coding_result",
+          "project_root": "projects/Demo-GPT",
+          "publication_mode": "facts",
+          "result_location": "runs.result_json"
+        },
+        "published_artifacts": [
+          {
+            "run_id": "code-20261021-231633-f084af",
+            "artifact_id": "e30b73c8-5b98-5d58-b634-74f516d73da8",
+            "created_at": "2026-10-21T23:21:21+00:00",
+            "media_type": "application/json",
+            "metadata": {
+              "description": "Signed pair and common-mask three-frame statistics, full/half coefficients, sensitivity/additivity, full bijective periodic mirror/control diagnostics",
+              "sha256": "cd838d377e862b64c7b0a73832555caa1f1c78602574b3a03bf52da3b456136c"
+            },
+            "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.json",
+            "provenance_class": "derived",
+            "role": "two_drop_shift_data",
+            "size_bytes": 120879
+          },
+          {
+            "run_id": "code-20261021-231633-f084af",
+            "artifact_id": "cc687851-d5f1-5bb8-a8bb-fa56eb1a9f7b",
+            "created_at": "2026-10-21T23:21:21+00:00",
+            "media_type": "text/markdown",
+            "metadata": {
+              "description": "Tables and interpretation with explicit transverse residuals and fixed-origin mirror limitation",
+              "sha256": "030539e31617c6538a07304080c97f443f768e6c125bf1e05e4d62b66f245e2e"
+            },
+            "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_report.md",
+            "provenance_class": "derived",
+            "role": "two_drop_report",
+            "size_bytes": 9496
+          },
+          {
+            "run_id": "code-20261021-231633-f084af",
+            "artifact_id": "c5115b15-2a29-5f97-9f2f-0f41befe9e32",
+            "created_at": "2026-10-21T23:21:21+00:00",
+            "media_type": "text/x-python",
+            "metadata": {
+              "description": "Reproducible prior-method-derived OVITO CNA/MIC measurement and bounded geometry matching, with consistency checks",
+              "sha256": "4a2be60788482976d86a86f7621e0d962c8ad32503ac0e5751f3ced829ca22aa"
+            },
+            "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.py",
+            "provenance_class": "derived",
+            "role": "measurement_script",
+            "size_bytes": 17950
+          }
+        ],
+        "sandbox": {
+          "command_count": 19,
+          "external_network": "disabled",
+          "network_namespace": "no_sockets",
+          "resource_allocation": {
+            "compute_slots": 4,
+            "mpi_enabled": false,
+            "mpi_ranks": 1,
+            "total_compute_slots": 36
+          },
+          "resource_enforcement": {
+            "cpu_seconds_observed": 54.47,
+            "fallback_reason": "No delegated cgroup root configured; using sampled process-tree limits",
+            "kernel_tree_limits": false,
+            "mode": "proc_monitor",
+            "peak_memory_bytes_observed": 125878272,
+            "peak_tasks_observed": 11,
+            "rss_shared_pages_may_be_counted_multiple_times": true,
+            "sample_interval_seconds": 0.25,
+            "short_lived_processes_may_escape_sampling": true
+          },
+          "runtime_environment": {
+            "available": true,
+            "capabilities": [],
+            "description": "Current service Python environment for plotting and general post-processing.",
+            "fingerprint": "02ef2c42bd278b6c87892daa7ea3f5d25accd72a9e2bf48d7f82bdf19ded0384",
+            "name": "current",
+            "packages": {
+              "matplotlib": "3.11.0",
+              "numpy": "2.5.0",
+              "ovito": "3.15.5",
+              "pandas": "3.0.3",
+              "pillow": "12.2.0"
+            }
+          },
+          "workspace_retention": "destroyed_after_worker"
+        },
+        "validation": {
+          "commands": [
+            {
+              "command": "OMP_NUM_THREADS=4 python /workspace/two_drop_shift.py",
+              "exit_code": 0,
+              "output": "{\"net\": {\"mean\": {\"xyz_A\": [0.3913484654949389, 6.815030129181893e-07, -2.2641199745812848e-07], \"transverse_yz_norm_A\": 7.181286439138528e-07, \"full_a_1m21_coefficient_c\": 0.04538844943578548, \"half_a_1m21_coefficient_2c\": 0.09077689887157096}, \"median\": {\"xyz_A\": [0.3913484159782215, -2.658812547906479e-08, -2.69835473076796e-07], \"transverse_yz_norm_A\": 2.711422337944954e-07, \"full_a_1m21_coefficient_c\": 0.04538844369285502, \"half_a_1m21_coefficient_2c\": 0.09077688738571003}}, \"mirrors\": {\"77->80\": {\"RMS\": 0.6183835744227716, \"x\": 10.739571291600235, \"bijection\": true}, \"80->84\": {\"RMS\": 0.6183835743562441, \"x\": 10.766875856686909, \"bijection\": true}}, \"control_RMS\": 0.02032244894263042}\n … [full text in full_output; 750 characters]",
+              "truncated": false
+            },
+            {
+              "command": "python -m py_compile /workspace/two_drop_shift.py",
+              "exit_code": 0,
+              "output": "",
+              "truncated": false
+            },
+            {
+              "command": "python -c \"import json,pathlib; d=json.loads(pathlib.Path('/workspace/two_drop_shift.json').read_text()); assert set(d['pairs'])=={'77->80','80->84','77->84'}; assert d['matched_unique_ID_count']==11052; assert all(v['full_bijection_verified'] for v in d['mirror_tests'].values()); assert d['unreflected_77_to_84_control']['full_bijection_verified']; assert pathlib.Path('/workspace/two_drop_report.md').stat().st_size>0; assert abs(d['coefficient_summary']['mean']['full_a_1m21_coefficient_c']*d['coefficient_denominator_A']-d['coefficient_summary']['mean']['xyz_A'][0])<1e-14\"",
+              "exit_code": 0,
+              "output": "",
+              "truncated": false
+            }
+          ],
+          "format_checks": [
+            {
+              "checks": [
+                "nonempty",
+                "json"
+              ],
+              "path": "two_drop_shift.json"
+            },
+            {
+              "checks": [
+                "nonempty"
+              ],
+              "path": "two_drop_report.md"
+            },
+            {
+              "checks": [
+                "nonempty",
+                "python_syntax"
+              ],
+              "path": "two_drop_shift.py"
+            }
+          ],
+          "output_contract_passed": true,
+          "passed": true,
+          "scientific_checks_applied": false
+        }
+      }
+    },
+    "completion_check": {
+      "outcome": "completed",
+      "verified_run_ids": [
+        "code-20261021-231633-f084af"
+      ],
+      "missing_artifact_roles": [],
+      "failures": [],
+      "deliverables": []
+    },
+    "runs": [
+      {
+        "run_id": "code-20261021-231633-f084af",
+        "workflow": "code",
+        "status": "completed",
+        "manifest": "artifacts/code/code-20261021-231633-f084af/manifest.json",
+        "full_output": {
+          "tool": "query_project_memory",
+          "entity": "runs",
+          "run_id": "code-20261021-231633-f084af"
+        },
+        "artifact_roles": [
+          "config",
+          "measurement_script",
+          "memory_facts",
+          "source_input",
+          "two_drop_report",
+          "two_drop_shift_data"
+        ],
+        "conclusion_lookup_key": "run:code-20261021-231633-f084af:main_conclusion",
+        "result": {
+          "summary": "Exact 11052-ID three-frame MIC translations confirm alternating relative Z and nearly pure-X net 77→84. Fixed z0=0 mirrors give verified full Ni/side-preserving bijections but 0.618383574 Å RMS mismatch dominated by Z; translated unreflected net control RMS 0.020322449 Å. Prior method reproduced; masks, sensitivity, additivity, signed coefficients and residuals published.",
+          "memory_fact_refs": [
+            {
+              "source_run_id": "code-20261021-231633-f084af",
+              "fact_id": "d1488ba1-6b0f-57ac-92e2-f8683c37f642",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:code-20261021-231633-f084af:main_conclusion"
+            }
+          ],
+          "conclusion_lookup_key": "run:code-20261021-231633-f084af:main_conclusion",
+          "conclusion_fact_id": "d1488ba1-6b0f-57ac-92e2-f8683c37f642",
+          "memory_publication": {
+            "status": "completed",
+            "artifact_id": "e1af0729-c619-5683-8c49-37e4261b1e00",
+            "attempts": 1,
+            "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+            "contract_version": 1,
+            "format": "fact_batch",
+            "memory_tool": "publish_coding_result",
+            "path": "artifacts/code/code-20261021-231633-f084af/memory_facts.json",
+            "sha256": "e9621ab946ae9ebd4e4dda32f3d76fe86e9a0d772e14860c93cac0d156d0ff83"
+          },
+          "memory_result_ref": {
+            "run_id": "code-20261021-231633-f084af",
+            "workflow": "code",
+            "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+            "contract_version": 1,
+            "manifest_path": "artifacts/code/code-20261021-231633-f084af/manifest.json",
+            "memory_tool": "publish_coding_result",
+            "project_root": "projects/Demo-GPT",
+            "publication_mode": "facts",
+            "result_location": "runs.result_json"
+          },
+          "published_artifacts": [
+            {
+              "run_id": "code-20261021-231633-f084af",
+              "artifact_id": "e30b73c8-5b98-5d58-b634-74f516d73da8",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "application/json",
+              "metadata": {
+                "description": "Signed pair and common-mask three-frame statistics, full/half coefficients, sensitivity/additivity, full bijective periodic mirror/control diagnostics",
+                "sha256": "cd838d377e862b64c7b0a73832555caa1f1c78602574b3a03bf52da3b456136c"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.json",
+              "provenance_class": "derived",
+              "role": "two_drop_shift_data",
+              "size_bytes": 120879
+            },
+            {
+              "run_id": "code-20261021-231633-f084af",
+              "artifact_id": "cc687851-d5f1-5bb8-a8bb-fa56eb1a9f7b",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "text/markdown",
+              "metadata": {
+                "description": "Tables and interpretation with explicit transverse residuals and fixed-origin mirror limitation",
+                "sha256": "030539e31617c6538a07304080c97f443f768e6c125bf1e05e4d62b66f245e2e"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_report.md",
+              "provenance_class": "derived",
+              "role": "two_drop_report",
+              "size_bytes": 9496
+            },
+            {
+              "run_id": "code-20261021-231633-f084af",
+              "artifact_id": "c5115b15-2a29-5f97-9f2f-0f41befe9e32",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "text/x-python",
+              "metadata": {
+                "description": "Reproducible prior-method-derived OVITO CNA/MIC measurement and bounded geometry matching, with consistency checks",
+                "sha256": "4a2be60788482976d86a86f7621e0d962c8ad32503ac0e5751f3ced829ca22aa"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.py",
+              "provenance_class": "derived",
+              "role": "measurement_script",
+              "size_bytes": 17950
+            }
+          ],
+          "sandbox": {
+            "command_count": 19,
+            "external_network": "disabled",
+            "network_namespace": "no_sockets",
+            "resource_allocation": {
+              "compute_slots": 4,
+              "mpi_enabled": false,
+              "mpi_ranks": 1,
+              "total_compute_slots": 36
+            },
+            "resource_enforcement": {
+              "cpu_seconds_observed": 54.47,
+              "fallback_reason": "No delegated cgroup root configured; using sampled process-tree limits",
+              "kernel_tree_limits": false,
+              "mode": "proc_monitor",
+              "peak_memory_bytes_observed": 125878272,
+              "peak_tasks_observed": 11,
+              "rss_shared_pages_may_be_counted_multiple_times": true,
+              "sample_interval_seconds": 0.25,
+              "short_lived_processes_may_escape_sampling": true
+            },
+            "runtime_environment": {
+              "available": true,
+              "capabilities": [],
+              "description": "Current service Python environment for plotting and general post-processing.",
+              "fingerprint": "02ef2c42bd278b6c87892daa7ea3f5d25accd72a9e2bf48d7f82bdf19ded0384",
+              "name": "current",
+              "packages": {
+                "matplotlib": "3.11.0",
+                "numpy": "2.5.0",
+                "ovito": "3.15.5",
+                "pandas": "3.0.3",
+                "pillow": "12.2.0"
+              }
+            },
+            "workspace_retention": "destroyed_after_worker"
+          },
+          "validation": {
+            "commands": [
+              {
+                "command": "OMP_NUM_THREADS=4 python /workspace/two_drop_shift.py",
+                "exit_code": 0,
+                "output": "{\"net\": {\"mean\": {\"xyz_A\": [0.3913484654949389, 6.815030129181893e-07, -2.2641199745812848e-07], \"transverse_yz_norm_A\": 7.181286439138528e-07, \"full_a_1m21_coefficient_c\": 0.04538844943578548, \"half_a_1m21_coefficient_2c\": 0.09077689887157096}, \"median\": {\"xyz_A\": [0.3913484159782215, -2.658812547906479e-08, -2.69835473076796e-07], \"transverse_yz_norm_A\": 2.711422337944954e-07, \"full_a_1m21_coefficient_c\": 0.04538844369285502, \"half_a_1m21_coefficient_2c\": 0.09077688738571003}}, \"mirrors\": {\"77->80\": {\"RMS\": 0.6183835744227716, \"x\": 10.739571291600235, \"bijection\": true}, \"80->84\": {\"RMS\": 0.6183835743562441, \"x\": 10.766875856686909, \"bijection\": true}}, \"control_RMS\": 0.02032244894263042}\n … [full text in full_output; 750 characters]",
+                "truncated": false
+              },
+              {
+                "command": "python -m py_compile /workspace/two_drop_shift.py",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              },
+              {
+                "command": "python -c \"import json,pathlib; d=json.loads(pathlib.Path('/workspace/two_drop_shift.json').read_text()); assert set(d['pairs'])=={'77->80','80->84','77->84'}; assert d['matched_unique_ID_count']==11052; assert all(v['full_bijection_verified'] for v in d['mirror_tests'].values()); assert d['unreflected_77_to_84_control']['full_bijection_verified']; assert pathlib.Path('/workspace/two_drop_report.md').stat().st_size>0; assert abs(d['coefficient_summary']['mean']['full_a_1m21_coefficient_c']*d['coefficient_denominator_A']-d['coefficient_summary']['mean']['xyz_A'][0])<1e-14\"",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              }
+            ],
+            "format_checks": [
+              {
+                "checks": [
+                  "nonempty",
+                  "json"
+                ],
+                "path": "two_drop_shift.json"
+              },
+              {
+                "checks": [
+                  "nonempty"
+                ],
+                "path": "two_drop_report.md"
+              },
+              {
+                "checks": [
+                  "nonempty",
+                  "python_syntax"
+                ],
+                "path": "two_drop_shift.py"
+              }
+            ],
+            "output_contract_passed": true,
+            "passed": true,
+            "scientific_checks_applied": false
+          }
+        }
+      }
+    ]
+  },
+  "artifacts": [
+    "artifacts/code/code-20261021-231633-f084af/manifest.json"
+  ],
+  "error": null,
+  "worker_outcome": {
+    "schema_version": 1,
+    "status": "completed",
+    "summary": "Exact 11052-ID three-frame MIC translations confirm alternating relative Z and nearly pure-X net 77→84. Fixed z0=0 mirrors give verified full Ni/side-preserving bijections but 0.618383574 Å RMS mismatch dominated by Z; translated unreflected net control RMS 0.020322449 Å. Prior method reproduced; masks, sensitivity, additivity, signed coefficients and residuals published.",
+    "evidence_refs": [
+      {
+        "kind": "run",
+        "id": "code-20261021-231633-f084af"
+      },
+      {
+        "kind": "fact",
+        "id": "run:code-20261021-231633-f084af:main_conclusion"
+      }
+    ],
+    "next_action": ""
+  }
+}

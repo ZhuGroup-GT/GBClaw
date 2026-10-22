@@ -1,0 +1,15 @@
+# Local editor and agent state
+/.agents/
+/.aws/
+/.codex/
+
+# Transient caches; scientific ptm_cache and runtime/tool_outputs are retained.
+__pycache__/
+*.py[cod]
+.cache/
+.mpl_cache/
+
+# Runtime locks and SQLite sidecars are excluded from the static showcase.
+*.lock
+*.sqlite-wal
+*.sqlite-shm

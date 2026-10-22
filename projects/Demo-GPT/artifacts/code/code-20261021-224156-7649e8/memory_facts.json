@@ -1,0 +1,174 @@
+{
+  "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+  "contract_version": 1,
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-21T22:41:57+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "d8ae8b97-10a1-59e4-bf24-84aeb4ee0f69",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:code-20261021-224156-7649e8:main_conclusion",
+        "source_run_id": "code-20261021-224156-7649e8",
+        "source_turn_id": null,
+        "source_type": "tool_result",
+        "status": "active",
+        "updated_at": "2026-10-21T22:41:57+00:00",
+        "value": {
+          "config_path": "artifacts/code/code-20261021-224156-7649e8/input.json",
+          "expected_outputs": [
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "grain_shift.json",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            },
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "grain_shift_report.md",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            },
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "grain_shift.py",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            }
+          ],
+          "manifest": "artifacts/code/code-20261021-224156-7649e8/manifest.json",
+          "published_artifacts": [
+            {
+              "artifact_id": "47d576b8-1f7f-5c4c-a2d7-bd8817c3d390",
+              "created_at": "2026-10-21T22:43:22+00:00",
+              "media_type": "application/json",
+              "metadata": {
+                "description": "ID/cell/hash validation, grain statistics and sensitivity, cubic transforms and FCC translation tests",
+                "sha256": "8ee7b4db19e77584a165cf982b91d71ecea99e8e7e8f529ffbe473286b97f1bb"
+              },
+              "path": "artifacts/code/code-20261021-224156-7649e8/published/grain_shift.json",
+              "provenance_class": "derived",
+              "role": "grain_shift_data",
+              "run_id": "code-20261021-224156-7649e8",
+              "size_bytes": 25387
+            },
+            {
+              "artifact_id": "22f1f211-7302-5e82-b2c3-edea6ba9066d",
+              "created_at": "2026-10-21T22:43:22+00:00",
+              "media_type": "text/markdown",
+              "metadata": {
+                "description": "Readable numerical tables, method, uncertainty and physical limitations",
+                "sha256": "c610a2a3ebe70aec8310849e27588f0913d82758cac400b58a53100ace54aa73"
+              },
+              "path": "artifacts/code/code-20261021-224156-7649e8/published/grain_shift_report.md",
+              "provenance_class": "derived",
+              "role": "grain_shift_report",
+              "run_id": "code-20261021-224156-7649e8",
+              "size_bytes": 7020
+            },
+            {
+              "artifact_id": "080a4774-b03b-5357-99c9-39740aeb4808",
+              "created_at": "2026-10-21T22:43:22+00:00",
+              "media_type": "text/x-python",
+              "metadata": {
+                "description": "Reproducible OVITO/numpy measurement with deterministic scientific assertions",
+                "sha256": "eeb2fe31987713212a1062e9d612b15fa0e319bc0df56d86fd55f4f78f29194c"
+              },
+              "path": "artifacts/code/code-20261021-224156-7649e8/published/grain_shift.py",
+              "provenance_class": "derived",
+              "role": "measurement_script",
+              "run_id": "code-20261021-224156-7649e8",
+              "size_bytes": 11815
+            }
+          ],
+          "run_id": "code-20261021-224156-7649e8",
+          "source_fingerprint": null,
+          "source_run_id": null,
+          "sources": [
+            {
+              "metadata": {
+                "artifact_id": "fd34ba28-3de8-564e-a353-cf4c8e57cfbb",
+                "path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/001_gb_shear_step_0077_minimized.cfg",
+                "role": "minimized_cfg"
+              },
+              "ordinal": 0,
+              "relation": "code_input",
+              "source_fingerprint": "1ae35958e3e21ad9f7519f9dc2a78e7519b40276212ee440fc24931874b724d1",
+              "source_run_id": "structure-minimize-20261021-220732-c86c47"
+            },
+            {
+              "metadata": {
+                "artifact_id": "278a3369-5c91-5e52-b400-374a947d39d5",
+                "path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/002_gb_shear_step_0080_minimized.cfg",
+                "role": "minimized_cfg"
+              },
+              "ordinal": 1,
+              "relation": "code_input",
+              "source_fingerprint": "60862ef89b28be07bf4cae161f25e283c5540e8c885f935df76c111069a8d7b8",
+              "source_run_id": "structure-minimize-20261021-220732-c86c47"
+            }
+          ],
+          "summary": "Measured exact relaxed 77-to-80 relative grain translation using 11052 matched IDs and source-cell all-axis MIC. 20 Å FCC interiors yield top-minus-bottom (+0.195673781,+0.000000643,+0.061142988) Å, XZ norm 0.205004130 Å; exclusion sensitivity below 1e-7 Å for mean. Includes signed distribution statistics, residuals, cubic coefficients and FCC translation residual tests.",
+          "task": "Small custom measurement not supported Analysis: quantify relative grain shift for consecutive all-free relaxed postdrop frames reference original77 current80. Parse exact staged CFGs using available ovito/numpy (no ASE available). Match unique Particle Identifier validate11052IDs same cells. Compute current-reference minimum-image with source periodic cell all axes, no alignment/affine/drift subtraction. Current Y-normal GB y=-0.700778484 A, top positiveY plane(110),bottom negativeY plane(111); derive occupied grain Y extents and define reproducible far-field masks excluding >=20A from GB and >=20A from occupied outer Y surfaces (not box boundaries vacuum). Use reference Y masks and same IDs, crystalline interior; if use CNA record. Sensitivity repeat exclusions10,20,30A or central grain bands to verify robust. Report top/bottom count signed xyz mean/median std/MAD/p10p90, top-minus-bottom mean and median xyz,XZ norm with uncertainties/sensitivity; residual displacement after subtract each grain mean to distinguish collective translations vs local distortions. Validate global/slab magnitudes reproduce known all median.134172max.372205A approximately. Need actual relative shift numerical not infer from arrow. Full orientation topx[001]y[110]z[-1,1,0];bottomx[1,-2,1]y[111]z[-1,0,1],FCCa0=3.52A. Transform measured shift from simulation xyz to EACH grain local cubic coords via normalized basis columns to express in a[uvw] coefficients (do not round to integer Burgers vector). Test nearest FCC translation for each using integer/half integer cubic lattice sum rule, report distance residual, but relative shift needn't be either grain lattice vector/DSC; do not claim dislocation. Equal energy not same coordinates, arbitrary common translation removed only by relative top-bottom difference. Publish compact JSON and readable report/table + script. No new rendering required existing plan view render-20261021-224107-c440c3. Both inputs structure-minimize-20261021-220732-c86c47 minimized_cfg exact artifacts as supplied,not constrained shearframes.",
+          "validation": {
+            "commands": [
+              {
+                "command": "python /workspace/grain_shift.py > /tmp/grain_shift_validation.txt",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              },
+              {
+                "command": "python -m py_compile /workspace/grain_shift.py",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              },
+              {
+                "command": "python -c \"import json,pathlib; p=pathlib.Path('/workspace'); d=json.loads((p/'grain_shift.json').read_text()); assert d['matched_unique_ID_count']==11052; assert d['validation']['slab']['count']==174; assert all((p/f).stat().st_size>0 for f in ['grain_shift.json','grain_shift_report.md','grain_shift.py']); assert d['sensitivity']['mean']['max_vector_difference_from_20A_A']<1e-7\"",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              }
+            ],
+            "format_checks": [
+              {
+                "checks": [
+                  "nonempty",
+                  "json"
+                ],
+                "path": "grain_shift.json"
+              },
+              {
+                "checks": [
+                  "nonempty"
+                ],
+                "path": "grain_shift_report.md"
+              },
+              {
+                "checks": [
+                  "nonempty",
+                  "python_syntax"
+                ],
+                "path": "grain_shift.py"
+              }
+            ],
+            "output_contract_passed": true,
+            "passed": true,
+            "scientific_checks_applied": false
+          },
+          "workflow": "code"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "publish_coding_result"
+}

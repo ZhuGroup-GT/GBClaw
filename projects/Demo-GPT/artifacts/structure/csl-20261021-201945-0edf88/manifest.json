@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "artifact_id": "32003833-f9a5-5843-a8b4-0999c705c062",
+      "created_at": "2026-10-21T20:19:49+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "axis_is_family": true,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane1_is_family": true,
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane2_is_family": true
+        },
+        "input_fingerprint": "6ada50e9d667a5ea8fccf56f57bd8a061de713497d39260657db9a990f9b476f",
+        "sequence": 1,
+        "sha256": "c7f7d049d4177a0d62f154b605004f8121a50db0f310b8df0d03585684dd6818",
+        "tool": "analyze_tilt_geometry"
+      },
+      "path": "results/01_analyze_tilt_geometry.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 3483
+    },
+    {
+      "artifact_id": "50c17c6a-aa3f-5cf4-bd6e-494b9ead4f1c",
+      "created_at": "2026-10-21T20:19:54+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "axis": [
+            1,
+            1,
+            0
+          ],
+          "axis_is_family": true,
+          "plane1": [
+            1,
+            1,
+            0
+          ],
+          "plane1_is_family": false,
+          "plane2": [
+            1,
+            1,
+            1
+          ],
+          "plane2_is_family": false
+        },
+        "input_fingerprint": "ea13c29cbd469ff651f72f4fd524a98f2bf49d7eae6d51ec5216dae942349a2d",
+        "sequence": 2,
+        "sha256": "e56a914fbbd2f423c2d22522943aeaca32fb94f427e35d3d204481c57b3b45d1",
+        "tool": "analyze_tilt_geometry"
+      },
+      "path": "results/02_analyze_tilt_geometry.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 3571
+    },
+    {
+      "artifact_id": "97a3d36a-28c8-5fde-8ac8-cbe989db77bc",
+      "created_at": "2026-10-21T20:20:09+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "csl",
+        "sha256": "9a8779571edd1e74d8a3f7dee411beac582dae25b3e430743e1df8fdc5bba453"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 158
+    }
+  ],
+  "run_id": "csl-20261021-201945-0edf88",
+  "workflow": "csl"
+}

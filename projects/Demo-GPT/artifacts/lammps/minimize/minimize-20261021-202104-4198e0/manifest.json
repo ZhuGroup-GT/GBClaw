@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "artifact_id": "52f14c62-ba53-5d7c-8dbc-8ea57efa85b7",
+      "created_at": "2026-10-21T20:21:04+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "d6aefb402d5c04c496ed22c43ea1288e59dbc948c208d26ecd846a8cb3794b49"
+      },
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 1239
+    },
+    {
+      "artifact_id": "b64808eb-d250-58ed-ad14-6778f7d30eca",
+      "created_at": "2026-10-21T20:22:20+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "0a3e024b3380049ec00d074de9bead5bf1d3e2fa733771a55c1b873e0d8018d7"
+      },
+      "path": "launcher.stdout.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stdout",
+      "size_bytes": 29863
+    },
+    {
+      "artifact_id": "6c7c8444-d77a-541d-b5d9-1faa067f80a6",
+      "created_at": "2026-10-21T20:22:20+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "launcher.stderr.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stderr",
+      "size_bytes": 0
+    },
+    {
+      "artifact_id": "ae85bf55-3c83-5f1d-9f95-1257332e1af3",
+      "created_at": "2026-10-21T20:22:20+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "1afd1bf4175adf5d25c506b32a6c1915b7702c706b984a1cee4b6c1a14484723"
+      },
+      "path": "log.lammps",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "log",
+      "size_bytes": 32165
+    },
+    {
+      "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+      "created_at": "2026-10-21T20:22:21+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735"
+      },
+      "path": "gb_minimized.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_cfg",
+      "size_bytes": 4186353
+    },
+    {
+      "artifact_id": "91e3638a-f5f5-5c89-bb31-706a98e52072",
+      "created_at": "2026-10-21T20:22:21+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "sha256": "0792130a4c748085ac8e2e08c22d23a2b4420a0e8ea358e052c374ac8c322f17"
+      },
+      "path": "gb_minimized.lmp",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_lmp",
+      "size_bytes": 4672652
+    },
+    {
+      "artifact_id": "cbd92030-ad67-5af9-bf97-9f5b03de56bc",
+      "created_at": "2026-10-21T20:22:21+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "5995879478e7be4d24229c2286811813a77fa82121010d189bdee52ea4bf53ff"
+      },
+      "path": "top_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "top_boundary_ids",
+      "size_bytes": 6054
+    },
+    {
+      "artifact_id": "0920b038-e83e-5715-af68-8c29fef29937",
+      "created_at": "2026-10-21T20:22:21+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "e70e42c49e165450843c6ab4fdbd3688c1290fba9f134601f7815565c3334619"
+      },
+      "path": "bot_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "bottom_boundary_ids",
+      "size_bytes": 6129
+    },
+    {
+      "artifact_id": "67dc4cc5-abce-533a-9e84-b58db6a6e180",
+      "created_at": "2026-10-21T20:22:21+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "eb0ab0a820c4c15382c1a560f31b80eaa003dc03b83fa8efb43405c3d3befcd8"
+      },
+      "path": "minimize_run.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "run_metadata",
+      "size_bytes": 6053
+    },
+    {
+      "artifact_id": "4e0382cb-c4bb-5766-bca8-53c179269a0d",
+      "created_at": "2026-10-21T20:22:22+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "run_gb_minimize",
+        "sha256": "e48972acea17d9d1ccdc60858ce18e76903a440cd1e1307868784da9aff786ca"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 8024
+    }
+  ],
+  "run_id": "minimize-20261021-202104-4198e0",
+  "workflow": "gb_minimize",
+  "pruned_from_demo": [
+    {
+      "path": "gb_minimize.cfg",
+      "artifact_id": "666d4d86-71cf-5eaf-af78-4d66feef55fe",
+      "run_id": "minimize-20261021-202104-4198e0",
+      "role": "initial_cfg",
+      "kind": "initial_structure",
+      "original_size_bytes": 4130127,
+      "original_sha256": "c1858505a3077a21f0e31fceba9bbbed76547ba031fbc37859eb53a46bcd7d37",
+      "replacement_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+      "replacement_path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+      "replacement_run_id": "minimize-20261021-202104-4198e0",
+      "project_path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimize.cfg",
+      "reason": "Intermediate structure or trajectory omitted; final structure and recorded analysis retained."
+    },
+    {
+      "path": "gb_minimize.lammpstrj",
+      "artifact_id": "6df63e6e-ad01-539d-99cf-59fb1266688d",
+      "run_id": "minimize-20261021-202104-4198e0",
+      "role": "trajectory",
+      "kind": "intermediate_trajectory",
+      "original_size_bytes": 97242693,
+      "original_sha256": "e689ea3b1bf64af587d846d0715cdc7f65b2ca753e300b6953a385c79180dd61",
+      "replacement_artifact_id": "91e3638a-f5f5-5c89-bb31-706a98e52072",
+      "replacement_path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.lmp",
+      "replacement_run_id": "minimize-20261021-202104-4198e0",
+      "project_path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimize.lammpstrj",
+      "reason": "Intermediate structure or trajectory omitted; final structure and recorded analysis retained."
+    }
+  ]
+}

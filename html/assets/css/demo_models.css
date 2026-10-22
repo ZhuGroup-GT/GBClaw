@@ -1,0 +1,20 @@
+.demo-models { margin: 1.2rem 0 1.1rem; }
+.demo-models > h3 { margin: 0 0 0.6rem; color: var(--text-soft); font-size: 0.78rem; font-weight: 600; }
+.demo-model-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0.65rem; }
+.demo-model-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--agent-bubble);
+}
+.demo-model-card h4 { margin: 0; color: var(--text); font-size: 0.9rem; font-weight: 650; overflow-wrap: anywhere; }
+.demo-model-card p { margin: 0.35rem 0 0; color: var(--text-soft); font-size: 0.74rem; line-height: 1.5; }
+@media (max-width: 640px) {
+  .demo-model-grid { grid-template-columns: 1fr; }
+  .demo-model-card { padding: 0.8rem 0.9rem; }
+  .demo-model-card p { margin-top: 0.3rem; }
+}

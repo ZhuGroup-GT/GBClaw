@@ -1,0 +1,207 @@
+{
+  "contract_sha256": "3da2ca669316a45bac76c8d9e00f58d18cd7b3eeaa31e0f78f913a00bfeb7ce9",
+  "contract_version": 1,
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-21T23:16:35+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "d1488ba1-6b0f-57ac-92e2-f8683c37f642",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:code-20261021-231633-f084af:main_conclusion",
+        "source_run_id": "code-20261021-231633-f084af",
+        "source_turn_id": null,
+        "source_type": "tool_result",
+        "status": "active",
+        "updated_at": "2026-10-21T23:16:35+00:00",
+        "value": {
+          "config_path": "artifacts/code/code-20261021-231633-f084af/input.json",
+          "expected_outputs": [
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "two_drop_shift.json",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            },
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "two_drop_report.md",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            },
+            {
+              "columns": [],
+              "min_bytes": 1,
+              "path": "two_drop_shift.py",
+              "required": true,
+              "required_keys": [],
+              "role": null
+            }
+          ],
+          "manifest": "artifacts/code/code-20261021-231633-f084af/manifest.json",
+          "published_artifacts": [
+            {
+              "artifact_id": "e30b73c8-5b98-5d58-b634-74f516d73da8",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "application/json",
+              "metadata": {
+                "description": "Signed pair and common-mask three-frame statistics, full/half coefficients, sensitivity/additivity, full bijective periodic mirror/control diagnostics",
+                "sha256": "cd838d377e862b64c7b0a73832555caa1f1c78602574b3a03bf52da3b456136c"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.json",
+              "provenance_class": "derived",
+              "role": "two_drop_shift_data",
+              "run_id": "code-20261021-231633-f084af",
+              "size_bytes": 120879
+            },
+            {
+              "artifact_id": "cc687851-d5f1-5bb8-a8bb-fa56eb1a9f7b",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "text/markdown",
+              "metadata": {
+                "description": "Tables and interpretation with explicit transverse residuals and fixed-origin mirror limitation",
+                "sha256": "030539e31617c6538a07304080c97f443f768e6c125bf1e05e4d62b66f245e2e"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_report.md",
+              "provenance_class": "derived",
+              "role": "two_drop_report",
+              "run_id": "code-20261021-231633-f084af",
+              "size_bytes": 9496
+            },
+            {
+              "artifact_id": "c5115b15-2a29-5f97-9f2f-0f41befe9e32",
+              "created_at": "2026-10-21T23:21:21+00:00",
+              "media_type": "text/x-python",
+              "metadata": {
+                "description": "Reproducible prior-method-derived OVITO CNA/MIC measurement and bounded geometry matching, with consistency checks",
+                "sha256": "4a2be60788482976d86a86f7621e0d962c8ad32503ac0e5751f3ced829ca22aa"
+              },
+              "path": "artifacts/code/code-20261021-231633-f084af/published/two_drop_shift.py",
+              "provenance_class": "derived",
+              "role": "measurement_script",
+              "run_id": "code-20261021-231633-f084af",
+              "size_bytes": 17950
+            }
+          ],
+          "run_id": "code-20261021-231633-f084af",
+          "source_fingerprint": null,
+          "source_run_id": null,
+          "sources": [
+            {
+              "metadata": {
+                "artifact_id": "fd34ba28-3de8-564e-a353-cf4c8e57cfbb",
+                "path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/001_gb_shear_step_0077_minimized.cfg",
+                "role": "minimized_cfg"
+              },
+              "ordinal": 0,
+              "relation": "code_input",
+              "source_fingerprint": "1ae35958e3e21ad9f7519f9dc2a78e7519b40276212ee440fc24931874b724d1",
+              "source_run_id": "structure-minimize-20261021-220732-c86c47"
+            },
+            {
+              "metadata": {
+                "artifact_id": "278a3369-5c91-5e52-b400-374a947d39d5",
+                "path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/002_gb_shear_step_0080_minimized.cfg",
+                "role": "minimized_cfg"
+              },
+              "ordinal": 1,
+              "relation": "code_input",
+              "source_fingerprint": "60862ef89b28be07bf4cae161f25e283c5540e8c885f935df76c111069a8d7b8",
+              "source_run_id": "structure-minimize-20261021-220732-c86c47"
+            },
+            {
+              "metadata": {
+                "artifact_id": "86bd3cd1-b8b8-585c-a52a-90ce81cbd5e9",
+                "path": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/003_gb_shear_step_0084_minimized.cfg",
+                "role": "minimized_cfg"
+              },
+              "ordinal": 2,
+              "relation": "code_input",
+              "source_fingerprint": "a47c52a1789052964dbbcb02fa7d5abff029521165b5beb3d117594dcc950b6e",
+              "source_run_id": "structure-minimize-20261021-220732-c86c47"
+            },
+            {
+              "metadata": {
+                "artifact_id": "080a4774-b03b-5357-99c9-39740aeb4808",
+                "path": "artifacts/code/code-20261021-224156-7649e8/published/grain_shift.py",
+                "role": "measurement_script"
+              },
+              "ordinal": 3,
+              "relation": "code_input",
+              "source_fingerprint": "eeb2fe31987713212a1062e9d612b15fa0e319bc0df56d86fd55f4f78f29194c",
+              "source_run_id": "code-20261021-224156-7649e8"
+            },
+            {
+              "metadata": {
+                "artifact_id": "47d576b8-1f7f-5c4c-a2d7-bd8817c3d390",
+                "path": "artifacts/code/code-20261021-224156-7649e8/published/grain_shift.json",
+                "role": "grain_shift_data"
+              },
+              "ordinal": 4,
+              "relation": "code_input",
+              "source_fingerprint": "8ee7b4db19e77584a165cf982b91d71ecea99e8e7e8f529ffbe473286b97f1bb",
+              "source_run_id": "code-20261021-224156-7649e8"
+            }
+          ],
+          "summary": "Exact 11052-ID three-frame MIC translations confirm alternating relative Z and nearly pure-X net 77→84. Fixed z0=0 mirrors give verified full Ni/side-preserving bijections but 0.618383574 Å RMS mismatch dominated by Z; translated unreflected net control RMS 0.020322449 Å. Prior method reproduced; masks, sensitivity, additivity, signed coefficients and residuals published.",
+          "task": "Measure user alternating-Z/mirror hypothesis for exact independently relaxed postdrop77,80,84. Reuse staged previous measurement script/data method from code-20261021-224156-7649e8. ID-matched all-axis MIC displacement no alignment. Measure77->80,80->84,direct77->84 mean/median top,bottom and top-minus-bottom signed xyz,20A FCC both frames interior exclusions around GB y~-.700778 and occupied outer Y surfaces; sensitivity10/30A; common three-frame masks for additivity. All11052IDs identical box. Top(110)x[001]y[110]z[-1,1,0],bottom(111)x[1,-2,1]y[111]z[-1,0,1],a=3.52A. Report net pure-x suitability with explicit y/z residuals,mask sensitivity,pergrain residual RMS; no arbitrary tolerance conceal. Convert signed net Lx to coefficient c of FULL a[1,-2,1], denominatora sqrt6; also coefficient2c of(a/2)[1,-2,1], preserve transverse residual. User says frames separated by one drop:77 and84 with80 intervening. Separately attempt robust geometric mirror test z->-z about stated plane z0=0, fit only x translation periodic, species-aware one-to-one geometry matching (both types Ni but preserve grain side). Compare77 reflected to80 and80 reflected to84; also unreflected77->84 allowing pergrain measured translations. Use OVITO neighbor functionality/numpy bounded periodic matching with one-to-one verification; cannot claim mirror from opposite meanZ. Reflection about adjustable z plane corresponds z translation, user specifically mirror so if fixed z0 fails don't invent fitted z; report limitation/origin dependence and if fitting justified distinct test explicitly. Full11052 geometry or at least GB slab with clear scope and matching residual counts; can use spatial hashing/mutual nearest bijective when unique with validate no conflicts, no dense11052square matrix. If unavailable do translation measurements and state mirror unverified. Publish JSON with pairs and coefficient summary,report and script. No simulation or new render.",
+          "validation": {
+            "commands": [
+              {
+                "command": "OMP_NUM_THREADS=4 python /workspace/two_drop_shift.py",
+                "exit_code": 0,
+                "output": "{\"net\": {\"mean\": {\"xyz_A\": [0.3913484654949389, 6.815030129181893e-07, -2.2641199745812848e-07], \"transverse_yz_norm_A\": 7.181286439138528e-07, \"full_a_1m21_coefficient_c\": 0.04538844943578548, \"half_a_1m21_coefficient_2c\": 0.09077689887157096}, \"median\": {\"xyz_A\": [0.3913484159782215, -2.658812547906479e-08, -2.69835473076796e-07], \"transverse_yz_norm_A\": 2.711422337944954e-07, \"full_a_1m21_coefficient_c\": 0.04538844369285502, \"half_a_1m21_coefficient_2c\": 0.09077688738571003}}, \"mirrors\": {\"77->80\": {\"RMS\": 0.6183835744227716, \"x\": 10.739571291600235, \"bijection\": true}, \"80->84\": {\"RMS\": 0.6183835743562441, \"x\": 10.766875856686909, \"bijection\": true}}, \"control_RMS\": 0.02032244894263042}\nAll deterministic consistency validations passed.\n",
+                "truncated": false
+              },
+              {
+                "command": "python -m py_compile /workspace/two_drop_shift.py",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              },
+              {
+                "command": "python -c \"import json,pathlib; d=json.loads(pathlib.Path('/workspace/two_drop_shift.json').read_text()); assert set(d['pairs'])=={'77->80','80->84','77->84'}; assert d['matched_unique_ID_count']==11052; assert all(v['full_bijection_verified'] for v in d['mirror_tests'].values()); assert d['unreflected_77_to_84_control']['full_bijection_verified']; assert pathlib.Path('/workspace/two_drop_report.md').stat().st_size>0; assert abs(d['coefficient_summary']['mean']['full_a_1m21_coefficient_c']*d['coefficient_denominator_A']-d['coefficient_summary']['mean']['xyz_A'][0])<1e-14\"",
+                "exit_code": 0,
+                "output": "",
+                "truncated": false
+              }
+            ],
+            "format_checks": [
+              {
+                "checks": [
+                  "nonempty",
+                  "json"
+                ],
+                "path": "two_drop_shift.json"
+              },
+              {
+                "checks": [
+                  "nonempty"
+                ],
+                "path": "two_drop_report.md"
+              },
+              {
+                "checks": [
+                  "nonempty",
+                  "python_syntax"
+                ],
+                "path": "two_drop_shift.py"
+              }
+            ],
+            "output_contract_passed": true,
+            "passed": true,
+            "scientific_checks_applied": false
+          },
+          "workflow": "code"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "publish_coding_result"
+}

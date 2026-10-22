@@ -1,0 +1,72 @@
+{
+  "contract_sha256": "552c1aa3d42b19d6b93a8701f3d32173a603236493f9ad76d51d4ea4836c699e",
+  "contract_version": 1,
+  "fact": {
+    "created_at": "2026-10-21T20:23:16+00:00",
+    "evidence_kind": "deterministic_workflow",
+    "fact_id": "3a0516e3-781c-5c91-92dc-d69c47dda4b7",
+    "kind": "scientific_conclusion",
+    "lookup_key": "run:render-20261021-202310-9aa980:main_conclusion",
+    "source_run_id": "render-20261021-202310-9aa980",
+    "source_turn_id": null,
+    "source_type": "tool_result",
+    "status": "active",
+    "updated_at": "2026-10-21T20:23:16+00:00",
+    "value": {
+      "analysis_mode": "CNA",
+      "camera": {
+        "crop_box": [
+          912,
+          44,
+          2927,
+          2117
+        ],
+        "crop_margin_pixels": 50,
+        "direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "image_size": [
+          2015,
+          2073
+        ],
+        "projection": "xy",
+        "rendered_image_size": [
+          3840,
+          2160
+        ]
+      },
+      "conclusion_type": "atomic_structure_render",
+      "data": "artifacts/analysis/render/render-20261021-202310-9aa980/render.json",
+      "displacement": null,
+      "origin": {
+        "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+        "run_id": "minimize-20261021-202104-4198e0",
+        "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+        "workflow": "gb_minimize"
+      },
+      "purpose": "Inspect minimized general FCC Ni {110}||{111} tilt GB in XY top view with CNA and all atoms visible; no displacement arrows.",
+      "render": "artifacts/analysis/render/render-20261021-202310-9aa980/render.png",
+      "render_kind": "atomic_structure",
+      "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+      "source_artifact_role": "minimized_cfg",
+      "source_run_id": "minimize-20261021-202104-4198e0",
+      "source_step": null,
+      "structure_source": {
+        "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "frame": {},
+        "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+        "run_id": "minimize-20261021-202104-4198e0",
+        "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+        "workflow": "gb_minimize"
+      },
+      "summary": "CNA atomic structure rendered in XY top view.",
+      "warnings": []
+    },
+    "version": 1
+  },
+  "memory_tool": "render_atomic_structure"
+}

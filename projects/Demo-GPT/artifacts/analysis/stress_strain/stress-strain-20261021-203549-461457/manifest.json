@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "artifact_id": "c5fec3a7-15e6-557f-ab05-81eac4f8b48b",
+      "created_at": "2026-10-21T20:35:50+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "3dc1630ef370805d00e2aa07c86b7f1360c9dece840f09539d14325f960bcfd6",
+        "source_artifact_id": "c57e90e6-44d2-5622-a12e-6e0740901b29",
+        "source_fingerprint": "sha256:3dc1630ef370805d00e2aa07c86b7f1360c9dece840f09539d14325f960bcfd6",
+        "source_run_id": "shear-20261021-203147-9d18c4",
+        "source_status": "completed"
+      },
+      "path": "source_shear_run.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "source_metadata_snapshot",
+      "size_bytes": 81769
+    },
+    {
+      "artifact_id": "6db37f7b-d361-5e91-bbab-b74ac76dfbdc",
+      "created_at": "2026-10-21T20:35:52+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "event_count": 9,
+        "point_count": 71,
+        "sha256": "1b202c11da60aae6dacbf26060073eec4cdc6a82ac39c09cdd8c80947b6b9b09",
+        "source_run_id": "shear-20261021-203147-9d18c4",
+        "stress_field": "top_shear_stress_mpa"
+      },
+      "path": "stress_strain_analysis.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "stress_strain_data",
+      "size_bytes": 160880
+    },
+    {
+      "artifact_id": "471d4760-0785-5d05-8dd3-b24a9579eee4",
+      "created_at": "2026-10-21T20:35:53+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "event_count": 9,
+        "point_count": 71,
+        "sha256": "1b960b45152412e64020e399bbccf1557daee2c1e487827f776a44d12c5d9397",
+        "source_run_id": "shear-20261021-203147-9d18c4",
+        "stress_field": "top_shear_stress_mpa"
+      },
+      "path": "stress_strain_curve.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "stress_strain_plot",
+      "size_bytes": 232471
+    },
+    {
+      "artifact_id": "c38054b1-a0d4-508b-a1a5-1859e6b82767",
+      "created_at": "2026-10-21T20:35:53+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "stress_strain_analysis",
+        "sha256": "4d5cd6e0b4ec918a9cf5677dbab27ea8995a0f8a0f7071248230d52f67b97689"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 71320
+    }
+  ],
+  "run_id": "stress-strain-20261021-203549-461457",
+  "workflow": "stress_strain_analysis"
+}

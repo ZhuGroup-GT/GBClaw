@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "artifact_id": "69ca5724-ca27-52fd-8597-c1213c6b992a",
+      "created_at": "2026-10-21T20:29:46+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) minimized boundary structure and seam in XY; image alone does not validate seam.",
+        "render_kind": "atomic_structure",
+        "sha256": "e955f23950a783a89699ce14aebf72c8f2eac96477773f2fd651aa9c89a0ddeb",
+        "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202820-718597",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render_data",
+      "size_bytes": 2370
+    },
+    {
+      "artifact_id": "b05325fd-6492-5baf-a9fe-ef910154b565",
+      "created_at": "2026-10-21T20:29:46+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) minimized boundary structure and seam in XY; image alone does not validate seam.",
+        "render_kind": "atomic_structure",
+        "sha256": "8744b9d86466cfabebcd10ad2688b7c5a3f237b50f8591b0aefe2c0ff193ef2f",
+        "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202820-718597",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render",
+      "size_bytes": 780670
+    },
+    {
+      "artifact_id": "dad32a90-ef01-572b-8e1b-f440f54d6d42",
+      "created_at": "2026-10-21T20:29:46+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_atomic_structure",
+        "sha256": "15f66f64203a272e921ac22302756693224993803666cc4e110ef3b8dae10f89"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 2607
+    }
+  ],
+  "run_id": "render-20261021-202943-baa730",
+  "workflow": "render"
+}

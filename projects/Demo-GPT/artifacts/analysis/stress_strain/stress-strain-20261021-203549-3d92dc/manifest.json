@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "artifact_id": "0288b2b9-b2aa-5384-9ad3-8163ae5baaf6",
+      "created_at": "2026-10-21T20:35:51+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "9647553d3fba2c06b1f79afd3ab2e28dabc50d03756585aca9a05820a6c240ba",
+        "source_run_ids": [
+          "shear-20261021-203147-9d18c4"
+        ]
+      },
+      "path": "stress_strain_comparison.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "stress_strain_comparison_data",
+      "size_bytes": 45109
+    },
+    {
+      "artifact_id": "f615acd0-cc18-522b-bfee-334da87ac463",
+      "created_at": "2026-10-21T20:35:51+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "sha256": "d3a71ed634a8da4e3ee73efdffc2064dba62ecbb3d15b9af8b6cc9bf81221016",
+        "source_run_ids": [
+          "shear-20261021-203147-9d18c4"
+        ]
+      },
+      "path": "stress_strain_comparison.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "stress_strain_comparison_plot",
+      "size_bytes": 95733
+    },
+    {
+      "artifact_id": "b8dfcbc7-c492-5cd5-bf46-bf4061f6f4de",
+      "created_at": "2026-10-21T20:35:52+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "plot_stress_strain_comparison",
+        "sha256": "4794daf5a64970d49906d9943644556f38947b6ef5165c9e17f2fa87e622a2bc"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 3466
+    }
+  ],
+  "run_id": "stress-strain-20261021-203549-3d92dc",
+  "workflow": "stress_strain_analysis"
+}

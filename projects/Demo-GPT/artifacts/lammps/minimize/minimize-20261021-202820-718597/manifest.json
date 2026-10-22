@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "artifact_id": "08bbffae-520c-59a2-9779-4fd66322fbf5",
+      "created_at": "2026-10-21T20:28:20+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "ecaeaf6fffd0c8b10983fcaf94b84fd4dc6ed7a498f192deb6167592cc1b23f8"
+      },
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 1660
+    },
+    {
+      "artifact_id": "c18eeaec-a373-5d8a-abe1-d8c620d2d952",
+      "created_at": "2026-10-21T20:28:49+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "6fed9e64f04ead1dcfa363e5efe2a063f46cad8902d548b991288edfaad8bc55"
+      },
+      "path": "launcher.stdout.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stdout",
+      "size_bytes": 33100
+    },
+    {
+      "artifact_id": "504584b3-a6dd-51cf-828f-dc76d8cd0861",
+      "created_at": "2026-10-21T20:28:49+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "launcher.stderr.log",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "launcher_stderr",
+      "size_bytes": 0
+    },
+    {
+      "artifact_id": "3eb77ab1-aeef-5011-aa35-26a5a06b67b5",
+      "created_at": "2026-10-21T20:28:49+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "9ae6d92e145dd17d54b7dd481ec06653479eab418926aece138f6ea5dc2146d4"
+      },
+      "path": "log.lammps",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "log",
+      "size_bytes": 35400
+    },
+    {
+      "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+      "created_at": "2026-10-21T20:28:50+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419"
+      },
+      "path": "gb_minimized.cfg",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_cfg",
+      "size_bytes": 806515
+    },
+    {
+      "artifact_id": "9d97374a-e073-59a1-a75e-cba6f6466fe2",
+      "created_at": "2026-10-21T20:28:50+00:00",
+      "media_type": "model/vnd.gdl",
+      "metadata": {
+        "sha256": "cd0dcaeab384c0a598bd1241849a7cb4a202accc20638f807c81e68b04ec34e1"
+      },
+      "path": "gb_minimized.lmp",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "minimized_lmp",
+      "size_bytes": 894336
+    },
+    {
+      "artifact_id": "00069561-3ec7-5c6c-8a48-33d112e653c5",
+      "created_at": "2026-10-21T20:28:50+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "d87ca1e8cd7827ac5e8f07ae3f5f4f30e3e8dd0262f19b5db5cdd26da8ef9940"
+      },
+      "path": "top_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "top_boundary_ids",
+      "size_bytes": 1098
+    },
+    {
+      "artifact_id": "660fc56c-65ab-503d-880f-d6ade7b276fc",
+      "created_at": "2026-10-21T20:28:50+00:00",
+      "media_type": null,
+      "metadata": {
+        "sha256": "f32b19550708e102cb9238bb8e30c2698124fc4d9332f0254a6d3c009860e653"
+      },
+      "path": "bot_boundary.ids",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "bottom_boundary_ids",
+      "size_bytes": 904
+    },
+    {
+      "artifact_id": "07fb9765-74f2-5945-a6c4-6f2cfc19679b",
+      "created_at": "2026-10-21T20:28:50+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "7a959de6ef01205215d7778cc72ca8ef93b5fe390078a8173f11da899010fb22"
+      },
+      "path": "minimize_run.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "run_metadata",
+      "size_bytes": 5768
+    },
+    {
+      "artifact_id": "e127bc20-62e1-5441-8cc6-44f66ad027bd",
+      "created_at": "2026-10-21T20:28:51+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "run_gb_minimize",
+        "sha256": "785eb5cb78d8ed17b0ecad6147b1520bce17df918909a8d63630404c8746ca14"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 8910
+    }
+  ],
+  "run_id": "minimize-20261021-202820-718597",
+  "workflow": "gb_minimize",
+  "pruned_from_demo": [
+    {
+      "path": "gb_minimize.cfg",
+      "artifact_id": "4c7b8390-3b12-5d6b-afd6-97cfe5b5abb5",
+      "run_id": "minimize-20261021-202820-718597",
+      "role": "initial_cfg",
+      "kind": "initial_structure",
+      "original_size_bytes": 792233,
+      "original_sha256": "659eef99e18a25290ef5a99011d4465b0386ea4d69789812d4f659d449cd10bb",
+      "replacement_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+      "replacement_path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+      "replacement_run_id": "minimize-20261021-202820-718597",
+      "project_path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimize.cfg",
+      "reason": "Intermediate structure or trajectory omitted; final structure and recorded analysis retained."
+    },
+    {
+      "path": "gb_minimize.lammpstrj",
+      "artifact_id": "84bf5bd8-a6ae-5216-b8f1-8d0a45a7ee96",
+      "run_id": "minimize-20261021-202820-718597",
+      "role": "trajectory",
+      "kind": "intermediate_trajectory",
+      "original_size_bytes": 25226901,
+      "original_sha256": "2e10341bd3c10982d06a316bb812eee4137879aaf9dcd70b8532c6bebf6871e5",
+      "replacement_artifact_id": "9d97374a-e073-59a1-a75e-cba6f6466fe2",
+      "replacement_path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.lmp",
+      "replacement_run_id": "minimize-20261021-202820-718597",
+      "project_path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimize.lammpstrj",
+      "reason": "Intermediate structure or trajectory omitted; final structure and recorded analysis retained."
+    }
+  ]
+}

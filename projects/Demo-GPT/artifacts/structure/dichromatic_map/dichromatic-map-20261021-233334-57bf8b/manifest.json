@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "artifact_id": "682fb47a-a4b3-5791-956c-dc1221d8f3d1",
+      "created_at": "2026-10-21T23:33:35+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "sha256": "4ff02cc24382fad999d9277232b76620ff1e56b73a5e44d984178c057d7f314b"
+      },
+      "path": "input.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "config",
+      "size_bytes": 723
+    },
+    {
+      "artifact_id": "2ce723ea-1c86-546f-9a58-ad02f9b78353",
+      "created_at": "2026-10-21T23:33:36+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "purpose": "Initial interactive exploration of actual general FCC Ni (110)||(111) tilt geometry from csl-20261021-201945-0edf88 at 35.26438968 degrees, not snapped to CSL. Inspect intergrain mismatch and geometric displacement candidates motivated by measured step77->84 net relative slide 0.391348465 Angstrom along bottom local [1,-2,1]; not confirmed Burgers/DSC vector. Show both FCC axial layers. User alone must choose four paired sites; no selection or strain authorized.",
+        "request_id": "dmap-pick-8b6a5111694748f29dd6a2152682c9b2",
+        "sha256": "01b9a6782fbf8163a81587d2b4d7008726fd01288d80611f9ff687c79933d5d8"
+      },
+      "path": "cell_selection.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "dichromatic_cell_selection",
+      "size_bytes": 9461
+    },
+    {
+      "artifact_id": "b33dcf7f-681b-5b9d-8f36-e029eeda9c9f",
+      "created_at": "2026-10-21T23:33:37+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "select_dichromatic_cell",
+        "sha256": "853e8b2e5d9c2949acdd3add2c443b9227ac21b4386590c95cb6a072f719eb49"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 8722
+    }
+  ],
+  "run_id": "dichromatic-map-20261021-233334-57bf8b",
+  "workflow": "dichromatic_map"
+}

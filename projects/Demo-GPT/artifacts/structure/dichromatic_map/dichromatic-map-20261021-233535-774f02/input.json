@@ -1,0 +1,39 @@
+{
+  "candidate_ids": [
+    "pair-e785a578f341d5e7d2ecc99a29388628",
+    "pair-8ef0533e7985aa2bf962b8ff280c468a",
+    "pair-87cc76b002c0c584e3b1901852ac916b",
+    "pair-b47f5d89bfcc1bb9f49edbb382dcfa00"
+  ],
+  "max_rotation_deg": 1.0,
+  "parameters": {
+    "angle_deg": 35.26438968,
+    "axis": "-1 1 0",
+    "center": [
+      0.0,
+      0.0
+    ],
+    "display_rotation_deg": 0.0,
+    "g1_color": "#1677d2",
+    "g2_color": "#e35d35",
+    "height": 9.0,
+    "lattice": "FCC",
+    "lattice_constant": 3.52,
+    "local_cutoff": 0.08,
+    "marker_size": 32.0,
+    "show_coincidence": true,
+    "show_csl_cell": true,
+    "visible_grain_layers": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "width": 12.0
+  },
+  "strain_limit_percent": 2.0
+}

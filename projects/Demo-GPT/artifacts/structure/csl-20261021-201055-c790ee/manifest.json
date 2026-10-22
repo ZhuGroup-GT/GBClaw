@@ -1,0 +1,120 @@
+{
+  "files": [
+    {
+      "artifact_id": "fb5e6370-f983-5985-bd78-2d7093f00797",
+      "created_at": "2026-10-21T20:10:58+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "basis": "fcc",
+          "limit": 50,
+          "u": 1,
+          "v": 1,
+          "w": 0
+        },
+        "input_fingerprint": "3357a746f66c096e095a833744f3a55f9f5003356d5a43922990289ed400c71f",
+        "sequence": 1,
+        "sha256": "6bcfe622890e9c060903f0748f79b55f392dcf004db336edcc2804914d8bd966",
+        "tool": "list_csl_sigmas"
+      },
+      "path": "results/01_list_csl_sigmas.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 776
+    },
+    {
+      "artifact_id": "1b06b43a-b058-5643-8d16-2dbdfb1f9837",
+      "created_at": "2026-10-21T20:11:06+00:00",
+      "media_type": "text/plain",
+      "metadata": {
+        "input": {
+          "basis": "fcc",
+          "gb_type": "tilt",
+          "limit": 6,
+          "rotations": [
+            {
+              "rotation_m": 2,
+              "rotation_n": 1,
+              "sigma": 3
+            },
+            {
+              "rotation_m": 4,
+              "rotation_n": 1,
+              "sigma": 9
+            },
+            {
+              "rotation_m": 3,
+              "rotation_n": 1,
+              "sigma": 11
+            },
+            {
+              "rotation_m": 3,
+              "rotation_n": 2,
+              "sigma": 17
+            },
+            {
+              "rotation_m": 6,
+              "rotation_n": 1,
+              "sigma": 19
+            },
+            {
+              "rotation_m": 5,
+              "rotation_n": 1,
+              "sigma": 27
+            },
+            {
+              "rotation_m": 8,
+              "rotation_n": 1,
+              "sigma": 33
+            },
+            {
+              "rotation_m": 5,
+              "rotation_n": 2,
+              "sigma": 33
+            },
+            {
+              "rotation_m": 8,
+              "rotation_n": 3,
+              "sigma": 41
+            },
+            {
+              "rotation_m": 5,
+              "rotation_n": 3,
+              "sigma": 43
+            }
+          ],
+          "sigmas": null,
+          "u": 1,
+          "v": 1,
+          "w": 0
+        },
+        "input_fingerprint": "2c5ce5238536101b8870be95d634eb23e135b846056e7d553268e58ec9f449e6",
+        "sequence": 2,
+        "sha256": "8607b40c05793aa3d340f5416169c47af2a956c09cb09d80eff9ad34554f8c32",
+        "tool": "list_csl_gb_planes_batch"
+      },
+      "path": "results/02_list_csl_gb_planes_batch.txt",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "csl_result",
+      "size_bytes": 13115
+    },
+    {
+      "artifact_id": "4506b285-cf76-5aa5-b6c4-af33cbb23d6b",
+      "created_at": "2026-10-21T20:11:58+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "csl",
+        "sha256": "9a8779571edd1e74d8a3f7dee411beac582dae25b3e430743e1df8fdc5bba453"
+      },
+      "path": "memory_facts.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_facts",
+      "size_bytes": 158
+    }
+  ],
+  "run_id": "csl-20261021-201055-c790ee",
+  "workflow": "csl"
+}

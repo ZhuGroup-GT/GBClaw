@@ -1,0 +1,653 @@
+{
+  "status": "ok",
+  "summary": "**Completed all 18 independent relaxations in one ordered batch**, with all atoms free, no loading, no fixed IDs, and no box relaxation.\n\n- **Batch:** `structure-minimize-20261021-220732-c86c47`\n- **Conversion:** `cfg-convert-20261021-220654-f4066c` — 18 frames converted, no warnings; registered parent box origin preserved.\n- **Source:** `shear-20261021-211934-d84742`; exact requested frame identities retained through conversion and batch-item provenance.\n- **Physics:** Ni, two preserved atom types both mapped to Ni; `adp`, registered `NiCr.adp`; `boundary=\"p p p\"`, inherited continuous periodic x.\n- **Comparability:** every item has **11,052 atoms** and the same orthogonal box, **38.7435087583 × 248.4870778413 × 14.9297719009 Å**. IDs, types, masses and fixed cells passed preservation checks.\n- **Settings:** identical default CG minimization, `etol=0`, `ftol=1e-6`, maximum 1,000 iterations / 10,000 evaluations. **Every row stopped at force tolerance and is converged**, with no warnings.\n\n### Final energy comparison\n\nΔE below is calculated relative to relaxed source step70. Tiny differences are shown approximately from stored energy digits; historical strain is **not** a final relaxed strain.\n\n| Source step | Historical strain | Final energy (eV) | ΔE (eV, approx.) | Final force 2-norm (eV/Å) |\n|---:|---:|---:|---:|---:|\n| 70 | 0 | -48992.82061391977 | 0 | 9.61605e-7 |\n| 77 | .00175 | -48992.82061391984 | -7e-11 | 9.19165e-7 |\n| 80 | .00250 | -48992.820613919816 | -4.6e-11 | 9.76272e-7 |\n| 84 | .00350 | -48992.820613919816 | -4.6e-11 | 9.60495e-7 |\n| 88 | .00450 | -48992.8206139198 | -3e-11 | 9.39625e-7 |\n| 92 | .00550 | -48992.82061391993 | -1.6e-10 | 9.54244e-7 |\n| 96 | .00650 | -48992.82061391993 | -1.6e-10 | 9.94838e-7 |\n| 100 | .00750 | -48992.82061391976 | +1e-11 | 9.87703e-7 |\n| 103 | .00825 | -48992.820613919845 | -7.5e-11 | 9.83988e-7 |\n| 107 | .00925 | -48992.8206139198 | -3e-11 | 9.91375e-7 |\n| 111 | .01025 | -48992.82061391977 | 0 | 9.82345e-7 |\n| 115 | .01125 | -48992.82061391989 | -1.2e-10 | 9.99148e-7 |\n| 119 | .01225 | -48992.82061391986 | -9e-11 | 9.28448e-7 |\n| 122 | .01300 | -48992.8206139199 | -1.3e-10 | 9.91440e-7 |\n| 126 | .01400 | -48992.82061391993 | -1.6e-10 | 9.64488e-7 |\n| 130 | .01500 | -48992.82061391979 | -2e-11 | 9.99815e-7 |\n| 134 | .01600 | -48992.820613919874 | -1.04e-10 | 9.98844e-7 |\n| 138 | .01700 | -48992.82061391983 | -6e-11 | 9.97295e-7 |\n\n**Range:** approximately **−48992.82061391993 to −48992.82061391976 eV**, spread **1.7×10⁻¹⁰ eV**. Nominal minima: steps92, 96 and126; nominal maximum: step100. These rankings are numerical noise, not resolved physical differences. The energies coincide to the achieved numerical resolution under the common stopping tolerance; force tolerance alone is not a rigorous energy-error bound. Equal energy does **not** establish identical structures, and these all-free results must not be equated to prior shear-constrained NEB energies.\n\n### Exact minimized CFG mapping\n\nAll files below are under:\n`artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/`\n\n| Step | CFG filename | `minimized_cfg` artifact ID |\n|---:|---|---|\n|70|`000_gb_shear_step_0070_minimized.cfg`|`2f13cd75-a60c-5538-babb-009df4bb0688`|\n|77|`001_gb_shear_step_0077_minimized.cfg`|`fd34ba28-3de8-564e-a353-cf4c8e57cfbb`|\n|80|`002_gb_shear_step_0080_minimized.cfg`|`278a3369-5c91-5e52-b400-374a947d39d5`|\n|84|`003_gb_shear_step_0084_minimized.cfg`|`86bd3cd1-b8b8-585c-a52a-90ce81cbd5e9`|\n|88|`004_gb_shear_step_0088_minimized.cfg`|`bd3daa2b-917a-5b4e-a54a-31059f81a6bf`|\n|92|`005_gb_shear_step_0092_minimized.cfg`|`7afbc417-a549-5c9b-84fb-6e5a813973d9`|\n|96|`006_gb_shear_step_0096_minimized.cfg`|`7e255490-783a-5793-868e-298380b40568`|\n|100|`007_gb_shear_step_0100_minimized.cfg`|`a68f8194-4baf-5798-9d5c-992df9268478`|\n|103|`008_gb_shear_step_0103_minimized.cfg`|`c45650d4-4f0c-5050-afa2-d22b1afbddd1`|\n|107|`009_gb_shear_step_0107_minimized.cfg`|`1ed0ce6a-8554-5f46-8761-a206609fcadb`|\n|111|`010_gb_shear_step_0111_minimized.cfg`|`026e75cc-7f47-5655-9e79-fa0a6ba95bff`|\n|115|`011_gb_shear_step_0115_minimized.cfg`|`8db0ec5a-8ecb-5b6d-ac90-6c5febda561b`|\n|119|`012_gb_shear_step_0119_minimized.cfg`|`9710227c-11d7-5d94-92c9-5a9005f0af42`|\n|122|`013_gb_shear_step_0122_minimized.cfg`|`d5264cc1-dfc2-559f-857a-5f31bb2bef07`|\n|126|`014_gb_shear_step_0126_minimized.cfg`|`a124e28b-82bb-56fb-a27c-e6a81a5ae3ec`|\n|130|`015_gb_shear_step_0130_minimized.cfg`|`7390470f-4373-534c-a87b-6cced6a7f33b`|\n|134|`016_gb_shear_step_0134_minimized.cfg`|`8602acd7-e1ad-5527-9204-1cb513519c9b`|\n|138|`017_gb_shear_step_0138_minimized.cfg`|`e9cdd6ac-ee1b-5e6c-bf5f-c6ecc493ad57`|\n\n**Durable evidence:** batch directory contains `manifest.json`, `input.json`, and `minimize_run.json` (artifact `1818813f-17fc-5f18-87bb-ea12ee7a9b35`), with all before/after metrics, stopping criteria, validation, lineage and output mappings. Main scientific fact: `7716c86d-a92a-5902-9a6c-bc79effe0378`; per-item facts use `run:structure-minimize-20261021-220732-c86c47:item:1` through `:18`. This report supplies the comparison table; no separate CSV/table file was created with the available tools. No rendering or NEB was executed.",
+  "data": {
+    "completion_check": {
+      "outcome": "completed",
+      "verified_run_ids": [
+        "cfg-convert-20261021-220654-f4066c",
+        "structure-minimize-20261021-220732-c86c47"
+      ],
+      "missing_artifact_roles": [],
+      "failures": [],
+      "deliverables": []
+    },
+    "runs": [
+      {
+        "run_id": "cfg-convert-20261021-220654-f4066c",
+        "workflow": "cfg_convert",
+        "status": "completed",
+        "manifest": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/manifest.json",
+        "full_output": {
+          "tool": "query_project_memory",
+          "entity": "runs",
+          "run_id": "cfg-convert-20261021-220654-f4066c"
+        },
+        "artifact_roles": [
+          "config",
+          "converted_lmp",
+          "memory_facts",
+          "source_cfg"
+        ],
+        "conclusion_lookup_key": "run:cfg-convert-20261021-220654-f4066c:main_conclusion",
+        "result": {
+          "warnings": [],
+          "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+          "memory_fact_refs": [
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "9d90c0dd-2128-51c0-a284-7ff88e0d82a3",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:main_conclusion"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "919ee714-bc36-5cab-ad32-e2ad4329fc7e",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:1"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "b9c80fd1-95b0-5262-ad2f-4f34d6837809",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:2"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "54cd7311-dd17-529d-8139-fe683ee42e7a",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:3"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "c94d3b31-e7c5-500c-98d5-2f79e797ec3e",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:4"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "0113e8c7-09b6-5b59-898a-87603fd2db81",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:5"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "c0db6a53-ab84-5be9-9e44-b5db91e7a2c4",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:6"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "5a768625-0106-55ff-9595-76402b3c4282",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:7"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "13ea39fc-39ff-5f4b-81f5-ce182301d681",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:8"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "1141954e-483f-537e-991a-faf6863f4384",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:9"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "bcb1e99c-255d-5664-b73b-b40a385ba3cf",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:10"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "24837c3d-0e1b-5210-94cb-c17c1dc9574f",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:11"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "2384aa13-1991-5f83-ac0e-2b0727bfd441",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:12"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "27570eb9-e7b1-5dac-a089-ad6e06d6a33e",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:13"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "1ef9c965-cf46-5e6b-8c6a-ba615aedd0dd",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:14"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "b11e9064-c4b3-59fe-b85c-e549defa47a0",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:15"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "0ecc1337-b51e-525e-875e-5b139f0e2c13",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:16"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "3744b65c-48dc-5919-9e12-586651b82486",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:17"
+            },
+            {
+              "source_run_id": "cfg-convert-20261021-220654-f4066c",
+              "fact_id": "837f3fbe-dfb1-5885-a588-93bde1fc63a7",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:cfg-convert-20261021-220654-f4066c:item:18"
+            }
+          ],
+          "conclusion_lookup_key": "run:cfg-convert-20261021-220654-f4066c:main_conclusion",
+          "conclusion_fact_id": "9d90c0dd-2128-51c0-a284-7ff88e0d82a3",
+          "atom_style": "atomic",
+          "conversion_count": 18,
+          "conversions": [
+            {
+              "purpose": "User requests zero-load energy minimization of reload-start zero-strain step70 and 17 reloading postdrop valleys, compare relaxed final energies relative to relaxed step70; preserve exact original frames and physics.",
+              "atom_types": 2,
+              "atoms": 11052,
+              "box_origin_reference": "artifacts/lammps/shear/shear-20261021-211934-d84742/gb_sheared.lmp",
+              "box_origin_reference_sha256": "536c28a93277a10b1f02f141865e6abc7647e6424fb9914078097e423ec3b5fc",
+              "cell_source": "source_lammps_data",
+              "coordinate_origin": "source_lammps_box",
+              "origin": {
+                "run_id": "shear-20261021-211934-d84742",
+                "workflow": "gb_shear",
+                "artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+                "frame": {
+                  "converged": true,
+                  "actual_shear_strain": 0.0,
+                  "bottom_shear_stress_mpa": -12.1052210278582,
+                  "increment_stage": "initial",
+                  "loading_cycle": 1,
+                  "loading_direction": "-x",
+                  "loading_half_cycle": 1,
+                  "relative_shear_strain": -0.017500000000000016,
+                  "relative_target_shear_strain": -0.0175,
+                  "sigma_xx_mpa": -25.02252854594975,
+                  "sigma_xy_mpa": 12.1052210278582,
+                  "sigma_xz_mpa": 0.7634988797857798,
+                  "detail_fields_available": [
+                    "sigma_yy_mpa",
+                    "sigma_yz_mpa",
+                    "sigma_zz_mpa",
+                    "step",
+                    "step_in_loading_half_cycle",
+                    "strain",
+                    "target_shear_strain",
+                    "top_shear_stress_mpa"
+                  ]
+                },
+                "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+                "sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8"
+              },
+              "output_lmp": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/converted/000_gb_shear_step_0070.lmp",
+              "output_lmp_artifact_id": "cfc7661b-555e-5377-9073-4fbd2ac446f9",
+              "restricted_cell_angstrom": {
+                "geometric_center": [
+                  0.0,
+                  0.4463731028487956,
+                  0.0
+                ],
+                "lx": 38.74350875828372,
+                "ly": 248.4870778412964,
+                "lz": 14.929771900901663,
+                "origin": [
+                  -19.37175437914186,
+                  -123.79716581779941,
+                  -7.464885950450832
+                ],
+                "xy": 0.0,
+                "xz": 0.0,
+                "yz": 0.0
+              },
+              "source_cell_angstrom": [
+                [
+                  38.74350875828372,
+                  0.0,
+                  0.0
+                ],
+                {
+                  "omitted_items": 2,
+                  "total_items": 3,
+                  "read_from": "full_output"
+                }
+              ],
+              "detail_fields_available": [
+                "source_cfg",
+                "source_cfg_artifact_id",
+                "source_sha256",
+                "source_snapshot",
+                "type_map",
+                "type_reference",
+                "type_source"
+              ]
+            },
+            {
+              "omitted_items": 17,
+              "total_items": 18,
+              "read_from": "full_output"
+            }
+          ],
+          "coordinate_origin": "preserve_source_when_available",
+          "memory_publication": {
+            "status": "completed",
+            "artifact_id": "b3b65d2c-1d88-5922-abed-c0607e554006",
+            "attempts": 1,
+            "contract_sha256": "0c1ab683efb90491c901a7bf379211de49c4d621065cecd856e232894629bf68",
+            "contract_version": 1,
+            "format": "fact_batch",
+            "memory_tool": "convert_cfg_to_lammps",
+            "path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/memory_facts.json",
+            "sha256": "4b0137aa935535fa9de1cbb31b59d45463e737bf7215ca3baaee5139da6b7367"
+          },
+          "memory_result_ref": {
+            "run_id": "cfg-convert-20261021-220654-f4066c",
+            "workflow": "cfg_convert",
+            "contract_sha256": "0c1ab683efb90491c901a7bf379211de49c4d621065cecd856e232894629bf68",
+            "contract_version": 1,
+            "manifest_path": "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/manifest.json",
+            "memory_tool": "convert_cfg_to_lammps",
+            "project_root": "projects/Demo-GPT",
+            "publication_mode": "facts",
+            "result_location": "runs.result_json"
+          },
+          "origins": [
+            {
+              "run_id": "shear-20261021-211934-d84742",
+              "workflow": "gb_shear",
+              "artifact_id": "f640db04-3a6e-5cba-acdc-df7d9a1bdfde",
+              "frame": {
+                "converged": true,
+                "actual_shear_strain": 0.0,
+                "bottom_shear_stress_mpa": -12.1052210278582,
+                "increment_stage": "initial",
+                "loading_cycle": 1,
+                "loading_direction": "-x",
+                "loading_half_cycle": 1,
+                "relative_shear_strain": -0.017500000000000016,
+                "relative_target_shear_strain": -0.0175,
+                "sigma_xx_mpa": -25.02252854594975,
+                "sigma_xy_mpa": 12.1052210278582,
+                "sigma_xz_mpa": 0.7634988797857798,
+                "detail_fields_available": [
+                  "sigma_yy_mpa",
+                  "sigma_yz_mpa",
+                  "sigma_zz_mpa",
+                  "step",
+                  "step_in_loading_half_cycle",
+                  "strain",
+                  "target_shear_strain",
+                  "top_shear_stress_mpa"
+                ]
+              },
+              "path": "artifacts/lammps/shear/shear-20261021-211934-d84742/structures/gb_shear_step_0070.cfg",
+              "sha256": "e4299b56311494179d7a878512cd96578f408d77d6eb47ba85ecb7ff7c38c9d8"
+            },
+            {
+              "omitted_items": 17,
+              "total_items": 18,
+              "read_from": "full_output"
+            }
+          ]
+        }
+      },
+      {
+        "run_id": "structure-minimize-20261021-220732-c86c47",
+        "workflow": "structure_minimize",
+        "status": "completed",
+        "manifest": "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/manifest.json",
+        "full_output": {
+          "tool": "query_project_memory",
+          "entity": "runs",
+          "run_id": "structure-minimize-20261021-220732-c86c47"
+        },
+        "artifact_roles": [
+          "config",
+          "initial_cfg",
+          "item_config",
+          "launcher_stderr",
+          "launcher_stdout",
+          "log",
+          "memory_facts",
+          "minimized_cfg",
+          "minimized_lmp",
+          "potential",
+          "run_metadata",
+          "source_lmp",
+          "structure_metrics",
+          "trajectory"
+        ],
+        "conclusion_lookup_key": "run:structure-minimize-20261021-220732-c86c47:main_conclusion",
+        "result": {
+          "summary": "User-requested independent zero-load all-atom-free fixed-box minimization of ordered reload-start step70 and reloading postdrop valleys from shear-20261021-211934-d84742; compare final energies to relaxedstep70. No completed matching structure_minimize exists. Historical source strains are provenance only; not final relaxed strains. Not comparable to constrained NEB energies.; 18 structures in input order; 18 completed, 18 converged, 0 failed, 0 cancelled, 0 pending; fixed cell, no loading; outputs artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47; each item records its selected source, original frame, purpose and constraints",
+          "purpose": "User-requested independent zero-load all-atom-free fixed-box minimization of ordered reload-start step70 and reloading postdrop valleys from shear-20261021-211934-d84742; compare final energies to relaxedstep70. No completed matching structure_minimize exists. Historical source strains are provenance only; not final relaxed strains. Not comparable to constrained NEB energies.",
+          "memory_fact_refs": [
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "7716c86d-a92a-5902-9a6c-bc79effe0378",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:main_conclusion"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "8aad6f08-fe1c-5b50-8b86-e06715f5e17c",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:1"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "4b8e10e7-8640-5be3-9857-0acee0f9defb",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:2"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "28d0cd0e-d9f7-558a-8a97-38b95b5f72c7",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:3"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "30cccdd8-2f1c-56e7-8b74-3d7b1653a795",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:4"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "6be6c56a-be41-5531-ba62-747da8eca94e",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:5"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "1125c7d9-5b68-5b0e-94c7-ee66fda3fd4b",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:6"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "721b53e2-7010-5c25-8230-5a42df6aae8c",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:7"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "87dd4f51-5ebe-5432-9d9e-f182f9fa302b",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:8"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "7e6fe798-a96f-5b84-bc11-9ac86b23104a",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:9"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "0d65d221-5561-5c9e-9ff8-7ffde8f297b0",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:10"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "03f72c30-bc8b-51ec-97fb-ae97c229e3fc",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:11"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "4833ce15-562a-588e-b65e-23e50ae4c169",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:12"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "f861e92e-eff6-5a37-9ff3-4f884b4ab526",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:13"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "e0c8416f-3ec1-57f2-94b7-b06262cfbc53",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:14"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "42486147-88c7-536f-bb40-e3de9f91a153",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:15"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "ffda2a38-5fc4-5299-b204-1790cc97a43d",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:16"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "337d0ca4-bf41-5cc7-8835-17a41c96f66c",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:17"
+            },
+            {
+              "source_run_id": "structure-minimize-20261021-220732-c86c47",
+              "fact_id": "6561bbf5-e3db-52c3-b45e-d7f3cdd64b62",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:structure-minimize-20261021-220732-c86c47:item:18"
+            }
+          ],
+          "conclusion_lookup_key": "run:structure-minimize-20261021-220732-c86c47:main_conclusion",
+          "conclusion_fact_id": "7716c86d-a92a-5902-9a6c-bc79effe0378",
+          "batch": true,
+          "box_relax": false,
+          "cancelled_count": 0,
+          "completed_count": 18,
+          "converged_count": 18,
+          "execution_order": "input_order",
+          "failed_count": 0,
+          "detail_fields_available": [
+            "item_count",
+            "items",
+            "loading",
+            "memory_publication",
+            "memory_result_ref",
+            "mpi_ranks",
+            "output_directory",
+            "pending_count"
+          ]
+        }
+      }
+    ]
+  },
+  "artifacts": [
+    "artifacts/lammps/cfg_convert/cfg-convert-20261021-220654-f4066c/manifest.json",
+    "artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/manifest.json"
+  ],
+  "error": null,
+  "worker_outcome": {
+    "schema_version": 1,
+    "status": "completed",
+    "summary": "**Completed all 18 independent relaxations in one ordered batch**, with all atoms free, no loading, no fixed IDs, and no box relaxation.\n\n- **Batch:** `structure-minimize-20261021-220732-c86c47`\n- **Conversion:** `cfg-convert-20261021-220654-f4066c` — 18 frames converted, no warnings; registered parent box origin preserved.\n- **Source:** `shear-20261021-211934-d84742`; exact requested frame identities retained through conversion and batch-item provenance.\n- **Physics:** Ni, two preserved atom types both mapped to Ni; `adp`, registered `NiCr.adp`; `boundary=\"p p p\"`, inherited continuous periodic x.\n- **Comparability:** every item has **11,052 atoms** and the same orthogonal box, **38.7435087583 × 248.4870778413 × 14.9297719009 Å**. IDs, types, masses and fixed cells passed preservation checks.\n- **Settings:** identical default CG minimization, `etol=0`, `ftol=1e-6`, maximum 1,000 iterations / 10,000 evaluations. **Every row stopped at force tolerance and is converged**, with no warnings.\n\n### Final energy comparison\n\nΔE below is calculated relative to relaxed source step70. Tiny differences are shown approximately from stored energy digits; historical strain is **not** a final relaxed strain.\n\n| Source step | Historical strain | Final energy (eV) | ΔE (eV, approx.) | Final force 2-norm (eV/Å) |\n|---:|---:|---:|---:|---:|\n| 70 | 0 | -48992.82061391977 | 0 | 9.61605e-7 |\n| 77 | .00175 | -48992.82061391984 | -7e-11 | 9.19165e-7 |\n| 80 | .00250 | -48992.820613919816 | -4.6e-11 | 9.76272e-7 |\n| 84 | .00350 | -48992.820613919816 | -4.6e-11 | 9.60495e-7 |\n| 88 | .00450 | -48992.8206139198 | -3e-11 | 9.39625e-7 |\n| 92 | .00550 | -48992.82061391993 | -1.6e-10 | 9.54244e-7 |\n| 96 | .00650 | -48992.82061391993 | -1.6e-10 | 9.94838e-7 |\n| 100 | .00750 | -48992.82061391976 | +1e-11 | 9.87703e-7 |\n| 103 | .00825 | -48992.820613919845 | -7.5e-11 | 9.83988e-7 |\n| 107 | .00925 | -48992.8206139198 | -3e-11 | 9.91375e-7 |\n| 111 | .01025 | -48992.82061391977 | 0 | 9.82345e-7 |\n| 115 | .01125 | -48992.82061391989 | -1.2e-10 | 9.99148e-7 |\n| 119 | .01225 | -48992.82061391986 | -9e-11 | 9.28448e-7 |\n| 122 | .01300 | -48992.8206139199 | -1.3e-10 | 9.91440e-7 |\n| 126 | .01400 | -48992.82061391993 | -1.6e-10 | 9.64488e-7 |\n| 130 | .01500 | -48992.82061391979 | -2e-11 | 9.99815e-7 |\n| 134 | .01600 | -48992.820613919874 | -1.04e-10 | 9.98844e-7 |\n| 138 | .01700 | -48992.82061391983 | -6e-11 | 9.97295e-7 |\n\n**Range:** approximately **−48992.82061391993 to −48992.82061391976 eV**, spread **1.7×10⁻¹⁰ eV**. Nominal minima: steps92, 96 and126; nominal maximum: step100. These rankings are numerical noise, not resolved physical differences. The energies coincide to the achieved numerical resolution under the common stopping tolerance; force tolerance alone is not a rigorous energy-error bound. Equal energy does **not** establish identical structures, and these all-free results must not be equated to prior shear-constrained NEB energies.\n\n### Exact minimized CFG mapping\n\nAll files below are under:\n`artifacts/lammps/structure_minimize/structure-minimize-20261021-220732-c86c47/`\n\n| Step | CFG filename | `minimized_cfg` artifact ID |\n|---:|---|---|\n|70|`000_gb_shear_step_0070_minimized.cfg`|`2f13cd75-a60c-5538-babb-009df4bb0688`|\n|77|`001_gb_shear_step_0077_minimized.cfg`|`fd34ba28-3de8-564e-a353-cf4c8e57cfbb`|\n|80|`002_gb_shear_step_0080_minimized.cfg`|`278a3369-5c91-5e52-b400-374a947d39d5`|\n|84|`003_gb_shear_step_0084_minimized.cfg`|`86bd3cd1-b8b8-585c-a52a-90ce81cbd5e9`|\n|88|`004_gb_shear_step_0088_minimized.cfg`|`bd3daa2b-917a-5b4e-a54a-31059f81a6bf`|\n|92|`005_gb_shear_step_0092_minimized.cfg`|`7afbc417-a549-5c9b-84fb-6e5a813973d9`|\n|96|`006_gb_shear_step_0096_minimized.cfg`|`7e255490-783a-5793-868e-298380b40568`|\n|100|`007_gb_shear_step_0100_minimized.cfg`|`a68f8194-4baf-5798-9d5c-992df9268478`|\n|103|`008_gb_shear_step_0103_minimized.cfg`|`c45650d4-4f0c-5050-afa2-d22b1afbddd1`|\n|107|`009_gb_shear_step_0107_minimized.cfg`|`1ed0ce6a-8554-5f46-8761-a206609fcadb`|\n|111|`010_gb_shear_step_0111_minimized.cfg`|`026e75cc-7f47-5655-9e79-fa0a6ba95bff`|\n|115|`011_gb_shear_step_0115_minimized.cfg`|`8db0ec5a-8ecb-5b6d-ac90-6c5febda561b`|\n|119|`012_gb_shear_step_0119_minimized.cfg`|`9710227c-11d7-5d94-92c9-5a9005f0af42`|\n|122|`013_gb_shear_step_0122_minimized.cfg`|`d5264cc1-dfc2-559f-857a-5f31bb2bef07`|\n|126|`014_gb_shear_step_0126_minimized.cfg`|`a124e28b-82bb-56fb-a27c-e6a81a5ae3ec`|\n|130|`015_gb_shear_step_0130_minimized.cfg`|`7390470f-4373-534c-a87b-6cced6a7f33b`|\n|134|`016_gb_shear_step_0134_minimized.cfg`|`8602acd7-e1ad-5527-9204-1cb513519c9b`|\n|138|`017_gb_shear_step_0138_minimized.cfg`|`e9cdd6ac-ee1b-5e6c-bf5f-c6ecc493ad57`|\n\n**Durable evidence:** batch directory contains `manifest.json`, `input.json`, and `minimize_run.json` (artifact `1818813f-17fc-5f18-87bb-ea12ee7a9b35`), with all before/after metrics, stopping criteria, validation, lineage and output mappings. Main scientific fact: `7716c86d-a92a-5902-9a6c-bc79effe0378`; per-item facts use `run:structure-minimize-20261021-220732-c86c47:item:1` through `:18`. This report supplies the comparison table; no separate CSV/table file was created with the available tools. No rendering or NEB was executed.",
+    "evidence_refs": [
+      {
+        "kind": "run",
+        "id": "cfg-convert-20261021-220654-f4066c"
+      },
+      {
+        "kind": "run",
+        "id": "shear-20261021-211934-d84742"
+      },
+      {
+        "kind": "run",
+        "id": "structure-minimize-20261021-220732-c86c47"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:main_conclusion"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:1"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:2"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:3"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:4"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:5"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:6"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:7"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:8"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:9"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:10"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:11"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:12"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:13"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:14"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:15"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:16"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:17"
+      },
+      {
+        "kind": "fact",
+        "id": "run:cfg-convert-20261021-220654-f4066c:item:18"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:main_conclusion"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:1"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:2"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:3"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:4"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:5"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:6"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:7"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:8"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:9"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:10"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:11"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:12"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:13"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:14"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:15"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:16"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:17"
+      },
+      {
+        "kind": "fact",
+        "id": "run:structure-minimize-20261021-220732-c86c47:item:18"
+      }
+    ],
+    "next_action": ""
+  }
+}

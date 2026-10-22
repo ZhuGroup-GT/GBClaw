@@ -1,0 +1,115 @@
+{
+  "contract_sha256": "eae91dc32c922a801409e59e58b30a9ce737e7119e691d5b23b188cb3b4b353d",
+  "contract_version": 1,
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-21T21:29:25+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "99a221ae-b64d-581c-ad22-49864b5aa1bf",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:stress-strain-20261021-212925-c51b01:main_conclusion",
+        "source_run_id": "stress-strain-20261021-212925-c51b01",
+        "source_turn_id": null,
+        "source_type": "tool_result",
+        "status": "active",
+        "updated_at": "2026-10-21T21:29:25+00:00",
+        "value": {
+          "config_path": null,
+          "data": "artifacts/analysis/stress_strain/stress-strain-20261021-212925-c51b01/stress_strain_comparison.json",
+          "manifest": "artifacts/analysis/stress_strain/stress-strain-20261021-212925-c51b01/manifest.json",
+          "parameters": {
+            "colors": [
+              "#1f5a94",
+              "#d97706"
+            ],
+            "convergence_affects_plot": false,
+            "labels": [
+              "Original first loading (+x)",
+              "Continuation: unloading (-x), then reloading (+x)"
+            ],
+            "legend_location": "best",
+            "legend_title": null,
+            "line_styles": [
+              "-",
+              "-"
+            ],
+            "linewidth": 1.7,
+            "marker_size": 2.8,
+            "markers": [
+              "o",
+              "."
+            ],
+            "mode": "comparison_plot",
+            "show_legend": true,
+            "source_run_ids": [
+              "shear-20261021-203147-9d18c4",
+              "shear-20261021-211934-d84742"
+            ],
+            "stress_field": "top_shear_stress_mpa",
+            "title": "Ni GB: first loading and chronological unloading–reloading",
+            "use_absolute_strain": false,
+            "use_absolute_stress": false,
+            "x_label": "Cumulative actual shear strain (signed)",
+            "y_label": "Top shear stress (MPa, signed)"
+          },
+          "plot": "artifacts/analysis/stress_strain/stress-strain-20261021-212925-c51b01/stress_strain_comparison.png",
+          "run_id": "stress-strain-20261021-212925-c51b01",
+          "series": [
+            {
+              "color": "#1f5a94",
+              "label": "Original first loading (+x)",
+              "line_style": "-",
+              "marker": "o",
+              "nonconverged_point_count": 0,
+              "point_count": 71,
+              "source_run_id": "shear-20261021-203147-9d18c4"
+            },
+            {
+              "color": "#d97706",
+              "label": "Continuation: unloading (-x), then reloading (+x)",
+              "line_style": "-",
+              "marker": ".",
+              "nonconverged_point_count": 2,
+              "point_count": 141,
+              "source_run_id": "shear-20261021-211934-d84742"
+            }
+          ],
+          "source_fingerprint": "sha256:6118bba2228c50904837bbd8d87ae8f63773c56c61f65afb6dbf4f15a76bcd00",
+          "source_run_id": null,
+          "source_run_ids": [
+            "shear-20261021-203147-9d18c4",
+            "shear-20261021-211934-d84742"
+          ],
+          "sources": [
+            {
+              "metadata": {
+                "label": "Original first loading (+x)",
+                "source_artifact_id": "c57e90e6-44d2-5622-a12e-6e0740901b29"
+              },
+              "ordinal": 0,
+              "relation": "comparison_curve",
+              "source_fingerprint": "sha256:3dc1630ef370805d00e2aa07c86b7f1360c9dece840f09539d14325f960bcfd6",
+              "source_run_id": "shear-20261021-203147-9d18c4"
+            },
+            {
+              "metadata": {
+                "label": "Continuation: unloading (-x), then reloading (+x)",
+                "source_artifact_id": "7b462f27-e4a5-5b52-9b06-1b0a2ac08276"
+              },
+              "ordinal": 1,
+              "relation": "comparison_curve",
+              "source_fingerprint": "sha256:93eb7e644742e543c485937b65c1486f6afa398468317f9ea1a70b89c6e795df",
+              "source_run_id": "shear-20261021-211934-d84742"
+            }
+          ],
+          "summary": "Plotted 2 stress-strain curve(s) using top_shear_stress_mpa",
+          "workflow": "stress_strain_analysis"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "plot_stress_strain_comparison"
+}

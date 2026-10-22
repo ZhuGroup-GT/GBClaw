@@ -1,0 +1,314 @@
+{
+  "status": "ok",
+  "summary": "**Completed initial minimization:** `minimize-20261021-202104-4198e0` — 56,880 atoms. General asymmetric pure-tilt geometry, **35.26438968°**, preserved from `csl-20261021-201945-0edf88`; no CSL/Sigma replacement.\n\n| Grain | Concrete plane | Orientation x / y / z | Repeats | Initial material dimensions (nm) |\n|---|---|---|---|---|\n| Top, original GB1 | (110) | [001] / [110] / [−110] | **[57,21,3]** | 20.064 × 10.45387 × 1.49341 |\n| Bottom, original GB2 | (111) | [1−21] / [111] / [−101] | **[23,17,3]** | 19.83107 × 10.36459 × 1.49341 |\n\n- Initial combined material envelope: **20.064 × 20.81846 × 1.49341 nm**.\n- Estimated initial padded box: **24.064 × 24.81846 × 1.49541 nm**.\n- Construction x mismatch: **1.16094%**, strictly below 2%.\n- `x_pbc=false`: **x direction with vacuum (non-contiguous periodic connection)**, 20 Å padding per x side; LAMMPS `boundary=\"p p p\"` retained.\n- Potential: catalog default **NiCr_adp / NiCr.adp**, `pair_style=adp`, Ni FCC, a₀=3.52 Å, mass=58.6934 amu.\n\n**Final convergence warning:** completed outputs are available, but `final_minimization_converged=false`. Final CG stage stopped at **“linesearch alpha is zero”**, after 5 iterations / 11 force evaluations. Requested tolerances: `etol=0`, `ftol=1e−6`; final force two-norm **1.4914019×10⁻⁴ eV/Å**, maximum component **8.6499892×10⁻⁵ eV/Å**. Final total energy: **−251376.076952008 eV**; this is not a GB-energy calculation.\n\n**Artifacts**, under `artifacts/lammps/minimize/minimize-20261021-202104-4198e0/`:\n- Manifest: `manifest.json`\n- `minimized_cfg`: `gb_minimized.cfg` — exact relaxed source for rendering/periodicity analysis\n- `minimized_lmp`: `gb_minimized.lmp`\n- Configuration / metadata / log: `input.json`, `minimize_run.json`, `log.lammps`\n- Boundary IDs: `top_boundary.ids`, `bot_boundary.ids`\n\n**Required pending Analysis handoff:** `analyze_gb_periodicity`, source run `minimize-20261021-202104-4198e0`, source role `minimized_cfg`. Tool-returned purpose: identify short repeats and possible longer structural-modulation candidates, comparing them with construction mismatch and size estimates. Carry `structure_metadata`: the ordered orientations/repeats above, Ni FCC, reference a₀=3.52 Å, frame x=in-plane/y=GB-normal/z=tilt-axis, `boundary=\"p p p\"`, `x_pbc=false`, x vacuum=20 Å/side. Analysis has **not** run; no continuous-periodic-x construction is authorized.",
+  "data": {
+    "analysis_followups": [
+      {
+        "agent": "analysis",
+        "purpose": "Identify short repeat and possible longer structural-modulation candidates in the relaxed boundary, then compare them with construction mismatch and size estimates so the user can choose a continuous-periodic X cell.",
+        "reason": "Completed GB minimization with configured vacuum on both X sides.",
+        "required": true,
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "tool": "analyze_gb_periodicity"
+      }
+    ],
+    "completion_check": {
+      "outcome": "completed",
+      "verified_run_ids": [
+        "minimize-20261021-202104-4198e0"
+      ],
+      "missing_artifact_roles": [],
+      "failures": [],
+      "deliverables": []
+    },
+    "runs": [
+      {
+        "run_id": "minimize-20261021-202104-4198e0",
+        "workflow": "gb_minimize",
+        "status": "completed",
+        "manifest": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/manifest.json",
+        "full_output": {
+          "tool": "query_project_memory",
+          "entity": "runs",
+          "run_id": "minimize-20261021-202104-4198e0"
+        },
+        "artifact_roles": [
+          "bottom_boundary_ids",
+          "config",
+          "initial_cfg",
+          "launcher_stderr",
+          "launcher_stdout",
+          "log",
+          "memory_facts",
+          "minimized_cfg",
+          "minimized_lmp",
+          "run_metadata",
+          "top_boundary_ids",
+          "trajectory"
+        ],
+        "conclusion_lookup_key": "run:minimize-20261021-202104-4198e0:main_conclusion",
+        "result": {
+          "final_minimization_converged": false,
+          "warnings": [
+            "The final minimization did not meet an energy/force tolerance (stopping criterion: linesearch alpha is zero); the final structure and metrics remain available."
+          ],
+          "memory_fact_refs": [
+            {
+              "source_run_id": "minimize-20261021-202104-4198e0",
+              "fact_id": "818e8468-858e-5afb-b928-21350ea01df6",
+              "kind": "scientific_conclusion",
+              "lookup_key": "run:minimize-20261021-202104-4198e0:main_conclusion"
+            }
+          ],
+          "conclusion_lookup_key": "run:minimize-20261021-202104-4198e0:main_conclusion",
+          "conclusion_fact_id": "818e8468-858e-5afb-b928-21350ea01df6",
+          "atoms": 56880,
+          "convergence_basis": "final_minimization",
+          "energy_final": -251376.076952008,
+          "energy_initial": -251376.076951859,
+          "force_evaluations": 11,
+          "force_norm_final": 0.00014914019,
+          "force_norm_initial": 0.53494075,
+          "iterations": 5,
+          "memory_publication": {
+            "status": "completed",
+            "artifact_id": "4e0382cb-c4bb-5766-bca8-53c179269a0d",
+            "attempts": 1,
+            "contract_sha256": "433611aa4b31beae90b85ad47328b1b6280f1c52d4265bb19e872aac445bf7ac",
+            "contract_version": 1,
+            "format": "fact_batch",
+            "memory_tool": "run_gb_minimize",
+            "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/memory_facts.json",
+            "sha256": "7b89ab6ef73c4b1ad26dd470bfb6111d4d09165b7da5d6a1f79dcf8d909c1336"
+          },
+          "memory_result_ref": {
+            "run_id": "minimize-20261021-202104-4198e0",
+            "workflow": "gb_minimize",
+            "contract_sha256": "433611aa4b31beae90b85ad47328b1b6280f1c52d4265bb19e872aac445bf7ac",
+            "contract_version": 1,
+            "manifest_path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/manifest.json",
+            "memory_tool": "run_gb_minimize",
+            "project_root": "projects/Demo-GPT",
+            "publication_mode": "facts",
+            "result_location": "runs.result_json"
+          },
+          "minimization_count": 8,
+          "minimizations": [
+            {
+              "converged": true,
+              "energy_final_eV": -251374.643132506,
+              "energy_initial_eV": -250996.857865911,
+              "energy_next_to_last_eV": -251374.643132506,
+              "force_evaluations": 1727,
+              "force_max_component_final": 1.0674475e-07,
+              "force_max_component_initial": 0.48642057,
+              "force_two_norm_final": 9.9762993e-07,
+              "force_two_norm_initial": 16.990111,
+              "iterations": 876,
+              "minimization_index": 1,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251375.964397235,
+              "energy_initial_eV": -251374.643132506,
+              "energy_next_to_last_eV": -251375.964397015,
+              "force_evaluations": 1984,
+              "force_max_component_final": 0.22713439,
+              "force_max_component_initial": 1594.2998,
+              "force_two_norm_final": 0.37140913,
+              "force_two_norm_initial": 1594.2998,
+              "iterations": 1000,
+              "minimization_index": 2,
+              "stopping_criterion": "max iterations"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.075883526,
+              "energy_initial_eV": -251375.964397235,
+              "energy_next_to_last_eV": -251376.075883526,
+              "force_evaluations": 1320,
+              "force_max_component_final": 4.5846857e-08,
+              "force_max_component_initial": 0.0059930632,
+              "force_two_norm_final": 9.9656733e-07,
+              "force_two_norm_initial": 0.26426697,
+              "iterations": 660,
+              "minimization_index": 3,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.07683359,
+              "energy_initial_eV": -251376.075883526,
+              "energy_next_to_last_eV": -251376.07683359,
+              "force_evaluations": 22,
+              "force_max_component_final": 0.015107114,
+              "force_max_component_initial": 43.689153,
+              "force_two_norm_final": 0.017120808,
+              "force_two_norm_initial": 43.689153,
+              "iterations": 4,
+              "minimization_index": 4,
+              "stopping_criterion": "linesearch alpha is zero"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.076938957,
+              "energy_initial_eV": -251376.07683359,
+              "energy_next_to_last_eV": -251376.076938957,
+              "force_evaluations": 1000,
+              "force_max_component_final": 6.6076407e-08,
+              "force_max_component_initial": 0.00025513351,
+              "force_two_norm_final": 9.6429804e-07,
+              "force_two_norm_initial": 0.0069472779,
+              "iterations": 500,
+              "minimization_index": 5,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.076950573,
+              "energy_initial_eV": -251376.076938957,
+              "energy_next_to_last_eV": -251376.076950573,
+              "force_evaluations": 19,
+              "force_max_component_final": 0.00076344996,
+              "force_max_component_initial": 4.8314311,
+              "force_two_norm_final": 0.0013233793,
+              "force_two_norm_initial": 4.8314312,
+              "iterations": 5,
+              "minimization_index": 6,
+              "stopping_criterion": "linesearch alpha is zero"
+            },
+            {
+              "converged": true,
+              "energy_final_eV": -251376.076951859,
+              "energy_initial_eV": -251376.076950573,
+              "energy_next_to_last_eV": -251376.076951858,
+              "force_evaluations": 762,
+              "force_max_component_final": 6.9935995e-08,
+              "force_max_component_initial": 2.8198906e-05,
+              "force_two_norm_final": 9.7081071e-07,
+              "force_two_norm_initial": 0.0007678436,
+              "iterations": 381,
+              "minimization_index": 7,
+              "stopping_criterion": "force tolerance"
+            },
+            {
+              "converged": false,
+              "energy_final_eV": -251376.076952008,
+              "energy_initial_eV": -251376.076951859,
+              "energy_next_to_last_eV": -251376.076952008,
+              "force_evaluations": 11,
+              "force_max_component_final": 8.6499892e-05,
+              "force_max_component_initial": 0.53494071,
+              "force_two_norm_final": 0.00014914019,
+              "force_two_norm_initial": 0.53494075,
+              "iterations": 5,
+              "minimization_index": 8,
+              "stopping_criterion": "linesearch alpha is zero"
+            }
+          ],
+          "nonconverged_minimization_count": 4,
+          "stopping": "linesearch alpha is zero",
+          "structure_metadata": {
+            "bottom": {
+              "orientation": {
+                "x": [
+                  1,
+                  -2,
+                  1
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ],
+                "z": [
+                  -1,
+                  0,
+                  1
+                ]
+              },
+              "size": [
+                23,
+                17,
+                3
+              ]
+            },
+            "boundary": "p p p",
+            "material": {
+              "element": "Ni",
+              "lattice": "fcc"
+            },
+            "metadata_basis": "construction_config",
+            "reference_a0_angstrom": 3.52,
+            "simulation_frame": {
+              "x": "in_plane",
+              "y": "gb_normal",
+              "z": "tilt_axis"
+            },
+            "top": {
+              "orientation": {
+                "x": [
+                  0,
+                  0,
+                  1
+                ],
+                "y": [
+                  1,
+                  1,
+                  0
+                ],
+                "z": [
+                  -1,
+                  1,
+                  0
+                ]
+              },
+              "size": [
+                57,
+                21,
+                3
+              ]
+            },
+            "x_pbc": false,
+            "x_vacuum_padding_per_side_angstrom": 20.0
+          },
+          "wall_time": "0:01:06",
+          "detail_fields_available": [
+            "all_minimizations_converged"
+          ]
+        },
+        "final_minimization": {
+          "final_minimization_converged": false,
+          "stopping": "linesearch alpha is zero",
+          "energy_final": -251376.076952008,
+          "force_norm_final": 0.00014914019,
+          "iterations": 5,
+          "force_evaluations": 11
+        },
+        "convergence_basis": "final_minimization"
+      }
+    ]
+  },
+  "artifacts": [
+    "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/manifest.json"
+  ],
+  "error": null,
+  "worker_outcome": {
+    "schema_version": 1,
+    "status": "completed",
+    "summary": "**Completed initial minimization:** `minimize-20261021-202104-4198e0` — 56,880 atoms. General asymmetric pure-tilt geometry, **35.26438968°**, preserved from `csl-20261021-201945-0edf88`; no CSL/Sigma replacement.\n\n| Grain | Concrete plane | Orientation x / y / z | Repeats | Initial material dimensions (nm) |\n|---|---|---|---|---|\n| Top, original GB1 | (110) | [001] / [110] / [−110] | **[57,21,3]** | 20.064 × 10.45387 × 1.49341 |\n| Bottom, original GB2 | (111) | [1−21] / [111] / [−101] | **[23,17,3]** | 19.83107 × 10.36459 × 1.49341 |\n\n- Initial combined material envelope: **20.064 × 20.81846 × 1.49341 nm**.\n- Estimated initial padded box: **24.064 × 24.81846 × 1.49541 nm**.\n- Construction x mismatch: **1.16094%**, strictly below 2%.\n- `x_pbc=false`: **x direction with vacuum (non-contiguous periodic connection)**, 20 Å padding per x side; LAMMPS `boundary=\"p p p\"` retained.\n- Potential: catalog default **NiCr_adp / NiCr.adp**, `pair_style=adp`, Ni FCC, a₀=3.52 Å, mass=58.6934 amu.\n\n**Final convergence warning:** completed outputs are available, but `final_minimization_converged=false`. Final CG stage stopped at **“linesearch alpha is zero”**, after 5 iterations / 11 force evaluations. Requested tolerances: `etol=0`, `ftol=1e−6`; final force two-norm **1.4914019×10⁻⁴ eV/Å**, maximum component **8.6499892×10⁻⁵ eV/Å**. Final total energy: **−251376.076952008 eV**; this is not a GB-energy calculation.\n\n**Artifacts**, under `artifacts/lammps/minimize/minimize-20261021-202104-4198e0/`:\n- Manifest: `manifest.json`\n- `minimized_cfg`: `gb_minimized.cfg` — exact relaxed source for rendering/periodicity analysis\n- `minimized_lmp`: `gb_minimized.lmp`\n- Configuration / metadata / log: `input.json`, `minimize_run.json`, `log.lammps`\n- Boundary IDs: `top_boundary.ids`, `bot_boundary.ids`\n\n**Required pending Analysis handoff:** `analyze_gb_periodicity`, source run `minimize-20261021-202104-4198e0`, source role `minimized_cfg`. Tool-returned purpose: identify short repeats and possible longer structural-modulation candidates, comparing them with construction mismatch and size estimates. Carry `structure_metadata`: the ordered orientations/repeats above, Ni FCC, reference a₀=3.52 Å, frame x=in-plane/y=GB-normal/z=tilt-axis, `boundary=\"p p p\"`, `x_pbc=false`, x vacuum=20 Å/side. Analysis has **not** run; no continuous-periodic-x construction is authorized.",
+    "evidence_refs": [
+      {
+        "kind": "run",
+        "id": "minimize-20261021-202104-4198e0"
+      },
+      {
+        "kind": "fact",
+        "id": "run:minimize-20261021-202104-4198e0:main_conclusion"
+      }
+    ],
+    "next_action": ""
+  }
+}

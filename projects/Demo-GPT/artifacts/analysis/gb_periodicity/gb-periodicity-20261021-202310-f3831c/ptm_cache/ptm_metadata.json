@@ -1,0 +1,61 @@
+{
+  "source": "projects/Demo-GPT/artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+  "source_sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+  "ptm_rmsd_cutoff": 0.1,
+  "enabled_templates": [
+    "Other",
+    "FCC",
+    "HCP",
+    "BCC"
+  ],
+  "particle_count": 56880,
+  "cell": [
+    [
+      240.86494118700264,
+      0.0,
+      0.0,
+      -120.43247059350132
+    ],
+    [
+      0.0,
+      248.20118586616047,
+      0.0,
+      -124.10059293308024
+    ],
+    [
+      0.0,
+      0.0,
+      14.927276101600267,
+      -7.463638050800133
+    ]
+  ],
+  "pbc": [
+    true,
+    true,
+    true
+  ],
+  "imported_pbc": [
+    true,
+    true,
+    true
+  ],
+  "pbc_sources": [
+    "source_metadata.boundary",
+    "source_metadata.boundary",
+    "source_metadata.boundary"
+  ],
+  "particle_ids_from_file": true,
+  "structure_counts": {
+    "Other": 3516,
+    "FCC": 53322,
+    "HCP": 42,
+    "BCC": 0,
+    "ICO": 0,
+    "Simple cubic": 0,
+    "Cubic diamond": 0,
+    "Hexagonal diamond": 0,
+    "Graphene": 0
+  },
+  "coordinate_frame": "OVITO imported Cartesian Angstrom coordinates (CFG origin may be shifted)",
+  "method_note": "PTM runs on the full input before any surface or slab filtering."
+}

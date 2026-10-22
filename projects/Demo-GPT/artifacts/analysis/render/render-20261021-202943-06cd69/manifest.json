@@ -1,0 +1,188 @@
+{
+  "files": [
+    {
+      "artifact_id": "793aa9c5-1a51-59c6-96b3-a502633403fa",
+      "created_at": "2026-10-21T20:29:47+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "origin": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) boundary facing layers and seam in XZ; image alone does not validate seam.",
+        "render_kind": "gb_plan_view",
+        "sha256": "8f557ec2235aad3899c0d5015bc71f1184edcdeadc190ff9025a8565432414d3",
+        "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202820-718597",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "gb_plan_view.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_data",
+      "size_bytes": 61123
+    },
+    {
+      "artifact_id": "92985214-0b21-5ecf-b7d5-29cbaaedc947",
+      "created_at": "2026-10-21T20:29:47+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "camera": {
+          "atom_radius": 0.875,
+          "atom_radius_range": [
+            0.875,
+            0.875
+          ],
+          "atom_scale": 0.7,
+          "box_center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "crop_box": [
+            68,
+            92,
+            3042,
+            1336
+          ],
+          "crop_margin_pixels": 50,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "fov_half_height": 9.008531846542144,
+          "image_size": [
+            2974,
+            1244
+          ],
+          "lower_color": [
+            0,
+            0,
+            0
+          ],
+          "radius_source": "OVITO imported radii",
+          "rendered_image_size": [
+            3200,
+            1335
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ],
+          "roll_degrees": 180,
+          "target": [
+            0.0,
+            -0.6997832979627319,
+            0.0
+          ],
+          "transparent_background": true,
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "upper_color": [
+            1.0,
+            0.98,
+            0.94
+          ],
+          "visible_width": 43.186969151962344
+        },
+        "origin": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) boundary facing layers and seam in XZ; image alone does not validate seam.",
+        "render_kind": "gb_plan_view",
+        "sha256": "d9968da99407a1afcb9e3eb23c93356735a79f72d4ae7067e90721c11b42fa31",
+        "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202820-718597",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "plan_view.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view",
+      "size_bytes": 984133
+    },
+    {
+      "artifact_id": "2e1ad67f-9dc2-50e1-885b-2706168a0b33",
+      "created_at": "2026-10-21T20:29:48+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "origin": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect user-selected P012 continuous-periodic-x FCC Ni (110)||(111) boundary facing layers and seam in XZ; image alone does not validate seam.",
+        "render_kind": "gb_plan_view",
+        "sha256": "7786427a28f65f61e0e932e926ce8083822744fe3d0c1c86396cf3ded4bf2507",
+        "source_artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202820-718597",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "4733ab28-a4c6-56c0-a0f3-86bb8863a838",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202820-718597/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202820-718597",
+          "sha256": "56801aa30ee945ee0326a31308e2445e98e6e9648c4d372fbb11e0ee154e1419",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "y_profile.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "gb_plan_view_profile",
+      "size_bytes": 161004
+    },
+    {
+      "artifact_id": "4c7d9ba5-25ac-51f6-a376-64f306152d8b",
+      "created_at": "2026-10-21T20:29:48+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_gb_plan_view",
+        "sha256": "8dcb2bb89198a7be434774aa47fbc820644df80f0eb3b33bbd132a0375715358"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 5642
+    }
+  ],
+  "run_id": "render-20261021-202943-06cd69",
+  "workflow": "render"
+}

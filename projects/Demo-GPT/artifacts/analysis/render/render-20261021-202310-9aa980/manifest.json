@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "artifact_id": "6c156fd9-5ee1-531f-9711-3d7b0af4d434",
+      "created_at": "2026-10-21T20:23:15+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect minimized general FCC Ni {110}||{111} tilt GB in XY top view with CNA and all atoms visible; no displacement arrows.",
+        "render_kind": "atomic_structure",
+        "sha256": "2f1f9e29765f96b357c5dbe11bfa2099ee8ea02fd010741073920c4efa4128b7",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.json",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render_data",
+      "size_bytes": 2349
+    },
+    {
+      "artifact_id": "76e70f03-4deb-5090-9fbe-e3ffdf041770",
+      "created_at": "2026-10-21T20:23:15+00:00",
+      "media_type": "image/png",
+      "metadata": {
+        "analysis_mode": "CNA",
+        "origin": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        },
+        "purpose": "Inspect minimized general FCC Ni {110}||{111} tilt GB in XY top view with CNA and all atoms visible; no displacement arrows.",
+        "render_kind": "atomic_structure",
+        "sha256": "cecd1a1a59aefe13b5980ad0de8e883e846c57d5a62a88382c05e9ee884d67e0",
+        "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+        "source_artifact_role": "minimized_cfg",
+        "source_run_id": "minimize-20261021-202104-4198e0",
+        "source_step": null,
+        "structure_source": {
+          "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+          "frame": {},
+          "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+          "run_id": "minimize-20261021-202104-4198e0",
+          "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+          "workflow": "gb_minimize"
+        }
+      },
+      "path": "render.png",
+      "permanent": true,
+      "provenance_class": "derived",
+      "role": "render",
+      "size_bytes": 3828676
+    },
+    {
+      "artifact_id": "33fb2237-4568-5a47-ad05-0e31c76ec317",
+      "created_at": "2026-10-21T20:23:16+00:00",
+      "media_type": "application/json",
+      "metadata": {
+        "memory_tool": "render_atomic_structure",
+        "sha256": "beaa30f4ab0868edca2d33d139d6a7dc5798c04b91a2ecb57ec527dc996b8c8a"
+      },
+      "path": "memory_conclusion.json",
+      "permanent": true,
+      "provenance_class": "primary",
+      "role": "memory_conclusion",
+      "size_bytes": 2582
+    }
+  ],
+  "run_id": "render-20261021-202310-9aa980",
+  "workflow": "render"
+}

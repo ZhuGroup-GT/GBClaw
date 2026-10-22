@@ -1,0 +1,67 @@
+{
+  "expected_outputs": [
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "grain_shift.json",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    },
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "grain_shift_report.md",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    },
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "grain_shift.py",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    }
+  ],
+  "input_grants": [],
+  "resource_allocation": {
+    "compute_slots": 4,
+    "mpi_enabled": false,
+    "mpi_ranks": 1,
+    "total_compute_slots": 36
+  },
+  "runtime_environment": {
+    "available": true,
+    "capabilities": [],
+    "description": "Current service Python environment for plotting and general post-processing.",
+    "fingerprint": "02ef2c42bd278b6c87892daa7ea3f5d25accd72a9e2bf48d7f82bdf19ded0384",
+    "name": "current",
+    "packages": {
+      "matplotlib": "3.11.0",
+      "numpy": "2.5.0",
+      "ovito": "3.15.5",
+      "pandas": "3.0.3",
+      "pillow": "12.2.0"
+    }
+  },
+  "sandbox": {
+    "external_network": "disabled",
+    "inputs": "read_only",
+    "workspace": "ephemeral"
+  },
+  "source_artifacts": [
+    {
+      "artifact_id": "fd34ba28-3de8-564e-a353-cf4c8e57cfbb",
+      "role": "minimized_cfg",
+      "run_id": "structure-minimize-20261021-220732-c86c47"
+    },
+    {
+      "artifact_id": "278a3369-5c91-5e52-b400-374a947d39d5",
+      "role": "minimized_cfg",
+      "run_id": "structure-minimize-20261021-220732-c86c47"
+    }
+  ],
+  "task": "Small custom measurement not supported Analysis: quantify relative grain shift for consecutive all-free relaxed postdrop frames reference original77 current80. Parse exact staged CFGs using available ovito/numpy (no ASE available). Match unique Particle Identifier validate11052IDs same cells. Compute current-reference minimum-image with source periodic cell all axes, no alignment/affine/drift subtraction. Current Y-normal GB y=-0.700778484 A, top positiveY plane(110),bottom negativeY plane(111); derive occupied grain Y extents and define reproducible far-field masks excluding >=20A from GB and >=20A from occupied outer Y surfaces (not box boundaries vacuum). Use reference Y masks and same IDs, crystalline interior; if use CNA record. Sensitivity repeat exclusions10,20,30A or central grain bands to verify robust. Report top/bottom count signed xyz mean/median std/MAD/p10p90, top-minus-bottom mean and median xyz,XZ norm with uncertainties/sensitivity; residual displacement after subtract each grain mean to distinguish collective translations vs local distortions. Validate global/slab magnitudes reproduce known all median.134172max.372205A approximately. Need actual relative shift numerical not infer from arrow. Full orientation topx[001]y[110]z[-1,1,0];bottomx[1,-2,1]y[111]z[-1,0,1],FCCa0=3.52A. Transform measured shift from simulation xyz to EACH grain local cubic coords via normalized basis columns to express in a[uvw] coefficients (do not round to integer Burgers vector). Test nearest FCC translation for each using integer/half integer cubic lattice sum rule, report distance residual, but relative shift needn't be either grain lattice vector/DSC; do not claim dislocation. Equal energy not same coordinates, arbitrary common translation removed only by relative top-bottom difference. Publish compact JSON and readable report/table + script. No new rendering required existing plan view render-20261021-224107-c440c3. Both inputs structure-minimize-20261021-220732-c86c47 minimized_cfg exact artifacts as supplied,not constrained shearframes."
+}

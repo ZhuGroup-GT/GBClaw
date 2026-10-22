@@ -1,0 +1,82 @@
+{
+  "expected_outputs": [
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "two_drop_shift.json",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    },
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "two_drop_report.md",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    },
+    {
+      "columns": [],
+      "min_bytes": 1,
+      "path": "two_drop_shift.py",
+      "required": true,
+      "required_keys": [],
+      "role": null
+    }
+  ],
+  "input_grants": [],
+  "resource_allocation": {
+    "compute_slots": 4,
+    "mpi_enabled": false,
+    "mpi_ranks": 1,
+    "total_compute_slots": 36
+  },
+  "runtime_environment": {
+    "available": true,
+    "capabilities": [],
+    "description": "Current service Python environment for plotting and general post-processing.",
+    "fingerprint": "02ef2c42bd278b6c87892daa7ea3f5d25accd72a9e2bf48d7f82bdf19ded0384",
+    "name": "current",
+    "packages": {
+      "matplotlib": "3.11.0",
+      "numpy": "2.5.0",
+      "ovito": "3.15.5",
+      "pandas": "3.0.3",
+      "pillow": "12.2.0"
+    }
+  },
+  "sandbox": {
+    "external_network": "disabled",
+    "inputs": "read_only",
+    "workspace": "ephemeral"
+  },
+  "source_artifacts": [
+    {
+      "artifact_id": "fd34ba28-3de8-564e-a353-cf4c8e57cfbb",
+      "role": "minimized_cfg",
+      "run_id": "structure-minimize-20261021-220732-c86c47"
+    },
+    {
+      "artifact_id": "278a3369-5c91-5e52-b400-374a947d39d5",
+      "role": "minimized_cfg",
+      "run_id": "structure-minimize-20261021-220732-c86c47"
+    },
+    {
+      "artifact_id": "86bd3cd1-b8b8-585c-a52a-90ce81cbd5e9",
+      "role": "minimized_cfg",
+      "run_id": "structure-minimize-20261021-220732-c86c47"
+    },
+    {
+      "artifact_id": null,
+      "role": "measurement_script",
+      "run_id": "code-20261021-224156-7649e8"
+    },
+    {
+      "artifact_id": null,
+      "role": "grain_shift_data",
+      "run_id": "code-20261021-224156-7649e8"
+    }
+  ],
+  "task": "Measure user alternating-Z/mirror hypothesis for exact independently relaxed postdrop77,80,84. Reuse staged previous measurement script/data method from code-20261021-224156-7649e8. ID-matched all-axis MIC displacement no alignment. Measure77->80,80->84,direct77->84 mean/median top,bottom and top-minus-bottom signed xyz,20A FCC both frames interior exclusions around GB y~-.700778 and occupied outer Y surfaces; sensitivity10/30A; common three-frame masks for additivity. All11052IDs identical box. Top(110)x[001]y[110]z[-1,1,0],bottom(111)x[1,-2,1]y[111]z[-1,0,1],a=3.52A. Report net pure-x suitability with explicit y/z residuals,mask sensitivity,pergrain residual RMS; no arbitrary tolerance conceal. Convert signed net Lx to coefficient c of FULL a[1,-2,1], denominatora sqrt6; also coefficient2c of(a/2)[1,-2,1], preserve transverse residual. User says frames separated by one drop:77 and84 with80 intervening. Separately attempt robust geometric mirror test z->-z about stated plane z0=0, fit only x translation periodic, species-aware one-to-one geometry matching (both types Ni but preserve grain side). Compare77 reflected to80 and80 reflected to84; also unreflected77->84 allowing pergrain measured translations. Use OVITO neighbor functionality/numpy bounded periodic matching with one-to-one verification; cannot claim mirror from opposite meanZ. Reflection about adjustable z plane corresponds z translation, user specifically mirror so if fixed z0 fails don't invent fitted z; report limitation/origin dependence and if fitting justified distinct test explicitly. Full11052 geometry or at least GB slab with clear scope and matching residual counts; can use spatial hashing/mutual nearest bijective when unique with validate no conflicts, no dense11052square matrix. If unavailable do translation measurements and state mirror unverified. Publish JSON with pairs and coefficient summary,report and script. No simulation or new render."
+}

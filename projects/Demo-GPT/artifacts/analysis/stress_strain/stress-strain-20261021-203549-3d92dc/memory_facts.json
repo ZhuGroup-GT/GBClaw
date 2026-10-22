@@ -1,0 +1,90 @@
+{
+  "contract_sha256": "eae91dc32c922a801409e59e58b30a9ce737e7119e691d5b23b188cb3b4b353d",
+  "contract_version": 1,
+  "entries": [
+    {
+      "expected_version": null,
+      "fact": {
+        "created_at": "2026-10-21T20:35:49+00:00",
+        "evidence_kind": "deterministic_workflow",
+        "fact_id": "88f49d5b-c37a-5c28-8a0e-d908cfe51047",
+        "kind": "scientific_conclusion",
+        "lookup_key": "run:stress-strain-20261021-203549-3d92dc:main_conclusion",
+        "source_run_id": "stress-strain-20261021-203549-3d92dc",
+        "source_turn_id": null,
+        "source_type": "tool_result",
+        "status": "active",
+        "updated_at": "2026-10-21T20:35:49+00:00",
+        "value": {
+          "config_path": null,
+          "data": "artifacts/analysis/stress_strain/stress-strain-20261021-203549-3d92dc/stress_strain_comparison.json",
+          "manifest": "artifacts/analysis/stress_strain/stress-strain-20261021-203549-3d92dc/manifest.json",
+          "parameters": {
+            "colors": [
+              "#1f5a94"
+            ],
+            "convergence_affects_plot": false,
+            "labels": [
+              "P012 Ni (110)||(111), monotonic +x"
+            ],
+            "legend_location": "best",
+            "legend_title": null,
+            "line_styles": [
+              "-"
+            ],
+            "linewidth": 1.7,
+            "marker_size": 2.8,
+            "markers": [
+              "o"
+            ],
+            "mode": "single_curve_plot",
+            "show_legend": true,
+            "source_run_ids": [
+              "shear-20261021-203147-9d18c4"
+            ],
+            "stress_field": "top_shear_stress_mpa",
+            "title": "P012 Ni: monotonic shear stress–strain response",
+            "use_absolute_strain": true,
+            "use_absolute_stress": true,
+            "x_label": "Actual shear strain magnitude |γ| (dimensionless)",
+            "y_label": "Top shear stress magnitude |τ| (MPa)"
+          },
+          "plot": "artifacts/analysis/stress_strain/stress-strain-20261021-203549-3d92dc/stress_strain_comparison.png",
+          "run_id": "stress-strain-20261021-203549-3d92dc",
+          "series": [
+            {
+              "color": "#1f5a94",
+              "label": "P012 Ni (110)||(111), monotonic +x",
+              "line_style": "-",
+              "marker": "o",
+              "nonconverged_point_count": 0,
+              "point_count": 71,
+              "source_run_id": "shear-20261021-203147-9d18c4"
+            }
+          ],
+          "source_fingerprint": "sha256:814f8c6e11c98f84a26a90ae25a81a1128100abd1700958879e821b8724a9636",
+          "source_run_id": null,
+          "source_run_ids": [
+            "shear-20261021-203147-9d18c4"
+          ],
+          "sources": [
+            {
+              "metadata": {
+                "label": "P012 Ni (110)||(111), monotonic +x",
+                "source_artifact_id": "c57e90e6-44d2-5622-a12e-6e0740901b29"
+              },
+              "ordinal": 0,
+              "relation": "comparison_curve",
+              "source_fingerprint": "sha256:3dc1630ef370805d00e2aa07c86b7f1360c9dece840f09539d14325f960bcfd6",
+              "source_run_id": "shear-20261021-203147-9d18c4"
+            }
+          ],
+          "summary": "Plotted 1 stress-strain curve(s) using top_shear_stress_mpa",
+          "workflow": "stress_strain_analysis"
+        },
+        "version": 1
+      }
+    }
+  ],
+  "memory_tool": "plot_stress_strain_comparison"
+}

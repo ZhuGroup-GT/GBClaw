@@ -1,0 +1,94 @@
+{
+  "analysis_mode": "CNA",
+  "camera": {
+    "crop_box": [
+      912,
+      44,
+      2927,
+      2117
+    ],
+    "crop_margin_pixels": 50,
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "image_size": [
+      2015,
+      2073
+    ],
+    "projection": "xy",
+    "rendered_image_size": [
+      3840,
+      2160
+    ]
+  },
+  "displacement": null,
+  "dxa_lattice": "fcc",
+  "hide_structure_types": [],
+  "origin": {
+    "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+    "run_id": "minimize-20261021-202104-4198e0",
+    "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+    "workflow": "gb_minimize"
+  },
+  "outputs": {
+    "data": "render.json",
+    "render": "render.png"
+  },
+  "purpose": "Inspect minimized general FCC Ni {110}||{111} tilt GB in XY top view with CNA and all atoms visible; no displacement arrows.",
+  "render_kind": "atomic_structure",
+  "rendered_particle_count": 56880,
+  "source": {
+    "cell": [
+      [
+        240.86494118700264,
+        0.0,
+        0.0,
+        -120.43247059350132
+      ],
+      [
+        0.0,
+        248.20118586616047,
+        0.0,
+        -124.10059293308024
+      ],
+      [
+        0.0,
+        0.0,
+        14.927276101600267,
+        -7.463638050800133
+      ]
+    ],
+    "effective_pbc": [
+      true,
+      true,
+      true
+    ],
+    "imported_pbc": [
+      true,
+      true,
+      true
+    ],
+    "particle_count": 56880,
+    "path": "projects/Demo-GPT/artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+    "pbc_source": "OVITO_import",
+    "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735"
+  },
+  "source_artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+  "source_artifact_role": "minimized_cfg",
+  "source_run_id": "minimize-20261021-202104-4198e0",
+  "source_step": null,
+  "status": "completed",
+  "structure_source": {
+    "artifact_id": "e00c45e8-9072-536e-899c-e762d69a5c15",
+    "frame": {},
+    "path": "artifacts/lammps/minimize/minimize-20261021-202104-4198e0/gb_minimized.cfg",
+    "run_id": "minimize-20261021-202104-4198e0",
+    "sha256": "3b283ad06b40dee7f06ed2cae98b428b8c023f8000cd5de648f236a6802f8735",
+    "workflow": "gb_minimize"
+  },
+  "warnings": []
+}
