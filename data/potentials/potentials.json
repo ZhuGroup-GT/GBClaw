@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "default_id": "fe_men03_eam",
+  "defaults_by_lattice": {
+    "bcc": "fe_men03_eam",
+    "fcc": "NiCr_adp"
+  },
+  "potentials": [
+    {
+      "id": "fe_men03_eam",
+      "file": "Men03.eam.fs",
+      "pair_style": "eam/fs",
+      "elements": ["Fe"],
+      "default": true,
+      "description": "EAM/FS potential for BCC Fe (Men03). Server default for gb_minimize when no material is specified.",
+      "reference": "Men03.eam.fs",
+      "typical_lattice": "bcc",
+      "typical_a0_angstrom": 2.8553,
+      "typical_mass_amu": 55.85
+    },
+    {
+      "id": "NiCr_adp",
+      "file": "NiCr.adp",
+      "pair_style": "adp",
+      "elements": ["Ni", "Cr"],
+      "default": false,
+      "description": "ADP potential for Ni and Cr (NiCr.adp). Default for FCC GBs (use Ni). Preferred for Cr (use Cr with typical BCC settings). pair_style is adp.",
+      "reference": "NiCr.adp",
+      "element_hints": {
+        "Ni": { "typical_lattice": "fcc", "typical_a0_angstrom": 3.52, "typical_mass_amu": 58.6934 },
+        "Cr": { "typical_lattice": "bcc", "typical_a0_angstrom": 2.88, "typical_mass_amu": 51.9961 }
+      }
+    },
+    {
+      "id": "AlCu_adp",
+      "file": "AlCu.adp",
+      "pair_style": "adp",
+      "elements": ["Al", "Cu"],
+      "default": false,
+      "description": "ADP potential for Al and Cu (AlCu.adp). pair_style is adp.",
+      "reference": "AlCu.adp",
+      "element_hints": {
+        "Al": { "typical_lattice": "fcc", "typical_a0_angstrom": 4.05, "typical_mass_amu": 26.982 },
+        "Cu": { "typical_lattice": "fcc", "typical_a0_angstrom": 3.61, "typical_mass_amu": 63.546 }
+      }
+    }
+  ]
+}

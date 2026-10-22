@@ -1,0 +1,10 @@
+# Tool configuration for GBclaw.
+#
+# GBclaw is run from the repository (see start_web.sh / start_cli.sh) and its
+# runtime dependencies are pinned in conda_env.yml. This file is intentionally
+# not a packaging definition: src/ holds several top-level packages that are
+# not meant to be installed into site-packages.
+
+[tool.pytest.ini_options]
+# Lets pytest import the src/ packages when it is run from the repository root.
+pythonpath = ["src"]

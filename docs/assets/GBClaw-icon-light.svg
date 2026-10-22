@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">GBClaw</title>
+  <desc id="logo-description">Two misoriented lattices fill a circular grain-boundary symbol. Circular atoms on the left and a connected network of rounded-square agents on the right meet at a central orchestrator.</desc>
+<!-- Full-area lattices retain the original spacing and orientation. -->
+<defs>
+<clipPath id="clip-disc" clipPathUnits="userSpaceOnUse"><circle cx="256" cy="256" r="214"/></clipPath>
+<clipPath id="clip-left" clipPathUnits="userSpaceOnUse"><path d="M286 -128 L286 44 C282 98 235 119 240 167 C243.5 198 264 218 264 241 C264 264 258 282 246 303 C233 332 230 349 242 382 C251 414 240 446 219 467 L219 640 H-128 V-128 Z" fill="#000000" /></clipPath>
+<clipPath id="clip-right" clipPathUnits="userSpaceOnUse"><path d="M286 -128 L286 44 C282 98 235 119 240 167 C243.5 198 264 218 264 241 C264 264 258 282 246 303 C233 332 230 349 242 382 C251 414 240 446 219 467 L219 640 H640 V-128 Z" fill="#000000" /></clipPath>
+<clipPath id="clip-outside-core" clipPathUnits="userSpaceOnUse"><path d="M-128 -128 H640 V640 H-128 Z M249 164 H263 Q268 164 268 169 V191 H302 Q315 191 315 204 V212 H328 Q333 212 333 217 V250 Q333 255 328 255 H315 V266 Q315 275 304 275 H281 V281 H315 Q333 281 333 299 V334 Q333 349 315 349 H197 Q179 349 179 334 V299 Q179 281 197 281 H231 V275 H208 Q197 275 197 264 V255 H184 Q179 255 179 250 V217 Q179 212 184 212 H197 V204 Q197 191 210 191 H244 V169 Q244 164 249 164 Z" fill="#000000" fill-rule="evenodd" clip-rule="evenodd"/></clipPath>
+</defs>
+<g id="crystal-fields" clip-path="url(#clip-disc)">
+<g clip-path="url(#clip-outside-core)">
+<g id="grain-left" clip-path="url(#clip-left)">
+<path d="M-122 -128 V640 M-128 -48 H640 M-46 -128 V640 M-128 28 H640 M30 -128 V640 M-128 104 H640 M106 -128 V640 M-128 180 H640 M182 -128 V640 M-128 256 H640 M258 -128 V640 M-128 332 H640 M334 -128 V640 M-128 408 H640 M410 -128 V640 M-128 484 H640 M486 -128 V640 M-128 560 H640 M562 -128 V640 M-128 636 H640 M638 -128 V640 M-128 712 H640" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="106.000" cy="180.000" r="9" fill="#FFFFFF"/>
+<circle cx="106.000" cy="256.000" r="9" fill="#FFFFFF"/>
+<circle cx="106.000" cy="332.000" r="9" fill="#FFFFFF"/>
+<circle cx="182.000" cy="104.000" r="9" fill="#FFFFFF"/>
+<circle cx="182.000" cy="180.000" r="9" fill="#FFFFFF"/>
+<circle cx="182.000" cy="408.000" r="9" fill="#FFFFFF"/>
+<circle cx="258.000" cy="104.000" r="9" fill="#FFFFFF"/>
+<circle cx="258.000" cy="408.000" r="9" fill="#FFFFFF"/>
+<circle cx="334.000" cy="104.000" r="9" fill="#FFFFFF"/>
+<circle cx="334.000" cy="180.000" r="9" fill="#FFFFFF"/>
+<circle cx="334.000" cy="408.000" r="9" fill="#FFFFFF"/>
+<circle cx="410.000" cy="180.000" r="9" fill="#FFFFFF"/>
+<circle cx="410.000" cy="256.000" r="9" fill="#FFFFFF"/>
+<circle cx="410.000" cy="332.000" r="9" fill="#FFFFFF"/>
+</g><g id="agent-network" clip-path="url(#clip-right)">
+<path d="M-68 -768 L1292 -48 M140 -832 L-580 528 M-104 -700 L1256 20 M208 -796 L-512 564 M-140 -632 L1220 88 M276 -760 L-444 600 M-176 -564 L1184 156 M344 -724 L-376 636 M-212 -496 L1148 224 M412 -688 L-308 672 M-248 -428 L1112 292 M480 -652 L-240 708 M-284 -360 L1076 360 M548 -616 L-172 744 M-320 -292 L1040 428 M616 -580 L-104 780 M-356 -224 L1004 496 M684 -544 L-36 816 M-392 -156 L968 564 M752 -508 L32 852 M-428 -88 L932 632 M820 -472 L100 888 M-464 -20 L896 700 M888 -436 L168 924 M-500 48 L860 768 M956 -400 L236 960 M-536 116 L824 836 M1024 -364 L304 996 M-572 184 L788 904 M1092 -328 L372 1032 M-608 252 L752 972 M1160 -292 L440 1068 M-644 320 L716 1040 M1228 -256 L508 1104" fill="none" stroke="#6DE1DB" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<g id="task-agents">
+<rect x="142.0" y="122.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="106.0" y="190.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="70.0" y="258.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="246.0" y="90.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="210.0" y="158.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="138.0" y="294.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="102.0" y="362.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="314.0" y="126.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="170.0" y="398.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="382.0" y="162.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="346.0" y="230.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="274.0" y="366.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="238.0" y="434.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="414.0" y="266.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="378.0" y="334.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+<rect x="342.0" y="402.0" width="20" height="20" rx="4.6000000000000005" fill="#6DE1DB"/>
+</g></g><g id="grain-boundary">
+<path d="M286 44 C282 98 235 119 240 167 C243.5 198 264 218 264 241 C264 264 258 282 246 303 C233 332 230 349 242 382 C251 414 240 446 219 467" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</g></g></g>
+<g id="orchestrator" aria-label="Coordinating research agent">
+<g id="robot-antenna"><circle cx="256.000" cy="175.500" r="5.5" fill="#FFFFFF"/><path d="M255.0 181 H257.0 Q258.5 181 258.5 182.5 V191.5 Q258.5 193 257.0 193 H255.0 Q253.5 193 253.5 191.5 V182.5 Q253.5 181 255.0 181 Z" fill="#FFFFFF" /></g>
+<g id="robot-ears"><path d="M188.5 218 H192.5 Q196.5 218 196.5 222 V245 Q196.5 249 192.5 249 H188.5 Q184.5 249 184.5 245 V222 Q184.5 218 188.5 218 Z" fill="#FFFFFF" /><path d="M319.5 218 H323.5 Q327.5 218 327.5 222 V245 Q327.5 249 323.5 249 H319.5 Q315.5 249 315.5 245 V222 Q315.5 218 319.5 218 Z" fill="#FFFFFF" /></g>
+<g id="robot-neck"><path d="M237 272 H275 Q276 272 276 273 V282 Q276 283 275 283 H237 Q236 283 236 282 V273 Q236 272 237 272 Z" fill="#FFFFFF" /></g>
+<g id="robot-head"><path d="M214.5 197 H297.5 Q309.5 197 309.5 209 V257 Q309.5 269 297.5 269 H214.5 Q202.5 269 202.5 257 V209 Q202.5 197 214.5 197 Z M228.5 225 A7.5 7.5 0 1 0 243.5 225 A7.5 7.5 0 1 0 228.5 225 Z M232.5 225 A3.5 3.5 0 1 0 239.5 225 A3.5 3.5 0 1 0 232.5 225 Z M268.5 225 A7.5 7.5 0 1 0 283.5 225 A7.5 7.5 0 1 0 268.5 225 Z M272.5 225 A3.5 3.5 0 1 0 279.5 225 A3.5 3.5 0 1 0 272.5 225 Z M241 248 H271 Q273 248 273 250 V250 Q273 252 271 252 H241 Q239 252 239 250 V250 Q239 248 241 248 Z" fill="#6DE1DB" fill-rule="evenodd"/></g>
+<g id="robot-torso"><path d="M197 286 H315 Q325 286 325 296 V333 Q325 343 315 343 H197 Q187 343 187 333 V296 Q187 286 197 286 Z M210 297 H302 Q303 297 303 298 V331 Q303 332 302 332 H210 Q209 332 209 331 V298 Q209 297 210 297 Z M212 300 H300 Q300 300 300 300 V329 Q300 329 300 329 H212 Q212 329 212 329 V300 Q212 300 212 300 Z M223.5 308 H244.5 Q246 308 246 309.5 V310.5 Q246 312 244.5 312 H223.5 Q222 312 222 310.5 V309.5 Q222 308 223.5 308 Z M223.5 319 H278.5 Q280 319 280 320.5 V321.5 Q280 323 278.5 323 H223.5 Q222 323 222 321.5 V320.5 Q222 319 223.5 319 Z M197 297 H197 Q199 297 199 299 V310 Q199 312 197 312 H197 Q195 312 195 310 V299 Q195 297 197 297 Z M315 297 H315 Q317 297 317 299 V310 Q317 312 315 312 H315 Q313 312 313 310 V299 Q313 297 315 297 Z" fill="#6DE1DB" fill-rule="evenodd"/></g>
+</g>
+<g id="grain-enclosure"><circle cx="256" cy="256" r="214" fill="none" stroke="#FFFFFF" stroke-width="7"/></g>
+</svg>

@@ -1,0 +1,23 @@
+version = 1
+default_environment = "current"
+
+# Table names are stable Coding aliases, independent of Conda environment names.
+[environments.current]
+# Use the Python environment running the service, whatever its name.
+current = true
+description = "Current service Python environment for plotting and general post-processing."
+capabilities = []
+
+[environments.lammps]
+# Fallback Conda name; GBCLAW_LAMMPS_CONDA_ENV selects the actual environment.
+conda_env = "GBclaw-lammps"
+conda_env_var = "GBCLAW_LAMMPS_CONDA_ENV"
+description = "LAMMPS Python bindings for small custom serial or bounded local-MPI validation."
+capabilities = ["lammps", "mpi"]
+
+[environments.ase]
+# Optional runtime; it remains unavailable in the catalog until installed by the host.
+conda_env = "GBclaw-ase"
+conda_env_var = "GBCLAW_ASE_CONDA_ENV"
+description = "Atomic Simulation Environment (ASE) for small atomistic Python scripts and post-processing."
+capabilities = ["ase"]
